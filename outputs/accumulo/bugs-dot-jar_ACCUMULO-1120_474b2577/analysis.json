@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.accumulo.core.cli.ClientOpts"
+  ],
+  "test": [
+    "org.apache.accumulo.core.cli.TestClientOpts"
+  ],
+  "sourcePackage": "core"
+}

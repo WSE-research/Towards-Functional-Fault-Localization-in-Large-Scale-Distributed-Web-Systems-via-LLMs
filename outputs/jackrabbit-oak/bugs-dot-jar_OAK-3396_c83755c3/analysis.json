@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.security.authentication.ldap.impl.LdapIdentityProvider"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.security.authentication.ldap.LdapProviderTest.testListUsersWithMissingUid"
+  ],
+  "suitable_tests": [
+    "testListUsersWithMissingUid"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "testListUsersWithMissingUid",
+        "failingTestMethod": "testListUsersWithMissingUid"
+      }
+    }
+  ],
+  "sourcePackage": "oak-auth-ldap"
+}

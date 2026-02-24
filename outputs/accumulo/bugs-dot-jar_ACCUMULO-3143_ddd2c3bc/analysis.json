@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.accumulo.core.client.mapreduce.InputTableConfig"
+  ],
+  "test": [
+    "org.apache.accumulo.core.client.mapreduce.InputTableConfigTest"
+  ],
+  "sourcePackage": "core"
+}

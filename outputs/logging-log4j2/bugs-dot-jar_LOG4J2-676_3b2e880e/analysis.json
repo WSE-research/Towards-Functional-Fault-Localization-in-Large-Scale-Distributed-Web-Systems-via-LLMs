@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.nosql.appender.NoSQLDatabaseManager"
+  ],
+  "test": [
+    "org.apache.logging.log4j.nosql.appender.NoSQLDatabaseManagerTest"
+  ],
+  "sourcePackage": "log4j-nosql"
+}

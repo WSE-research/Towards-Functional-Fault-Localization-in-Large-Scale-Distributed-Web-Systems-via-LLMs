@@ -1,0 +1,24 @@
+{
+  "patched": [
+    "org.apache.camel.impl.CamelPostProcessorHelper",
+    "org.apache.camel.impl.DefaultCamelContext",
+    "org.apache.camel.model.ProcessorDefinitionHelper",
+    "org.apache.camel.util.CamelContextHelper"
+  ],
+  "test": [
+    "org.apache.camel.impl.CamelPostProcessorHelperTest",
+    "org.apache.camel.processor.aggregator.AggregateTimeoutTest"
+  ],
+  "suitable_tests": [
+    "AggregateTimeoutTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "AggregateTimeoutTest",
+        "failingTestMethod": "testAggregateTimeout"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

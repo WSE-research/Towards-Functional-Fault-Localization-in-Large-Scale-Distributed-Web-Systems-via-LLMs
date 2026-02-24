@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.markup.resolver.WicketMessageResolver"
+  ],
+  "test": [
+    "org.apache.wicket.markup.resolver.border.WicketMessageResolverTest"
+  ],
+  "sourcePackage": "wicket-core"
+}

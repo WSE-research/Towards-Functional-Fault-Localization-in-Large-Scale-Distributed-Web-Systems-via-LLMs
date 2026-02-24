@@ -1,0 +1,28 @@
+{
+  "patched": [
+    "org.apache.camel.component.file.GenericFileOnCompletion"
+  ],
+  "test": [
+    "org.apache.camel.component.file.FilerConsumerMoveFailedDoneFileNameTest",
+    "org.apache.camel.management.ManagedThrottlerTest"
+  ],
+  "suitable_tests": [
+    "FilerConsumerMoveFailedDoneFileNameTest",
+    "ManagedThrottlerTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "FilerConsumerMoveFailedDoneFileNameTest",
+        "failingTestMethod": "testDoneFile"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ManagedThrottlerTest",
+        "failingTestMethod": "testThrottleAsyncVisableViaJmx"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

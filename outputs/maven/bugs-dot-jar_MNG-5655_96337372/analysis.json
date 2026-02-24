@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.maven.execution.scope.internal.MojoExecutionScope"
+  ],
+  "test": [
+    "org.apache.maven.execution.scope.internal.MojoExecutionScopeTest"
+  ],
+  "sourcePackage": "maven-core"
+}

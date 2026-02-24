@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.camel.util.MessageHelper"
+  ],
+  "test": [
+    "org.apache.camel.component.log.LogInputStreamTest"
+  ],
+  "suitable_tests": [
+    "LogInputStreamTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "LogInputStreamTest",
+        "failingTestMethod": "testB"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

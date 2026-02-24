@@ -1,0 +1,38 @@
+{
+  "patched": [
+    "org.apache.commons.math3.random.BitsStreamGenerator"
+  ],
+  "test": [
+    "org.apache.commons.math3.distribution.NormalDistributionTest",
+    "org.apache.commons.math3.distribution.GammaDistributionTest",
+    "org.apache.commons.math3.distribution.LogNormalDistributionTest",
+    "org.apache.commons.math3.random.EmpiricalDistributionTest"
+  ],
+  "suitable_tests": [
+    "NormalDistributionTest",
+    "GammaDistributionTest",
+    "LogNormalDistributionTest",
+    "EmpiricalDistributionTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "NormalDistributionTest",
+        "failingTestMethod": "testDistributionClone"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "GammaDistributionTest",
+        "failingTestMethod": "testDistributionClone"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "LogNormalDistributionTest",
+        "failingTestMethod": "testDistributionClone"
+      }
+    }
+  ],
+  "sourcePackage": ""
+}

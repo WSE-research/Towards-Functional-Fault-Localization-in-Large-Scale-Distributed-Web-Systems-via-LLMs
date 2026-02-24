@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.camel.processor.LoopProcessor"
+  ],
+  "test": [
+    "org.apache.camel.processor.AsyncLoopCopyTest"
+  ],
+  "suitable_tests": [
+    "AsyncLoopCopyTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "AsyncLoopCopyTest",
+        "failingTestMethod": "testAsyncLoopCopy"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

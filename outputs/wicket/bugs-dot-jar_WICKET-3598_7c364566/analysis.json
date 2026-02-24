@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.wicket.datetime.StyleDateConverter"
+  ],
+  "test": [
+    "org.apache.wicket.datetime.DateConverterTest"
+  ],
+  "suitable_tests": [
+    "DateConverterTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "DateConverterTest",
+        "failingTestMethod": "testLocaleUsed"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-datetime"
+}

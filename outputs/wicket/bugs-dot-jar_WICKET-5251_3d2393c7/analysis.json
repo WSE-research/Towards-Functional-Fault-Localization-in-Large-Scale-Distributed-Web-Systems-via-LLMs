@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.request.resource.PackageResourceReference"
+  ],
+  "test": [
+    "org.apache.wicket.request.resource.PackageResourceReferenceTest"
+  ],
+  "sourcePackage": "wicket-core"
+}

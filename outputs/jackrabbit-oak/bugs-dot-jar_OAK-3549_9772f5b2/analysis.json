@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.document.DocumentMK",
+    "org.apache.jackrabbit.oak.plugins.document.DocumentNodeStore"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.document.ClusterNodeRestartTest"
+  ],
+  "suitable_tests": [
+    "ClusterNodeRestartTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ClusterNodeRestartTest",
+        "failingTestMethod": "restart"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

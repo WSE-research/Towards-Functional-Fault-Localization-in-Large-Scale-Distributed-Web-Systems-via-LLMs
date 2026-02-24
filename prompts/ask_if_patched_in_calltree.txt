@@ -1,0 +1,6 @@
+ASK
+FROM <{{GRAPH}}>
+WHERE {
+?s ?p ?o .
+FILTER CONTAINS(STR(?o), "{{CLASS}}.{{METHOD}}")
+}

@@ -1,0 +1,327 @@
+{
+  "patched": [
+    "org.apache.commons.math.exception.util.LocalizedFormats",
+    "org.apache.commons.math.random.RandomDataImpl"
+  ],
+  "test": [
+    "org.apache.commons.math.random.ISAACTest",
+    "org.apache.commons.math.random.Well512aTest",
+    "org.apache.commons.math.random.RandomDataTest",
+    "org.apache.commons.math.random.Well19937aTest",
+    "org.apache.commons.math.random.AbstractRandomGeneratorTest",
+    "org.apache.commons.math.random.Well44497aTest",
+    "org.apache.commons.math.random.BitsStreamGeneratorTest",
+    "org.apache.commons.math.random.Well1024aTest",
+    "org.apache.commons.math.random.Well44497bTest",
+    "org.apache.commons.math.random.MersenneTwisterTest"
+  ],
+  "suitable_tests": [
+    "ISAACTest",
+    "Well512aTest",
+    "RandomDataTest",
+    "Well19937aTest",
+    "AbstractRandomGeneratorTest",
+    "Well44497aTest",
+    "BitsStreamGeneratorTest",
+    "Well1024aTest",
+    "Well44497bTest",
+    "MersenneTwisterTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ISAACTest",
+        "failingTestMethod": "testNextUniformExtremeValues"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ISAACTest",
+        "failingTestMethod": "testNextIntNegativeToPositiveRange"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ISAACTest",
+        "failingTestMethod": "testNextIntNegativeRange"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ISAACTest",
+        "failingTestMethod": "testNextLongNegativeToPositiveRange"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ISAACTest",
+        "failingTestMethod": "testNextLongNegativeRange"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ISAACTest",
+        "failingTestMethod": "testNextUniformIAE"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ISAACTest",
+        "failingTestMethod": "testNextUniformUniformMaximalInterval"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "Well512aTest",
+        "failingTestMethod": "testNextUniformExtremeValues"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "Well512aTest",
+        "failingTestMethod": "testNextIntNegativeToPositiveRange"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "Well512aTest",
+        "failingTestMethod": "testNextIntNegativeRange"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "Well512aTest",
+        "failingTestMethod": "testNextLongNegativeToPositiveRange"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "Well512aTest",
+        "failingTestMethod": "testNextLongNegativeRange"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "Well512aTest",
+        "failingTestMethod": "testNextUniformIAE"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "Well512aTest",
+        "failingTestMethod": "testNextUniformUniformMaximalInterval"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "Well19937aTest",
+        "failingTestMethod": "testNextUniformExtremeValues"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "Well19937aTest",
+        "failingTestMethod": "testNextIntNegativeToPositiveRange"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "Well19937aTest",
+        "failingTestMethod": "testNextIntNegativeRange"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "Well19937aTest",
+        "failingTestMethod": "testNextLongNegativeToPositiveRange"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "Well19937aTest",
+        "failingTestMethod": "testNextLongNegativeRange"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "Well19937aTest",
+        "failingTestMethod": "testNextUniformIAE"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "Well19937aTest",
+        "failingTestMethod": "testNextUniformUniformMaximalInterval"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "Well44497aTest",
+        "failingTestMethod": "testNextUniformExtremeValues"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "Well44497aTest",
+        "failingTestMethod": "testNextIntNegativeToPositiveRange"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "Well44497aTest",
+        "failingTestMethod": "testNextIntNegativeRange"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "Well44497aTest",
+        "failingTestMethod": "testNextLongNegativeToPositiveRange"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "Well44497aTest",
+        "failingTestMethod": "testNextLongNegativeRange"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "Well44497aTest",
+        "failingTestMethod": "testNextUniformIAE"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "Well44497aTest",
+        "failingTestMethod": "testNextUniformUniformMaximalInterval"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "BitsStreamGeneratorTest",
+        "failingTestMethod": "testNextUniformExtremeValues"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "BitsStreamGeneratorTest",
+        "failingTestMethod": "testNextIntNegativeToPositiveRange"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "BitsStreamGeneratorTest",
+        "failingTestMethod": "testNextIntNegativeRange"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "BitsStreamGeneratorTest",
+        "failingTestMethod": "testNextLongNegativeToPositiveRange"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "BitsStreamGeneratorTest",
+        "failingTestMethod": "testNextLongNegativeRange"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "BitsStreamGeneratorTest",
+        "failingTestMethod": "testNextUniformIAE"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "BitsStreamGeneratorTest",
+        "failingTestMethod": "testNextUniformUniformMaximalInterval"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "Well1024aTest",
+        "failingTestMethod": "testNextUniformExtremeValues"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "Well1024aTest",
+        "failingTestMethod": "testNextIntNegativeToPositiveRange"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "Well1024aTest",
+        "failingTestMethod": "testNextIntNegativeRange"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "Well1024aTest",
+        "failingTestMethod": "testNextLongNegativeToPositiveRange"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "Well1024aTest",
+        "failingTestMethod": "testNextLongNegativeRange"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "Well1024aTest",
+        "failingTestMethod": "testNextUniformIAE"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "Well1024aTest",
+        "failingTestMethod": "testNextUniformUniformMaximalInterval"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "Well44497bTest",
+        "failingTestMethod": "testNextUniformExtremeValues"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "Well44497bTest",
+        "failingTestMethod": "testNextIntNegativeToPositiveRange"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "Well44497bTest",
+        "failingTestMethod": "testNextIntNegativeRange"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "Well44497bTest",
+        "failingTestMethod": "testNextLongNegativeToPositiveRange"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "Well44497bTest",
+        "failingTestMethod": "testNextLongNegativeRange"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "Well44497bTest",
+        "failingTestMethod": "testNextUniformIAE"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "Well44497bTest",
+        "failingTestMethod": "testNextUniformUniformMaximalInterval"
+      }
+    }
+  ],
+  "sourcePackage": ""
+}

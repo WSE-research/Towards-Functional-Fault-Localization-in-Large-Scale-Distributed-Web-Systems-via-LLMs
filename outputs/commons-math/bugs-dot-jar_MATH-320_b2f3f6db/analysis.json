@@ -1,0 +1,26 @@
+{
+  "patched": [
+    "org.apache.commons.math.linear.SingularValueDecompositionImpl"
+  ],
+  "test": [
+    "org.apache.commons.math.linear.SingularValueSolverTest"
+  ],
+  "suitable_tests": [
+    "SingularValueSolverTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "SingularValueSolverTest",
+        "failingTestMethod": "testMath320A"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "SingularValueSolverTest",
+        "failingTestMethod": "testMath320B"
+      }
+    }
+  ],
+  "sourcePackage": ""
+}

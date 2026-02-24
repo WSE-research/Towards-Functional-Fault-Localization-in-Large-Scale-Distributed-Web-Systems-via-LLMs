@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.document.NodeDocument"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.document.OrphanedBranchTest"
+  ],
+  "suitable_tests": [
+    "OrphanedBranchTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "OrphanedBranchTest",
+        "failingTestMethod": "removeUncommittedChange"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

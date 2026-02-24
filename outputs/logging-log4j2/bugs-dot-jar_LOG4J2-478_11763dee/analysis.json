@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.core.helpers.Transform",
+    "org.apache.logging.log4j.core.layout.JSONLayout"
+  ],
+  "test": [
+    "org.apache.logging.log4j.core.layout.JSONLayoutTest"
+  ],
+  "sourcePackage": "log4j-core"
+}

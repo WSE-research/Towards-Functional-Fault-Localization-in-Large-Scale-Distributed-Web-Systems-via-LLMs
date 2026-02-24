@@ -1,0 +1,27 @@
+{
+  "patched": [
+    "org.apache.wicket.devutils.debugbar.DebugBar",
+    "org.apache.wicket.devutils.debugbar.DebugBarInitializer"
+  ],
+  "test": [
+    "org.apache.wicket.devutils.stateless.StatelessCheckerTest"
+  ],
+  "suitable_tests": [
+    "StatelessCheckerTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "StatelessCheckerTest",
+        "failingTestMethod": "testNonBookmarkablePage"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "StatelessCheckerTest",
+        "failingTestMethod": "testPositive"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-devutils"
+}

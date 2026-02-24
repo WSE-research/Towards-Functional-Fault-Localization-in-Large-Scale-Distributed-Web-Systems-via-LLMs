@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.accumulo.core.iterators.Combiner"
+  ],
+  "test": [
+    "org.apache.accumulo.core.iterators.user.CombinerTest"
+  ],
+  "sourcePackage": "core"
+}

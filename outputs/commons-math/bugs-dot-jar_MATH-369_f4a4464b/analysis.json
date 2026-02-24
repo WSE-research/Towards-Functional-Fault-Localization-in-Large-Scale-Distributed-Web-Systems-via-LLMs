@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.commons.math.analysis.solvers.BisectionSolver"
+  ],
+  "test": [
+    "org.apache.commons.math.analysis.solvers.BisectionSolverTest"
+  ],
+  "sourcePackage": ""
+}

@@ -1,0 +1,28 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.query.ast.SelectorImpl"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.query.index.TraversingIndexQueryTest.testRelativeProperties2",
+    "org.apache.jackrabbit.oak.query.index.TraversingIndexQueryTest.testRangeRelativeProperties"
+  ],
+  "suitable_tests": [
+    "testRelativeProperties2",
+    "testRangeRelativeProperties"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "testRelativeProperties2",
+        "failingTestMethod": "testRelativeProperties2"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "testRangeRelativeProperties",
+        "failingTestMethod": "testRangeRelativeProperties"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

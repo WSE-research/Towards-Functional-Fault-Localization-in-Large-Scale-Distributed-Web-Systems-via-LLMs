@@ -1,0 +1,26 @@
+{
+  "patched": [
+    "org.apache.accumulo.core.iterators.FirstEntryInRowIterator"
+  ],
+  "test": [
+    "org.apache.accumulo.core.iterators.FirstEntryInRowTest"
+  ],
+  "suitable_tests": [
+    "FirstEntryInRowTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "FirstEntryInRowTest",
+        "failingTestMethod": "test1"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "FirstEntryInRowTest",
+        "failingTestMethod": "test2"
+      }
+    }
+  ],
+  "sourcePackage": "core"
+}

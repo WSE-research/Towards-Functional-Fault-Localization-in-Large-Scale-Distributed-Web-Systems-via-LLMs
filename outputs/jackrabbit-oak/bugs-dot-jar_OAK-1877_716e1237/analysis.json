@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.index.AsyncIndexUpdate",
+    "org.apache.jackrabbit.oak.plugins.index.IndexUpdate"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.index.AsyncIndexUpdateTest"
+  ],
+  "sourcePackage": "oak-core"
+}

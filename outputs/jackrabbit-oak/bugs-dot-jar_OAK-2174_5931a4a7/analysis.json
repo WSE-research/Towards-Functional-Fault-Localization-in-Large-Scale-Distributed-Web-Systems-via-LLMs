@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.Oak",
+    "org.apache.jackrabbit.oak.plugins.index.AsyncIndexUpdate"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.index.IndexUpdateTest"
+  ],
+  "suitable_tests": [
+    "IndexUpdateTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "IndexUpdateTest",
+        "failingTestMethod": "testReindexAsync"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

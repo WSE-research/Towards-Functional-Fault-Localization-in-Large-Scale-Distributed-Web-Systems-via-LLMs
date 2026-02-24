@@ -1,0 +1,22 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.LogManager"
+  ],
+  "test": [
+    "org.apache.logging.log4j.EventLoggerTest",
+    "org.apache.logging.log4j.LoggerTest"
+  ],
+  "suitable_tests": [
+    "EventLoggerTest",
+    "LoggerTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "EventLoggerTest",
+        "failingTestMethod": "unknown"
+      }
+    }
+  ],
+  "sourcePackage": "api"
+}

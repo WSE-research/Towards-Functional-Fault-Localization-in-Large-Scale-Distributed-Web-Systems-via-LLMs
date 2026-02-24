@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "org.apache.wicket.Page"
+  ],
+  "test": [
+    "org.apache.wicket.util.tester.WicketTesterLazyIsPageStatelessRedirectToBufferTest",
+    "org.apache.wicket.util.tester.WicketTesterLazyIsPageStatelessRedirectToRenderTest"
+  ],
+  "sourcePackage": "wicket-core"
+}

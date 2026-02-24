@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.util.file.Files"
+  ],
+  "test": [
+    "org.apache.wicket.util.file.FilesTest"
+  ],
+  "sourcePackage": "wicket-util"
+}

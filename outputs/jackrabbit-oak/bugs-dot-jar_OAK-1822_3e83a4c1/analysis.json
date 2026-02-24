@@ -1,0 +1,23 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.document.NodeDocument",
+    "org.apache.jackrabbit.oak.plugins.document.UpdateOp",
+    "org.apache.jackrabbit.oak.plugins.document.UpdateUtils",
+    "org.apache.jackrabbit.oak.plugins.document.mongo.MongoDocumentStore"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreTest"
+  ],
+  "suitable_tests": [
+    "DocumentNodeStoreTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "DocumentNodeStoreTest",
+        "failingTestMethod": "modifiedReset"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.security.authentication.token.TokenProviderImpl"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.security.authentication.token.TokenProviderImplTest"
+  ],
+  "sourcePackage": "oak-core"
+}

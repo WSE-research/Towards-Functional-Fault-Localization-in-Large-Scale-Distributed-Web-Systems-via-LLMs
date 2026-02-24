@@ -1,0 +1,102 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.upgrade.JackrabbitNodeState"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.upgrade.RepositoryGroupMemberSplitUpgradeTest",
+    "org.apache.jackrabbit.oak.upgrade.RepositoryUpgradeTest",
+    "org.apache.jackrabbit.oak.upgrade.RepositoryGroupMemberUpgradeTest"
+  ],
+  "suitable_tests": [
+    "RepositoryGroupMemberSplitUpgradeTest",
+    "RepositoryUpgradeTest",
+    "RepositoryGroupMemberUpgradeTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "RepositoryGroupMemberSplitUpgradeTest",
+        "failingTestMethod": "verifyMemberOf"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "RepositoryGroupMemberSplitUpgradeTest",
+        "failingTestMethod": "verifyGroupNodeTypes"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "RepositoryGroupMemberSplitUpgradeTest",
+        "failingTestMethod": "verifyMembers"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "RepositoryUpgradeTest",
+        "failingTestMethod": "verifyNameSpaces"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "RepositoryUpgradeTest",
+        "failingTestMethod": "verifyCustomPrivileges"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "RepositoryUpgradeTest",
+        "failingTestMethod": "verifyCustomNodeTypes"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "RepositoryUpgradeTest",
+        "failingTestMethod": "verifyNewBuiltinNodeTypes"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "RepositoryUpgradeTest",
+        "failingTestMethod": "verifyReplacedBuiltinNodeTypes"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "RepositoryUpgradeTest",
+        "failingTestMethod": "verifyGenericProperties"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "RepositoryUpgradeTest",
+        "failingTestMethod": "verifyReferencePropertiesContent"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "RepositoryUpgradeTest",
+        "failingTestMethod": "verifyVersionHistory"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "RepositoryGroupMemberUpgradeTest",
+        "failingTestMethod": "verifyMemberOf"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "RepositoryGroupMemberUpgradeTest",
+        "failingTestMethod": "verifyGroupNodeTypes"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "RepositoryGroupMemberUpgradeTest",
+        "failingTestMethod": "verifyMembers"
+      }
+    }
+  ],
+  "sourcePackage": "oak-upgrade"
+}

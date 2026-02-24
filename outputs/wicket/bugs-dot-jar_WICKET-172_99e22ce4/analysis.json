@@ -1,0 +1,36 @@
+{
+  "patched": [
+    "wicket.MarkupContainer",
+    "wicket.markup.repeater.RefreshingView",
+    "wicket.markup.repeater.data.GridView"
+  ],
+  "test": [
+    "wicket.versioning.ReattachVersioningTest",
+    "wicket.markup.html.panel.PanelTest"
+  ],
+  "suitable_tests": [
+    "ReattachVersioningTest",
+    "PanelTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ReattachVersioningTest",
+        "failingTestMethod": "testReattach"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "PanelTest",
+        "failingTestMethod": "testRenderHomePage_1"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "PanelTest",
+        "failingTestMethod": "testRenderHomePage_2"
+      }
+    }
+  ],
+  "sourcePackage": "wicket"
+}

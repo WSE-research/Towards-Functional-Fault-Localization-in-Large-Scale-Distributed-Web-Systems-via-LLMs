@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.document.DocumentNodeStore",
+    "org.apache.jackrabbit.oak.plugins.document.VersionGarbageCollector"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.document.VersionGarbageCollectorTest"
+  ],
+  "sourcePackage": "oak-core"
+}

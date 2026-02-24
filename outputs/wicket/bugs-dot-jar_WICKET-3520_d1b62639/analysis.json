@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.DefaultExceptionMapper"
+  ],
+  "test": [
+    "org.apache.wicket.DefaultExceptionMapperTest"
+  ],
+  "sourcePackage": "wicket-core"
+}

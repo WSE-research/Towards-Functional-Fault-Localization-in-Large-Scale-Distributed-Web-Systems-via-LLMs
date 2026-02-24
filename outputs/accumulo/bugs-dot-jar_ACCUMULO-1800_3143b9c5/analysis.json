@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.accumulo.proxy.ProxyServer"
+  ],
+  "test": [
+    "org.apache.accumulo.proxy.SimpleTest"
+  ],
+  "suitable_tests": [
+    "SimpleTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "SimpleTest",
+        "failingTestMethod": "testDelete"
+      }
+    }
+  ],
+  "sourcePackage": "proxy"
+}

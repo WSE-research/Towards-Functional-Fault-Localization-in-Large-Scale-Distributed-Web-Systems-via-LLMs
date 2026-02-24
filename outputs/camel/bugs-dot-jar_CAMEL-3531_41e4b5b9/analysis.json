@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.camel.util.ObjectHelper"
+  ],
+  "test": [
+    "org.apache.camel.converter.ObjectHelperTest"
+  ],
+  "sourcePackage": "camel-core"
+}

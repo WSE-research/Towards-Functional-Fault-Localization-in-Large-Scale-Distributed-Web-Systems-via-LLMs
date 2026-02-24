@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.core.appender.OutputStreamManager",
+    "org.apache.logging.log4j.core.net.DatagramOutputStream"
+  ],
+  "test": [
+    "org.apache.logging.log4j.core.net.SocketReconnectTest"
+  ],
+  "suitable_tests": [
+    "SocketReconnectTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "SocketReconnectTest",
+        "failingTestMethod": "testReconnect"
+      }
+    }
+  ],
+  "sourcePackage": "core"
+}

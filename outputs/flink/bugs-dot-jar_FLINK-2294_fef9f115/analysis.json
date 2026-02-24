@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.flink.streaming.runtime.tasks.OutputHandler"
+  ],
+  "test": [
+    "org.apache.flink.streaming.api.state.StatefulOperatorTest"
+  ],
+  "suitable_tests": [
+    "StatefulOperatorTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "StatefulOperatorTest",
+        "failingTestMethod": "apiTest"
+      }
+    }
+  ],
+  "sourcePackage": "flink-staging/flink-streaming/flink-streaming-core"
+}

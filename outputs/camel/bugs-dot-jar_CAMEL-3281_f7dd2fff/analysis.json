@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.camel.builder.RouteBuilder"
+  ],
+  "test": [
+    "org.apache.camel.processor.onexception.OnExceptionAfterRouteTest"
+  ],
+  "suitable_tests": [
+    "OnExceptionAfterRouteTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "OnExceptionAfterRouteTest",
+        "failingTestMethod": "testOnExceptionAfterRoute"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

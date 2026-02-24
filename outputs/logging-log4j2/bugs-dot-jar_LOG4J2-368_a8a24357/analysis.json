@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.log4j.PatternLayout"
+  ],
+  "test": [
+    "org.apache.log4j.VelocityTest"
+  ],
+  "suitable_tests": [
+    "VelocityTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "VelocityTest",
+        "failingTestMethod": "testVelocity"
+      }
+    }
+  ],
+  "sourcePackage": "log4j-1.2-api"
+}

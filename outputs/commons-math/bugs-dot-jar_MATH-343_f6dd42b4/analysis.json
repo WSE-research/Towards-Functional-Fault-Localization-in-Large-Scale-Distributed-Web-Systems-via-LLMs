@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.commons.math.analysis.solvers.BrentSolver"
+  ],
+  "test": [
+    "org.apache.commons.math.analysis.solvers.BrentSolverTest"
+  ],
+  "sourcePackage": ""
+}

@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.segment.Compactor"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.segment.CompactorTest"
+  ],
+  "sourcePackage": "oak-core"
+}

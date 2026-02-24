@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.commons.PathUtils"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.commons.PathUtilsTest"
+  ],
+  "sourcePackage": "oak-commons"
+}

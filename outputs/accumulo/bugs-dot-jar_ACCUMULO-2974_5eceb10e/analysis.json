@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "org.apache.accumulo.server.fs.VolumeManagerImpl",
+    "org.apache.accumulo.master.TabletGroupWatcher"
+  ],
+  "test": [
+    "org.apache.accumulo.server.fs.VolumeManagerImplTest"
+  ],
+  "sourcePackage": "server/base"
+}

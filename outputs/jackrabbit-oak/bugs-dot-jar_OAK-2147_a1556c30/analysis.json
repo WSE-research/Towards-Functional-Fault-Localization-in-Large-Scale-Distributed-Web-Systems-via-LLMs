@@ -1,0 +1,69 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.index.property.OrderedIndex",
+    "org.apache.jackrabbit.oak.plugins.index.property.strategy.OrderedContentMirrorStoreStrategy"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.index.property.strategy.OrderedContentMirrorStorageStrategyTest"
+  ],
+  "suitable_tests": [
+    "OrderedContentMirrorStorageStrategyTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "OrderedContentMirrorStorageStrategyTest",
+        "failingTestMethod": "getNext"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "OrderedContentMirrorStorageStrategyTest",
+        "failingTestMethod": "setNext"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "OrderedContentMirrorStorageStrategyTest",
+        "failingTestMethod": "firstAndOnlyItem"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "OrderedContentMirrorStorageStrategyTest",
+        "failingTestMethod": "first2newKeysAlreadyOrdered"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "OrderedContentMirrorStorageStrategyTest",
+        "failingTestMethod": "fourShuffledElements"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "OrderedContentMirrorStorageStrategyTest",
+        "failingTestMethod": "insertWithLanes1Item"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "OrderedContentMirrorStorageStrategyTest",
+        "failingTestMethod": "laneInsert2ItemsAlreadyOrdere"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "OrderedContentMirrorStorageStrategyTest",
+        "failingTestMethod": "insertShuffledItemsWithLanes"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "OrderedContentMirrorStorageStrategyTest",
+        "failingTestMethod": "prune"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

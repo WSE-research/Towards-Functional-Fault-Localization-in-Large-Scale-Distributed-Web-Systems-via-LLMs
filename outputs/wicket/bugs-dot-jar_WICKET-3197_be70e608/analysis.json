@@ -1,0 +1,22 @@
+{
+  "patched": [
+    "org.apache.wicket.Component",
+    "org.apache.wicket.MarkupContainer",
+    "org.apache.wicket.markup.html.panel.Panel"
+  ],
+  "test": [
+    "org.apache.wicket.markup.html.header.testing3.HeaderTest"
+  ],
+  "suitable_tests": [
+    "HeaderTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "HeaderTest",
+        "failingTestMethod": "test_1"
+      }
+    }
+  ],
+  "sourcePackage": "wicket"
+}

@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "org.apache.camel.processor.Throttler"
+  ],
+  "test": [
+    "org.apache.camel.management.ManagedThrottlerTest",
+    "org.apache.camel.processor.ThrottlerTest"
+  ],
+  "sourcePackage": "camel-core"
+}

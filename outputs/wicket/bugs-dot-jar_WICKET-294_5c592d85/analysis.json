@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "wicket.protocol.http.request.WebRequestCodingStrategy",
+    "wicket.request.target.coding.PackageRequestTargetUrlCodingStrategy"
+  ],
+  "test": [
+    "wicket.request.target.coding.PackageRequestTargetUrlCodingStrategyTest"
+  ],
+  "sourcePackage": "jdk-1.4/wicket"
+}

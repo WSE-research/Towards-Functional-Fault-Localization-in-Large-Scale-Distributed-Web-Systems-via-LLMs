@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.core.pattern.PatternParser"
+  ],
+  "test": [
+    "org.apache.logging.log4j.core.pattern.PatternParserTest"
+  ],
+  "sourcePackage": "core"
+}

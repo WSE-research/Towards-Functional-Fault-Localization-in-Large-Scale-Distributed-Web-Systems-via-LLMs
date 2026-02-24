@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.camel.converter.jaxp.StaxConverter"
+  ],
+  "test": [
+    "org.apache.camel.converter.jaxp.StaxConverterTest"
+  ],
+  "sourcePackage": "camel-core"
+}

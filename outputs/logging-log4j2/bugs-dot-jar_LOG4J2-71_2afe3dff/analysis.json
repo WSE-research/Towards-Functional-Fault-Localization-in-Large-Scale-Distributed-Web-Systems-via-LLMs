@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.core.appender.rolling.helper.FileRenameAction"
+  ],
+  "test": [
+    "org.apache.logging.log4j.core.appender.rolling.RollingAppenderTimeAndSizeTest"
+  ],
+  "suitable_tests": [
+    "RollingAppenderTimeAndSizeTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "RollingAppenderTimeAndSizeTest",
+        "failingTestMethod": "testTimeAndSizeBasedTriggering"
+      }
+    }
+  ],
+  "sourcePackage": "core"
+}

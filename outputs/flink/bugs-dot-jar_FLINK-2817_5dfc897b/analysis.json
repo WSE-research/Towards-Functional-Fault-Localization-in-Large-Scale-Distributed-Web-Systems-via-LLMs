@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.flink.streaming.api.functions.source.FileMonitoringFunction"
+  ],
+  "test": [
+    "org.apache.flink.streaming.api.functions.source.FileMonitoringFunctionTest"
+  ],
+  "sourcePackage": "flink-staging/flink-streaming/flink-streaming-core"
+}

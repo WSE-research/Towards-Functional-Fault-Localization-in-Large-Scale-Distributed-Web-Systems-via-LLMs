@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator"
+  ],
+  "test": [
+    "org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest"
+  ],
+  "suitable_tests": [
+    "DormandPrince853IntegratorTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "DormandPrince853IntegratorTest",
+        "failingTestMethod": "testTooLargeFirstStep"
+      }
+    }
+  ],
+  "sourcePackage": ""
+}

@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.wicket.request.cycle.RequestCycleListenerCollection"
+  ],
+  "test": [
+    "org.apache.wicket.request.cycle.RequestCycleListenerTest"
+  ],
+  "suitable_tests": [
+    "RequestCycleListenerTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "RequestCycleListenerTest",
+        "failingTestMethod": "exceptionIsHandledByFirstAvailableHandler"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

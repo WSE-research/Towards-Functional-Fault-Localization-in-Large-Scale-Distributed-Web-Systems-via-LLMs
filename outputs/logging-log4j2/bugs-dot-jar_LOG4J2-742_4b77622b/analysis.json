@@ -1,0 +1,32 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.core.config.xml.XmlConfiguration"
+  ],
+  "test": [
+    "org.apache.logging.log4j.core.config.XIncludeTest"
+  ],
+  "suitable_tests": [
+    "XIncludeTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "XIncludeTest",
+        "failingTestMethod": "testLogToFile"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XIncludeTest",
+        "failingTestMethod": "testConfiguredAppenders"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XIncludeTest",
+        "failingTestMethod": "testLogger"
+      }
+    }
+  ],
+  "sourcePackage": "log4j-core"
+}

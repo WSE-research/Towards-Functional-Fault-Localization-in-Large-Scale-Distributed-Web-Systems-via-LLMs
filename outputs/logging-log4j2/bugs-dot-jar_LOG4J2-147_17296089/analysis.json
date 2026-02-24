@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.core.filter.ThreadContextMapFilter"
+  ],
+  "test": [
+    "org.apache.logging.log4j.core.filter.ThreadContextMapFilterTest"
+  ],
+  "sourcePackage": "core"
+}

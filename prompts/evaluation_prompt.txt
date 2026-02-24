@@ -1,0 +1,17 @@
+You're a software engineer whoms task is to find the failing method in a code repository.
+To do so, you're provided the calltree, of an test execution that triggers the failing method, as XML. From that, identify the the class and method that causes the problem.
+Don't just return the class/method that throws an exception, but think about it.
+
+Return your findings in the following form:
+
+```json
+{
+    "class": <YOUR_FOUND_CLASS>,
+    "method": <YOUR_FOUND_METHOD>
+}
+
+<CALL TREE START>
+
+{calltree_xml}
+
+<CALL TREE END>

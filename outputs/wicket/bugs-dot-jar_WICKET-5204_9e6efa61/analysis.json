@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.wicket.extensions.yui.calendar.DateTimeField"
+  ],
+  "test": [
+    "org.apache.wicket.extensions.yui.calendar.DatePickerTest"
+  ],
+  "suitable_tests": [
+    "DatePickerTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "DatePickerTest",
+        "failingTestMethod": "testDateFieldsWithDateModels"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-datetime"
+}

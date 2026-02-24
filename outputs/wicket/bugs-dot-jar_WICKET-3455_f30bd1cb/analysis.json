@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.wicket.MarkupContainer"
+  ],
+  "test": [
+    "org.apache.wicket.markup.RefreshingViewOnRemoveTest"
+  ],
+  "suitable_tests": [
+    "RefreshingViewOnRemoveTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "RefreshingViewOnRemoveTest",
+        "failingTestMethod": "test"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

@@ -1,0 +1,83 @@
+{
+  "patched": [
+    "org.apache.wicket.markup.html.form.Form",
+    "org.apache.wicket.markup.html.form.upload.MultiFileUploadField",
+    "org.apache.wicket.protocol.http.servlet.MultipartServletWebRequest"
+  ],
+  "test": [
+    "org.apache.wicket.markup.html.link.submitLink.FormPageTest",
+    "org.apache.wicket.markup.html.form.FormComponentPanelProcessingTest",
+    "org.apache.wicket.stateless.TemporarySessionTest",
+    "org.apache.wicket.markup.html.form.upload.FileUploadFieldTest",
+    "org.apache.wicket.markup.html.internal.EnclosureTest",
+    "org.apache.wicket.markup.html.link.submitLink.FormPage2Test",
+    "org.apache.wicket.FormDispatchEventTest",
+    "org.apache.wicket.util.tester.apps_4.FormTesterTest",
+    "org.apache.wicket.util.tester.WicketTesterTest",
+    "org.apache.wicket.markup.html.form.DropDownChoiceTest",
+    "org.apache.wicket.markup.html.form.FormSubmitTest",
+    "org.apache.wicket.markup.html.form.login.InterceptTest",
+    "org.apache.wicket.util.tester.apps_3.FormTesterTest",
+    "org.apache.wicket.util.tester.FormTesterTest",
+    "org.apache.wicket.stateless.StatelessFormTest"
+  ],
+  "suitable_tests": [
+    "TemporarySessionTest",
+    "FileUploadFieldTest",
+    "EnclosureTest",
+    "WicketTesterTest",
+    "DropDownChoiceTest",
+    "InterceptTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "TemporarySessionTest",
+        "failingTestMethod": "testSessionIsTemporary"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "FileUploadFieldTest",
+        "failingTestMethod": "testInternalDetach"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "FileUploadFieldTest",
+        "failingTestMethod": "testFileUploadCanBeValidated"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "EnclosureTest",
+        "failingTestMethod": "testRender9a"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "WicketTesterTest",
+        "failingTestMethod": "testCreateBook_validateFail"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "WicketTesterTest",
+        "failingTestMethod": "testCreateBook_validatePass"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "DropDownChoiceTest",
+        "failingTestMethod": "test_1979"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "InterceptTest",
+        "failingTestMethod": "testFormSubmit"
+      }
+    }
+  ],
+  "sourcePackage": "wicket"
+}

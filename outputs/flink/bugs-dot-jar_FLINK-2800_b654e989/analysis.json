@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.flink.api.java.typeutils.runtime.kryo.KryoSerializer"
+  ],
+  "test": [
+    "org.apache.flink.api.java.typeutils.runtime.kryo.KryoClearedBufferTest"
+  ],
+  "suitable_tests": [
+    "KryoClearedBufferTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "KryoClearedBufferTest",
+        "failingTestMethod": "testOutputBufferedBeingClearedInCaseOfException"
+      }
+    }
+  ],
+  "sourcePackage": "flink-java"
+}

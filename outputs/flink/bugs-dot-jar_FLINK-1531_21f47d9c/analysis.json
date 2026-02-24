@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.flink.api.java.typeutils.runtime.KryoSerializer",
+    "org.apache.flink.api.java.typeutils.runtime.NoFetchingInput"
+  ],
+  "test": [
+    "org.apache.flink.api.java.typeutils.runtime.KryoGenericTypeSerializerTest"
+  ],
+  "suitable_tests": [
+    "KryoGenericTypeSerializerTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "KryoGenericTypeSerializerTest",
+        "failingTestMethod": "testForwardEOFExceptionWhileDeserializing"
+      }
+    }
+  ],
+  "sourcePackage": "flink-java"
+}

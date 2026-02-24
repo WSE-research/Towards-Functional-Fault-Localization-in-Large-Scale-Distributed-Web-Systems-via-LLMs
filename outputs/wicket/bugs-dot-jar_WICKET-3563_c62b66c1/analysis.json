@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.wicket.Component",
+    "org.apache.wicket.ajax.AjaxRequestTarget"
+  ],
+  "test": [
+    "org.apache.wicket.PlaceholderTagIdTest"
+  ],
+  "suitable_tests": [
+    "PlaceholderTagIdTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "PlaceholderTagIdTest",
+        "failingTestMethod": "wicket3563"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

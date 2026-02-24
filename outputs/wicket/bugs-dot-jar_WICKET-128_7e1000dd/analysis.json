@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "wicket.Session"
+  ],
+  "test": [
+    "wicket.ajax.markup.html.form.AjaxSubmitLinkTest"
+  ],
+  "suitable_tests": [
+    "AjaxSubmitLinkTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "AjaxSubmitLinkTest",
+        "failingTestMethod": "testRender"
+      }
+    }
+  ],
+  "sourcePackage": "wicket"
+}

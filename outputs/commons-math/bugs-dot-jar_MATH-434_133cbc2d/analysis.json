@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "org.apache.commons.math.optimization.linear.SimplexSolver",
+    "org.apache.commons.math.optimization.linear.SimplexTableau"
+  ],
+  "test": [
+    "org.apache.commons.math.optimization.linear.SimplexSolverTest"
+  ],
+  "sourcePackage": ""
+}

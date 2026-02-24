@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.model.StringResourceModel"
+  ],
+  "test": [
+    "org.apache.wicket.model.StringResourceModelTest"
+  ],
+  "sourcePackage": "wicket-core"
+}

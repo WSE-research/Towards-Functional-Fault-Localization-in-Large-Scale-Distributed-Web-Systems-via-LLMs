@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.camel.processor.MarshalProcessor",
+    "org.apache.camel.processor.UnmarshalProcessor"
+  ],
+  "test": [
+    "org.apache.camel.processor.DeadLetterChannelUnmarshalSetHeaderTest"
+  ],
+  "suitable_tests": [
+    "DeadLetterChannelUnmarshalSetHeaderTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "DeadLetterChannelUnmarshalSetHeaderTest",
+        "failingTestMethod": "testDLCSetHeader"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.accumulo.core.util.Stat"
+  ],
+  "test": [
+    "org.apache.accumulo.core.util.StatTest"
+  ],
+  "sourcePackage": "core"
+}

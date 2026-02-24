@@ -1,0 +1,34 @@
+{
+  "patched": [
+    "org.apache.camel.language.simple.ast.SimpleFunctionExpression"
+  ],
+  "test": [
+    "org.apache.camel.language.simple.SimpleTest",
+    "org.apache.camel.management.ManagedThrottlerTest"
+  ],
+  "suitable_tests": [
+    "SimpleTest",
+    "ManagedThrottlerTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "SimpleTest",
+        "failingTestMethod": "testBodyAs"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "SimpleTest",
+        "failingTestMethod": "testMandatoryBodyAs"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ManagedThrottlerTest",
+        "failingTestMethod": "testThrottleAsyncVisableViaJmx"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

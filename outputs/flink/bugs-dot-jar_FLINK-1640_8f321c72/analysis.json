@@ -1,0 +1,39 @@
+{
+  "patched": [
+    "org.apache.flink.core.fs.Path"
+  ],
+  "test": [
+    "org.apache.flink.core.fs.PathTest",
+    "org.apache.flink.api.common.io.FileOutputFormatTest"
+  ],
+  "suitable_tests": [
+    "FileOutputFormatTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "FileOutputFormatTest",
+        "failingTestMethod": "testCreateNonParallelLocalFS"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "FileOutputFormatTest",
+        "failingTestMethod": "testCreateParallelLocalFS"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "FileOutputFormatTest",
+        "failingTestMethod": "testOverwriteParallelLocalFS"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "FileOutputFormatTest",
+        "failingTestMethod": "testOverwriteNonParallelLocalFS"
+      }
+    }
+  ],
+  "sourcePackage": "flink-core"
+}

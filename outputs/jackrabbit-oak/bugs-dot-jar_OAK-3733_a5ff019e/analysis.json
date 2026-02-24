@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.document.Commit"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.document.CommitTest"
+  ],
+  "sourcePackage": "oak-core"
+}

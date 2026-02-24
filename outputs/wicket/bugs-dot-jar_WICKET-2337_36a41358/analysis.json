@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.util.lang.PropertyResolver"
+  ],
+  "test": [
+    "org.apache.wicket.util.lang.PropertyResolverTest"
+  ],
+  "sourcePackage": "wicket"
+}

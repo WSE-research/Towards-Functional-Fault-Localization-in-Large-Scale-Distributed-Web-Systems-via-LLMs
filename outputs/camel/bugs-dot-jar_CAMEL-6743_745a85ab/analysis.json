@@ -1,0 +1,22 @@
+{
+  "patched": [
+    "org.apache.camel.component.bean.DefaultAnnotationExpressionFactory"
+  ],
+  "test": [
+    "org.apache.camel.component.bean.BeanWithExpressionInjectionPredicateTest",
+    "org.apache.camel.component.vm.VmMultipleConsumersRemoteRouteTest"
+  ],
+  "suitable_tests": [
+    "BeanWithExpressionInjectionPredicateTest",
+    "VmMultipleConsumersRemoteRouteTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "VmMultipleConsumersRemoteRouteTest",
+        "failingTestMethod": "testVmMultipleConsumersRemoteRoute"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

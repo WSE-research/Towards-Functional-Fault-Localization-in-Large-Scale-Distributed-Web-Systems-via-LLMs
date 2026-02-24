@@ -1,0 +1,28 @@
+{
+  "patched": [
+    "org.apache.camel.processor.RedeliveryErrorHandler"
+  ],
+  "test": [
+    "org.apache.camel.issues.StopRouteImpactsErrorHandlerTest",
+    "org.apache.camel.issues.StopRouteShouldNotStopContextScopedErrorHandlerIssueTest"
+  ],
+  "suitable_tests": [
+    "StopRouteImpactsErrorHandlerTest",
+    "StopRouteShouldNotStopContextScopedErrorHandlerIssueTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "StopRouteImpactsErrorHandlerTest",
+        "failingTestMethod": "testIssue"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "StopRouteShouldNotStopContextScopedErrorHandlerIssueTest",
+        "failingTestMethod": "testIssue"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

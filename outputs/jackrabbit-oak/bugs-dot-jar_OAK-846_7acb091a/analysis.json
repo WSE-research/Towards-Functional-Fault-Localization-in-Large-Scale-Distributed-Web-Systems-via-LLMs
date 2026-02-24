@@ -1,0 +1,24 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.mongomk.Collision",
+    "org.apache.jackrabbit.mongomk.CollisionHandler",
+    "org.apache.jackrabbit.mongomk.Commit",
+    "org.apache.jackrabbit.mongomk.MongoMK",
+    "org.apache.jackrabbit.mongomk.util.Utils"
+  ],
+  "test": [
+    "org.apache.jackrabbit.mongomk.ConflictTest"
+  ],
+  "suitable_tests": [
+    "ConflictTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ConflictTest",
+        "failingTestMethod": "changeChangedPropertyTwoBranches"
+      }
+    }
+  ],
+  "sourcePackage": "oak-mongomk"
+}

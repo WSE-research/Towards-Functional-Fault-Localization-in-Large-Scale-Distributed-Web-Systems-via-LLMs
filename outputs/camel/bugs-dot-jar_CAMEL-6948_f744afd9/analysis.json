@@ -1,0 +1,43 @@
+{
+  "patched": [
+    "org.apache.camel.impl.ProducerCache"
+  ],
+  "test": [
+    "org.apache.camel.component.vm.VmMultipleConsumersMultipleContextTest",
+    "org.apache.camel.impl.DefaultProducerCacheTest",
+    "org.apache.camel.management.ManagedThrottlerTest",
+    "org.apache.camel.component.vm.VmMultipleConsumersRemoteRouteTest",
+    "org.apache.camel.component.vm.VmMultipleContextsStartStopTest",
+    "org.apache.camel.component.vm.VmQueueTest",
+    "org.apache.camel.component.vm.VmShouldNotUseSameThreadTest"
+  ],
+  "suitable_tests": [
+    "VmMultipleConsumersMultipleContextTest",
+    "ManagedThrottlerTest",
+    "VmMultipleConsumersRemoteRouteTest",
+    "VmMultipleContextsStartStopTest",
+    "VmQueueTest",
+    "VmShouldNotUseSameThreadTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ManagedThrottlerTest",
+        "failingTestMethod": "testThrottleVisableViaJmx"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "VmQueueTest",
+        "failingTestMethod": "testQueue"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "VmShouldNotUseSameThreadTest",
+        "failingTestMethod": "testNotUseSameThread"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

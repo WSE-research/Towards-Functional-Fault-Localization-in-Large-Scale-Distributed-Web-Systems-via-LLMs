@@ -1,0 +1,45 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.core.AbstractNodeLocation",
+    "org.apache.jackrabbit.oak.core.TreeImpl"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.security.authorization.evaluation.RootTest.testGetTree2",
+    "org.apache.jackrabbit.oak.security.authorization.evaluation.RootTest.testGetNodeLocation2",
+    "org.apache.jackrabbit.oak.security.authorization.evaluation.RootTest.testGetPropertyLocation2",
+    "org.apache.jackrabbit.oak.security.authorization.evaluation.RootTest.testGetPropertyLocation3"
+  ],
+  "suitable_tests": [
+    "testGetTree2",
+    "testGetNodeLocation2",
+    "testGetPropertyLocation2",
+    "testGetPropertyLocation3"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "testGetTree2",
+        "failingTestMethod": "testGetTree2"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "testGetNodeLocation2",
+        "failingTestMethod": "testGetNodeLocation2"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "testGetPropertyLocation2",
+        "failingTestMethod": "testGetPropertyLocation2"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "testGetPropertyLocation3",
+        "failingTestMethod": "testGetPropertyLocation3"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.accumulo.minicluster.MiniAccumuloCluster"
+  ],
+  "test": [
+    "org.apache.accumulo.minicluster.MiniAccumuloClusterTest"
+  ],
+  "sourcePackage": "minicluster"
+}

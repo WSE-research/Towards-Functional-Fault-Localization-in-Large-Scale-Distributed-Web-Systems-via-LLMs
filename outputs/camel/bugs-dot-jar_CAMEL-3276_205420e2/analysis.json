@@ -1,0 +1,36 @@
+{
+  "patched": [
+    "org.apache.camel.util.ExchangeHelper"
+  ],
+  "test": [
+    "org.apache.camel.component.seda.SedaWaitForTaskCompleteTest",
+    "org.apache.camel.component.vm.VmWaitForTaskCompleteTest",
+    "org.apache.camel.issues.MulticastPipelineAggregateIssueTest"
+  ],
+  "suitable_tests": [
+    "SedaWaitForTaskCompleteTest",
+    "VmWaitForTaskCompleteTest",
+    "MulticastPipelineAggregateIssueTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "SedaWaitForTaskCompleteTest",
+        "failingTestMethod": "testInOnly"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "VmWaitForTaskCompleteTest",
+        "failingTestMethod": "testInOnly"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "MulticastPipelineAggregateIssueTest",
+        "failingTestMethod": "testMulticastPipelineAggregateIssue"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

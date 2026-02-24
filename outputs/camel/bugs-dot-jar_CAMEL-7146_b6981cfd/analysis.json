@@ -1,0 +1,69 @@
+{
+  "patched": [
+    "org.apache.camel.processor.aggregate.AggregateProcessor",
+    "org.apache.camel.spi.AggregationRepository"
+  ],
+  "test": [
+    "org.apache.camel.component.file.FileProducerFileExistIgnoreTest",
+    "org.apache.camel.component.vm.VmMultipleConsumersMultipleContextTest",
+    "org.apache.camel.management.ManagedThrottlerTest",
+    "org.apache.camel.processor.aggregator.AggregateCompletionOnlyOneTest",
+    "org.apache.camel.component.vm.VmMultipleContextsStartStopTest",
+    "org.apache.camel.component.vm.VmQueueTest",
+    "org.apache.camel.component.vm.VmShouldNotUseSameThreadTest"
+  ],
+  "suitable_tests": [
+    "FileProducerFileExistIgnoreTest",
+    "VmMultipleConsumersMultipleContextTest",
+    "ManagedThrottlerTest",
+    "AggregateCompletionOnlyOneTest",
+    "VmMultipleContextsStartStopTest",
+    "VmQueueTest",
+    "VmShouldNotUseSameThreadTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "FileProducerFileExistIgnoreTest",
+        "failingTestMethod": "testIgnore"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "VmMultipleConsumersMultipleContextTest",
+        "failingTestMethod": "testVmMultipleConsumersDifferentEndpoints"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ManagedThrottlerTest",
+        "failingTestMethod": "testThrottleVisableViaJmx"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AggregateCompletionOnlyOneTest",
+        "failingTestMethod": "testOnlyOne"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "VmMultipleContextsStartStopTest",
+        "failingTestMethod": "testStartStop"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "VmQueueTest",
+        "failingTestMethod": "testQueue"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "VmShouldNotUseSameThreadTest",
+        "failingTestMethod": "testNotUseSameThread"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

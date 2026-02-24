@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.segment.SegmentWriter"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.segment.RecordTest.testBinaryPropertyFromExternalSegmentStore"
+  ],
+  "suitable_tests": [
+    "testBinaryPropertyFromExternalSegmentStore"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "testBinaryPropertyFromExternalSegmentStore",
+        "failingTestMethod": "testBinaryPropertyFromExternalSegmentStore"
+      }
+    }
+  ],
+  "sourcePackage": "oak-segment-next"
+}

@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.accumulo.core.client.lexicoder.DateLexicoder"
+  ],
+  "test": [
+    "org.apache.accumulo.core.client.lexicoder.ReverseLexicoderTest"
+  ],
+  "suitable_tests": [
+    "ReverseLexicoderTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ReverseLexicoderTest",
+        "failingTestMethod": "testReverseSortDates"
+      }
+    }
+  ],
+  "sourcePackage": "core"
+}

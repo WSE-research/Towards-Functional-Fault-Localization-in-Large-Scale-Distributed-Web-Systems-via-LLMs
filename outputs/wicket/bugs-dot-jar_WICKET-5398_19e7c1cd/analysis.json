@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.markup.parser.XmlPullParser"
+  ],
+  "test": [
+    "org.apache.wicket.markup.parser.XmlPullParserTest"
+  ],
+  "sourcePackage": "wicket-core"
+}

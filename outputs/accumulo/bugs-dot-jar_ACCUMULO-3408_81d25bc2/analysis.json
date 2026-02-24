@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "org.apache.accumulo.monitor.servlets.PreciseNumberType",
+    "org.apache.accumulo.monitor.util.celltypes.NumberType"
+  ],
+  "test": [
+    "org.apache.accumulo.monitor.util.celltypes.PreciseNumberTypeTest"
+  ],
+  "sourcePackage": "server/monitor"
+}

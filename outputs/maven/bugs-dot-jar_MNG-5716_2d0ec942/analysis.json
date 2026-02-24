@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "org.apache.maven.toolchain.DefaultToolchainManagerPrivate",
+    "org.apache.maven.toolchain.building.DefaultToolchainsBuildingResult"
+  ],
+  "test": [
+    "org.apache.maven.toolchain.DefaultToolchainManagerPrivateTest"
+  ],
+  "sourcePackage": "maven-core"
+}

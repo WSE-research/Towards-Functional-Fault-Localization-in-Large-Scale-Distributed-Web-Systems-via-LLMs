@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.wicket.RestartResponseAtInterceptPageException",
+    "org.apache.wicket.SystemMapper"
+  ],
+  "test": [
+    "org.apache.wicket.wicket4066.Wicket4066Test"
+  ],
+  "suitable_tests": [
+    "Wicket4066Test"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "Wicket4066Test",
+        "failingTestMethod": "wicket4066"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

@@ -1,0 +1,32 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.jcr.delegate.NodeDelegate"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.jcr.CompatibilityIssuesTest"
+  ],
+  "suitable_tests": [
+    "CompatibilityIssuesTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "CompatibilityIssuesTest",
+        "failingTestMethod": "testBinaryCoercion[0]"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "CompatibilityIssuesTest",
+        "failingTestMethod": "testBinaryCoercion[1]"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "CompatibilityIssuesTest",
+        "failingTestMethod": "testBinaryCoercion[2]"
+      }
+    }
+  ],
+  "sourcePackage": "oak-jcr"
+}

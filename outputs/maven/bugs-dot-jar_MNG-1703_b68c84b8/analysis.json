@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.maven.project.ModelUtils"
+  ],
+  "test": [
+    "org.apache.maven.project.ModelUtilsTest"
+  ],
+  "sourcePackage": "maven-project"
+}

@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.LucenePropertyIndex"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.LucenePropertyIndexTest"
+  ],
+  "sourcePackage": "oak-lucene"
+}

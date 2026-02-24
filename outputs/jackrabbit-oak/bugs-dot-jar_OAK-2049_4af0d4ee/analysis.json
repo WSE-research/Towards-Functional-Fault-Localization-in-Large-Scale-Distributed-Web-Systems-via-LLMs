@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.segment.SegmentWriter"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.segment.file.FileStoreTest"
+  ],
+  "suitable_tests": [
+    "FileStoreTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "FileStoreTest",
+        "failingTestMethod": "segmentOverflow"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

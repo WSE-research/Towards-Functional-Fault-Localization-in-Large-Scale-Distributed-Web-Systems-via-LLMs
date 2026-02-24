@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.core.util.resource.locator.caching.CachingResourceStreamLocator"
+  ],
+  "test": [
+    "org.apache.wicket.util.resource.locator.CachingResourceStreamLocatorTest"
+  ],
+  "sourcePackage": "wicket-core"
+}

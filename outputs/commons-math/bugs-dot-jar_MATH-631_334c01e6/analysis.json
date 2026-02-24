@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.commons.math.analysis.solvers.BaseSecantSolver"
+  ],
+  "test": [
+    "org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest"
+  ],
+  "suitable_tests": [
+    "RegulaFalsiSolverTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "RegulaFalsiSolverTest",
+        "failingTestMethod": "testIssue631"
+      }
+    }
+  ],
+  "sourcePackage": ""
+}

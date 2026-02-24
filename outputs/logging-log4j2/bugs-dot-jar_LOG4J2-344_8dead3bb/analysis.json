@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.core.web.Log4jServletContainerInitializer"
+  ],
+  "test": [
+    "org.apache.logging.log4j.core.web.Log4jServletContainerInitializerTest"
+  ],
+  "sourcePackage": "log4j-core"
+}

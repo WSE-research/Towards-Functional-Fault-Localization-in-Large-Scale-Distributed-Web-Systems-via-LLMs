@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.wicket.markup.html.panel.AbstractMarkupSourcingStrategy"
+  ],
+  "test": [
+    "org.apache.wicket.markup.resolver.issue5569.Issue5569Test"
+  ],
+  "suitable_tests": [
+    "Issue5569Test"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "Issue5569Test",
+        "failingTestMethod": "testIssue5569"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

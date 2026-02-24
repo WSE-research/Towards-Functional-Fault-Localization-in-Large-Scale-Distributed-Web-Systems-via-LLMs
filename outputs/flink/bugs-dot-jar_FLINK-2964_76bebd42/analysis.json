@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.flink.runtime.operators.hash.HashPartition"
+  ],
+  "test": [
+    "org.apache.flink.runtime.operators.hash.HashTableTest"
+  ],
+  "suitable_tests": [
+    "HashTableTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "HashTableTest",
+        "failingTestMethod": "testSpillingWhenBuildingTableWithoutOverflow"
+      }
+    }
+  ],
+  "sourcePackage": "flink-runtime"
+}

@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.wicket.markup.html.form.FormComponent"
+  ],
+  "test": [
+    "org.apache.wicket.markup.html.form.ValidatorPropertiesTest"
+  ],
+  "suitable_tests": [
+    "ValidatorPropertiesTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ValidatorPropertiesTest",
+        "failingTestMethod": "test1"
+      }
+    }
+  ],
+  "sourcePackage": "wicket"
+}

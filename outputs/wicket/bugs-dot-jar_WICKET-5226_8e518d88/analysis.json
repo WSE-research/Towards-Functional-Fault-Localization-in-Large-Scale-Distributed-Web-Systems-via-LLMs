@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.cdi.ComponentInjector"
+  ],
+  "test": [
+    "org.apache.wicket.cdi.ComponentInjectorTest"
+  ],
+  "sourcePackage": "wicket-cdi"
+}

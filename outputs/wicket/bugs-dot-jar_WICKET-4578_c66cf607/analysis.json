@@ -1,0 +1,12 @@
+{
+  "patched": [
+    "org.apache.wicket.Component"
+  ],
+  "test": [
+    "org.apache.wicket.ComponentTest"
+  ],
+  "suitable_tests": [
+    "isStateless"
+  ],
+  "sourcePackage": "wicket-core"
+}

@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.index.property.strategy.OrderedContentMirrorStoreStrategy"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.index.property.strategy.OrderedContentMirrorStorageStrategyTest"
+  ],
+  "suitable_tests": [
+    "OrderedContentMirrorStorageStrategyTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "OrderedContentMirrorStorageStrategyTest",
+        "failingTestMethod": "getNext"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

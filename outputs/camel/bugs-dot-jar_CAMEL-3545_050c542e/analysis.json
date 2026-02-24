@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.camel.component.bean.MethodNotFoundException",
+    "org.apache.camel.model.language.MethodCallExpression"
+  ],
+  "test": [
+    "org.apache.camel.language.BeanLanguageInvalidOGNLTest"
+  ],
+  "suitable_tests": [
+    "BeanLanguageInvalidOGNLTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "BeanLanguageInvalidOGNLTest",
+        "failingTestMethod": "testBeanLanguageInvalidOGNL"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

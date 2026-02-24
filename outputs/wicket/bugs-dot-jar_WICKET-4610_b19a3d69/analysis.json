@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.wicket.protocol.http.mock.MockHttpServletResponse"
+  ],
+  "test": [
+    "org.apache.wicket.util.tester.WicketTesterTest"
+  ],
+  "suitable_tests": [
+    "WicketTesterTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "WicketTesterTest",
+        "failingTestMethod": "redirectToAbsoluteUrlTest"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

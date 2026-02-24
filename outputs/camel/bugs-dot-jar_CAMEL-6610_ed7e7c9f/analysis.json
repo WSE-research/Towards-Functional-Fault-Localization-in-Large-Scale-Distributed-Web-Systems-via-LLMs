@@ -1,0 +1,26 @@
+{
+  "patched": [
+    "org.apache.camel.model.ProcessorDefinition"
+  ],
+  "test": [
+    "org.apache.camel.processor.WireTapTest"
+  ],
+  "suitable_tests": [
+    "WireTapTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "WireTapTest",
+        "failingTestMethod": "testSend"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "WireTapTest",
+        "failingTestMethod": "testWireTapId"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

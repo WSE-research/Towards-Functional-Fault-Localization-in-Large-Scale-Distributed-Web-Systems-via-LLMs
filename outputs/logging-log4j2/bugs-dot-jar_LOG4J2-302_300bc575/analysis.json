@@ -1,0 +1,13 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.spi.DefaultThreadContextMap",
+    "org.apache.logging.log4j.spi.DefaultThreadContextStack",
+    "org.apache.logging.log4j.spi.MutableThreadContextStack"
+  ],
+  "test": [
+    "org.apache.logging.log4j.spi.MutableThreadContextStackTest",
+    "org.apache.logging.log4j.spi.DefaultThreadContextMapTest",
+    "org.apache.logging.log4j.spi.DefaultThreadContextStackTest"
+  ],
+  "sourcePackage": "api"
+}

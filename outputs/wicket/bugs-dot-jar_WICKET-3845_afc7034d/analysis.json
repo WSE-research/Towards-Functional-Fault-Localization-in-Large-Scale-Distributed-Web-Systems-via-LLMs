@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.request.HttpHeaderCollection"
+  ],
+  "test": [
+    "org.apache.wicket.request.HttpHeaderCollectionTest"
+  ],
+  "sourcePackage": "wicket-request"
+}

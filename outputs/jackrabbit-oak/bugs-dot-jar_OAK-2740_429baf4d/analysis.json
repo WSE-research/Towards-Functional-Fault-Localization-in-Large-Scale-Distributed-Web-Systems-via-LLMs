@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.security.authorization.AuthorizationContext"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.security.authorization.AuthorizationContextTest"
+  ],
+  "sourcePackage": "oak-core"
+}

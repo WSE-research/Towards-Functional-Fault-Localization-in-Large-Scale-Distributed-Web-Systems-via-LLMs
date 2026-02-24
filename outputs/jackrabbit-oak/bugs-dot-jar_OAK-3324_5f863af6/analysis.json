@@ -1,0 +1,42 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.security.authorization.permission.CompiledPermissionImpl",
+    "org.apache.jackrabbit.oak.security.authorization.permission.EntryPredicate",
+    "org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntry"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.security.authorization.restriction.PermissionTest",
+    "org.apache.jackrabbit.oak.security.authorization.restriction.CustomRestrictionProviderTest"
+  ],
+  "suitable_tests": [
+    "PermissionTest",
+    "CustomRestrictionProviderTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "PermissionTest",
+        "failingTestMethod": "testHasPermissionWithRestrictions"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "PermissionTest",
+        "failingTestMethod": "testHasPermissionWithRestrictions2"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "CustomRestrictionProviderTest",
+        "failingTestMethod": "testProtectByRestriction"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "CustomRestrictionProviderTest",
+        "failingTestMethod": "testUnProtectByRestriction"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

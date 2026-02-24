@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.flink.runtime.checkpoint.SavepointCoordinator"
+  ],
+  "test": [
+    "org.apache.flink.runtime.checkpoint.SavepointCoordinatorTest"
+  ],
+  "sourcePackage": "flink-runtime"
+}

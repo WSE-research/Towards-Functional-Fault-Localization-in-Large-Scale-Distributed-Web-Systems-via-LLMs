@@ -1,0 +1,36 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.core.config.AbstractConfiguration"
+  ],
+  "test": [
+    "org.apache.logging.log4j.core.appender.XmlFileAppenderTest",
+    "org.apache.logging.log4j.core.appender.XmlCompactFileAppenderTest",
+    "org.apache.logging.log4j.core.appender.XmlCompleteFileAppenderTest"
+  ],
+  "suitable_tests": [
+    "XmlFileAppenderTest",
+    "XmlCompactFileAppenderTest",
+    "XmlCompleteFileAppenderTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "XmlFileAppenderTest",
+        "failingTestMethod": "testFlushAtEndOfBatch"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlCompactFileAppenderTest",
+        "failingTestMethod": "testFlushAtEndOfBatch"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlCompleteFileAppenderTest",
+        "failingTestMethod": "testFlushAtEndOfBatch"
+      }
+    }
+  ],
+  "sourcePackage": "log4j-core"
+}

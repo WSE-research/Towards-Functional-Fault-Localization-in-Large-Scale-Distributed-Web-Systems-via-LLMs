@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.camel.processor.Splitter"
+  ],
+  "test": [
+    "org.apache.camel.processor.SplitterStreamingErrorHandlingTest"
+  ],
+  "sourcePackage": "camel-core"
+}

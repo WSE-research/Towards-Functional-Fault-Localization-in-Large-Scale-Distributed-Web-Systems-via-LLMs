@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.segment.SegmentNodeStore"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.segment.CheckpointTest"
+  ],
+  "suitable_tests": [
+    "CheckpointTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "CheckpointTest",
+        "failingTestMethod": "testCheckpoint"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

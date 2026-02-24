@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.util.time.Time"
+  ],
+  "test": [
+    "org.apache.wicket.util.time.TimeTest"
+  ],
+  "sourcePackage": "wicket-util"
+}

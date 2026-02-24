@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.wicket.markup.transformer.XsltOutputTransformerContainer"
+  ],
+  "test": [
+    "org.apache.wicket.markup.outputTransformer.OutputTransformerContainerTest"
+  ],
+  "suitable_tests": [
+    "OutputTransformerContainerTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "OutputTransformerContainerTest",
+        "failingTestMethod": "renderHomePage"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.security.authentication.token.TokenProviderImpl"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.security.authentication.token.TokenProviderImplTest.testValidTokenCredentialsWithConflict"
+  ],
+  "suitable_tests": [
+    "testValidTokenCredentialsWithConflict"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "testValidTokenCredentialsWithConflict",
+        "failingTestMethod": "testValidTokenCredentialsWithConflict"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

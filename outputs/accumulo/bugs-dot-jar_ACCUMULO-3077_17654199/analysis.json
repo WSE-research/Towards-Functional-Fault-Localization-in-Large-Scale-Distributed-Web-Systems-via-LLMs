@@ -1,0 +1,23 @@
+{
+  "patched": [
+    "org.apache.accumulo.server.init.Initialize",
+    "org.apache.accumulo.server.util.ReplicationTableUtil",
+    "org.apache.accumulo.tserver.log.TabletServerLogger",
+    "org.apache.accumulo.tserver.tablet.DatafileManager"
+  ],
+  "test": [
+    "org.apache.accumulo.test.replication.StatusCombinerMacTest"
+  ],
+  "suitable_tests": [
+    "StatusCombinerMacTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "StatusCombinerMacTest",
+        "failingTestMethod": "testCombinerSetOnMetadata"
+      }
+    }
+  ],
+  "sourcePackage": "test"
+}

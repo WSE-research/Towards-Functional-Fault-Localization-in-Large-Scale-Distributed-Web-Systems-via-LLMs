@@ -1,0 +1,26 @@
+{
+  "patched": [
+    "org.apache.flink.api.java.typeutils.TypeExtractor"
+  ],
+  "test": [
+    "org.apache.flink.api.java.typeutils.PojoTypeInfoTest"
+  ],
+  "suitable_tests": [
+    "PojoTypeInfoTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "PojoTypeInfoTest",
+        "failingTestMethod": "testPrimitivePojo"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "PojoTypeInfoTest",
+        "failingTestMethod": "testUnderscorePojo"
+      }
+    }
+  ],
+  "sourcePackage": "flink-java"
+}

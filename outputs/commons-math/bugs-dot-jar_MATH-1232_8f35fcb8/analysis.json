@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.commons.math4.ode.UnknownParameterException"
+  ],
+  "test": [
+    "org.apache.commons.math4.ode.JacobianMatricesTest"
+  ],
+  "suitable_tests": [
+    "JacobianMatricesTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "JacobianMatricesTest",
+        "failingTestMethod": "testWrongParameterName"
+      }
+    }
+  ],
+  "sourcePackage": ""
+}

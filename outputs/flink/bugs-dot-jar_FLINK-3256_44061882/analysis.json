@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "org.apache.flink.runtime.executiongraph.ExecutionGraph",
+    "org.apache.flink.runtime.executiongraph.ExecutionJobVertex"
+  ],
+  "test": [
+    "org.apache.flink.runtime.executiongraph.ExecutionGraphRestartTest"
+  ],
+  "sourcePackage": "flink-runtime"
+}

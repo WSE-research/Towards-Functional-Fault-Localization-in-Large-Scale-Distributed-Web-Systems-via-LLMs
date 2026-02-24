@@ -1,0 +1,26 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.jcr.value.ValueFactoryImpl"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.jcr.ValueFactoryTest"
+  ],
+  "suitable_tests": [
+    "ValueFactoryTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ValueFactoryTest",
+        "failingTestMethod": "testReferenceValue"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ValueFactoryTest",
+        "failingTestMethod": "testWeakReferenceValue"
+      }
+    }
+  ],
+  "sourcePackage": "oak-jcr"
+}

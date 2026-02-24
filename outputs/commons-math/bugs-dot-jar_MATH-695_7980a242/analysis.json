@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.commons.math.ode.AbstractIntegrator"
+  ],
+  "test": [
+    "org.apache.commons.math.ode.events.EventStateTest"
+  ],
+  "suitable_tests": [
+    "EventStateTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "EventStateTest",
+        "failingTestMethod": "testIssue695"
+      }
+    }
+  ],
+  "sourcePackage": ""
+}

@@ -1,0 +1,42 @@
+{
+  "patched": [
+    "org.apache.wicket.Component"
+  ],
+  "test": [
+    "org.apache.wicket.markup.html.border.ComponentBorderTest",
+    "org.apache.wicket.versioning.PageVersioningTest",
+    "org.apache.wicket.ComponentConfigurationTest",
+    "org.apache.wicket.markup.html.internal.EnclosureTest"
+  ],
+  "suitable_tests": [
+    "PageVersioningTest",
+    "EnclosureTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "PageVersioningTest",
+        "failingTestMethod": "versionPage"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "EnclosureTest",
+        "failingTestMethod": "testVisibilityOfChildren"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "EnclosureTest",
+        "failingTestMethod": "testRender9"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "EnclosureTest",
+        "failingTestMethod": "testRender9a"
+      }
+    }
+  ],
+  "sourcePackage": "wicket"
+}

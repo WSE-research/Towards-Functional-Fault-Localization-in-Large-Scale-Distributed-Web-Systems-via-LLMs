@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.accumulo.fate.zookeeper.ZooCache",
+    "org.apache.accumulo.fate.zookeeper.ZooUtil"
+  ],
+  "test": [
+    "org.apache.accumulo.fate.zookeeper.ZooKeeperConnectionInfoTest"
+  ],
+  "suitable_tests": [
+    "ZooKeeperConnectionInfoTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ZooKeeperConnectionInfoTest",
+        "failingTestMethod": "testEquality"
+      }
+    }
+  ],
+  "sourcePackage": "fate"
+}

@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndex"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexQueryTest",
+    "org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexTest"
+  ],
+  "sourcePackage": "oak-lucene"
+}

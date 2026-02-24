@@ -1,0 +1,11 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.core.appender.OutputStreamManager",
+    "org.apache.logging.log4j.core.appender.rolling.RollingFileManager",
+    "org.apache.logging.log4j.core.appender.rolling.RollingRandomAccessFileManager"
+  ],
+  "test": [
+    "org.apache.logging.log4j.core.appender.rolling.RollingRandomAccessFileManagerHeaderFooterTest"
+  ],
+  "sourcePackage": "log4j-core"
+}

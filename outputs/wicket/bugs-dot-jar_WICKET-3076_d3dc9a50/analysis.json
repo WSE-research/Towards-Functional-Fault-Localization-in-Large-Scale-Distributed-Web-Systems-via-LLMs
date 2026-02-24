@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.util.string.UrlUtils"
+  ],
+  "test": [
+    "org.apache.wicket.util.string.UrlUtilsTest"
+  ],
+  "sourcePackage": "wicket"
+}

@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.wicket.request.mapper.AbstractResourceReferenceMapper"
+  ],
+  "test": [
+    "org.apache.wicket.request.mapper.BasicResourceReferenceMapperTest"
+  ],
+  "suitable_tests": [
+    "BasicResourceReferenceMapperTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "BasicResourceReferenceMapperTest",
+        "failingTestMethod": "testEncode9"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

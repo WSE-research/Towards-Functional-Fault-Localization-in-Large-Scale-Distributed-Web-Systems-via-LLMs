@@ -1,0 +1,22 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.document.DocumentMK",
+    "org.apache.jackrabbit.oak.plugins.document.DocumentNodeState",
+    "org.apache.jackrabbit.oak.plugins.document.DocumentNodeStore"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.document.SimpleTest"
+  ],
+  "suitable_tests": [
+    "SimpleTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "SimpleTest",
+        "failingTestMethod": "commit"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

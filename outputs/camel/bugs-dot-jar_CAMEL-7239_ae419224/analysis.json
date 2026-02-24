@@ -1,0 +1,22 @@
+{
+  "patched": [
+    "org.apache.camel.processor.validation.ValidatingProcessor"
+  ],
+  "test": [
+    "org.apache.camel.component.validator.ValidatorRouteTest",
+    "org.apache.camel.management.ManagedThrottlerTest"
+  ],
+  "suitable_tests": [
+    "ValidatorRouteTest",
+    "ManagedThrottlerTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ManagedThrottlerTest",
+        "failingTestMethod": "testThrottleAsyncVisableViaJmx"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

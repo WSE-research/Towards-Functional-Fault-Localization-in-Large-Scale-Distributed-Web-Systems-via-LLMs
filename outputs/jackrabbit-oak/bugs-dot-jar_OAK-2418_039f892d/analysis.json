@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.query.FilterIterators"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.query.IteratorsTest"
+  ],
+  "suitable_tests": [
+    "IteratorsTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "IteratorsTest",
+        "failingTestMethod": "sortCompareCalls"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

@@ -1,0 +1,28 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.util.SuggestHelper"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexSuggestionTest.emptySuggestWithNothingIndexed",
+    "org.apache.jackrabbit.oak.plugins.index.lucene.LucenePropertyIndexTest.emptySuggestDictionary"
+  ],
+  "suitable_tests": [
+    "emptySuggestWithNothingIndexed",
+    "emptySuggestDictionary"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "emptySuggestWithNothingIndexed",
+        "failingTestMethod": "emptySuggestWithNothingIndexed"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "emptySuggestDictionary",
+        "failingTestMethod": "emptySuggestDictionary"
+      }
+    }
+  ],
+  "sourcePackage": "oak-lucene"
+}

@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.camel.processor.MulticastProcessor"
+  ],
+  "test": [
+    "org.apache.camel.processor.aggregator.CustomListAggregationStrategySplitTest"
+  ],
+  "suitable_tests": [
+    "CustomListAggregationStrategySplitTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "CustomListAggregationStrategySplitTest",
+        "failingTestMethod": "testCustomAggregationStrategy"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

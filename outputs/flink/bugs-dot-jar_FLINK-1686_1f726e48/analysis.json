@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.flink.streaming.api.streamvertex.StreamIterationTail"
+  ],
+  "test": [
+    "org.apache.flink.streaming.api.IterateTest"
+  ],
+  "suitable_tests": [
+    "IterateTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "IterateTest",
+        "failingTestMethod": "test"
+      }
+    }
+  ],
+  "sourcePackage": "flink-staging/flink-streaming/flink-streaming-core"
+}

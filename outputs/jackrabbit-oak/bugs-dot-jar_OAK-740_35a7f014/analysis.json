@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.index.solr.index.SolrIndexUpdate"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.index.solr.query.SolrIndexQueryTest"
+  ],
+  "suitable_tests": [
+    "SolrIndexQueryTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "SolrIndexQueryTest",
+        "failingTestMethod": "sql2"
+      }
+    }
+  ],
+  "sourcePackage": "oak-solr-core"
+}

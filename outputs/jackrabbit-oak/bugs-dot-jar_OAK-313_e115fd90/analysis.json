@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.namepath.NamePathMapperImpl"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.namepath.NamePathMapperImplTest"
+  ],
+  "sourcePackage": "oak-core"
+}

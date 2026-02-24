@@ -1,0 +1,22 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.namepath.JcrNameParser",
+    "org.apache.jackrabbit.oak.namepath.JcrPathParser",
+    "org.apache.jackrabbit.oak.plugins.name.Namespaces"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.namepath.NamePathMapperImplTest"
+  ],
+  "suitable_tests": [
+    "NamePathMapperImplTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "NamePathMapperImplTest",
+        "failingTestMethod": "testWhitespace"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

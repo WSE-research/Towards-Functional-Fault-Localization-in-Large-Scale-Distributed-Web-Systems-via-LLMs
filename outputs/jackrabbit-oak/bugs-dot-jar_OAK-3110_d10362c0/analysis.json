@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.IndexCopier"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.IndexCopierTest"
+  ],
+  "sourcePackage": "oak-lucene"
+}

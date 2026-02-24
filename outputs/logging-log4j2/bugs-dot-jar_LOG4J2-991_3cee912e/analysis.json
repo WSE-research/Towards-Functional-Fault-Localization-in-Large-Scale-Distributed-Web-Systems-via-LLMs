@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.core.async.AsyncLoggerConfig"
+  ],
+  "test": [
+    "org.apache.logging.log4j.core.async.AsyncLoggerConfigTest"
+  ],
+  "sourcePackage": "log4j-core"
+}

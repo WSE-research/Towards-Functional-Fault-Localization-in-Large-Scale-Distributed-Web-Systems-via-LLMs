@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.commons.math3.fitting.leastsquares.LevenbergMarquardtOptimizer"
+  ],
+  "test": [
+    "org.apache.commons.math3.fitting.leastsquares.LevenbergMarquardtOptimizerTest"
+  ],
+  "sourcePackage": ""
+}

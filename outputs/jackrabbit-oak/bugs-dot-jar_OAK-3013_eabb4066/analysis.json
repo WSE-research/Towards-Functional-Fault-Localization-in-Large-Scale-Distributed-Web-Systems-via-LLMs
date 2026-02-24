@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.query.UnionQueryImpl"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.query.UnionQueryTest"
+  ],
+  "suitable_tests": [
+    "UnionQueryTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "UnionQueryTest",
+        "failingTestMethod": "testOrderLimitOffset"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.core.pattern.MessagePatternConverter"
+  ],
+  "test": [
+    "org.apache.logging.log4j.core.pattern.MessagePatternConverterTest"
+  ],
+  "sourcePackage": "core"
+}

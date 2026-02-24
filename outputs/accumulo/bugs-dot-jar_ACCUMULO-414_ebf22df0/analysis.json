@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "org.apache.accumulo.core.iterators.Filter",
+    "org.apache.accumulo.core.iterators.SortedKeyValueIterator"
+  ],
+  "test": [
+    "org.apache.accumulo.core.iterators.user.FilterTest"
+  ],
+  "sourcePackage": "src/core"
+}

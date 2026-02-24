@@ -1,0 +1,15 @@
+{
+  "patched": [
+    "org.apache.wicket.MarkupContainer",
+    "org.apache.wicket.markup.ComponentTag",
+    "org.apache.wicket.markup.parser.filter.EnclosureHandler",
+    "org.apache.wicket.markup.parser.filter.HtmlHeaderSectionHandler",
+    "org.apache.wicket.markup.parser.filter.InlineEnclosureHandler",
+    "org.apache.wicket.markup.parser.filter.RelativePathPrefixHandler",
+    "org.apache.wicket.markup.resolver.IComponentResolver"
+  ],
+  "test": [
+    "org.apache.wicket.queueing.transparentresolvers.DequeueingTransparentWebMarkupContainerTest"
+  ],
+  "sourcePackage": "wicket-core"
+}

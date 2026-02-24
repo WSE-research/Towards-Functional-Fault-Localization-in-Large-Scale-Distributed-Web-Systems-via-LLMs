@@ -1,0 +1,43 @@
+{
+  "patched": [
+    "org.apache.wicket.markup.html.link.Link"
+  ],
+  "test": [
+    "org.apache.wicket.markup.html.link.BookmarkableHomePageLinksTest",
+    "org.apache.wicket.markup.html.link.AutolinkTest",
+    "org.apache.wicket.markup.html.link.AutolinkTest",
+    "org.apache.wicket.stateless.StatelessComponentTest",
+    "org.apache.wicket.stateless.StatelessComponentTest"
+  ],
+  "suitable_tests": [
+    "StatelessComponentTest",
+    "StatelessComponentTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "StatelessComponentTest",
+        "failingTestMethod": "testStatelessComponentPageWithParams"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "StatelessComponentTest",
+        "failingTestMethod": "testStatelessComponentPageWithParamsWithMount"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "StatelessComponentTest",
+        "failingTestMethod": "testStatelessComponentPageWithParams"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "StatelessComponentTest",
+        "failingTestMethod": "testStatelessComponentPageWithParamsWithMount"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

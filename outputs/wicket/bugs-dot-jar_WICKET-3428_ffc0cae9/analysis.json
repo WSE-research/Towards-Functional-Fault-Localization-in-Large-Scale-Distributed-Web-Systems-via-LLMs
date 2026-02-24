@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.request.cycle.RequestCycle"
+  ],
+  "test": [
+    "org.apache.wicket.request.cycle.RequestCycleListenerTest"
+  ],
+  "sourcePackage": "wicket-core"
+}

@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.accumulo.shell.ShellOptionsJC"
+  ],
+  "test": [
+    "org.apache.accumulo.shell.ShellOptionsJCTest"
+  ],
+  "sourcePackage": "shell"
+}

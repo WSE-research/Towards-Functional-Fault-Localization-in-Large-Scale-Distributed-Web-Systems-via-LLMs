@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.commons.math3.distribution.DiscreteDistribution"
+  ],
+  "test": [
+    "org.apache.commons.math3.distribution.DiscreteRealDistributionTest"
+  ],
+  "suitable_tests": [
+    "DiscreteRealDistributionTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "DiscreteRealDistributionTest",
+        "failingTestMethod": "testIssue942"
+      }
+    }
+  ],
+  "sourcePackage": ""
+}

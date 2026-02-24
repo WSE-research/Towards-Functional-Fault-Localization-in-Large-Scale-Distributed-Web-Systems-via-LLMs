@@ -1,0 +1,59 @@
+{
+  "patched": [
+    "org.apache.wicket.DefaultExceptionMapper",
+    "org.apache.wicket.Page",
+    "org.apache.wicket.page.AbstractPageManager",
+    "org.apache.wicket.protocol.http.WicketFilter",
+    "org.apache.wicket.request.cycle.PageRequestHandlerTracker"
+  ],
+  "test": [
+    "org.apache.wicket.markup.html.border.ComponentBorderTest",
+    "org.apache.wicket.markup.html.basic.SimplePageTest",
+    "org.apache.wicket.ajax.markup.html.ajaxLink.AjaxLinkTest",
+    "org.apache.wicket.markup.html.panel.PanelTest"
+  ],
+  "suitable_tests": [
+    "ComponentBorderTest",
+    "AjaxLinkTest",
+    "PanelTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ComponentBorderTest",
+        "failingTestMethod": "hideableBorder"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AjaxLinkTest",
+        "failingTestMethod": "renderHomePage_1"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AjaxLinkTest",
+        "failingTestMethod": "renderHomePage_2"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AjaxLinkTest",
+        "failingTestMethod": "page_2"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "PanelTest",
+        "failingTestMethod": "inlinePanel_7"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "PanelTest",
+        "failingTestMethod": "inlinePanel_8"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

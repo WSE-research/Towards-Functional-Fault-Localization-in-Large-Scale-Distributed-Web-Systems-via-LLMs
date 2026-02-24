@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.jul.DefaultLevelConverter"
+  ],
+  "test": [
+    "org.apache.logging.log4j.jul.Log4jLevelTranslatorTest"
+  ],
+  "suitable_tests": [
+    "Log4jLevelTranslatorTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "Log4jLevelTranslatorTest",
+        "failingTestMethod": "testToJavaLevel"
+      }
+    }
+  ],
+  "sourcePackage": "log4j-jul"
+}

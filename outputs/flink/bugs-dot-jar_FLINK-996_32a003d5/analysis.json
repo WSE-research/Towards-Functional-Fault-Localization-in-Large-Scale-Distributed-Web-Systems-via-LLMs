@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "eu.stratosphere.compiler.PactCompiler"
+  ],
+  "test": [
+    "eu.stratosphere.pact.compiler.UnionReplacementTest"
+  ],
+  "suitable_tests": [
+    "UnionReplacementTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "UnionReplacementTest",
+        "failingTestMethod": "testUnionReplacement"
+      }
+    }
+  ],
+  "sourcePackage": "stratosphere-compiler"
+}

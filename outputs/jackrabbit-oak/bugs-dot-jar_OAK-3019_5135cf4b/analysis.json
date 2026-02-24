@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.version.VersionablePathHook"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.document.VisibleChangesTest"
+  ],
+  "suitable_tests": [
+    "VisibleChangesTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "VisibleChangesTest",
+        "failingTestMethod": "versionablePathHook"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

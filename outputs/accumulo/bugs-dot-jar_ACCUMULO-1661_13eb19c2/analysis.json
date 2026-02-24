@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.accumulo.core.client.mapreduce.lib.util.InputConfigurator"
+  ],
+  "test": [
+    "org.apache.accumulo.core.client.mapreduce.AccumuloInputFormatTest"
+  ],
+  "suitable_tests": [
+    "AccumuloInputFormatTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "AccumuloInputFormatTest",
+        "failingTestMethod": "testEmptyColumnFamily"
+      }
+    }
+  ],
+  "sourcePackage": "core"
+}

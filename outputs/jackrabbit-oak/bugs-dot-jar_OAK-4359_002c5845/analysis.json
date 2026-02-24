@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.LucenePropertyIndex"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.LucenePropertyIndexTest.fulltextQueryWithSpecialChars"
+  ],
+  "suitable_tests": [
+    "fulltextQueryWithSpecialChars"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "fulltextQueryWithSpecialChars",
+        "failingTestMethod": "fulltextQueryWithSpecialChars"
+      }
+    }
+  ],
+  "sourcePackage": "oak-lucene"
+}

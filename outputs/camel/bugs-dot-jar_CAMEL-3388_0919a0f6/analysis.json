@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.camel.builder.ExpressionBuilder"
+  ],
+  "test": [
+    "org.apache.camel.component.bean.BeanWithHeadersAndBodyInject3Test"
+  ],
+  "suitable_tests": [
+    "BeanWithHeadersAndBodyInject3Test"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "BeanWithHeadersAndBodyInject3Test",
+        "failingTestMethod": "testInOnly"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

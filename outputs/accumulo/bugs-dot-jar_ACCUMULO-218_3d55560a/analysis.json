@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.accumulo.core.client.mock.MockTable"
+  ],
+  "test": [
+    "org.apache.accumulo.core.client.mock.MockConnectorTest"
+  ],
+  "suitable_tests": [
+    "MockConnectorTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "MockConnectorTest",
+        "failingTestMethod": "testUpdate"
+      }
+    }
+  ],
+  "sourcePackage": "src/core"
+}

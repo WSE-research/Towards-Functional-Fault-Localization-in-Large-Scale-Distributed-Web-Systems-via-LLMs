@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.flink.runtime.instance.InstanceConnectionInfo"
+  ],
+  "test": [
+    "org.apache.flink.runtime.instance.InstanceConnectionInfoTest"
+  ],
+  "sourcePackage": "flink-runtime"
+}

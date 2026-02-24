@@ -1,0 +1,25 @@
+{
+  "patched": [
+    "org.apache.maven.model.profile.DefaultProfileSelector",
+    "org.apache.maven.model.profile.activation.FileProfileActivator",
+    "org.apache.maven.model.profile.activation.JdkVersionProfileActivator",
+    "org.apache.maven.model.profile.activation.OperatingSystemProfileActivator",
+    "org.apache.maven.model.profile.activation.ProfileActivator",
+    "org.apache.maven.model.profile.activation.PropertyProfileActivator"
+  ],
+  "test": [
+    "org.apache.maven.model.building.ComplexActivationTest"
+  ],
+  "suitable_tests": [
+    "ComplexActivationTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ComplexActivationTest",
+        "failingTestMethod": "testAndConditionInActivation"
+      }
+    }
+  ],
+  "sourcePackage": "maven-model-builder"
+}

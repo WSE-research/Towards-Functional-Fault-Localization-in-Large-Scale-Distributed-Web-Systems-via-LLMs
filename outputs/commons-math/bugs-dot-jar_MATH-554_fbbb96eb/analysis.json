@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.commons.math.geometry.Vector3D"
+  ],
+  "test": [
+    "org.apache.commons.math.geometry.Vector3DTest"
+  ],
+  "sourcePackage": ""
+}

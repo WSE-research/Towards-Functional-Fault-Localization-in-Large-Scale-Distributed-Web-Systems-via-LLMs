@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.util.visit.ClassVisitFilter"
+  ],
+  "test": [
+    "org.apache.wicket.util.visit.ClassVisitFilterTest"
+  ],
+  "sourcePackage": "wicket-util"
+}

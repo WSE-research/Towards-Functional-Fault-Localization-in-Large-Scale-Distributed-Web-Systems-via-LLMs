@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.core.request.mapper.CryptoMapper"
+  ],
+  "test": [
+    "org.apache.wicket.core.request.mapper.CryptoMapperTest"
+  ],
+  "sourcePackage": "wicket-core"
+}

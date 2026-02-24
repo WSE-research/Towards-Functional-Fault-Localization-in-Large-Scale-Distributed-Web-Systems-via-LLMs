@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.flink.streaming.api.state.PartitionedStreamOperatorState",
+    "org.apache.flink.streaming.api.state.StreamOperatorState"
+  ],
+  "test": [
+    "org.apache.flink.streaming.api.state.StatefulOperatorTest"
+  ],
+  "suitable_tests": [
+    "StatefulOperatorTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "StatefulOperatorTest",
+        "failingTestMethod": "simpleStateTest"
+      }
+    }
+  ],
+  "sourcePackage": "flink-staging/flink-streaming/flink-streaming-core"
+}

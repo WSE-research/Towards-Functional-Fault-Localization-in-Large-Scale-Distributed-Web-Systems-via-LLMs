@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "org.apache.flink.streaming.runtime.io.StreamInputProcessor",
+    "org.apache.flink.streaming.runtime.tasks.StreamIterationHead"
+  ],
+  "test": [
+    "org.apache.flink.streaming.api.streamtask.StreamIterationHeadTest"
+  ],
+  "sourcePackage": "flink-staging/flink-streaming/flink-streaming-core"
+}

@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.camel.converter.NIOConverter"
+  ],
+  "test": [
+    "org.apache.camel.converter.NIOConverterTest"
+  ],
+  "sourcePackage": "camel-core"
+}

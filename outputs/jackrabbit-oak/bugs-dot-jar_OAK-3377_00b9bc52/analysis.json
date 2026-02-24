@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.query.fulltext.FullTextParser"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.query.ast.FullTextTest"
+  ],
+  "suitable_tests": [
+    "FullTextTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "FullTextTest",
+        "failingTestMethod": "and"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

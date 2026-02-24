@@ -1,0 +1,11 @@
+{
+  "patched": [
+    "org.apache.accumulo.core.data.Key",
+    "org.apache.accumulo.core.data.Mutation"
+  ],
+  "test": [
+    "org.apache.accumulo.core.data.KeyTest",
+    "org.apache.accumulo.core.data.MutationTest"
+  ],
+  "sourcePackage": "src/core"
+}

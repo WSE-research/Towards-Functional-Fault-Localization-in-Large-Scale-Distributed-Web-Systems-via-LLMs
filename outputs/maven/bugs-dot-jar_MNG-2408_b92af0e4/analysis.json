@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.maven.artifact.repository.metadata.AbstractRepositoryMetadata"
+  ],
+  "test": [
+    "org.apache.maven.artifact.repository.metadata.AbstractRepositoryMetadataTest"
+  ],
+  "sourcePackage": "maven-artifact-manager"
+}

@@ -1,0 +1,13 @@
+{
+  "patched": [
+    "org.apache.wicket.markup.html.list.PageableListView"
+  ],
+  "test": [
+    {
+      "className": "org.apache.wicket.markup.html.list.TableTest",
+      "testName": "testEmptyTable",
+      "type": "Failure"
+    }
+  ],
+  "sourcePackage": "wicket"
+}

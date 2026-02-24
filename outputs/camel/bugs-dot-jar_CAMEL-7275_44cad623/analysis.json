@@ -1,0 +1,36 @@
+{
+  "patched": [
+    "org.apache.camel.Exchange",
+    "org.apache.camel.processor.MulticastProcessor",
+    "org.apache.camel.processor.TryProcessor"
+  ],
+  "test": [
+    "org.apache.camel.component.file.FileConsumerRelativeFileNameTest",
+    "org.apache.camel.processor.TryCatchRecipientListTest"
+  ],
+  "suitable_tests": [
+    "FileConsumerRelativeFileNameTest",
+    "TryCatchRecipientListTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "FileConsumerRelativeFileNameTest",
+        "failingTestMethod": "testValidFilenameOnExchange"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TryCatchRecipientListTest",
+        "failingTestMethod": "testDualTryCatchRecipientList"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TryCatchRecipientListTest",
+        "failingTestMethod": "testTryCatchRecipientList"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

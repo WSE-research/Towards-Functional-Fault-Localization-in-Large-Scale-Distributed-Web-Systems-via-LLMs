@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.wicket.ajax.AjaxEventBehavior",
+    "org.apache.wicket.ajax.form.AjaxFormSubmitBehavior"
+  ],
+  "test": [
+    "org.apache.wicket.markup.html.form.ajax.AjaxFormSubmitTest"
+  ],
+  "suitable_tests": [
+    "AjaxFormSubmitTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "AjaxFormSubmitTest",
+        "failingTestMethod": "testEventJavaScriptEscaped"
+      }
+    }
+  ],
+  "sourcePackage": "wicket"
+}

@@ -1,0 +1,99 @@
+{
+  "patched": [
+    "org.apache.wicket.request.target.coding.AbstractRequestTargetUrlCodingStrategy",
+    "org.apache.wicket.request.target.coding.IndexedHybridUrlCodingStrategy",
+    "org.apache.wicket.request.target.coding.IndexedParamUrlCodingStrategy",
+    "org.apache.wicket.request.target.coding.MixedParamUrlCodingStrategy",
+    "org.apache.wicket.request.target.coding.PackageRequestTargetUrlCodingStrategy"
+  ],
+  "test": [
+    "org.apache.wicket.request.target.coding.IndexParamWithStatelessIFrameTest",
+    "org.apache.wicket.markup.html.link.IndexedParamUrlCodingTest",
+    "org.apache.wicket.request.target.coding.StatelessStatefullUrlCodingStrategyTest",
+    "org.apache.wicket.request.target.coding.MixedParamUrlCodingStrategyTest",
+    "org.apache.wicket.util.parse.metapattern.parsers.IndexedParamTest",
+    "org.apache.wicket.stateless.StatelessComponentTest"
+  ],
+  "suitable_tests": [
+    "IndexParamWithStatelessIFrameTest",
+    "IndexedParamUrlCodingTest",
+    "StatelessStatefullUrlCodingStrategyTest",
+    "IndexedParamTest",
+    "StatelessComponentTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "IndexParamWithStatelessIFrameTest",
+        "failingTestMethod": "testIndexedUrlMountedPageWithComponentThatUsesUrlForResourceListener"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "IndexedParamUrlCodingTest",
+        "failingTestMethod": "testIndexedLink"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "StatelessStatefullUrlCodingStrategyTest",
+        "failingTestMethod": "testStatelessDefaultUrlCodingStrategy"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "StatelessStatefullUrlCodingStrategyTest",
+        "failingTestMethod": "testStatefullDefaultUrlCodingStrategy"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "StatelessStatefullUrlCodingStrategyTest",
+        "failingTestMethod": "testStatelessIndexedUrlCodingStrategy"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "StatelessStatefullUrlCodingStrategyTest",
+        "failingTestMethod": "testStatefullIndexedUrlCodingStrategy"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "StatelessStatefullUrlCodingStrategyTest",
+        "failingTestMethod": "testStatelessHybridUrlCodingStrategy"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "StatelessStatefullUrlCodingStrategyTest",
+        "failingTestMethod": "testStatefullHybridUrlCodingStrategy"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "IndexedParamTest",
+        "failingTestMethod": "testPage"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "StatelessComponentTest",
+        "failingTestMethod": "testStatelessComponentPageWithMount"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "StatelessComponentTest",
+        "failingTestMethod": "testStatelessComponentPageWithParamsWithMount"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "StatelessComponentTest",
+        "failingTestMethod": "testStatelessComponentPageWithParamsWithIndexMount"
+      }
+    }
+  ],
+  "sourcePackage": "wicket"
+}

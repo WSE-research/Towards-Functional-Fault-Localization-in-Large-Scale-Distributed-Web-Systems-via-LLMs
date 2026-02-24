@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.segment.SegmentNodeState"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.segment.CompareAgainstBaseStateTest"
+  ],
+  "suitable_tests": [
+    "CompareAgainstBaseStateTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "CompareAgainstBaseStateTest",
+        "failingTestMethod": "testChildNodeDeletedAndMultipleAdded"
+      }
+    }
+  ],
+  "sourcePackage": "oak-segment"
+}

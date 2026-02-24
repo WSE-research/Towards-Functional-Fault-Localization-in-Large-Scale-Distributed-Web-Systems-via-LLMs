@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.accumulo.core.client.mock.MockBatchScanner",
+    "org.apache.accumulo.core.client.mock.MockScanner"
+  ],
+  "test": [
+    "org.apache.accumulo.core.client.mock.TestBatchScanner821"
+  ],
+  "suitable_tests": [
+    "TestBatchScanner821"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "TestBatchScanner821",
+        "failingTestMethod": "test"
+      }
+    }
+  ],
+  "sourcePackage": "core"
+}

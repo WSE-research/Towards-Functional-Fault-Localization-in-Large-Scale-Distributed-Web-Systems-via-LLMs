@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.flink.runtime.io.network.netty.PartitionRequestClientHandler"
+  ],
+  "test": [
+    "org.apache.flink.runtime.io.network.netty.PartitionRequestClientHandlerTest"
+  ],
+  "sourcePackage": "flink-runtime"
+}

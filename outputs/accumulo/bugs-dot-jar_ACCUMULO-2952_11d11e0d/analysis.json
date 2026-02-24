@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.accumulo.server.master.balancer.DefaultLoadBalancer"
+  ],
+  "test": [
+    "org.apache.accumulo.server.master.balancer.DefaultLoadBalancerTest"
+  ],
+  "sourcePackage": "server/base"
+}

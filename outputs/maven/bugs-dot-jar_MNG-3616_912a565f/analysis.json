@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.maven.settings.validation.DefaultSettingsValidator"
+  ],
+  "test": [
+    "org.apache.maven.settings.validation.DefaultSettingsValidatorTest"
+  ],
+  "sourcePackage": "maven-core"
+}

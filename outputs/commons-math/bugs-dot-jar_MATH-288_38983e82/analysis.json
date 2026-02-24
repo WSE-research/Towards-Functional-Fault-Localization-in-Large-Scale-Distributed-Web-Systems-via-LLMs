@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.commons.math.optimization.linear.SimplexSolver"
+  ],
+  "test": [
+    "org.apache.commons.math.optimization.linear.SimplexSolverTest"
+  ],
+  "sourcePackage": ""
+}

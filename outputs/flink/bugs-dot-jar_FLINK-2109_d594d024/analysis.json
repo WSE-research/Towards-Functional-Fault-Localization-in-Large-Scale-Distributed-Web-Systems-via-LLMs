@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.flink.runtime.taskmanager.Task"
+  ],
+  "test": [
+    "org.apache.flink.runtime.taskmanager.TaskTest"
+  ],
+  "sourcePackage": "flink-runtime"
+}

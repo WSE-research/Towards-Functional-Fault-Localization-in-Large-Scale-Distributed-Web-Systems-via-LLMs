@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.camel.processor.aggregate.GroupedExchangeAggregationStrategy"
+  ],
+  "test": [
+    "org.apache.camel.processor.MulticastGroupedExchangeExceptionTest"
+  ],
+  "suitable_tests": [
+    "MulticastGroupedExchangeExceptionTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "MulticastGroupedExchangeExceptionTest",
+        "failingTestMethod": "testAFail"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

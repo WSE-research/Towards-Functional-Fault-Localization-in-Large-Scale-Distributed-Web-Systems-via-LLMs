@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.commons.math4.util.ResizableDoubleArray"
+  ],
+  "test": [
+    "org.apache.commons.math4.util.ResizableDoubleArrayTest"
+  ],
+  "sourcePackage": ""
+}

@@ -1,0 +1,72 @@
+{
+  "patched": [
+    "org.apache.accumulo.core.client.mapred.InputFormatBase"
+  ],
+  "test": [
+    "org.apache.accumulo.core.client.mapred.AccumuloRowInputFormatTest",
+    "org.apache.accumulo.core.client.mapred.AccumuloInputFormatTest",
+    "org.apache.accumulo.core.client.mapred.AccumuloMultiTableInputFormatTest",
+    "org.apache.accumulo.core.client.mapred.AccumuloOutputFormatTest",
+    "org.apache.accumulo.core.client.mapred.AccumuloFileOutputFormatTest",
+    "org.apache.accumulo.core.client.mapred.TokenFileTest"
+  ],
+  "suitable_tests": [
+    "AccumuloRowInputFormatTest",
+    "AccumuloInputFormatTest",
+    "AccumuloMultiTableInputFormatTest",
+    "AccumuloOutputFormatTest",
+    "AccumuloFileOutputFormatTest",
+    "TokenFileTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "AccumuloRowInputFormatTest",
+        "failingTestMethod": "test"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AccumuloInputFormatTest",
+        "failingTestMethod": "testMap"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AccumuloMultiTableInputFormatTest",
+        "failingTestMethod": "testMap"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AccumuloOutputFormatTest",
+        "failingTestMethod": "testMR"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AccumuloFileOutputFormatTest",
+        "failingTestMethod": "testEmptyWrite"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AccumuloFileOutputFormatTest",
+        "failingTestMethod": "testRealWrite"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AccumuloFileOutputFormatTest",
+        "failingTestMethod": "writeBadVisibility"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TokenFileTest",
+        "failingTestMethod": "testMR"
+      }
+    }
+  ],
+  "sourcePackage": "core"
+}

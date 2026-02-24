@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImpl"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.security.authorization.permission.PermissionEntryProviderImplTest"
+  ],
+  "sourcePackage": "oak-core"
+}

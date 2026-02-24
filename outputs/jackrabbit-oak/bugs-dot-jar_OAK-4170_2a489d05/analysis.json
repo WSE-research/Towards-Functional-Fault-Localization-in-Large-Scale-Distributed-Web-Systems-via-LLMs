@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.query.ast.FullTextSearchImpl"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.query.FilterTest"
+  ],
+  "suitable_tests": [
+    "FilterTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "FilterTest",
+        "failingTestMethod": "oak4170"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

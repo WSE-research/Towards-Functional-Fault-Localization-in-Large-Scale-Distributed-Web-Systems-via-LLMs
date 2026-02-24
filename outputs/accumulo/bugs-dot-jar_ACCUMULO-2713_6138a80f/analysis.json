@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.accumulo.core.security.crypto.CryptoModuleFactory"
+  ],
+  "test": [
+    "org.apache.accumulo.core.file.rfile.RFileTest"
+  ],
+  "suitable_tests": [
+    "RFileTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "RFileTest",
+        "failingTestMethod": "testCryptoDoesntLeakInstanceSecret"
+      }
+    }
+  ],
+  "sourcePackage": "core"
+}

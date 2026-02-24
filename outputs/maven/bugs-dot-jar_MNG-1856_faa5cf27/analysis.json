@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.maven.project.inheritance.DefaultModelInheritanceAssembler"
+  ],
+  "test": [
+    "org.apache.maven.project.inheritance.DefaultModelInheritanceAssemblerTest"
+  ],
+  "sourcePackage": "maven-project"
+}

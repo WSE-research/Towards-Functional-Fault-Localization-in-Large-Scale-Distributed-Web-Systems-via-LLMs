@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.mongomk.MemoryDocumentStore"
+  ],
+  "test": [
+    "org.apache.jackrabbit.mongomk.MongoDocumentStoreTest"
+  ],
+  "suitable_tests": [
+    "MongoDocumentStoreTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "MongoDocumentStoreTest",
+        "failingTestMethod": "containsMapEntry"
+      }
+    }
+  ],
+  "sourcePackage": "oak-mongomk"
+}

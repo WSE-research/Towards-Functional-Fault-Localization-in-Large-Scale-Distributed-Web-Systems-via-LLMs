@@ -1,0 +1,12 @@
+{
+  "patched": [
+    "org.apache.wicket.util.io.BOMInputStream",
+    "org.apache.wicket.util.io.ByteOrderMark",
+    "org.apache.wicket.util.io.ProxyInputStream",
+    "org.apache.wicket.util.io.XmlReader"
+  ],
+  "test": [
+    "org.apache.wicket.util.io.XmlReaderTest"
+  ],
+  "sourcePackage": "wicket-util"
+}

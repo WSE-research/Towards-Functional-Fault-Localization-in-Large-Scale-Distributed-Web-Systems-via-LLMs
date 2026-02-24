@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.camel.management.mbean.ManagedRoute"
+  ],
+  "test": [
+    "org.apache.camel.management.ManagedInflightStatisticsTest"
+  ],
+  "suitable_tests": [
+    "ManagedInflightStatisticsTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ManagedInflightStatisticsTest",
+        "failingTestMethod": "testManageStatisticsFailed"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "org.apache.camel.impl.ConsumerCache",
+    "org.apache.camel.impl.ProducerCache"
+  ],
+  "test": [
+    "org.apache.camel.impl.DefaultProducerCacheTest"
+  ],
+  "sourcePackage": "camel-core"
+}

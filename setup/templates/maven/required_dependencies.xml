@@ -1,0 +1,12 @@
+<dependencies>
+    <dependency>
+        <groupId>org.aspectj</groupId>
+        <artifactId>aspectjrt</artifactId>
+        <version>1.6.10</version>
+    </dependency>
+    <dependency>
+        <groupId>org.wse-research</groupId>
+        <artifactId>methodaspect</artifactId>
+        <version>0.1.0</version>
+    </dependency>
+</dependencies>

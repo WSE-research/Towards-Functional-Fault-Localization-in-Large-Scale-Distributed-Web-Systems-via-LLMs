@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.jul.DefaultLevelConverter"
+  ],
+  "test": [
+    "org.apache.logging.log4j.jul.DefaultLevelConverterCustomJulLevelsTest"
+  ],
+  "sourcePackage": "log4j-jul"
+}

@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.core.config.plugins.util.ResolverUtil"
+  ],
+  "test": [
+    "org.apache.logging.log4j.core.config.plugins.util.ResolverUtilTest"
+  ],
+  "sourcePackage": "log4j-core"
+}

@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.camel.impl.DefaultCamelContext"
+  ],
+  "test": [
+    "org.apache.camel.impl.EndpointShutdownOnceTest"
+  ],
+  "suitable_tests": [
+    "EndpointShutdownOnceTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "EndpointShutdownOnceTest",
+        "failingTestMethod": "testEndpointShutdown"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

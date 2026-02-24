@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.camel.component.properties.DefaultPropertiesParser"
+  ],
+  "test": [
+    "org.apache.camel.component.properties.PropertiesComponentConcatenatePropertiesTest"
+  ],
+  "suitable_tests": [
+    "PropertiesComponentConcatenatePropertiesTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "PropertiesComponentConcatenatePropertiesTest",
+        "failingTestMethod": "testConcatPropertiesComponentDefault"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

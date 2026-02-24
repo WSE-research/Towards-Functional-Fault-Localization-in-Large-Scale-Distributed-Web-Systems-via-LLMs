@@ -1,0 +1,22 @@
+{
+  "patched": [
+    "org.apache.camel.component.bean.AbstractCamelInvocationHandler",
+    "org.apache.camel.component.bean.CamelInvocationHandler",
+    "org.apache.camel.component.bean.PojoMessageInvocationHandler"
+  ],
+  "test": [
+    "org.apache.camel.builder.ProxyBuilderSkipJavaLangObjectMethodsTest"
+  ],
+  "suitable_tests": [
+    "ProxyBuilderSkipJavaLangObjectMethodsTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ProxyBuilderSkipJavaLangObjectMethodsTest",
+        "failingTestMethod": "testSayFoo"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

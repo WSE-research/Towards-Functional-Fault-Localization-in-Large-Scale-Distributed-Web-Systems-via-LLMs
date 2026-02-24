@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.camel.language.simple.ast.SimpleFunctionExpression"
+  ],
+  "test": [
+    "org.apache.camel.language.simple.SimpleTest"
+  ],
+  "suitable_tests": [
+    "SimpleTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "SimpleTest",
+        "failingTestMethod": "testSimpleFileDir"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

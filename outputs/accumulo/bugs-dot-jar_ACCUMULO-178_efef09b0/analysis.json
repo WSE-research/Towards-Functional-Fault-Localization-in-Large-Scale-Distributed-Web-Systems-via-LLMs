@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.accumulo.core.iterators.FamilyIntersectingIterator"
+  ],
+  "test": [
+    "org.apache.accumulo.core.iterators.FamilyIntersectingIteratorTest"
+  ],
+  "sourcePackage": "src/core"
+}

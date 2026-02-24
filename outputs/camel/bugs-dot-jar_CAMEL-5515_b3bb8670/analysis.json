@@ -1,0 +1,86 @@
+{
+  "patched": [
+    "org.apache.camel.model.ProcessorDefinition"
+  ],
+  "test": [
+    "org.apache.camel.impl.DefaultProducerTemplateAsyncTest",
+    "org.apache.camel.management.ManagedThreadPoolTest",
+    "org.apache.camel.management.ManagedThreadPoolWithIdTest",
+    "org.apache.camel.processor.ThreadsCoreAndMaxPoolKeepAliveTimeTest",
+    "org.apache.camel.processor.ThreadsCoreAndMaxPoolTest",
+    "org.apache.camel.processor.ThreadsCorePoolTest",
+    "org.apache.camel.processor.ThreadsMaxQueueSizeTest",
+    "org.apache.camel.processor.ThreadsRejectedPolicyTest",
+    "org.apache.camel.processor.ThreadsRequestReplyTest",
+    "org.apache.camel.builder.RouteBuilderTest"
+  ],
+  "suitable_tests": [
+    "DefaultProducerTemplateAsyncTest",
+    "ManagedThreadPoolTest",
+    "ManagedThreadPoolWithIdTest",
+    "ThreadsCoreAndMaxPoolKeepAliveTimeTest",
+    "ThreadsCoreAndMaxPoolTest",
+    "ThreadsCorePoolTest",
+    "ThreadsMaxQueueSizeTest",
+    "ThreadsRejectedPolicyTest",
+    "ThreadsRequestReplyTest",
+    "RouteBuilderTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "DefaultProducerTemplateAsyncTest",
+        "failingTestMethod": "testAsyncCallbackThreadsInOutProcessor"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ManagedThreadPoolTest",
+        "failingTestMethod": "testManagedThreadPool"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ManagedThreadPoolWithIdTest",
+        "failingTestMethod": "testManagedThreadPool"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ThreadsCoreAndMaxPoolKeepAliveTimeTest",
+        "failingTestMethod": "testThreadsCoreAndMaxPoolKeepAliveTime"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ThreadsCorePoolTest",
+        "failingTestMethod": "testThreadsCorePool"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ThreadsMaxQueueSizeTest",
+        "failingTestMethod": "testThreadsMaxQueueSize"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ThreadsRejectedPolicyTest",
+        "failingTestMethod": "testThreadsRejectedPolicy"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ThreadsRequestReplyTest",
+        "failingTestMethod": "testThreadsInOut"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "RouteBuilderTest",
+        "failingTestMethod": "testThreads"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

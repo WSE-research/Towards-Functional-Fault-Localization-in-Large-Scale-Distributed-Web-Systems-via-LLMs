@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "org.apache.camel.processor.MulticastProcessor",
+    "org.apache.camel.processor.RecipientList"
+  ],
+  "test": [
+    "org.apache.camel.processor.RecipientListParallelAggregateThreadPoolIssueTest"
+  ],
+  "sourcePackage": "camel-core"
+}

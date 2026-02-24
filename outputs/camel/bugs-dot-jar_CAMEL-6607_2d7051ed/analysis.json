@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.camel.support.TokenXMLExpressionIterator"
+  ],
+  "test": [
+    "org.apache.camel.language.TokenizerTest"
+  ],
+  "suitable_tests": [
+    "TokenizerTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "TokenizerTest",
+        "failingTestMethod": "testTokenizeXMLPairWithSimilarChildNames"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

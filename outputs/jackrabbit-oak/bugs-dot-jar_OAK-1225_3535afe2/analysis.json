@@ -1,0 +1,38 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.jcr.session.SessionImpl"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.jcr.RepositoryTest"
+  ],
+  "suitable_tests": [
+    "RepositoryTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "RepositoryTest",
+        "failingTestMethod": "getNodeSNS[0]"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "RepositoryTest",
+        "failingTestMethod": "getNodeSNS[3]"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "RepositoryTest",
+        "failingTestMethod": "getNodeSNS[2]"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "RepositoryTest",
+        "failingTestMethod": "getNodeSNS[1]"
+      }
+    }
+  ],
+  "sourcePackage": "oak-jcr"
+}

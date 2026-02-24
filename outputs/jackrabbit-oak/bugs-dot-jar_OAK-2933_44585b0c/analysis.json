@@ -1,0 +1,26 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.security.authorization.permission.MoveAwarePermissionValidator"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.security.authorization.evaluation.MoveWithoutEntryCacheTest"
+  ],
+  "suitable_tests": [
+    "MoveWithoutEntryCacheTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "MoveWithoutEntryCacheTest",
+        "failingTestMethod": "testMoveAndAddProperty2"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "MoveWithoutEntryCacheTest",
+        "failingTestMethod": "testMoveAndRemoveProperty2"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

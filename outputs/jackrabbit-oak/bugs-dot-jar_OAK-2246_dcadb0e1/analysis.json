@@ -1,0 +1,44 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.jcr.xml.ImporterImpl"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.jcr.xml.ImportTest"
+  ],
+  "suitable_tests": [
+    "ImportTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ImportTest",
+        "failingTestMethod": "testTransientReplaceUUID"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ImportTest",
+        "failingTestMethod": "testTransientReplaceUUIDSameTree"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ImportTest",
+        "failingTestMethod": "testTransientRemoveUUID"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ImportTest",
+        "failingTestMethod": "testTransientRemoveUUIDSameTree"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ImportTest",
+        "failingTestMethod": "testTransientThrow"
+      }
+    }
+  ],
+  "sourcePackage": "oak-jcr"
+}

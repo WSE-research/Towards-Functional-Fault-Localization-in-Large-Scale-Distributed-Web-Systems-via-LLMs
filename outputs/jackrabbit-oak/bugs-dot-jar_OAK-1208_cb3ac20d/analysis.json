@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndex"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.jcr.query.QueryFulltextTest"
+  ],
+  "suitable_tests": [
+    "QueryFulltextTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "QueryFulltextTest",
+        "failingTestMethod": "testFulltext"
+      }
+    }
+  ],
+  "sourcePackage": "oak-lucene"
+}

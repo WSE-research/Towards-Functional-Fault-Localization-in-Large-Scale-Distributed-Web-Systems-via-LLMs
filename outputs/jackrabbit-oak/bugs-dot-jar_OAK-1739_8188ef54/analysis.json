@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.query.ast.ComparisonImpl"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.query.index.TraversingIndexQueryTest"
+  ],
+  "suitable_tests": [
+    "TraversingIndexQueryTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "TraversingIndexQueryTest",
+        "failingTestMethod": "testMultipleRelativeProperties"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

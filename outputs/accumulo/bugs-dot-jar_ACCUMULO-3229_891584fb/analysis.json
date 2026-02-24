@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.accumulo.core.util.shell.Shell"
+  ],
+  "test": [
+    "org.apache.accumulo.core.util.shell.ShellTest"
+  ],
+  "sourcePackage": "core"
+}

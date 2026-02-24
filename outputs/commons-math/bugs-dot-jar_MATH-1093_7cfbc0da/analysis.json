@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.commons.math3.geometry.spherical.oned.ArcsSet"
+  ],
+  "test": [
+    "org.apache.commons.math3.geometry.spherical.oned.ArcsSetTest"
+  ],
+  "sourcePackage": ""
+}

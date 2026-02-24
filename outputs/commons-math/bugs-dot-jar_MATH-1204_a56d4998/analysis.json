@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.commons.math4.analysis.solvers.UnivariateSolverUtils"
+  ],
+  "test": [
+    "org.apache.commons.math4.analysis.solvers.UnivariateSolverUtilsTest"
+  ],
+  "sourcePackage": ""
+}

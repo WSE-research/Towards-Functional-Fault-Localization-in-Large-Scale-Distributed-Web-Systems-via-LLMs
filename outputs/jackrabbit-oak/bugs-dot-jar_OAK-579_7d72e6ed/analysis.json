@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.query.Query",
+    "org.apache.jackrabbit.oak.query.QueryEngineImpl",
+    "org.apache.jackrabbit.oak.query.ast.ChildNodeJoinConditionImpl",
+    "org.apache.jackrabbit.oak.query.ast.DescendantNodeJoinConditionImpl",
+    "org.apache.jackrabbit.oak.query.ast.EquiJoinConditionImpl",
+    "org.apache.jackrabbit.oak.query.ast.JoinConditionImpl",
+    "org.apache.jackrabbit.oak.query.ast.JoinImpl",
+    "org.apache.jackrabbit.oak.query.ast.SameNodeJoinConditionImpl",
+    "org.apache.jackrabbit.oak.query.ast.SelectorImpl",
+    "org.apache.jackrabbit.oak.query.ast.SourceImpl",
+    "org.apache.jackrabbit.oak.query.index.FilterImpl"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.index.p2.Property2IndexQueryTest",
+    "org.apache.jackrabbit.oak.plugins.index.old.QueryTest"
+  ],
+  "sourcePackage": "oak-core"
+}

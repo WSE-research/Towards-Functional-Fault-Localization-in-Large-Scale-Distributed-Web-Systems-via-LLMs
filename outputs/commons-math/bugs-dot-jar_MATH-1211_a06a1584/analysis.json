@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.commons.math4.geometry.euclidean.threed.PolyhedronsSet"
+  ],
+  "test": [
+    "org.apache.commons.math4.geometry.euclidean.threed.PolyhedronsSetTest"
+  ],
+  "sourcePackage": ""
+}

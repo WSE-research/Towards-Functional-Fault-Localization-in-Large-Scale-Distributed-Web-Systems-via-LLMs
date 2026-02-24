@@ -1,0 +1,26 @@
+{
+  "patched": [
+    "org.apache.accumulo.proxy.ProxyServer"
+  ],
+  "test": [
+    "org.apache.accumulo.proxy.TestProxyReadWrite"
+  ],
+  "suitable_tests": [
+    "TestProxyReadWrite"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "TestProxyReadWrite",
+        "failingTestMethod": "readWriteBatchOneShotWithColumnFamilyOnly"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TestProxyReadWrite",
+        "failingTestMethod": "readWriteBatchOneShotWithFullColumn"
+      }
+    }
+  ],
+  "sourcePackage": "proxy"
+}

@@ -1,0 +1,26 @@
+{
+  "patched": [
+    "org.apache.camel.impl.MDCUnitOfWork"
+  ],
+  "test": [
+    "org.apache.camel.processor.MDCResetTest"
+  ],
+  "suitable_tests": [
+    "MDCResetTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "MDCResetTest",
+        "failingTestMethod": "testMDC"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "MDCResetTest",
+        "failingTestMethod": "testMDCTwoMessages"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

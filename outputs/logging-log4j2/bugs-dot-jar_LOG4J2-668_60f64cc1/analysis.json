@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.core.appender.AsyncAppender"
+  ],
+  "test": [
+    "org.apache.logging.log4j.core.async.AsyncLoggersWithAsyncAppenderTest"
+  ],
+  "sourcePackage": "log4j-core"
+}

@@ -1,0 +1,26 @@
+{
+  "patched": [
+    "wicket.ajax.AbstractAjaxTimerBehavior"
+  ],
+  "test": [
+    "wicket.ajax.AjaxTimerBehaviorTest"
+  ],
+  "suitable_tests": [
+    "AjaxTimerBehaviorTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "AjaxTimerBehaviorTest",
+        "failingTestMethod": "testAddToAjaxUpdate"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AjaxTimerBehaviorTest",
+        "failingTestMethod": "testAddToWebPage"
+      }
+    }
+  ],
+  "sourcePackage": "wicket"
+}

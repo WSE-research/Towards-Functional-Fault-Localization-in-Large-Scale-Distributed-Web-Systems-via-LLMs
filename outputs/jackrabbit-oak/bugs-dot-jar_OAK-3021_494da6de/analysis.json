@@ -1,0 +1,11 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.security.authorization.accesscontrol.AccessControlValidator",
+    "org.apache.jackrabbit.oak.security.user.UserValidator"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.security.authorization.accesscontrol.AccessControlValidatorTest",
+    "org.apache.jackrabbit.oak.security.user.UserValidatorTest"
+  ],
+  "sourcePackage": "oak-core"
+}

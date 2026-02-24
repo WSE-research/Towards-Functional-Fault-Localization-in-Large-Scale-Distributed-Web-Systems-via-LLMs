@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.segment.standby.client.SegmentLoaderHandler"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.segment.standby.FailoverTest"
+  ],
+  "suitable_tests": [
+    "FailoverTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "FailoverTest",
+        "failingTestMethod": "testFailover"
+      }
+    }
+  ],
+  "sourcePackage": "oak-tarmk-standby"
+}

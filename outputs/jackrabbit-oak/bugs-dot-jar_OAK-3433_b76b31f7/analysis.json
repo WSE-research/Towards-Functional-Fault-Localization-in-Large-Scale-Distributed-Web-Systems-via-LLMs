@@ -1,0 +1,22 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.document.DocumentNodeStore",
+    "org.apache.jackrabbit.oak.plugins.document.LastRevRecoveryAgent",
+    "org.apache.jackrabbit.oak.plugins.document.UnsavedModifications"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.document.JournalTest"
+  ],
+  "suitable_tests": [
+    "JournalTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "JournalTest",
+        "failingTestMethod": "journalEntryKey"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

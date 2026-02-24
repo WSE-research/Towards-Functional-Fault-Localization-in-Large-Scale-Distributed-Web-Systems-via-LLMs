@@ -1,0 +1,22 @@
+{
+  "patched": [
+    "org.apache.camel.component.seda.SedaComponent",
+    "org.apache.camel.component.seda.SedaEndpoint",
+    "org.apache.camel.component.seda.SedaProducer"
+  ],
+  "test": [
+    "org.apache.camel.issues.AdviceWithUrlIssueTest"
+  ],
+  "suitable_tests": [
+    "AdviceWithUrlIssueTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "AdviceWithUrlIssueTest",
+        "failingTestMethod": "testProducerWithDifferentUri"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

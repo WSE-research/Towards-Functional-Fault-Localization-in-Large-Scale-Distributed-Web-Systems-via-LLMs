@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.camel.processor.aggregate.AggregationStrategyBeanInfo"
+  ],
+  "test": [
+    "org.apache.camel.processor.aggregator.AggregationStrategyBeanAdapterAllowNullTest"
+  ],
+  "suitable_tests": [
+    "AggregationStrategyBeanAdapterAllowNullTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "AggregationStrategyBeanAdapterAllowNullTest",
+        "failingTestMethod": "testAggregate"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

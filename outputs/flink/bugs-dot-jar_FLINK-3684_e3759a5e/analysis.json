@@ -1,0 +1,27 @@
+{
+  "patched": [
+    "org.apache.flink.cep.operator.CEPPatternOperator",
+    "org.apache.flink.cep.operator.KeyedCEPPatternOperator"
+  ],
+  "test": [
+    "org.apache.flink.cep.operator.CEPOperatorTest"
+  ],
+  "suitable_tests": [
+    "CEPOperatorTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "CEPOperatorTest",
+        "failingTestMethod": "testCEPOperatorWatermarkForwarding"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "CEPOperatorTest",
+        "failingTestMethod": "testKeyedCEPOperatorWatermarkForwarding"
+      }
+    }
+  ],
+  "sourcePackage": "flink-libraries/flink-cep"
+}

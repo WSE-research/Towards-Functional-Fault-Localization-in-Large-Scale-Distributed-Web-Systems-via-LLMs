@@ -1,0 +1,19 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.core.TreeImpl",
+    "org.apache.jackrabbit.oak.kernel.KernelNodeStateBuilder"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.core.RootImplTest"
+  ],
+  "suitable_tests": [
+    "RootImplTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTestClass": "RootImplTest",
+      "failingTestMethod": "move2"
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

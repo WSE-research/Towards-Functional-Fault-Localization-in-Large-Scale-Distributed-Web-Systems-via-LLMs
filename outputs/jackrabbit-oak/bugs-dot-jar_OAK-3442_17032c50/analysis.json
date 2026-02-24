@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.LucenePropertyIndex"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexTest"
+  ],
+  "suitable_tests": [
+    "LuceneIndexTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "LuceneIndexTest",
+        "failingTestMethod": "indexNodeLockHandling"
+      }
+    }
+  ],
+  "sourcePackage": "oak-lucene"
+}

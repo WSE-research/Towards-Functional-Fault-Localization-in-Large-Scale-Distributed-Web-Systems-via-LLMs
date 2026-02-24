@@ -1,0 +1,28 @@
+{
+  "patched": [
+    "org.apache.camel.processor.ChoiceProcessor"
+  ],
+  "test": [
+    "org.apache.camel.component.vm.VmMultipleConsumersRemoteRouteTest",
+    "org.apache.camel.processor.CBRPredicateBeanThrowExceptionTest"
+  ],
+  "suitable_tests": [
+    "VmMultipleConsumersRemoteRouteTest",
+    "CBRPredicateBeanThrowExceptionTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "VmMultipleConsumersRemoteRouteTest",
+        "failingTestMethod": "testVmMultipleConsumersRemoteRoute"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "CBRPredicateBeanThrowExceptionTest",
+        "failingTestMethod": "testCBRKaboom"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

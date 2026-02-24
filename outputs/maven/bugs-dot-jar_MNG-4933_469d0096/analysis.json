@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.maven.project.path.DefaultPathTranslator"
+  ],
+  "test": [
+    "org.apache.maven.project.path.DefaultPathTranslatorTest"
+  ],
+  "sourcePackage": "maven-compat"
+}

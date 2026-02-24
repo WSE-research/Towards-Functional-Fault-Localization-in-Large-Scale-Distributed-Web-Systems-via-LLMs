@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.flink.streaming.runtime.tasks.StreamTask"
+  ],
+  "test": [
+    "org.apache.flink.streaming.runtime.tasks.StreamTaskTest"
+  ],
+  "sourcePackage": "flink-streaming-java"
+}

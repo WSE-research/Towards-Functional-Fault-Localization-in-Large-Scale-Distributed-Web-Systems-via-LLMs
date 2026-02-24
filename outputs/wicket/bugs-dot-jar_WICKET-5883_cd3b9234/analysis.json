@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "org.apache.wicket.feedback.IFeedbackMessageFilter",
+    "org.apache.wicket.markup.html.form.Form"
+  ],
+  "test": [
+    "org.apache.wicket.markup.html.form.FormValidationDisabledFormComponentTest"
+  ],
+  "sourcePackage": "wicket-core"
+}

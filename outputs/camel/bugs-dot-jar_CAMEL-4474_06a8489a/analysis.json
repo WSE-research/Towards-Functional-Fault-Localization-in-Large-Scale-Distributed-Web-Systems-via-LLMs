@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.camel.component.file.FileEndpoint"
+  ],
+  "test": [
+    "org.apache.camel.component.file.FileConsumerAutoCreateDirectoryTest"
+  ],
+  "suitable_tests": [
+    "FileConsumerAutoCreateDirectoryTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "FileConsumerAutoCreateDirectoryTest",
+        "failingTestMethod": "testAutoCreateDirectoryWithDot"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

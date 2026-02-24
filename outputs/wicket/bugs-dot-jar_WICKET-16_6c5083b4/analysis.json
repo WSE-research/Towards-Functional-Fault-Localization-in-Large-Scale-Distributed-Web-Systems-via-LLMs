@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "wicket.protocol.http.request.WebRequestCodingStrategy"
+  ],
+  "test": [
+    "wicket.protocol.http.request.WebRequestCodingStrategyTest"
+  ],
+  "sourcePackage": "wicket"
+}

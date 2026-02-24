@@ -1,0 +1,26 @@
+{
+  "patched": [
+    "wicket-core/src/main/java/org/apache/wicket/request/mapper/CryptoMapper.java"
+  ],
+  "test": [
+    "org.apache.wicket.request.mapper.CryptoMapperTest"
+  ],
+  "suitable_tests": [
+    "CryptoMapperTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "CryptoMapperTest",
+        "failingTestMethod": "testHomePageWithParameters"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "CryptoMapperTest",
+        "failingTestMethod": "testCSSResource"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

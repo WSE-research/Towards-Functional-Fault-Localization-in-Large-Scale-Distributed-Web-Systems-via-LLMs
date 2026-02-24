@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.document.SplitOperations"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.document.DocumentSplitTest"
+  ],
+  "suitable_tests": [
+    "DocumentSplitTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "DocumentSplitTest",
+        "failingTestMethod": "commitRootForChildrenFlag"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

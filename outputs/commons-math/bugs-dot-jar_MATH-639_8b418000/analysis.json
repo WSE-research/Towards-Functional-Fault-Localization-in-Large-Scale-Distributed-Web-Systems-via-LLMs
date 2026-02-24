@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.commons.math.geometry.euclidean.threed.Rotation"
+  ],
+  "test": [
+    "org.apache.commons.math.geometry.euclidean.threed.RotationTest"
+  ],
+  "sourcePackage": ""
+}

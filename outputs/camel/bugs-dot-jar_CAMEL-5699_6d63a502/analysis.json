@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.camel.component.log.LogFormatter"
+  ],
+  "test": [
+    "org.apache.camel.processor.ResequenceStreamRejectOldExchangesTest",
+    "org.apache.camel.component.log.LogFormatterTest"
+  ],
+  "suitable_tests": [
+    "ResequenceStreamRejectOldExchangesTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ResequenceStreamRejectOldExchangesTest",
+        "failingTestMethod": "testOutOfSequenceAfterCapacityReachedComplex"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

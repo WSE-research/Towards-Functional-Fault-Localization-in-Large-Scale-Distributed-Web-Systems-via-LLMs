@@ -1,0 +1,158 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.namepath.LocalNameMapper"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.security.authorization.AccessControlManagerImplTest",
+    "org.apache.jackrabbit.oak.namepath.NamePathMapperImplTest",
+    "org.apache.jackrabbit.oak.spi.security.authorization.restriction.RestrictionImplTest",
+    "org.apache.jackrabbit.oak.spi.security.authorization.restriction.RestrictionDefinitionImplTest"
+  ],
+  "suitable_tests": [
+    "AccessControlManagerImplTest",
+    "NamePathMapperImplTest",
+    "RestrictionImplTest",
+    "RestrictionDefinitionImplTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "AccessControlManagerImplTest",
+        "failingTestMethod": "testPrivilegeFromName"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AccessControlManagerImplTest",
+        "failingTestMethod": "testGetApplicablePolicies"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AccessControlManagerImplTest",
+        "failingTestMethod": "testGetApplicableRepoPolicies"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AccessControlManagerImplTest",
+        "failingTestMethod": "testGetApplicablePoliciesForAccessControlled"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AccessControlManagerImplTest",
+        "failingTestMethod": "testGetApplicablePoliciesForAcContentPaths"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AccessControlManagerImplTest",
+        "failingTestMethod": "testGetPolicies"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AccessControlManagerImplTest",
+        "failingTestMethod": "testGetPoliciesAfterSet"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AccessControlManagerImplTest",
+        "failingTestMethod": "testGetPoliciesAfterRemove"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AccessControlManagerImplTest",
+        "failingTestMethod": "testGetPolicyWithInvalidPrincipal"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AccessControlManagerImplTest",
+        "failingTestMethod": "testGetRepoPolicies"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AccessControlManagerImplTest",
+        "failingTestMethod": "testGetPoliciesAcContentPaths"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AccessControlManagerImplTest",
+        "failingTestMethod": "testGetEffectivePoliciesForAcContentPaths"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AccessControlManagerImplTest",
+        "failingTestMethod": "testSetPolicy"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AccessControlManagerImplTest",
+        "failingTestMethod": "testSetPolicyWritesAcContent"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AccessControlManagerImplTest",
+        "failingTestMethod": "testModifyExistingPolicy"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AccessControlManagerImplTest",
+        "failingTestMethod": "testSetPolicyAcContent"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AccessControlManagerImplTest",
+        "failingTestMethod": "testRemovePolicyAcContent"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "NamePathMapperImplTest",
+        "failingTestMethod": "testOakToJcr"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "NamePathMapperImplTest",
+        "failingTestMethod": "testEmptyName"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "RestrictionImplTest",
+        "failingTestMethod": "testEquals"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "RestrictionImplTest",
+        "failingTestMethod": "testGetJcrName"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "RestrictionDefinitionImplTest",
+        "failingTestMethod": "testEquals"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "RestrictionDefinitionImplTest",
+        "failingTestMethod": "testGetJcrName"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

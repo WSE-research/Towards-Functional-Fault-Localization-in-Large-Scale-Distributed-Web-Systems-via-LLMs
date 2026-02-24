@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.flink.api.java.typeutils.TypeExtractor"
+  ],
+  "test": [
+    "org.apache.flink.api.java.typeutils.TypeExtractorTest"
+  ],
+  "sourcePackage": "flink-core"
+}

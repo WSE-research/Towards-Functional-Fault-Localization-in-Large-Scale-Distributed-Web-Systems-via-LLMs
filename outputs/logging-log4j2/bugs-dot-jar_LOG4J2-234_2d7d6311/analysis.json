@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.core.filter.RegexFilter"
+  ],
+  "test": [
+    "org.apache.logging.log4j.core.filter.RegexFilterTest"
+  ],
+  "sourcePackage": "core"
+}

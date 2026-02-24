@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.LucenePropertyIndex"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.LucenePropertyIndexTest.indexDefinitionBelowRoot3"
+  ],
+  "suitable_tests": [
+    "indexDefinitionBelowRoot3"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "indexDefinitionBelowRoot3",
+        "failingTestMethod": "indexDefinitionBelowRoot3"
+      }
+    }
+  ],
+  "sourcePackage": "oak-lucene"
+}

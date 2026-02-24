@@ -1,0 +1,60 @@
+{
+  "patched": [
+    "org.apache.wicket.Component"
+  ],
+  "test": [
+    "org.apache.wicket.markup.html.internal.EnclosureTest",
+    "org.apache.wicket.ajax.AjaxRequestHandlerTest",
+    "org.apache.wicket.markup.html.link.MountedPageLinkTest"
+  ],
+  "suitable_tests": [
+    "EnclosureTest",
+    "AjaxRequestHandlerTest",
+    "MountedPageLinkTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "EnclosureTest",
+        "failingTestMethod": "testRender9a"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "EnclosureTest",
+        "failingTestMethod": "testRender9"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AjaxRequestHandlerTest",
+        "failingTestMethod": "headerContribution3"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "MountedPageLinkTest",
+        "failingTestMethod": "testLinkOnPageWithRecreationDisabled[0]"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "MountedPageLinkTest",
+        "failingTestMethod": "testLinkOnPageWithRecreationDisabled[1]"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "MountedPageLinkTest",
+        "failingTestMethod": "testExpiredPageWithRecreationDisabled[0]"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "MountedPageLinkTest",
+        "failingTestMethod": "testExpiredPageWithRecreationDisabled[1]"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

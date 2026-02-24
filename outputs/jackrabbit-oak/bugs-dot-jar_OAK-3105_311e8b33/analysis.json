@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.segment.SegmentWriter"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.segment.file.ExternalBlobReferenceTest"
+  ],
+  "suitable_tests": [
+    "ExternalBlobReferenceTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ExternalBlobReferenceTest",
+        "failingTestMethod": "testBlobIdLengthLongerThanUpperLimit"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

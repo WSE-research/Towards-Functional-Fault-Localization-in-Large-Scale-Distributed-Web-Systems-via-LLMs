@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.accumulo.core.client.mock.MockTableOperations"
+  ],
+  "test": [
+    "org.apache.accumulo.core.client.mock.MockTableOperationsTest"
+  ],
+  "sourcePackage": "core"
+}

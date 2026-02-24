@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.protocol.http.mock.MockHttpServletResponse"
+  ],
+  "test": [
+    "org.apache.wicket.protocol.http.mock.MockHttpServletResponseTest"
+  ],
+  "sourcePackage": "wicket-core"
+}

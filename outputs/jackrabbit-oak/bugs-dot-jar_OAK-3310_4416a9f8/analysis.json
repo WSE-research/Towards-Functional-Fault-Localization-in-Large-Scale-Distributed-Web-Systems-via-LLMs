@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.jcr.session.NodeImpl",
+    "org.apache.jackrabbit.oak.jcr.session.PropertyImpl"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.jcr.version.VersionableTest"
+  ],
+  "suitable_tests": [
+    "VersionableTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "VersionableTest",
+        "failingTestMethod": "testReadOnlyAfterCheckin"
+      }
+    }
+  ],
+  "sourcePackage": "oak-jcr"
+}

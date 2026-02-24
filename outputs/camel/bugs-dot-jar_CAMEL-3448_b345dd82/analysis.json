@@ -1,0 +1,22 @@
+{
+  "patched": [
+    "org.apache.camel.processor.ErrorHandlerSupport",
+    "org.apache.camel.processor.exceptionpolicy.DefaultExceptionPolicyStrategy",
+    "org.apache.camel.processor.exceptionpolicy.ExceptionPolicyKey"
+  ],
+  "test": [
+    "org.apache.camel.issues.TwoRouteScopedOnExceptionWithInterceptSendToEndpointIssueWithPredicateTest"
+  ],
+  "suitable_tests": [
+    "TwoRouteScopedOnExceptionWithInterceptSendToEndpointIssueWithPredicateTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "TwoRouteScopedOnExceptionWithInterceptSendToEndpointIssueWithPredicateTest",
+        "failingTestMethod": "testIssue"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

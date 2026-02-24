@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.commons.math.stat.descriptive.moment.Variance"
+  ],
+  "test": [
+    "org.apache.commons.math.stat.descriptive.moment.VarianceTest"
+  ],
+  "sourcePackage": ""
+}

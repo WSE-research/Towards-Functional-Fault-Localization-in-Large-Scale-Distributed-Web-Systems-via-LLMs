@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.document.NodeDocument",
+    "org.apache.jackrabbit.oak.plugins.document.util.Utils"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.document.NodeDocumentTest"
+  ],
+  "sourcePackage": "oak-core"
+}

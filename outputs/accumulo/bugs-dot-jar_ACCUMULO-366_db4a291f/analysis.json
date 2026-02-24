@@ -1,0 +1,28 @@
+{
+  "patched": [
+    "org.apache.accumulo.core.zookeeper.ZooCache",
+    "org.apache.accumulo.examples.wikisearch.ingest.ArticleExtractor",
+    "org.apache.accumulo.examples.wikisearch.ingest.WikipediaConfiguration",
+    "org.apache.accumulo.examples.wikisearch.ingest.WikipediaInputFormat",
+    "org.apache.accumulo.examples.wikisearch.ingest.WikipediaPartitionedIngester",
+    "org.apache.accumulo.examples.wikisearch.ingest.WikipediaPartitionedMapper",
+    "org.apache.accumulo.examples.wikisearch.ingest.WikipediaPartitioner",
+    "org.apache.accumulo.server.tabletserver.Tablet",
+    "org.apache.accumulo.server.tabletserver.TabletServer"
+  ],
+  "test": [
+    "org.apache.accumulo.examples.wikisearch.ingest.WikipediaInputSplitTest"
+  ],
+  "suitable_tests": [
+    "WikipediaInputSplitTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "WikipediaInputSplitTest",
+        "failingTestMethod": "testSerialization"
+      }
+    }
+  ],
+  "sourcePackage": "src/examples/wikisearch/ingest"
+}

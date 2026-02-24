@@ -1,0 +1,11 @@
+{
+  "patched": [
+    "org.apache.camel.processor.Splitter",
+    "org.apache.camel.util.GroupIterator",
+    "org.apache.camel.util.IOHelper"
+  ],
+  "test": [
+    "org.apache.camel.processor.SplitterWithScannerIoExceptionTest"
+  ],
+  "sourcePackage": "camel-core"
+}

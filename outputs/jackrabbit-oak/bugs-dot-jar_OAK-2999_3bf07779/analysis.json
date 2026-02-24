@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexEditor"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexQueryTest.testMultiValuedPropUpdate"
+  ],
+  "suitable_tests": [
+    "testMultiValuedPropUpdate"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "testMultiValuedPropUpdate",
+        "failingTestMethod": "testMultiValuedPropUpdate"
+      }
+    }
+  ],
+  "sourcePackage": "oak-lucene"
+}

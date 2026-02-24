@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.pageStore.PageWindowManager"
+  ],
+  "test": [
+    "org.apache.wicket.page.persistent.disk.PageWindowManagerTest"
+  ],
+  "sourcePackage": "wicket-core"
+}

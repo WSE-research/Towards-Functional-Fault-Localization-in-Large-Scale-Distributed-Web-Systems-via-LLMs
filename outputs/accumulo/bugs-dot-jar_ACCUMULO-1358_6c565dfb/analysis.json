@@ -1,0 +1,32 @@
+{
+  "patched": [
+    "org.apache.accumulo.core.util.shell.commands.SetIterCommand"
+  ],
+  "test": [
+    "org.apache.accumulo.core.util.shell.ShellTest"
+  ],
+  "suitable_tests": [
+    "ShellTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ShellTest",
+        "failingTestMethod": "setIterTest"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ShellTest",
+        "failingTestMethod": "duContextTest"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ShellTest",
+        "failingTestMethod": "scanDateStringFormatterTest"
+      }
+    }
+  ],
+  "sourcePackage": "core"
+}

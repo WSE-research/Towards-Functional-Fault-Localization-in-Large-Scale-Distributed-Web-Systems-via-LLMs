@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.request.http.handler.RedirectRequestHandler"
+  ],
+  "test": [
+    "org.apache.wicket.request.http.handler.RedirectRequestHandlerTest"
+  ],
+  "sourcePackage": "wicket-request"
+}

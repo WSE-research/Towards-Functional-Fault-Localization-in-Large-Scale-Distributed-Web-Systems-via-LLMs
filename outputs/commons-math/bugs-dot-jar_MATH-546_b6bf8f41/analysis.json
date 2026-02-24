@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer"
+  ],
+  "test": [
+    "org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest"
+  ],
+  "sourcePackage": ""
+}

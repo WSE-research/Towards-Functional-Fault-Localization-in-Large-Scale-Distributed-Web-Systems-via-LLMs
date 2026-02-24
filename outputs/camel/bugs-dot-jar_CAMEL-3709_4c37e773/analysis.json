@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.camel.model.FromDefinition"
+  ],
+  "test": [
+    "org.apache.camel.processor.intercept.InterceptFromEndpointNotUriTest"
+  ],
+  "suitable_tests": [
+    "InterceptFromEndpointNotUriTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "InterceptFromEndpointNotUriTest",
+        "failingTestMethod": "testInterceptLog"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

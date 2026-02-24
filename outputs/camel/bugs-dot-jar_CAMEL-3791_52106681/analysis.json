@@ -1,0 +1,26 @@
+{
+  "patched": [
+    "org.apache.camel.processor.RedeliveryErrorHandler"
+  ],
+  "test": [
+    "org.apache.camel.processor.onexception.OnExceptionUseOriginalMessageTest"
+  ],
+  "suitable_tests": [
+    "OnExceptionUseOriginalMessageTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "OnExceptionUseOriginalMessageTest",
+        "failingTestMethod": "testOnExceptionStreamReset"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "OnExceptionUseOriginalMessageTest",
+        "failingTestMethod": "testOnExceptionError"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

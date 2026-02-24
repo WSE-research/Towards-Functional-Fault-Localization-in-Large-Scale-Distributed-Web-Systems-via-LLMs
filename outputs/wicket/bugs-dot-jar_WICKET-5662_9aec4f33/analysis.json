@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.wicket.spring.SpringBeanLocator",
+    "org.apache.wicket.spring.injection.annot.AnnotProxyFieldValueFactory"
+  ],
+  "test": [
+    "org.apache.wicket.spring.injection.annot.SpringBeanTest"
+  ],
+  "suitable_tests": [
+    "SpringBeanTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "SpringBeanTest",
+        "failingTestMethod": "beanNotExists"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-spring"
+}

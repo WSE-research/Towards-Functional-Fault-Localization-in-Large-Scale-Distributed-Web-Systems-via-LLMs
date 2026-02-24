@@ -1,0 +1,114 @@
+{
+  "patched": [
+    "org.apache.wicket.util.convert.ConverterLocator",
+    "org.apache.wicket.util.lang.PropertyResolver"
+  ],
+  "test": [
+    "org.apache.wicket.markup.html.border.BoxBorderTest",
+    "org.apache.wicket.util.tester.apps_5.AjaxSubmitLinkClickTest",
+    "org.apache.wicket.ajax.AjaxTimerBehaviorTest",
+    "org.apache.wicket.markup.html.panel.PanelTest",
+    "org.apache.wicket.markup.parser.filter.HeaderSectionTest",
+    "org.apache.wicket.util.lang.PropertyResolverTest",
+    "org.apache.wicket.util.tester.MockPageWithLinkAndComponent",
+    "org.apache.wicket.util.tester.MockFormFileUploadPage",
+    "org.apache.wicket.markup.html.form.upload.FileUploadFieldTest"
+  ],
+  "suitable_tests": [
+    "BoxBorderTest",
+    "AjaxSubmitLinkClickTest",
+    "AjaxTimerBehaviorTest",
+    "PanelTest",
+    "HeaderSectionTest",
+    "MockPageWithLinkAndComponent",
+    "MockFormFileUploadPage",
+    "FileUploadFieldTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "BoxBorderTest",
+        "failingTestMethod": "test4"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "BoxBorderTest",
+        "failingTestMethod": "test10"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AjaxSubmitLinkClickTest",
+        "failingTestMethod": "testClickLinkInsideForm_ajaxSubmitLink"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AjaxSubmitLinkClickTest",
+        "failingTestMethod": "testClickLink_ajaxSubmitLink"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AjaxTimerBehaviorTest",
+        "failingTestMethod": "testAddToAjaxUpdate"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AjaxTimerBehaviorTest",
+        "failingTestMethod": "testAddToWebPage"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "PanelTest",
+        "failingTestMethod": "testRenderHomePage_1"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "PanelTest",
+        "failingTestMethod": "testRenderHomePage_2"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "HeaderSectionTest",
+        "failingTestMethod": "testRenderHomePage_13"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "MockPageWithLinkAndComponent",
+        "failingTestMethod": "testHeaderContribution1"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "MockPageWithLinkAndComponent",
+        "failingTestMethod": "testHeaderContribution2"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "MockPageWithLinkAndComponent",
+        "failingTestMethod": "testHeaderContribution3"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "MockFormFileUploadPage",
+        "failingTestMethod": "testAddFile"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "MockFormFileUploadPage",
+        "failingTestMethod": "testAddBinaryFile"
+      }
+    }
+  ],
+  "sourcePackage": "wicket"
+}

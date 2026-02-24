@@ -1,0 +1,22 @@
+{
+  "patched": [
+    "org.apache.commons.math.linear.EigenDecompositionImpl",
+    "org.apache.commons.math.linear.SingularValueDecompositionImpl",
+    "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer"
+  ],
+  "test": [
+    "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizerTest"
+  ],
+  "suitable_tests": [
+    "LevenbergMarquardtOptimizerTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "LevenbergMarquardtOptimizerTest",
+        "failingTestMethod": "testCircleFitting"
+      }
+    }
+  ],
+  "sourcePackage": ""
+}

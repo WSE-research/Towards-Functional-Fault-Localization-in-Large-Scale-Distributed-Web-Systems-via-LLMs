@@ -1,0 +1,58 @@
+{
+  "patched": [
+    "org.apache.wicket.ajax.AbstractAjaxTimerBehavior"
+  ],
+  "test": [
+    "org.apache.wicket.ajax.AjaxTimerBehaviorTest",
+    "org.apache.wicket.ajax.markup.html.componentMap.SimpleTestPanelTest"
+  ],
+  "suitable_tests": [
+    "AjaxTimerBehaviorTest",
+    "SimpleTestPanelTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "AjaxTimerBehaviorTest",
+        "failingTestMethod": "addedInAjaxSetsTimout"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AjaxTimerBehaviorTest",
+        "failingTestMethod": "ajaxUpdateDoesNotSetTimeout"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AjaxTimerBehaviorTest",
+        "failingTestMethod": "setDisabledClearsTimeout"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AjaxTimerBehaviorTest",
+        "failingTestMethod": "setVisibleSetsTimeout"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AjaxTimerBehaviorTest",
+        "failingTestMethod": "restartResultsInAddTimeout"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AjaxTimerBehaviorTest",
+        "failingTestMethod": "pageRenderSetsTimeout"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "SimpleTestPanelTest",
+        "failingTestMethod": "renderHomePage_2"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

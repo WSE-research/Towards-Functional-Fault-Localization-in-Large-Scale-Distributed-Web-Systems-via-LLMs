@@ -1,0 +1,27 @@
+{
+  "patched": [
+    "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer",
+    "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer"
+  ],
+  "test": [
+    "org.apache.commons.math.optimization.general.MinpackTest"
+  ],
+  "suitable_tests": [
+    "MinpackTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "MinpackTest",
+        "failingTestMethod": "testMinpackFreudensteinRoth"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "MinpackTest",
+        "failingTestMethod": "testMinpackJennrichSampson"
+      }
+    }
+  ],
+  "sourcePackage": ""
+}

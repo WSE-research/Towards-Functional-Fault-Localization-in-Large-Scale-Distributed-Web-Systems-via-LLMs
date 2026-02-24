@@ -1,0 +1,32 @@
+{
+  "patched": [
+    "org.apache.camel.processor.FinallyProcessor"
+  ],
+  "test": [
+    "org.apache.camel.processor.TrySetFaultFinallyTest"
+  ],
+  "suitable_tests": [
+    "TrySetFaultFinallyTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "TrySetFaultFinallyTest",
+        "failingTestMethod": "testSetFaultFinally"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TrySetFaultFinallyTest",
+        "failingTestMethod": "testSetFaultFinally"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TrySetFaultFinallyTest",
+        "failingTestMethod": "testSetFaultFinally"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

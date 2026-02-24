@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.document.MissingLastRevSeeker"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.document.LastRevRecoveryAgentTest"
+  ],
+  "suitable_tests": [
+    "LastRevRecoveryAgentTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "LastRevRecoveryAgentTest",
+        "failingTestMethod": "testRepeatedRecovery"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

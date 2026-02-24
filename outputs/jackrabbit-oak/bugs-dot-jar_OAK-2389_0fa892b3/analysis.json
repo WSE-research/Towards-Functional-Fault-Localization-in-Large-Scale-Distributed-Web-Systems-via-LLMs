@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.commons.json.JsopBuilder"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.commons.json.JsopTest.testSurrogates"
+  ],
+  "suitable_tests": [
+    "testSurrogates"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "testSurrogates",
+        "failingTestMethod": "testSurrogates"
+      }
+    }
+  ],
+  "sourcePackage": "oak-commons"
+}

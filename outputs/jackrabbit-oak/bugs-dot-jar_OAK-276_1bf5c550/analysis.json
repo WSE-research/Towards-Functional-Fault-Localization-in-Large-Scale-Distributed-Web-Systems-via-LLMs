@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.mk.persistence.H2Persistence",
+    "org.apache.jackrabbit.mk.persistence.InMemPersistence",
+    "org.apache.jackrabbit.mk.persistence.Persistence",
+    "org.apache.jackrabbit.mk.store.DefaultRevisionStore"
+  ],
+  "test": [
+    "org.apache.jackrabbit.mk.MicroKernelImplTest"
+  ],
+  "suitable_tests": [
+    "MicroKernelImplTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTestClass": "MicroKernelImplTest",
+      "failingTestMethod": "potentialClashOfCommitIds"
+    }
+  ],
+  "sourcePackage": "oak-mk"
+}

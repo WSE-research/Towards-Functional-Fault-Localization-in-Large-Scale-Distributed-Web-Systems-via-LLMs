@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "org.apache.wicket.extensions.wizard.Wizard",
+    "org.apache.wicket.extensions.wizard.WizardModel"
+  ],
+  "test": [
+    "org.apache.wicket.extensions.wizard.WizardModelTest"
+  ],
+  "sourcePackage": "wicket-extensions"
+}

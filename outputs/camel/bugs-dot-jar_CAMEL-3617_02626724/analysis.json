@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.camel.builder.xml.DefaultTransformErrorHandler",
+    "org.apache.camel.component.file.FileConsumer"
+  ],
+  "test": [
+    "org.apache.camel.component.file.FileAbsolutePathIssueTest"
+  ],
+  "suitable_tests": [
+    "FileAbsolutePathIssueTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "FileAbsolutePathIssueTest",
+        "failingTestMethod": "testMoveAbsolute"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

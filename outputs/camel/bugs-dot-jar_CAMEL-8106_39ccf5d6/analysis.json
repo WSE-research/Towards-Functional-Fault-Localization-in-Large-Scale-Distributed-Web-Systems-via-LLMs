@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.camel.support.XMLTokenExpressionIterator"
+  ],
+  "test": [
+    "org.apache.camel.support.XMLTokenExpressionIteratorInvalidXMLTest"
+  ],
+  "sourcePackage": "camel-core"
+}

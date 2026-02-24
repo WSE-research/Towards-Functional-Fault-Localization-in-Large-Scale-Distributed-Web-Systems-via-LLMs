@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.commons.math.optimization.linear.SimplexTableau"
+  ],
+  "test": [
+    "org.apache.commons.math.optimization.linear.SimplexSolverTest"
+  ],
+  "suitable_tests": [
+    "SimplexSolverTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "SimplexSolverTest",
+        "failingTestMethod": "testMath713NegativeVariable"
+      }
+    }
+  ],
+  "sourcePackage": ""
+}

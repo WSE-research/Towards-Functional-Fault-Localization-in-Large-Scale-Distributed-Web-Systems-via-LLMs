@@ -1,0 +1,30 @@
+On the basis of the test execution logs, find the failed method for the failing test class. 
+
+-----------
+Data:
+
+<FAILING TEST CLASS>{testClass}</FAILING TEST CLASS>
+
+<TEST LOG>
+
+{testLog}
+
+</TEST LOG>
+
+Return the results as JSON as follows:
+
+{
+  "failingTests": [
+    	"failingTest": {
+        "failingTestClass": "{testClass}",
+        "failingTestMethod": "YOUR FINDING"
+      }
+  ]
+}
+
+For each method instance create a new "failingTest" instance in that JSON.
+
+If you cannot determine a method return a empty json, i.e.:
+{
+  
+}

@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.accumulo.core.data.Key"
+  ],
+  "test": [
+    "org.apache.accumulo.core.data.KeyTest"
+  ],
+  "sourcePackage": "src/core"
+}

@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.commons.math4.random.EmpiricalDistribution"
+  ],
+  "test": [
+    "org.apache.commons.math4.random.EmpiricalDistributionTest"
+  ],
+  "sourcePackage": ""
+}

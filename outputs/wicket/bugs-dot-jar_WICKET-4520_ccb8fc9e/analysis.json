@@ -1,0 +1,32 @@
+{
+  "patched": [
+    "org.apache.wicket.markup.parser.filter.InlineEnclosureHandler"
+  ],
+  "test": [
+    "org.apache.wicket.markup.html.internal.InlineEnclosureTest"
+  ],
+  "suitable_tests": [
+    "InlineEnclosureTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "InlineEnclosureTest",
+        "failingTestMethod": "inlineEnclosurePage_1"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "InlineEnclosureTest",
+        "failingTestMethod": "inlineEnclosureWithWicketMessageVisible"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "InlineEnclosureTest",
+        "failingTestMethod": "inlineEnclosureWithWicketMessageInvisible"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

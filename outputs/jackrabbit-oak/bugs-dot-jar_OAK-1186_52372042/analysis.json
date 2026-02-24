@@ -1,0 +1,28 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.mongomk.MongoNodeStore",
+    "org.apache.jackrabbit.oak.plugins.mongomk.NodeDocument",
+    "org.apache.jackrabbit.oak.plugins.mongomk.ResetDiff"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.mongomk.MongoMKResetTest"
+  ],
+  "suitable_tests": [
+    "MongoMKResetTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "MongoMKResetTest",
+        "failingTestMethod": "resetConflictAddExistingNode"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "MongoMKResetTest",
+        "failingTestMethod": "resetConflictRemoveRemovedNode"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

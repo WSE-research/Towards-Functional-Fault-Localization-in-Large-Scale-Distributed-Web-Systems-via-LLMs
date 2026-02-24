@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.flink.api.java.typeutils.runtime.PojoSerializer"
+  ],
+  "test": [
+    "org.apache.flink.api.java.typeutils.runtime.PojoSerializerTest"
+  ],
+  "sourcePackage": "flink-java"
+}

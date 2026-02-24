@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.index.p2.Property2IndexLookup"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.index.p2.Property2IndexTest"
+  ],
+  "suitable_tests": [
+    "Property2IndexTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "Property2IndexTest",
+        "failingTestMethod": "testCustomConfigPropertyLookup"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

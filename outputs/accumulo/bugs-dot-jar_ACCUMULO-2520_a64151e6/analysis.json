@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.accumulo.gc.GarbageCollectionAlgorithm"
+  ],
+  "test": [
+    "org.apache.accumulo.gc.GarbageCollectionTest"
+  ],
+  "suitable_tests": [
+    "GarbageCollectionTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "GarbageCollectionTest",
+        "failingTestMethod": "testBadDeletes"
+      }
+    }
+  ],
+  "sourcePackage": "server/gc"
+}

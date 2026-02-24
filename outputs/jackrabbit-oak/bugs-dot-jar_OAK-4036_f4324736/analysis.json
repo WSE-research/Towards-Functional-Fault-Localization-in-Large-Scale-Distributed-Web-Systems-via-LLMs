@@ -1,0 +1,73 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderServiceTest",
+    "org.apache.jackrabbit.oak.jcr.query.QueryFulltextTest",
+    "org.apache.jackrabbit.oak.jcr.query.TextExtractionQueryTest",
+    "org.apache.jackrabbit.oak.jcr.query.MultiSessionQueryTest"
+  ],
+  "suitable_tests": [
+    "QueryFulltextTest",
+    "TextExtractionQueryTest",
+    "MultiSessionQueryTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "QueryFulltextTest",
+        "failingTestMethod": "testScore"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "QueryFulltextTest",
+        "failingTestMethod": "testSurrogateFulltext"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "QueryFulltextTest",
+        "failingTestMethod": "testFulltextRelativeProperty"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "QueryFulltextTest",
+        "failingTestMethod": "testScoreWithOr"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "QueryFulltextTest",
+        "failingTestMethod": "testFulltext"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TextExtractionQueryTest",
+        "failingTestMethod": "testFileContains"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TextExtractionQueryTest",
+        "failingTestMethod": "testNtFile"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TextExtractionQueryTest",
+        "failingTestMethod": "testScoreWithoutFulltext"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "MultiSessionQueryTest",
+        "failingTestMethod": "testConcurrent"
+      }
+    }
+  ],
+  "sourcePackage": "oak-lucene"
+}

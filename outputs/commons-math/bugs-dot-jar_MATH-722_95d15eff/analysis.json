@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.commons.math.complex.Complex"
+  ],
+  "test": [
+    "org.apache.commons.math.complex.ComplexTest"
+  ],
+  "sourcePackage": ""
+}

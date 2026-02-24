@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.wicket.request.mapper.AbstractBookmarkableMapper"
+  ],
+  "test": [
+    "org.apache.wicket.request.mapper.UrlInfoTest"
+  ],
+  "suitable_tests": [
+    "UrlInfoTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "UrlInfoTest",
+        "failingTestMethod": "wicket4038"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

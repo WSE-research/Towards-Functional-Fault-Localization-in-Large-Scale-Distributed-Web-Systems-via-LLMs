@@ -1,0 +1,26 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.core.config.JSONConfiguration"
+  ],
+  "test": [
+    "org.apache.logging.log4j.core.AppenderRefLevelJsonTest"
+  ],
+  "suitable_tests": [
+    "AppenderRefLevelJsonTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "AppenderRefLevelJsonTest",
+        "failingTestMethod": "logger1"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AppenderRefLevelJsonTest",
+        "failingTestMethod": "logger2"
+      }
+    }
+  ],
+  "sourcePackage": "log4j-core"
+}

@@ -1,0 +1,22 @@
+{
+  "patched": [
+    "org.apache.wicket.protocol.ws.api.AbstractWebSocketProcessor",
+    "org.apache.wicket.protocol.ws.api.WebSocketMessageBroadcastHandler",
+    "org.apache.wicket.protocol.ws.api.WebSocketRequestMapper"
+  ],
+  "test": [
+    "org.apache.wicket.protocol.ws.util.tester.WebSocketTesterRequestCycleListenerTest"
+  ],
+  "suitable_tests": [
+    "WebSocketTesterRequestCycleListenerTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "WebSocketTesterRequestCycleListenerTest",
+        "failingTestMethod": "verifyRequestCycleListeners"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-native-websocket/wicket-native-websocket-core"
+}

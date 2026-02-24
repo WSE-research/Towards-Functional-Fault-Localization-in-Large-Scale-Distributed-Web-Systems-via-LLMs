@@ -1,0 +1,26 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.document.SplitDocumentCleanUp"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.document.VersionGarbageCollectorTest"
+  ],
+  "suitable_tests": [
+    "VersionGarbageCollectorTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "VersionGarbageCollectorTest",
+        "failingTestMethod": "gcLongPathSplitDocs"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "VersionGarbageCollectorTest",
+        "failingTestMethod": "gcLongPathSplitDocs"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

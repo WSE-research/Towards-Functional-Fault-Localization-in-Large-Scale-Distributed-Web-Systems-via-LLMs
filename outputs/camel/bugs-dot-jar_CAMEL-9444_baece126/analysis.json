@@ -1,0 +1,37 @@
+{
+  "patched": [
+    "org.apache.camel.model.MulticastDefinition",
+    "org.apache.camel.model.ProcessorDefinition",
+    "org.apache.camel.model.RecipientListDefinition",
+    "org.apache.camel.model.SplitDefinition",
+    "org.apache.camel.processor.RecipientList",
+    "org.apache.camel.processor.Splitter",
+    "org.apache.camel.processor.aggregate.ShareUnitOfWorkAggregationStrategy"
+  ],
+  "test": [
+    "org.apache.camel.issues.RecipientListShareUnitOfWorkOnExceptionHandledFalseIssueTest",
+    "org.apache.camel.processor.SplitSubUnitOfWorkTest",
+    "org.apache.camel.processor.SplitSubUnitOfWorkWithMDCLoggingTest",
+    "org.apache.camel.processor.SplitTwoSubUnitOfWorkTest"
+  ],
+  "suitable_tests": [
+    "SplitSubUnitOfWorkTest",
+    "SplitSubUnitOfWorkWithMDCLoggingTest",
+    "SplitTwoSubUnitOfWorkTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "SplitSubUnitOfWorkTest",
+        "failingTestMethod": "testError"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "SplitTwoSubUnitOfWorkTest",
+        "failingTestMethod": "testError"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

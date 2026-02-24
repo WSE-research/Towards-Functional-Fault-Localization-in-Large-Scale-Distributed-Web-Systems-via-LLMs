@@ -1,0 +1,60 @@
+{
+  "patched": [
+    "org.apache.camel.component.properties.PropertiesComponent"
+  ],
+  "test": [
+    "org.apache.camel.component.vm.VmMultipleConsumersMultipleContextTest",
+    "org.apache.camel.management.ManagedThrottlerTest",
+    "org.apache.camel.component.properties.PropertiesComponentLoadPropertiesFromFileTest",
+    "org.apache.camel.component.properties.PropertiesComponentTest",
+    "org.apache.camel.component.vm.VmMultipleContextsStartStopTest",
+    "org.apache.camel.component.vm.VmQueueTest",
+    "org.apache.camel.component.vm.VmShouldNotUseSameThreadTest"
+  ],
+  "suitable_tests": [
+    "VmMultipleConsumersMultipleContextTest",
+    "ManagedThrottlerTest",
+    "VmMultipleContextsStartStopTest",
+    "VmQueueTest",
+    "VmShouldNotUseSameThreadTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "VmMultipleConsumersMultipleContextTest",
+        "failingTestMethod": "testVmMultipleConsumersDifferentEndpoints"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "VmMultipleConsumersMultipleContextTest",
+        "failingTestMethod": "testVmMultipleConsumersMultipleContext"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ManagedThrottlerTest",
+        "failingTestMethod": "testThrottleAsyncVisableViaJmx"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "VmMultipleContextsStartStopTest",
+        "failingTestMethod": "testStartStop"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "VmQueueTest",
+        "failingTestMethod": "testQueue"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "VmShouldNotUseSameThreadTest",
+        "failingTestMethod": "testNotUseSameThread"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

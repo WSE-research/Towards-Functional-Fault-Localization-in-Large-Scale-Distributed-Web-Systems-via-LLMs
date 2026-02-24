@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.mongomk.MongoNodeStore"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.mongomk.MongoNodeStoreTest"
+  ],
+  "sourcePackage": "oak-core"
+}

@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.wicket.Component"
+  ],
+  "test": [
+    "org.apache.wicket.model.InheritedModelTest"
+  ],
+  "suitable_tests": [
+    "InheritedModelTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "InheritedModelTest",
+        "failingTestMethod": "testResetInheritedModelFlag"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.security.authorization.accesscontrol.AccessControlManagerImpl"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.security.authorization.accesscontrol.AccessControlManagerImplTest"
+  ],
+  "sourcePackage": "oak-core"
+}

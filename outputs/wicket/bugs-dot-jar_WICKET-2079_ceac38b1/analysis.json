@@ -1,0 +1,75 @@
+{
+  "patched": [
+    "org.apache.wicket.Page"
+  ],
+  "test": [
+    "org.apache.wicket.markup.html.border.ComponentBorderTest",
+    "org.apache.wicket.markup.html.form.RadioGroupTest",
+    "org.apache.wicket.markup.html.border.BoxBorderTest",
+    "org.apache.wicket.markup.parser.filter.HeaderSectionTest",
+    "org.apache.wicket.util.tester.WicketTesterTest",
+    "org.apache.wicket.markup.html.basic.SimplePageTest",
+    "org.apache.wicket.markup.resolver.WicketMessageResolverTest",
+    "org.apache.wicket.markup.html.form.CheckGroupTest"
+  ],
+  "suitable_tests": [
+    "ComponentBorderTest",
+    "RadioGroupTest",
+    "BoxBorderTest",
+    "HeaderSectionTest",
+    "WicketTesterTest",
+    "WicketMessageResolverTest",
+    "CheckGroupTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ComponentBorderTest",
+        "failingTestMethod": "testComponentUseCheck"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "RadioGroupTest",
+        "failingTestMethod": "testRendering"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "BoxBorderTest",
+        "failingTestMethod": "test4"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "BoxBorderTest",
+        "failingTestMethod": "test10"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "HeaderSectionTest",
+        "failingTestMethod": "testRenderHomePage_13"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "WicketTesterTest",
+        "failingTestMethod": "testClickResourceLink"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "WicketMessageResolverTest",
+        "failingTestMethod": "test_4"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "CheckGroupTest",
+        "failingTestMethod": "testRendering"
+      }
+    }
+  ],
+  "sourcePackage": "wicket"
+}

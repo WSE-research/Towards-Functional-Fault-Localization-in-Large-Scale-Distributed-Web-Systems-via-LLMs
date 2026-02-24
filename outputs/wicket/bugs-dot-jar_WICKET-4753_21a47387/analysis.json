@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.markup.head.ResourceAggregator"
+  ],
+  "test": [
+    "org.apache.wicket.resource.aggregator.ResourceAggregatorTest"
+  ],
+  "sourcePackage": "wicket-core"
+}

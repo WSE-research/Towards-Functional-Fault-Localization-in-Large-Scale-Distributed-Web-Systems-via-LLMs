@@ -1,0 +1,32 @@
+{
+  "patched": [
+    "org.apache.wicket.extensions.markup.html.form.palette.component.AbstractOptions"
+  ],
+  "test": [
+    "org.apache.wicket.extensions.markup.html.form.palette.PaletteTest"
+  ],
+  "suitable_tests": [
+    "PaletteTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "PaletteTest",
+        "failingTestMethod": "standard"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "PaletteTest",
+        "failingTestMethod": "choicesModelMissingSelected"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "PaletteTest",
+        "failingTestMethod": "choicesModelAccountingForSelected"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-extensions"
+}

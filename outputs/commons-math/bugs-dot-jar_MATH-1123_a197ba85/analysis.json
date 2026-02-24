@@ -1,0 +1,28 @@
+{
+  "patched": [
+    "org.apache.commons.math3.geometry.partitioning.BSPTree"
+  ],
+  "test": [
+    "org.apache.commons.math3.geometry.euclidean.twod.hull.MonotoneChainTest",
+    "org.apache.commons.math3.geometry.euclidean.twod.hull.AklToussaintHeuristicTest"
+  ],
+  "suitable_tests": [
+    "MonotoneChainTest",
+    "AklToussaintHeuristicTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "MonotoneChainTest",
+        "failingTestMethod": "testIssue1123"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AklToussaintHeuristicTest",
+        "failingTestMethod": "testIssue1123"
+      }
+    }
+  ],
+  "sourcePackage": ""
+}

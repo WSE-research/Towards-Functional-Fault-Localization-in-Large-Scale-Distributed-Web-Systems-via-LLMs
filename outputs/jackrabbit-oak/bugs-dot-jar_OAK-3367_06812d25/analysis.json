@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.IndexDefinition"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.IndexDefinitionTest.analyzedEnabledForBoostedField"
+  ],
+  "suitable_tests": [
+    "analyzedEnabledForBoostedField"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "analyzedEnabledForBoostedField",
+        "failingTestMethod": "analyzedEnabledForBoostedField"
+      }
+    }
+  ],
+  "sourcePackage": "oak-lucene"
+}

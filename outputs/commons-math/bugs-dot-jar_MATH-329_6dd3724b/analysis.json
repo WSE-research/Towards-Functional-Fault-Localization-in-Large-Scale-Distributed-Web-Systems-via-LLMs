@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.commons.math.stat.Frequency"
+  ],
+  "test": [
+    "org.apache.commons.math.stat.FrequencyTest"
+  ],
+  "sourcePackage": ""
+}

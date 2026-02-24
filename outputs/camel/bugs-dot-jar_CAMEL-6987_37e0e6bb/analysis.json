@@ -1,0 +1,22 @@
+{
+  "patched": [
+    "org.apache.camel.util.MessageHelper"
+  ],
+  "test": [
+    "org.apache.camel.management.ManagedBrowsableEndpointAsXmlFileTest",
+    "org.apache.camel.processor.aggregator.AggregateTimeoutTest"
+  ],
+  "suitable_tests": [
+    "ManagedBrowsableEndpointAsXmlFileTest",
+    "AggregateTimeoutTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ManagedBrowsableEndpointAsXmlFileTest",
+        "failingTestMethod": "testBrowseableEndpointAsXmlAllIncludeBody"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

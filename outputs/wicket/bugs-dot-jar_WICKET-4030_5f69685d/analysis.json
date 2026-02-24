@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "org.apache.wicket.markup.html.internal.HeaderResponse",
+    "org.apache.wicket.mock.MockWebRequest"
+  ],
+  "test": [
+    "org.apache.wicket.markup.html.internal.HeaderResponseTest"
+  ],
+  "sourcePackage": "wicket-core"
+}

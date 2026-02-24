@@ -1,0 +1,26 @@
+{
+  "patched": [
+    "org.apache.camel.model.ProcessorDefinition"
+  ],
+  "test": [
+    "org.apache.camel.component.properties.PropertiesComponentEIPChoiceConvertBodyToTest"
+  ],
+  "suitable_tests": [
+    "PropertiesComponentEIPChoiceConvertBodyToTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "PropertiesComponentEIPChoiceConvertBodyToTest",
+        "failingTestMethod": "testConvertToBytesCharset"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "PropertiesComponentEIPChoiceConvertBodyToTest",
+        "failingTestMethod": "testNullBody"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

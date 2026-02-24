@@ -1,0 +1,40 @@
+{
+  "patched": [
+    "org.apache.wicket.protocol.http.MockWebApplication"
+  ],
+  "test": [
+    "org.apache.wicket.protocol.http.WebResponseExceptionsTest",
+    "org.apache.wicket.ajax.form.OnChangeAjaxBehaviorTest"
+  ],
+  "suitable_tests": [
+    "WebResponseExceptionsTest",
+    "OnChangeAjaxBehaviorTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "WebResponseExceptionsTest",
+        "failingTestMethod": "testBufferedExceptionErrorPage"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "WebResponseExceptionsTest",
+        "failingTestMethod": "testExceptionErrorPage"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "WebResponseExceptionsTest",
+        "failingTestMethod": "testInternalErrorPage"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "OnChangeAjaxBehaviorTest",
+        "failingTestMethod": "testAjaxSubmitWhileAnotherButtonIsNotVisible"
+      }
+    }
+  ],
+  "sourcePackage": "wicket"
+}

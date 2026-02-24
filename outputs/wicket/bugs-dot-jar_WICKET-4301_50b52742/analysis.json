@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "org.apache.wicket.request.resource.ByteArrayResource",
+    "org.apache.wicket.request.resource.DynamicImageResource"
+  ],
+  "test": [
+    "org.apache.wicket.request.resource.ByteArrayResourceTest"
+  ],
+  "sourcePackage": "wicket-core"
+}

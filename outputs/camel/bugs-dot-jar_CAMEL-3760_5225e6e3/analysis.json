@@ -1,0 +1,46 @@
+{
+  "patched": [
+    "org.apache.camel.management.DefaultManagementNamingStrategy"
+  ],
+  "test": [
+    "org.apache.camel.management.ManagedThreadPoolProfileTest",
+    "org.apache.camel.management.DualManagedThreadPoolProfileTest",
+    "org.apache.camel.management.ManagedThreadPoolTest",
+    "org.apache.camel.management.ManagedThreadPoolWithIdTest",
+    "org.apache.camel.management.DualManagedThreadPoolWithIdTest"
+  ],
+  "suitable_tests": [
+    "ManagedThreadPoolProfileTest",
+    "DualManagedThreadPoolProfileTest",
+    "ManagedThreadPoolTest",
+    "ManagedThreadPoolWithIdTest",
+    "DualManagedThreadPoolWithIdTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ManagedThreadPoolProfileTest",
+        "failingTestMethod": "testManagedThreadPool"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "DualManagedThreadPoolProfileTest",
+        "failingTestMethod": "testManagedThreadPool"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ManagedThreadPoolWithIdTest",
+        "failingTestMethod": "testManagedThreadPool"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "DualManagedThreadPoolWithIdTest",
+        "failingTestMethod": "testManagedThreadPool"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

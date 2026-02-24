@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.camel.impl.DefaultEndpoint"
+  ],
+  "test": [
+    "org.apache.camel.impl.DefaultEndpointTest",
+    "org.apache.camel.management.ManagedThrottlerTest"
+  ],
+  "suitable_tests": [
+    "ManagedThrottlerTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ManagedThrottlerTest",
+        "failingTestMethod": "testThrottleAsyncVisableViaJmx"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

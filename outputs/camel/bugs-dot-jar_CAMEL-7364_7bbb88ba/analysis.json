@@ -1,0 +1,497 @@
+{
+  "patched": [
+    "org.apache.camel.model.rest.RestConfigurationDefinition",
+    "org.apache.camel.model.rest.RestPropertyDefinition"
+  ],
+  "test": [
+    "org.apache.camel.component.rest.FromRestConfigurationTest",
+    "org.apache.camel.impl.CamelContextAddRouteDefinitionsFromXmlTest",
+    "org.apache.camel.management.ManagedCamelContextDumpRoutesAsXmlTest",
+    "org.apache.camel.management.ManagedCamelContextUpdateRoutesFromXmlTest",
+    "org.apache.camel.management.ManagedCamelContextUpdateRoutesWithPropertyPlaceholdersFromXmlPTest",
+    "org.apache.camel.management.ManagedFromRestGetTest",
+    "org.apache.camel.management.ManagedRouteDumpRouteAsXmlTest",
+    "org.apache.camel.management.ManagedRouteUpdateRouteFromXmlTest",
+    "org.apache.camel.model.GenerateXmFromCamelContextTest",
+    "org.apache.camel.model.GenerateXmlTest",
+    "org.apache.camel.model.LoadRouteFromXmlTest",
+    "org.apache.camel.model.LoadRouteFromXmlWithInterceptTest",
+    "org.apache.camel.model.LoadRouteFromXmlWithOnExceptionTest",
+    "org.apache.camel.model.LoadRouteFromXmlWithPolicyTest",
+    "org.apache.camel.model.XmlParseTest",
+    "org.apache.camel.util.DumpModelAsXmlAggregateRouteTest",
+    "org.apache.camel.util.DumpModelAsXmlChoiceFilterRouteTest",
+    "org.apache.camel.util.DumpModelAsXmlRouteExpressionTest",
+    "org.apache.camel.util.DumpModelAsXmlRoutePredicateTest",
+    "org.apache.camel.util.DumpModelAsXmlTransformRouteTest"
+  ],
+  "suitable_tests": [
+    "FromRestConfigurationTest",
+    "CamelContextAddRouteDefinitionsFromXmlTest",
+    "ManagedCamelContextDumpRoutesAsXmlTest",
+    "ManagedCamelContextUpdateRoutesFromXmlTest",
+    "ManagedCamelContextUpdateRoutesWithPropertyPlaceholdersFromXmlPTest",
+    "ManagedFromRestGetTest",
+    "ManagedRouteDumpRouteAsXmlTest",
+    "ManagedRouteUpdateRouteFromXmlTest",
+    "GenerateXmFromCamelContextTest",
+    "GenerateXmlTest",
+    "LoadRouteFromXmlTest",
+    "LoadRouteFromXmlWithInterceptTest",
+    "LoadRouteFromXmlWithOnExceptionTest",
+    "LoadRouteFromXmlWithPolicyTest",
+    "XmlParseTest",
+    "DumpModelAsXmlAggregateRouteTest",
+    "DumpModelAsXmlChoiceFilterRouteTest",
+    "DumpModelAsXmlRouteExpressionTest",
+    "DumpModelAsXmlRoutePredicateTest",
+    "DumpModelAsXmlTransformRouteTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "FromRestConfigurationTest",
+        "failingTestMethod": "testFromRestModel"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "CamelContextAddRouteDefinitionsFromXmlTest",
+        "failingTestMethod": "testAddRouteDefinitionsFromXmlIsPrepared"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "CamelContextAddRouteDefinitionsFromXmlTest",
+        "failingTestMethod": "testRemoveRouteDefinitionsFromXml"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "CamelContextAddRouteDefinitionsFromXmlTest",
+        "failingTestMethod": "testAddRouteDefinitionsFromXml2"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "CamelContextAddRouteDefinitionsFromXmlTest",
+        "failingTestMethod": "testAddRouteDefinitionsFromXml3"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "CamelContextAddRouteDefinitionsFromXmlTest",
+        "failingTestMethod": "testAddRouteDefinitionsFromXml"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ManagedCamelContextDumpRoutesAsXmlTest",
+        "failingTestMethod": "testDumpAsXml"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ManagedCamelContextUpdateRoutesFromXmlTest",
+        "failingTestMethod": "testDumpAsXml"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ManagedCamelContextUpdateRoutesWithPropertyPlaceholdersFromXmlPTest",
+        "failingTestMethod": "testUpdateEscaped"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ManagedCamelContextUpdateRoutesWithPropertyPlaceholdersFromXmlPTest",
+        "failingTestMethod": "testUpdate"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ManagedFromRestGetTest",
+        "failingTestMethod": "testFromRestModel"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ManagedRouteDumpRouteAsXmlTest",
+        "failingTestMethod": "testDumpAsXml"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ManagedRouteUpdateRouteFromXmlTest",
+        "failingTestMethod": "testUpdateRouteFromXmlMismatchRouteId"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ManagedRouteUpdateRouteFromXmlTest",
+        "failingTestMethod": "testUpdateRouteFromXmlWithoutRouteId"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ManagedRouteUpdateRouteFromXmlTest",
+        "failingTestMethod": "testUpdateRouteFromXml"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "LoadRouteFromXmlTest",
+        "failingTestMethod": "testLoadRouteFromXml"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "LoadRouteFromXmlWithInterceptTest",
+        "failingTestMethod": "testLoadRouteFromXmlWithIntercept"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "LoadRouteFromXmlWithOnExceptionTest",
+        "failingTestMethod": "testLoadRouteFromXmlWitOnException"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "LoadRouteFromXmlWithPolicyTest",
+        "failingTestMethod": "testLoadRouteFromXmlWitPolicy"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testParseSetHeaderToConstantXml"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testParseSetOutHeaderXml"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testParseXMLBeansDataFormat"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testParseCvsDataFormat"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testParseRouteWithChoiceXml"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testParseBatchResequencerXml"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testParseJaxbDataFormat"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testLoop"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testParseStreamResequencerXml"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testParseRandomLoadBalance"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testParseStickyLoadBalance"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testParseTopicLoadBalance"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testParseSimpleRouteXml"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testParseProcessorWithFilterXml"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testParseXMLSecurityDataFormat"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testParseRecipientListXml"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testParseRSSDataFormat"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testParseCastorDataFormat"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testParseXStreamDataFormat"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testParseBindyDataFormat"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testParseFailoverLoadBalance"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testParseConvertBodyXml"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testParseRoutingSlipXml"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testParseHL7DataFormat"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testParseSetHeaderXml"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testParseZipFileDataFormat"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testParseRoutingSlipWithHeaderSetXml"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testParseProcessorWithHeaderFilterXml"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testParseFlatpackDataFormat"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testParseJibxDataFormat"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testParseProcessorXml"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testParseCircuitBreakerLoadBalance"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testParseSetOutHeaderToConstantXml"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testParseTidyMarkupDataFormat"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testParseProcessorWithGroovyFilterXml"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testParseSplitterXml"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testParseJSonDataFormat"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testParseStaticRecipientListXml"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testParseRoutingSlipWithHeaderAndDelimiterSetXml"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testParseTransformXml"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testParseSetBodyXml"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testParseProcessorWithElFilterXml"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "XmlParseTest",
+        "failingTestMethod": "testParseLoadBalance"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "DumpModelAsXmlAggregateRouteTest",
+        "failingTestMethod": "testDumpModelAsXml"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "DumpModelAsXmlChoiceFilterRouteTest",
+        "failingTestMethod": "testDumpModelAsXmAl"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "DumpModelAsXmlChoiceFilterRouteTest",
+        "failingTestMethod": "testDumpModelAsXml"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "DumpModelAsXmlRouteExpressionTest",
+        "failingTestMethod": "testDumpModelAsXmlBean"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "DumpModelAsXmlRouteExpressionTest",
+        "failingTestMethod": "testDumpModelAsXmlHeader"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "DumpModelAsXmlRouteExpressionTest",
+        "failingTestMethod": "testDumpModelAsXml"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "DumpModelAsXmlRouteExpressionTest",
+        "failingTestMethod": "testDumpModelAsXmlXPath"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "DumpModelAsXmlRoutePredicateTest",
+        "failingTestMethod": "testDumpModelAsXmlBean"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "DumpModelAsXmlRoutePredicateTest",
+        "failingTestMethod": "testDumpModelAsXmlHeader"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "DumpModelAsXmlRoutePredicateTest",
+        "failingTestMethod": "testDumpModelAsXml"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "DumpModelAsXmlRoutePredicateTest",
+        "failingTestMethod": "testDumpModelAsXmlXPath"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "DumpModelAsXmlTransformRouteTest",
+        "failingTestMethod": "testDumpModelAsXml"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

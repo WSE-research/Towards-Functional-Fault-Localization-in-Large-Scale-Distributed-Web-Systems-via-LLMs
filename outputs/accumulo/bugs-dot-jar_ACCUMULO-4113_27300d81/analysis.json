@@ -1,0 +1,11 @@
+{
+  "patched": [
+    "org.apache.accumulo.core.data.ArrayByteSequence",
+    "org.apache.accumulo.core.util.ByteBufferUtil",
+    "org.apache.accumulo.core.util.UnsynchronizedBuffer"
+  ],
+  "test": [
+    "org.apache.accumulo.core.util.ByteBufferUtilTest"
+  ],
+  "sourcePackage": "core"
+}

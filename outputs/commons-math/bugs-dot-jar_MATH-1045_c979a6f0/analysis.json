@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.commons.math3.linear.EigenDecomposition"
+  ],
+  "test": [
+    "org.apache.commons.math3.linear.EigenSolverTest"
+  ],
+  "suitable_tests": [
+    "EigenSolverTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "EigenSolverTest",
+        "failingTestMethod": "testIsNonSingularTinyOutOfOrderEigenvalue"
+      }
+    }
+  ],
+  "sourcePackage": ""
+}

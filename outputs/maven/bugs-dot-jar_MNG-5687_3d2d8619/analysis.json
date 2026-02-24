@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.maven.DefaultProjectDependencyGraph"
+  ],
+  "test": [
+    "org.apache.maven.DefaultProjectDependencyGraphTest"
+  ],
+  "sourcePackage": "maven-core"
+}

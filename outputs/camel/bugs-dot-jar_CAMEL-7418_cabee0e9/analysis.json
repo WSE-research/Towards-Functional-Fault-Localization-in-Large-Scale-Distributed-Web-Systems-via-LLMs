@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.camel.impl.JndiRegistry"
+  ],
+  "test": [
+    "org.apache.camel.impl.JndiRegistryTest"
+  ],
+  "sourcePackage": "camel-core"
+}

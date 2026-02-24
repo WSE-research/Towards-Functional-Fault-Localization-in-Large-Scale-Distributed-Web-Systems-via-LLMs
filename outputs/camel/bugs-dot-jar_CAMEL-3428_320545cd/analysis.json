@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.camel.impl.DefaultCamelContext"
+  ],
+  "test": [
+    "org.apache.camel.impl.DefaultCamelContextTest"
+  ],
+  "sourcePackage": "camel-core"
+}

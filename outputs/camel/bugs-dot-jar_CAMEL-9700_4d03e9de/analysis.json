@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.camel.component.seda.SedaProducer"
+  ],
+  "test": [
+    "org.apache.camel.component.seda.SedaDiscardIfNoConsumerTest"
+  ],
+  "suitable_tests": [
+    "SedaDiscardIfNoConsumerTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "SedaDiscardIfNoConsumerTest",
+        "failingTestMethod": "testDiscardUoW"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

@@ -1,0 +1,22 @@
+{
+  "patched": [
+    "org.apache.camel.processor.aggregate.AggregateProcessor"
+  ],
+  "test": [
+    "org.apache.camel.processor.aggregator.BeanBeforeAggregateIssueTest",
+    "org.apache.camel.issues.MulticastParallelStopOnExceptionWithOnExceptionIssueTest"
+  ],
+  "suitable_tests": [
+    "BeanBeforeAggregateIssueTest",
+    "MulticastParallelStopOnExceptionWithOnExceptionIssueTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "BeanBeforeAggregateIssueTest",
+        "failingTestMethod": "testBeanBeforeAggregation"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

@@ -1,0 +1,28 @@
+{
+  "patched": [
+    "org.apache.wicket.Behaviors"
+  ],
+  "test": [
+    "org.apache.wicket.markup.html.basic.SimplePageTest",
+    "org.apache.wicket.behavior.ImmutableBehaviorIdsTest"
+  ],
+  "suitable_tests": [
+    "SimplePageTest",
+    "ImmutableBehaviorIdsTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "SimplePageTest",
+        "failingTestMethod": "renderHomePage_13"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ImmutableBehaviorIdsTest",
+        "failingTestMethod": "urlIndexRendering"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

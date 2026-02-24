@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "org.apache.commons.math.stat.descriptive.SummaryStatistics"
+  ],
+  "test": [
+    "org.apache.commons.math.stat.descriptive.SummaryStatisticsTest",
+    "org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest"
+  ],
+  "sourcePackage": ""
+}

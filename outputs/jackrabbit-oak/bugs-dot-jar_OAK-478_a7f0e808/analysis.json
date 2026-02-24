@@ -1,0 +1,518 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.spi.commit.ValidatingHook"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.security.authentication.DefaultLoginModuleTest",
+    "org.apache.jackrabbit.oak.security.authentication.TokenDefaultLoginModuleTest",
+    "org.apache.jackrabbit.oak.security.authentication.user.UserAuthenticationTest",
+    "org.apache.jackrabbit.oak.security.authentication.token.TokenAuthenticationTest",
+    "org.apache.jackrabbit.oak.security.authentication.token.TokenProviderImplTest",
+    "org.apache.jackrabbit.oak.security.authentication.token.TokenInfoTest",
+    "org.apache.jackrabbit.oak.security.authentication.TokenLoginModuleTest",
+    "org.apache.jackrabbit.oak.security.principal.PrincipalProviderImplTest",
+    "org.apache.jackrabbit.oak.security.user.UserValidatorTest",
+    "org.apache.jackrabbit.oak.security.user.UserManagerImplTest",
+    "org.apache.jackrabbit.oak.security.user.OakAuthorizablePropertyTest",
+    "org.apache.jackrabbit.oak.spi.security.authentication.external.ExternalLoginModuleTest",
+    "org.apache.jackrabbit.oak.spi.security.user.action.PasswordValidationActionTest"
+  ],
+  "suitable_tests": [
+    "DefaultLoginModuleTest",
+    "TokenDefaultLoginModuleTest",
+    "UserAuthenticationTest",
+    "TokenAuthenticationTest",
+    "TokenProviderImplTest",
+    "TokenInfoTest",
+    "TokenLoginModuleTest",
+    "PrincipalProviderImplTest",
+    "UserValidatorTest",
+    "UserManagerImplTest",
+    "OakAuthorizablePropertyTest",
+    "ExternalLoginModuleTest",
+    "PasswordValidationActionTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "DefaultLoginModuleTest",
+        "failingTestMethod": "testInvalidImpersonation"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "DefaultLoginModuleTest",
+        "failingTestMethod": "testUserLogin"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "DefaultLoginModuleTest",
+        "failingTestMethod": "testSelfImpersonation"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TokenDefaultLoginModuleTest",
+        "failingTestMethod": "testTokenCreationAndLogin"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TokenDefaultLoginModuleTest",
+        "failingTestMethod": "testValidTokenCredentials"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "UserAuthenticationTest",
+        "failingTestMethod": "testAuthenticateSimpleCredentials"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "UserAuthenticationTest",
+        "failingTestMethod": "testAuthenticateInvalidImpersonationCredentials"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "UserAuthenticationTest",
+        "failingTestMethod": "testAuthenticateImpersonationCredentials"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "UserAuthenticationTest",
+        "failingTestMethod": "testAuthenticateImpersonationCredentials2"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "UserAuthenticationTest",
+        "failingTestMethod": "testAuthenticateWithoutUserManager"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "UserAuthenticationTest",
+        "failingTestMethod": "testAuthenticateWithoutUserId"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "UserAuthenticationTest",
+        "failingTestMethod": "testAuthenticateInvalidCredentials"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "UserAuthenticationTest",
+        "failingTestMethod": "testAuthenticateInvalidSimpleCredentials"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TokenAuthenticationTest",
+        "failingTestMethod": "testAuthenticateWithoutTokenProvider"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TokenAuthenticationTest",
+        "failingTestMethod": "testAuthenticateWithInvalidCredentials"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TokenAuthenticationTest",
+        "failingTestMethod": "testAuthenticateWithInvalidTokenCredentials"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TokenAuthenticationTest",
+        "failingTestMethod": "testAuthenticate"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TokenAuthenticationTest",
+        "failingTestMethod": "testGetTokenInfoBeforeAuthenticate"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TokenAuthenticationTest",
+        "failingTestMethod": "testGetTokenInfoAfterAuthenticate"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TokenProviderImplTest",
+        "failingTestMethod": "testGetTokenInfoFromInvalidToken"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TokenProviderImplTest",
+        "failingTestMethod": "testGetTokenInfo"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TokenProviderImplTest",
+        "failingTestMethod": "testRemoveTokenInvalidInfo"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TokenProviderImplTest",
+        "failingTestMethod": "testRemoveToken"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TokenProviderImplTest",
+        "failingTestMethod": "testRemoveToken2"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TokenProviderImplTest",
+        "failingTestMethod": "testRemoveTokenRemovesNode"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TokenProviderImplTest",
+        "failingTestMethod": "testResetTokenExpirationInvalidToken"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TokenProviderImplTest",
+        "failingTestMethod": "testResetTokenExpirationExpiredToken"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TokenProviderImplTest",
+        "failingTestMethod": "testResetTokenExpiration"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TokenProviderImplTest",
+        "failingTestMethod": "testTokenNode"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TokenProviderImplTest",
+        "failingTestMethod": "testDoCreateToken"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TokenProviderImplTest",
+        "failingTestMethod": "testCreateTokenFromInvalidCredentials"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TokenProviderImplTest",
+        "failingTestMethod": "testCreateTokenFromCredentials"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TokenProviderImplTest",
+        "failingTestMethod": "testCreateTokenFromInvalidUserId"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TokenProviderImplTest",
+        "failingTestMethod": "testCreateTokenFromUserId"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TokenInfoTest",
+        "failingTestMethod": "testGetUserId"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TokenInfoTest",
+        "failingTestMethod": "testGetToken"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TokenInfoTest",
+        "failingTestMethod": "testIsExpired"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TokenInfoTest",
+        "failingTestMethod": "testMatches"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TokenInfoTest",
+        "failingTestMethod": "testGetAttributes"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TokenLoginModuleTest",
+        "failingTestMethod": "testValidTokenCredentials"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "PrincipalProviderImplTest",
+        "failingTestMethod": "testEveryone"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "UserValidatorTest",
+        "failingTestMethod": "removePassword"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "UserValidatorTest",
+        "failingTestMethod": "removePrincipalName"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "UserValidatorTest",
+        "failingTestMethod": "removeAuthorizableId"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "UserValidatorTest",
+        "failingTestMethod": "createWithoutPrincipalName"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "UserValidatorTest",
+        "failingTestMethod": "createWithInvalidUUID"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "UserValidatorTest",
+        "failingTestMethod": "changeUUID"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "UserValidatorTest",
+        "failingTestMethod": "changePrincipalName"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "UserValidatorTest",
+        "failingTestMethod": "changeAuthorizableId"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "UserValidatorTest",
+        "failingTestMethod": "changePasswordToPlainText"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "UserValidatorTest",
+        "failingTestMethod": "testRemoveAdminUser"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "UserValidatorTest",
+        "failingTestMethod": "testDisableAdminUser"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "UserValidatorTest",
+        "failingTestMethod": "testEnforceHierarchy"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "UserManagerImplTest",
+        "failingTestMethod": "setPasswordNull"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "UserManagerImplTest",
+        "failingTestMethod": "testGetPasswordHash"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "UserManagerImplTest",
+        "failingTestMethod": "testEnforceAuthorizableFolderHierarchy"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "UserManagerImplTest",
+        "failingTestMethod": "testSetPassword"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "OakAuthorizablePropertyTest",
+        "failingTestMethod": "testSetMultiValueProperty"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "OakAuthorizablePropertyTest",
+        "failingTestMethod": "testSetPropertyByRelPath"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "OakAuthorizablePropertyTest",
+        "failingTestMethod": "testSetProperty"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "OakAuthorizablePropertyTest",
+        "failingTestMethod": "testSetPropertyInvalidRelativePath"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "OakAuthorizablePropertyTest",
+        "failingTestMethod": "testGetPropertyByInvalidRelativePath"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "OakAuthorizablePropertyTest",
+        "failingTestMethod": "testHasPropertyByInvalidRelativePath"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "OakAuthorizablePropertyTest",
+        "failingTestMethod": "testGetPropertyNames"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "OakAuthorizablePropertyTest",
+        "failingTestMethod": "testGetPropertyNamesByRelPath"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "OakAuthorizablePropertyTest",
+        "failingTestMethod": "testGetPropertyNamesByInvalidRelPath"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "OakAuthorizablePropertyTest",
+        "failingTestMethod": "testGetNotExistingProperty"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "OakAuthorizablePropertyTest",
+        "failingTestMethod": "testRemoveNotExistingProperty"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "OakAuthorizablePropertyTest",
+        "failingTestMethod": "testSetSpecialProperties"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "OakAuthorizablePropertyTest",
+        "failingTestMethod": "testRemoveSpecialProperties"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "OakAuthorizablePropertyTest",
+        "failingTestMethod": "testSingleToMultiValued"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "OakAuthorizablePropertyTest",
+        "failingTestMethod": "testMultiValuedToSingle"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ExternalLoginModuleTest",
+        "failingTestMethod": "testSyncCreateUser"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ExternalLoginModuleTest",
+        "failingTestMethod": "testSyncCreateUserAndGroups"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ExternalLoginModuleTest",
+        "failingTestMethod": "testSyncUpdate"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ExternalLoginModuleTest",
+        "failingTestMethod": "testSyncUpdateAndGroups"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ExternalLoginModuleTest",
+        "failingTestMethod": "testDefaultSync"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "PasswordValidationActionTest",
+        "failingTestMethod": "testPasswordValidationActionOnChange"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "PasswordValidationActionTest",
+        "failingTestMethod": "testActionIsCalled"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "PasswordValidationActionTest",
+        "failingTestMethod": "testPasswordValidationActionOnCreate"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

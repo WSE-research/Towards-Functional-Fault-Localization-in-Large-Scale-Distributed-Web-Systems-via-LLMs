@@ -1,0 +1,56 @@
+{
+  "patched": [
+    "org.apache.wicket.ajax.AbstractDefaultAjaxBehavior"
+  ],
+  "test": [
+    "org.apache.wicket.ajax.AjaxCallbackFunctionTest"
+  ],
+  "suitable_tests": [
+    "AjaxCallbackFunctionTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "AjaxCallbackFunctionTest",
+        "failingTestMethod": "testCallbackFunctionWithAll"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AjaxCallbackFunctionTest",
+        "failingTestMethod": "testCallbackFunctionWithContext"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AjaxCallbackFunctionTest",
+        "failingTestMethod": "testCallbackFunctionWithConverted"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AjaxCallbackFunctionTest",
+        "failingTestMethod": "testCallbackFunctionWithExplicit"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AjaxCallbackFunctionTest",
+        "failingTestMethod": "testCallbackFunctionWithResolved"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AjaxCallbackFunctionTest",
+        "failingTestMethod": "testDefaultCallbackFunction"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AjaxCallbackFunctionTest",
+        "failingTestMethod": "testJQueryUIEvent"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.wicket.markup.html.form.Form",
+    "org.apache.wicket.protocol.http.WebApplication"
+  ],
+  "test": [
+    "org.apache.wicket.protocol.http.servlet.ServletWebRequestTest"
+  ],
+  "suitable_tests": [
+    "ServletWebRequestTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ServletWebRequestTest",
+        "failingTestMethod": "multiPartWebRequest"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

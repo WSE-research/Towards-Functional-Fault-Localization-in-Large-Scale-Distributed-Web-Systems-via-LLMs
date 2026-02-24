@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.commons.math.util.MathUtils"
+  ],
+  "test": [
+    "org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest"
+  ],
+  "suitable_tests": [
+    "KMeansPlusPlusClustererTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "KMeansPlusPlusClustererTest",
+        "failingTestMethod": "testPerformClusterAnalysisDegenerate"
+      }
+    }
+  ],
+  "sourcePackage": ""
+}

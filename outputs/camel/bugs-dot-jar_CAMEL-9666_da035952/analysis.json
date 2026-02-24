@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.camel.impl.DefaultExchange"
+  ],
+  "test": [
+    "org.apache.camel.impl.DefaultExchangeTest"
+  ],
+  "sourcePackage": "camel-core"
+}

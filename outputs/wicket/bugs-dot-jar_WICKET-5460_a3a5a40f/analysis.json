@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.wicket.Component"
+  ],
+  "test": [
+    "org.apache.wicket.stateless.StatelessDynmicLinksTest"
+  ],
+  "suitable_tests": [
+    "StatelessDynmicLinksTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "StatelessDynmicLinksTest",
+        "failingTestMethod": "foo"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

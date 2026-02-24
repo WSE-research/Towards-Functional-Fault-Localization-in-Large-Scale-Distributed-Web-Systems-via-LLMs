@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.maven.plugin.PluginParameterException"
+  ],
+  "test": [
+    "org.apache.maven.plugin.PluginParameterExceptionTest"
+  ],
+  "sourcePackage": "maven-core"
+}

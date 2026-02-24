@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.upgrade.RepositoryUpgrade"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.upgrade.RepositoryUpgradeTest"
+  ],
+  "sourcePackage": "oak-upgrade"
+}

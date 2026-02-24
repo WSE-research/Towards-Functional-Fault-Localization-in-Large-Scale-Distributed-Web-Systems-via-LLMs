@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "org.apache.wicket.request.handler.ListenerInterfaceRequestHandler",
+    "org.apache.wicket.request.handler.PageProvider"
+  ],
+  "test": [
+    "org.apache.wicket.request.handler.ListenerInterfaceRequestHandlerTest"
+  ],
+  "sourcePackage": "wicket-core"
+}

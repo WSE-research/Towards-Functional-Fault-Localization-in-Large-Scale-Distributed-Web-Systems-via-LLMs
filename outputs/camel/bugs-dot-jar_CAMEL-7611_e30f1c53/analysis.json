@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.camel.util.KeyValueHolder"
+  ],
+  "test": [
+    "org.apache.camel.management.ManagedThrottlerTest",
+    "org.apache.camel.util.KeyValueHolderTest"
+  ],
+  "suitable_tests": [
+    "ManagedThrottlerTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ManagedThrottlerTest",
+        "failingTestMethod": "testThrottleAsyncVisableViaJmx"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

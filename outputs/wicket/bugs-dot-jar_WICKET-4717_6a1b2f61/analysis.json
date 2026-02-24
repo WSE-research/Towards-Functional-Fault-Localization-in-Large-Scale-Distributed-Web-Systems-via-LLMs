@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.wicket.validation.validator.AbstractRangeValidator"
+  ],
+  "test": [
+    "org.apache.wicket.validation.validator.RangeValidatorTest"
+  ],
+  "suitable_tests": [
+    "RangeValidatorTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "RangeValidatorTest",
+        "failingTestMethod": "exact"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

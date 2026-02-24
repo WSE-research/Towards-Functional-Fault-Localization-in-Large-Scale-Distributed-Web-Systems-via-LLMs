@@ -1,0 +1,26 @@
+{
+  "patched": [
+    "org.apache.maven.model.interpolation.MavenBuildTimestamp"
+  ],
+  "test": [
+    "org.apache.maven.model.interpolation.StringSearchModelInterpolatorTest"
+  ],
+  "suitable_tests": [
+    "StringSearchModelInterpolatorTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "StringSearchModelInterpolatorTest",
+        "failingTestMethod": "testDefaultBuildTimestampFormatShouldFormatTimeIn24HourFormat"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "StringSearchModelInterpolatorTest",
+        "failingTestMethod": "testDefaultBuildTimestampFormatWithLocalTimeZoneMidnightRollover"
+      }
+    }
+  ],
+  "sourcePackage": "maven-model-builder"
+}

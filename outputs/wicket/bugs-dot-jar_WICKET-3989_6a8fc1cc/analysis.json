@@ -1,0 +1,23 @@
+{
+  "patched": [
+    "org.apache.wicket.markup.html.panel.AbstractMarkupSourcingStrategy",
+    "org.apache.wicket.markup.html.panel.AssociatedMarkupSourcingStrategy",
+    "org.apache.wicket.markup.html.panel.DefaultMarkupSourcingStrategy",
+    "org.apache.wicket.markup.html.panel.IMarkupSourcingStrategy"
+  ],
+  "test": [
+    "org.apache.wicket.markup.resolver.issue3989.Issue3989Test"
+  ],
+  "suitable_tests": [
+    "Issue3989Test"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "Issue3989Test",
+        "failingTestMethod": "ajaxRenderOfTransparentlyResolvedLabel"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.jcr.delegate.SessionDelegate"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.jcr.RepositoryTest"
+  ],
+  "suitable_tests": [
+    "RepositoryTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "RepositoryTest",
+        "failingTestMethod": "testGetItemReturnsNodeBeforeProperty"
+      }
+    }
+  ],
+  "sourcePackage": "oak-jcr"
+}

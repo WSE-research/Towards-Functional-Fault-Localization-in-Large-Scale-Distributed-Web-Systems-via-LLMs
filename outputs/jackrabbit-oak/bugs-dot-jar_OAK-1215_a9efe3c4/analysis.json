@@ -1,0 +1,24 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.query.ast.AstElement",
+    "org.apache.jackrabbit.oak.query.ast.PropertyValueImpl",
+    "org.apache.jackrabbit.oak.query.ast.SelectorImpl",
+    "org.apache.jackrabbit.oak.query.ast.SourceImpl",
+    "org.apache.jackrabbit.oak.query.fulltext.SimpleExcerptProvider"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.index.property.PropertyIndexQueryTest"
+  ],
+  "suitable_tests": [
+    "PropertyIndexQueryTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "PropertyIndexQueryTest",
+        "failingTestMethod": "sql2Measure"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

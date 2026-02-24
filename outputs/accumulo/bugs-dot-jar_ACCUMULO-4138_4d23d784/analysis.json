@@ -1,0 +1,44 @@
+{
+  "patched": [
+    "org.apache.accumulo.core.util.shell.commands.OptUtil"
+  ],
+  "test": [
+    "org.apache.accumulo.core.util.shell.commands.DeleteRowsCommandTest",
+    "org.apache.accumulo.core.util.shell.commands.MergeCommandTest",
+    "org.apache.accumulo.core.util.shell.commands.FlushCommandTest",
+    "org.apache.accumulo.core.util.shell.commands.CompactCommandTest"
+  ],
+  "suitable_tests": [
+    "DeleteRowsCommandTest",
+    "MergeCommandTest",
+    "FlushCommandTest",
+    "CompactCommandTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "DeleteRowsCommandTest",
+        "failingTestMethod": "testBeginRowHelp"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "MergeCommandTest",
+        "failingTestMethod": "testBeginRowHelp"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "FlushCommandTest",
+        "failingTestMethod": "testBeginRowHelp"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "CompactCommandTest",
+        "failingTestMethod": "testBeginRowHelp"
+      }
+    }
+  ],
+  "sourcePackage": "core"
+}

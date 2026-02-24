@@ -1,0 +1,22 @@
+{
+  "patched": [
+    "org.apache.camel.processor.MulticastProcessor"
+  ],
+  "test": [
+    "org.apache.camel.component.file.FileSplitInSplitTest",
+    "org.apache.camel.processor.aggregator.AggregateTimeoutWithExecutorServiceTest"
+  ],
+  "suitable_tests": [
+    "FileSplitInSplitTest",
+    "AggregateTimeoutWithExecutorServiceTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "FileSplitInSplitTest",
+        "failingTestMethod": "testConcurrentAppend"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.core.TreeImpl"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.core.TreeImplTest"
+  ],
+  "sourcePackage": "oak-core"
+}

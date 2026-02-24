@@ -1,0 +1,22 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.jcr.ItemDelegate"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.jcr.RepositoryTest",
+    "org.apache.jackrabbit.oak.jcr.MoveRemoveTest"
+  ],
+  "suitable_tests": [
+    "RepositoryTest",
+    "MoveRemoveTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "RepositoryTest",
+        "failingTestMethod": "invalidItemStateExceptionOnRemovedNode"
+      }
+    }
+  ],
+  "sourcePackage": "oak-jcr"
+}

@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.slf4j.impl.SLF4JLogger"
+  ],
+  "test": [
+    "org.apache.logging.slf4j.SerializeTest"
+  ],
+  "suitable_tests": [
+    "SerializeTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "SerializeTest",
+        "failingTestMethod": "testLogger"
+      }
+    }
+  ],
+  "sourcePackage": "log4j-slf4j-impl"
+}

@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.wicket.core.request.mapper.AbstractBookmarkableMapper"
+  ],
+  "test": [
+    "org.apache.wicket.core.request.mapper.MountedMapperTest"
+  ],
+  "suitable_tests": [
+    "MountedMapperTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "MountedMapperTest",
+        "failingTestMethod": "decode12"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

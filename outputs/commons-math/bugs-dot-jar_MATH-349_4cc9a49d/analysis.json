@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "org.apache.commons.math.distribution.PoissonDistribution",
+    "org.apache.commons.math.distribution.PoissonDistributionImpl"
+  ],
+  "test": [
+    "org.apache.commons.math.distribution.PoissonDistributionTest"
+  ],
+  "sourcePackage": ""
+}

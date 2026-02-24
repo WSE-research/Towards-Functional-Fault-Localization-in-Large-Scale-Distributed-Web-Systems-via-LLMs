@@ -1,0 +1,24 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.core.LoggerContext",
+    "org.apache.logging.log4j.core.config.BaseConfiguration",
+    "org.apache.logging.log4j.core.config.plugins.PropertiesPlugin",
+    "org.apache.logging.log4j.core.lookup.Interpolator",
+    "org.apache.logging.log4j.core.web.Log4jWebInitializerImpl"
+  ],
+  "test": [
+    "org.apache.logging.log4j.core.HostNameTest"
+  ],
+  "suitable_tests": [
+    "HostNameTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "HostNameTest",
+        "failingTestMethod": "testHostname"
+      }
+    }
+  ],
+  "sourcePackage": "log4j-core"
+}

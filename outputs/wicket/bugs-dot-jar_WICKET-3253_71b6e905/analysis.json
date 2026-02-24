@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.model.AbstractPropertyModel"
+  ],
+  "test": [
+    "org.apache.wicket.model.AbstractPropertyModelObjectClassTest"
+  ],
+  "sourcePackage": "wicket"
+}

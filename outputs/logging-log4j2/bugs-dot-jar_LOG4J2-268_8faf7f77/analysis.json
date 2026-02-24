@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.flume.appender.FlumeEvent"
+  ],
+  "test": [
+    "org.apache.logging.log4j.flume.appender.FlumePersistentAppenderTest"
+  ],
+  "suitable_tests": [
+    "FlumePersistentAppenderTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "FlumePersistentAppenderTest",
+        "failingTestMethod": "testSingle"
+      }
+    }
+  ],
+  "sourcePackage": "flume-ng"
+}

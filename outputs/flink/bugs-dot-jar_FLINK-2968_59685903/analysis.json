@@ -1,0 +1,22 @@
+{
+  "patched": [
+    "org.apache.flink.streaming.api.operators.AbstractUdfStreamOperator",
+    "org.apache.flink.streaming.runtime.operators.windowing.NonKeyedWindowOperator",
+    "org.apache.flink.streaming.runtime.operators.windowing.WindowOperator"
+  ],
+  "test": [
+    "org.apache.flink.streaming.api.operators.FoldWindowFunctionTest"
+  ],
+  "suitable_tests": [
+    "FoldWindowFunctionTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "FoldWindowFunctionTest",
+        "failingTestMethod": "testFoldWindowFunctionOutputTypeConfigurable"
+      }
+    }
+  ],
+  "sourcePackage": "flink-streaming-java"
+}

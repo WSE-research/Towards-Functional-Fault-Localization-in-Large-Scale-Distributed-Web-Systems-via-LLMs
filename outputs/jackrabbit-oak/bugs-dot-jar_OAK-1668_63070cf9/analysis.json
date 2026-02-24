@@ -1,0 +1,28 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndex"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexExclusionQueryTest.ignoreByType",
+    "org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexExclusionQueryTest.ignoreByName"
+  ],
+  "suitable_tests": [
+    "ignoreByType",
+    "ignoreByName"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ignoreByType",
+        "failingTestMethod": "ignoreByType"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ignoreByName",
+        "failingTestMethod": "ignoreByName"
+      }
+    }
+  ],
+  "sourcePackage": "oak-lucene"
+}

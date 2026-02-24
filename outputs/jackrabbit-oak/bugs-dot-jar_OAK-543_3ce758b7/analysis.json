@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.mk.store.DefaultRevisionStore"
+  ],
+  "test": [
+    "org.apache.jackrabbit.mk.store.DefaultRevisionStoreTest"
+  ],
+  "sourcePackage": "oak-mk"
+}

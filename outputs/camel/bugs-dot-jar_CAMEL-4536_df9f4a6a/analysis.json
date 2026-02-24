@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.camel.processor.WrapProcessor",
+    "org.apache.camel.util.AsyncProcessorConverterHelper"
+  ],
+  "test": [
+    "org.apache.camel.management.ManagedCustomPolicyTest"
+  ],
+  "suitable_tests": [
+    "ManagedCustomPolicyTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ManagedCustomPolicyTest",
+        "failingTestMethod": "testPolicy"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.IndexPlanner"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.LucenePropertyIndexTest",
+    "org.apache.jackrabbit.oak.plugins.index.lucene.IndexPlannerTest"
+  ],
+  "suitable_tests": [
+    "LucenePropertyIndexTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "LucenePropertyIndexTest",
+        "failingTestMethod": "indexSelectionFulltextVsNodeType"
+      }
+    }
+  ],
+  "sourcePackage": "oak-lucene"
+}

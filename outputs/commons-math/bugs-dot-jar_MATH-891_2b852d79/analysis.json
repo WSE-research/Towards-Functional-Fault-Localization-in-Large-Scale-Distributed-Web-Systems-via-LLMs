@@ -1,0 +1,26 @@
+{
+  "patched": [
+    "org.apache.commons.math3.stat.correlation.SpearmansCorrelation"
+  ],
+  "test": [
+    "org.apache.commons.math3.stat.correlation.SpearmansRankCorrelationTest"
+  ],
+  "suitable_tests": [
+    "SpearmansRankCorrelationTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "SpearmansRankCorrelationTest",
+        "failingTestMethod": "testMath891Array"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "SpearmansRankCorrelationTest",
+        "failingTestMethod": "testMath891Matrix"
+      }
+    }
+  ],
+  "sourcePackage": ""
+}

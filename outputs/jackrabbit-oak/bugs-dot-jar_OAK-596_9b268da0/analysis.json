@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.mongomk.impl.model.MongoNode"
+  ],
+  "test": [
+    "org.apache.jackrabbit.mongomk.impl.model.MongoNodeTest"
+  ],
+  "sourcePackage": "oak-mongomk"
+}

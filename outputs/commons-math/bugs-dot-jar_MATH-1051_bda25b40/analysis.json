@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.commons.math3.linear.SchurTransformer"
+  ],
+  "test": [
+    "org.apache.commons.math3.linear.EigenDecompositionTest"
+  ],
+  "suitable_tests": [
+    "EigenDecompositionTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "EigenDecompositionTest",
+        "failingTestMethod": "testMath1051"
+      }
+    }
+  ],
+  "sourcePackage": ""
+}

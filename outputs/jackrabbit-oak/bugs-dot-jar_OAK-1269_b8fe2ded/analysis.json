@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.index.nodetype.NodeTypeIndex",
+    "org.apache.jackrabbit.oak.plugins.index.nodetype.NodeTypeIndexLookup"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.index.nodetype.NodeTypeIndexQueryTest"
+  ],
+  "sourcePackage": "oak-core"
+}

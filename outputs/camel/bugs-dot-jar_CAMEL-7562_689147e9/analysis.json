@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.camel.model.ProcessorDefinitionHelper"
+  ],
+  "test": [
+    "org.apache.camel.issues.AdviceWithCBRTest",
+    "org.apache.camel.model.ProcessorDefinitionHelperTest"
+  ],
+  "suitable_tests": [
+    "AdviceWithCBRTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "AdviceWithCBRTest",
+        "failingTestMethod": "testAdviceCBR"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

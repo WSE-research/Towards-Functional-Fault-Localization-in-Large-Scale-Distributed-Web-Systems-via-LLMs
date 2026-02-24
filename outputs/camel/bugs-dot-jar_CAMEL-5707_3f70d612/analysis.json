@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.camel.builder.NotifyBuilder"
+  ],
+  "test": [
+    "org.apache.camel.builder.NotifyBuilderWhenDoneByIndexTest",
+    "org.apache.camel.processor.aggregator.AggregateTimeoutWithExecutorServiceTest"
+  ],
+  "suitable_tests": [
+    "AggregateTimeoutWithExecutorServiceTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "AggregateTimeoutWithExecutorServiceTest",
+        "failingTestMethod": "testThreadNotUsedForEveryAggregatorWithCustomExecutorService"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.wicket.markup.parser.filter.HtmlHeaderSectionHandler"
+  ],
+  "test": [
+    "org.apache.wicket.markup.html.internal.headeritems.HtmlHeaderItemsContainerTest"
+  ],
+  "suitable_tests": [
+    "HtmlHeaderItemsContainerTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "HtmlHeaderItemsContainerTest",
+        "failingTestMethod": "pageWithBasePageWithHeaderItems"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

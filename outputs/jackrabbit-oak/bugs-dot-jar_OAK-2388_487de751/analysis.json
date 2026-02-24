@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.OakDirectory"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.OakDirectoryTest"
+  ],
+  "sourcePackage": "oak-lucene"
+}

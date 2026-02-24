@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.core.lookup.JndiLookup"
+  ],
+  "test": [
+    "org.apache.logging.log4j.core.lookup.JndiLookupTest"
+  ],
+  "sourcePackage": "log4j-core"
+}

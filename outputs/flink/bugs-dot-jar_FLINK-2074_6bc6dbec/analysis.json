@@ -1,0 +1,22 @@
+{
+  "patched": [
+    "org.apache.flink.streaming.api.windowing.windowbuffer.SlidingGroupedPreReducer",
+    "org.apache.flink.streaming.api.windowing.windowbuffer.SlidingTimePreReducer"
+  ],
+  "test": [
+    "org.apache.flink.streaming.api.windowing.windowbuffer.SlidingTimeGroupedPreReducerTest",
+    "org.apache.flink.streaming.api.windowing.windowbuffer.SlidingTimePreReducerTest"
+  ],
+  "suitable_tests": [
+    "SlidingTimeGroupedPreReducerTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "SlidingTimeGroupedPreReducerTest",
+        "failingTestMethod": "testPreReduce1"
+      }
+    }
+  ],
+  "sourcePackage": "flink-staging/flink-streaming/flink-streaming-core"
+}

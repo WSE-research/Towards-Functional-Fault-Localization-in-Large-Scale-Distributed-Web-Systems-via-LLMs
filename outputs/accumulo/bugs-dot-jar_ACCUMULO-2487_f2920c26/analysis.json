@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.accumulo.core.data.Value"
+  ],
+  "test": [
+    "org.apache.accumulo.core.data.ValueTest"
+  ],
+  "sourcePackage": "core"
+}

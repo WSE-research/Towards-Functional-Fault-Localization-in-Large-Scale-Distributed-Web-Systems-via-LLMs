@@ -1,0 +1,52 @@
+{
+  "patched": [
+    "org.apache.camel.component.bean.BeanInfo"
+  ],
+  "test": [
+    "org.apache.camel.component.bean.BeanHandlerMethodTest",
+    "org.apache.camel.component.vm.VmMultipleConsumersMultipleContextTest",
+    "org.apache.camel.component.vm.VmMultipleContextsStartStopTest",
+    "org.apache.camel.component.vm.VmQueueTest",
+    "org.apache.camel.component.vm.VmShouldNotUseSameThreadTest"
+  ],
+  "suitable_tests": [
+    "BeanHandlerMethodTest",
+    "VmMultipleConsumersMultipleContextTest",
+    "VmMultipleContextsStartStopTest",
+    "VmQueueTest",
+    "VmShouldNotUseSameThreadTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "BeanHandlerMethodTest",
+        "failingTestMethod": "testInterfaceBeanMethod"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "VmMultipleConsumersMultipleContextTest",
+        "failingTestMethod": "testVmMultipleConsumersDifferentEndpoints"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "VmMultipleContextsStartStopTest",
+        "failingTestMethod": "testStartStop"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "VmQueueTest",
+        "failingTestMethod": "testQueue"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "VmShouldNotUseSameThreadTest",
+        "failingTestMethod": "testNotUseSameThread"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.commons.math3.fraction.Fraction"
+  ],
+  "test": [
+    "org.apache.commons.math3.fraction.FractionTest"
+  ],
+  "sourcePackage": ""
+}

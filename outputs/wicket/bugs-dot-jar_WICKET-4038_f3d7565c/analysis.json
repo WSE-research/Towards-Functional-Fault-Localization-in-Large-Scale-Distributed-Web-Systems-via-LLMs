@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.wicket.request.mapper.AbstractBookmarkableMapper"
+  ],
+  "test": [
+    "org.apache.wicket.util.tester.FormTesterTest"
+  ],
+  "suitable_tests": [
+    "FormTesterTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "FormTesterTest",
+        "failingTestMethod": "testSubmitWithoutUploadFile"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

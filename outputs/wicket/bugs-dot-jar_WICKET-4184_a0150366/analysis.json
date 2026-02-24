@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.util.string.AppendingStringBuffer"
+  ],
+  "test": [
+    "org.apache.wicket.util.string.AppendingStringBufferTest"
+  ],
+  "sourcePackage": "wicket-util"
+}

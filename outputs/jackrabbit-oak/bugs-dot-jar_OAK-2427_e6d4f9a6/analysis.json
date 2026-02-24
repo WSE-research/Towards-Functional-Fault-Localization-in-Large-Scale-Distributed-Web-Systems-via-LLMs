@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.query.xpath.Statement"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.query.SQL2ParserTest"
+  ],
+  "suitable_tests": [
+    "SQL2ParserTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "SQL2ParserTest",
+        "failingTestMethod": "testTransformAndParse"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

@@ -1,0 +1,26 @@
+{
+  "patched": [
+    "org.apache.camel.component.file.GenericFile"
+  ],
+  "test": [
+    "org.apache.camel.component.file.FileMoveAndMoveFailedIssueTest"
+  ],
+  "suitable_tests": [
+    "FileMoveAndMoveFailedIssueTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "FileMoveAndMoveFailedIssueTest",
+        "failingTestMethod": "testMove"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "FileMoveAndMoveFailedIssueTest",
+        "failingTestMethod": "testMoveFailed"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

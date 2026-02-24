@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.spi.security.authentication.external.ExternalIdentityRef"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.spi.security.authentication.external.ExternalIdentityRefTest"
+  ],
+  "sourcePackage": "oak-auth-external"
+}

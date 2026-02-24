@@ -1,0 +1,26 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.jcr.query.RowImpl"
+  ],
+  "test": [
+    "org.apache.jackrabbit.core.query.SelectClauseTest"
+  ],
+  "suitable_tests": [
+    "SelectClauseTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "SelectClauseTest",
+        "failingTestMethod": "testPropertyCountSQL"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "SelectClauseTest",
+        "failingTestMethod": "testPropertyCountSQL"
+      }
+    }
+  ],
+  "sourcePackage": "oak-jcr"
+}

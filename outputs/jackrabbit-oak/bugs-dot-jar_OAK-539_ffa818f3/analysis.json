@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.mk.model.Id"
+  ],
+  "test": [
+    "org.apache.jackrabbit.mk.model.IdTest"
+  ],
+  "sourcePackage": "oak-mk"
+}

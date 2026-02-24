@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.ConverterLocator"
+  ],
+  "test": [
+    "org.apache.wicket.ConverterLocatorTest"
+  ],
+  "sourcePackage": "wicket-core"
+}

@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.commons.math3.stat.correlation.KendallsCorrelation"
+  ],
+  "test": [
+    "org.apache.commons.math3.stat.correlation.KendallsCorrelationTest"
+  ],
+  "sourcePackage": ""
+}

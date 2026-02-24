@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.maven.model.interpolation.StringSearchModelInterpolator"
+  ],
+  "test": [
+    "org.apache.maven.model.interpolation.StringSearchModelInterpolatorTest"
+  ],
+  "sourcePackage": "maven-model-builder"
+}

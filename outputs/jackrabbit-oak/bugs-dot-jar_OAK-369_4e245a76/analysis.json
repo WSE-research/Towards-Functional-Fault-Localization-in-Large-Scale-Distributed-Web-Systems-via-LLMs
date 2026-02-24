@@ -1,0 +1,19 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.jcr.NodeDelegate"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.jcr.RepositoryTest"
+  ],
+  "suitable_tests": [
+    "RepositoryTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+      "failingTestClass": "RepositoryTest",
+      "failingTestMethod": "hasNodeDotDot"
+    }}
+  ],
+  "sourcePackage": "oak-jcr"
+}

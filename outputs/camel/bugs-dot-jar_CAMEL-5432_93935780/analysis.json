@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.camel.component.seda.SedaEndpoint",
+    "org.apache.camel.component.seda.SedaProducer"
+  ],
+  "test": [
+    "org.apache.camel.component.seda.SedaRemoveRouteThenAddItAgainTest"
+  ],
+  "suitable_tests": [
+    "SedaRemoveRouteThenAddItAgainTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "SedaRemoveRouteThenAddItAgainTest",
+        "failingTestMethod": "testRemoveRouteAndThenAddItAgain"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

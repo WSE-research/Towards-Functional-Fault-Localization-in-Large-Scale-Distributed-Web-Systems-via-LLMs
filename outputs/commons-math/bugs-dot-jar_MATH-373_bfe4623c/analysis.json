@@ -1,0 +1,39 @@
+{
+  "patched": [
+    "org.apache.commons.math.stat.descriptive.summary.Product",
+    "org.apache.commons.math.stat.descriptive.summary.Sum",
+    "org.apache.commons.math.stat.descriptive.summary.SumOfLogs",
+    "org.apache.commons.math.stat.descriptive.summary.SumOfSquares"
+  ],
+  "test": [
+    "org.apache.commons.math.stat.descriptive.summary.SumTest",
+    "org.apache.commons.math.stat.descriptive.summary.SumSqTest",
+    "org.apache.commons.math.stat.descriptive.summary.ProductTest",
+    "org.apache.commons.math.stat.descriptive.summary.SumLogTest",
+    "org.apache.commons.math.stat.StatUtilsTest"
+  ],
+  "suitable_tests": [
+    "StatUtilsTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "StatUtilsTest",
+        "failingTestMethod": "testSumSq"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "StatUtilsTest",
+        "failingTestMethod": "testProduct"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "StatUtilsTest",
+        "failingTestMethod": "testSumLog"
+      }
+    }
+  ],
+  "sourcePackage": ""
+}

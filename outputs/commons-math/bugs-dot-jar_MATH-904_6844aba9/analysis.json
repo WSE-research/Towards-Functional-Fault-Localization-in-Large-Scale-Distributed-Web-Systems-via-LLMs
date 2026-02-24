@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.commons.math3.util.FastMath"
+  ],
+  "test": [
+    "org.apache.commons.math3.util.FastMathTest"
+  ],
+  "sourcePackage": ""
+}

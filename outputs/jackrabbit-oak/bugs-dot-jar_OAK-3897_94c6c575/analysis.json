@@ -1,0 +1,12 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.document.DocumentMK",
+    "org.apache.jackrabbit.oak.plugins.document.DocumentNodeStore",
+    "org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreBranch",
+    "org.apache.jackrabbit.oak.plugins.document.ResetDiff"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.document.DocumentMKResetTest"
+  ],
+  "sourcePackage": "oak-core"
+}

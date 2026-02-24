@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.wicket.datetime.markup.html.form.DateTextField",
+    "org.apache.wicket.extensions.yui.calendar.DateTimeField"
+  ],
+  "test": [
+    "org.apache.wicket.extensions.yui.calendar.DatePickerTest.testDifferentDateTimeZoneConversion"
+  ],
+  "suitable_tests": [
+    "testDifferentDateTimeZoneConversion"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "testDifferentDateTimeZoneConversion",
+        "failingTestMethod": "testDifferentDateTimeZoneConversion"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-datetime"
+}

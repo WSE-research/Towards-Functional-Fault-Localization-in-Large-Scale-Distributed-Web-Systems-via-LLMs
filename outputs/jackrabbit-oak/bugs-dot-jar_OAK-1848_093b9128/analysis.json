@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.spi.security.authentication.external.impl.DefaultSyncHandler"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.spi.security.authentication.external.ExternalLoginModuleTest"
+  ],
+  "suitable_tests": [
+    "ExternalLoginModuleTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ExternalLoginModuleTest",
+        "failingTestMethod": "testSyncCreateUser"
+      }
+    }
+  ],
+  "sourcePackage": "oak-auth-external"
+}

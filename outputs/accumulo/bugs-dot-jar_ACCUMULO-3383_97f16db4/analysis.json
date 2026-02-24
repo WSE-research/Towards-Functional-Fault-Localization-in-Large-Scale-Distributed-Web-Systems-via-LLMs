@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.accumulo.start.classloader.vfs.AccumuloVFSClassLoader"
+  ],
+  "test": [
+    "org.apache.accumulo.start.classloader.vfs.AccumuloVFSClassLoaderTest"
+  ],
+  "sourcePackage": "start"
+}

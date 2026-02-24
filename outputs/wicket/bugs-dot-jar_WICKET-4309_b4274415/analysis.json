@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.util.string.StringValue"
+  ],
+  "test": [
+    "org.apache.wicket.util.string.StringValueTest"
+  ],
+  "sourcePackage": "wicket-util"
+}

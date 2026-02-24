@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexEditor"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.LucenePropertyIndexTest.indexTimeFieldBoostAndRelativeProperty"
+  ],
+  "suitable_tests": [
+    "indexTimeFieldBoostAndRelativeProperty"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "indexTimeFieldBoostAndRelativeProperty",
+        "failingTestMethod": "indexTimeFieldBoostAndRelativeProperty"
+      }
+    }
+  ],
+  "sourcePackage": "oak-lucene"
+}

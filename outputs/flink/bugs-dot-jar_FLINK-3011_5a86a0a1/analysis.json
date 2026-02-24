@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.flink.runtime.executiongraph.ExecutionGraph"
+  ],
+  "test": [
+    "org.apache.flink.runtime.executiongraph.ExecutionGraphRestartTest",
+    "org.apache.flink.runtime.leaderelection.LeaderChangeStateCleanupTest"
+  ],
+  "suitable_tests": [
+    "LeaderChangeStateCleanupTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "LeaderChangeStateCleanupTest",
+        "failingTestMethod": "testReelectionOfSameJobManager"
+      }
+    }
+  ],
+  "sourcePackage": "flink-runtime"
+}

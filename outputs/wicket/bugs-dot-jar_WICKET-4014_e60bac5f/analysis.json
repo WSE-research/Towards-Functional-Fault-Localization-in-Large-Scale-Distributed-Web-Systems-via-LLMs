@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.request.mapper.MountedMapper"
+  ],
+  "test": [
+    "org.apache.wicket.request.mapper.MountedMapperTest"
+  ],
+  "sourcePackage": "wicket-core"
+}

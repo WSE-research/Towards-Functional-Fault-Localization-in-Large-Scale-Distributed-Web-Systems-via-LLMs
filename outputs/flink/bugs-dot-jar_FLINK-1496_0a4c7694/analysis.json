@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.flink.runtime.io.network.api.reader.BufferReader"
+  ],
+  "test": [
+    "org.apache.flink.runtime.io.network.api.reader.BufferReaderTest"
+  ],
+  "sourcePackage": "flink-runtime"
+}

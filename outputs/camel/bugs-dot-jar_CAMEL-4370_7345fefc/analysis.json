@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.camel.component.file.GenericFile"
+  ],
+  "test": [
+    "org.apache.camel.component.file.FromFileMoveDoneCustomHeaderTest"
+  ],
+  "suitable_tests": [
+    "FromFileMoveDoneCustomHeaderTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "FromFileMoveDoneCustomHeaderTest",
+        "failingTestMethod": "testMoveDoneCustomHeader"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

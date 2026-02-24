@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.util.parse.metapattern.parsers.VariableAssignmentParser"
+  ],
+  "test": [
+    "org.apache.wicket.util.parse.metapattern.parsers.VariableAssignmentParserTest"
+  ],
+  "sourcePackage": "wicket-util"
+}

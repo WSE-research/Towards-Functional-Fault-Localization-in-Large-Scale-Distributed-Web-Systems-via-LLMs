@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "org.apache.flink.api.java.operators.Keys",
+    "org.apache.flink.api.java.typeutils.TupleTypeInfoBase"
+  ],
+  "test": [
+    "org.apache.flink.api.java.operators.KeysTest"
+  ],
+  "sourcePackage": "flink-java"
+}

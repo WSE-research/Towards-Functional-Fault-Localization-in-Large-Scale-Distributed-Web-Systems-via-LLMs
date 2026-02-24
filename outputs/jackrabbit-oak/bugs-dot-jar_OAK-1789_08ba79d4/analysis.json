@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.upgrade.JackrabbitNodeState"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.upgrade.RepositoryUpgradeTest.verifyVersionHistory"
+  ],
+  "suitable_tests": [
+    "verifyVersionHistory"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "verifyVersionHistory",
+        "failingTestMethod": "verifyVersionHistory"
+      }
+    }
+  ],
+  "sourcePackage": "oak-upgrade"
+}

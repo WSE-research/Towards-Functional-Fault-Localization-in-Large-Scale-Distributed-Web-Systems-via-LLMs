@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.document.DocumentNodeStore"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.kernel.CheckpointTest"
+  ],
+  "suitable_tests": [
+    "CheckpointTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "CheckpointTest",
+        "failingTestMethod": "checkpoint[0]"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

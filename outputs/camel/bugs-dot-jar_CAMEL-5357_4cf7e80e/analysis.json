@@ -1,0 +1,36 @@
+{
+  "patched": [
+    "org.apache.camel.util.UnsafeUriCharactersEncoder"
+  ],
+  "test": [
+    "org.apache.camel.component.file.FromFilePollThirdTimeOkTest",
+    "org.apache.camel.util.UnsafeCharactersEncoderTest",
+    "org.apache.camel.processor.aggregator.AggregateTimeoutWithExecutorServiceTest"
+  ],
+  "suitable_tests": [
+    "FromFilePollThirdTimeOkTest",
+    "UnsafeCharactersEncoderTest",
+    "AggregateTimeoutWithExecutorServiceTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "FromFilePollThirdTimeOkTest",
+        "failingTestMethod": "testPollFileAndShouldBeDeletedAtThirdPoll"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "UnsafeCharactersEncoderTest",
+        "failingTestMethod": "testPercentEncode"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AggregateTimeoutWithExecutorServiceTest",
+        "failingTestMethod": "testThreadNotUsedForEveryAggregatorWithCustomExecutorService"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

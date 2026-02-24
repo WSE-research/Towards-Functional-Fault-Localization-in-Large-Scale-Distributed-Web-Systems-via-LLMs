@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.camel.model.ProcessorDefinition"
+  ],
+  "test": [
+    "org.apache.camel.processor.intercept.TransactedPropertyPlaceholderIssueTest"
+  ],
+  "suitable_tests": [
+    "TransactedPropertyPlaceholderIssueTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "TransactedPropertyPlaceholderIssueTest",
+        "failingTestMethod": "testPropertyPlaceholder"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

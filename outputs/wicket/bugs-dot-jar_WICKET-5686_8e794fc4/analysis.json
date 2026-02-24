@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.spring.injection.annot.AnnotProxyFieldValueFactory"
+  ],
+  "test": [
+    "org.apache.wicket.spring.injection.annot.JavaxInjectAnnotProxyFieldValueFactoryTest"
+  ],
+  "sourcePackage": "wicket-spring"
+}

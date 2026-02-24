@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.wicket.request.target.component.BookmarkableListenerInterfaceRequestTarget"
+  ],
+  "test": [
+    "org.apache.wicket.stateless.pages.StatelessFormTest"
+  ],
+  "suitable_tests": [
+    "StatelessFormTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "StatelessFormTest",
+        "failingTestMethod": "testBug"
+      }
+    }
+  ],
+  "sourcePackage": "wicket"
+}

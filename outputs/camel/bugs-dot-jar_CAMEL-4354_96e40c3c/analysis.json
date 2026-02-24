@@ -1,0 +1,44 @@
+{
+  "patched": [
+    "org.apache.camel.impl.ProducerCache"
+  ],
+  "test": [
+    "org.apache.camel.management.EventNotifierFailureHandledEventsTest",
+    "org.apache.camel.management.EventNotifierRedeliveryEventsTest",
+    "org.apache.camel.processor.async.AsyncEndpointEventNotifierTest",
+    "org.apache.camel.management.JmxInstrumentationWithConnectorTest"
+  ],
+  "suitable_tests": [
+    "EventNotifierFailureHandledEventsTest",
+    "EventNotifierRedeliveryEventsTest",
+    "AsyncEndpointEventNotifierTest",
+    "JmxInstrumentationWithConnectorTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "EventNotifierFailureHandledEventsTest",
+        "failingTestMethod": "testExchangeDeadLetterChannel"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "EventNotifierFailureHandledEventsTest",
+        "failingTestMethod": "testExchangeOnException"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "EventNotifierRedeliveryEventsTest",
+        "failingTestMethod": "testExchangeRedeliverySync"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AsyncEndpointEventNotifierTest",
+        "failingTestMethod": "testAsyncEndpointEventNotifer"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

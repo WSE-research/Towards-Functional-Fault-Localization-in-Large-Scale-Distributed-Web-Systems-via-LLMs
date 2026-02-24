@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.commons.math.distribution.NormalDistributionImpl"
+  ],
+  "test": [
+    "org.apache.commons.math.distribution.NormalDistributionTest"
+  ],
+  "suitable_tests": [
+    "NormalDistributionTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "NormalDistributionTest",
+        "failingTestMethod": "testExtremeValues"
+      }
+    }
+  ],
+  "sourcePackage": ""
+}

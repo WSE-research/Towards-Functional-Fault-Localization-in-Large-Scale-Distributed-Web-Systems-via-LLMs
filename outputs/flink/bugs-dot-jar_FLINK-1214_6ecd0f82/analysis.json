@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.flink.compiler.dag.SingleInputNode"
+  ],
+  "test": [
+    "org.apache.flink.compiler.PartitionPushdownTest"
+  ],
+  "suitable_tests": [
+    "PartitionPushdownTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "PartitionPushdownTest",
+        "failingTestMethod": "testPartitioningNotPushedDown"
+      }
+    }
+  ],
+  "sourcePackage": "flink-compiler"
+}

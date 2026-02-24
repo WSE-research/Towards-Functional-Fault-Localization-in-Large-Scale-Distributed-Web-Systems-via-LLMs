@@ -1,0 +1,22 @@
+{
+  "patched": [
+    "org.apache.camel.processor.MulticastProcessor",
+    "org.apache.camel.processor.Splitter"
+  ],
+  "test": [
+    "org.apache.camel.builder.xml.XPathTest",
+    "org.apache.camel.processor.SplitterThrowExceptionFromExpressionTest"
+  ],
+  "suitable_tests": [
+    "XPathTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "XPathTest",
+        "failingTestMethod": "testXPathSplitConcurrent"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

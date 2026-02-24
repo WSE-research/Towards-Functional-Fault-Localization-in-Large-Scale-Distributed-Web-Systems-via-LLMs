@@ -1,0 +1,28 @@
+{
+  "patched": [
+    "org.apache.flink.streaming.api.datastream.KeyedDataStream",
+    "org.apache.flink.streaming.api.environment.StreamExecutionEnvironment",
+    "org.apache.flink.streaming.util.keys.KeySelectorUtil"
+  ],
+  "test": [
+    "org.apache.flink.streaming.util.keys.ArrayKeySelectorTest"
+  ],
+  "suitable_tests": [
+    "ArrayKeySelectorTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ArrayKeySelectorTest",
+        "failingTestMethod": "testPrimitiveArrays"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ArrayKeySelectorTest",
+        "failingTestMethod": "testObjectArrays"
+      }
+    }
+  ],
+  "sourcePackage": "flink-staging/flink-streaming/flink-streaming-core"
+}

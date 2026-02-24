@@ -1,0 +1,31 @@
+{
+  "patched": [
+    "org.apache.wicket.MarkupContainer",
+    "org.apache.wicket.markup.MarkupResourceStream",
+    "org.apache.wicket.markup.transformer.AbstractTransformerBehavior",
+    "org.apache.wicket.markup.transformer.XsltOutputTransformerContainer",
+    "org.apache.wicket.markup.transformer.XsltTransformerBehavior",
+    "org.apache.wicket.protocol.http.BufferedWebResponse"
+  ],
+  "test": [
+    "org.apache.wicket.markup.outputTransformer.OutputTransformerContainerTest"
+  ],
+  "suitable_tests": [
+    "OutputTransformerContainerTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "OutputTransformerContainerTest",
+        "failingTestMethod": "testRenderHomePage_2"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "OutputTransformerContainerTest",
+        "failingTestMethod": "testRenderHomePage"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

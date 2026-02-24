@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver"
+  ],
+  "test": [
+    "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolverTest"
+  ],
+  "sourcePackage": ""
+}

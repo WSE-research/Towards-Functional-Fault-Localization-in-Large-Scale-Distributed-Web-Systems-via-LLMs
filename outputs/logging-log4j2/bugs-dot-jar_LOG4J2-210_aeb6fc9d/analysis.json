@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.message.MapMessage"
+  ],
+  "test": [
+    "org.apache.logging.log4j.message.MapMessageTest"
+  ],
+  "sourcePackage": "api"
+}

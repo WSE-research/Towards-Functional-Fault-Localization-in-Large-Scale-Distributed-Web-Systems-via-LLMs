@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.index.property.PropertyIndex"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.index.property.PropertyIndexQueryTest"
+  ],
+  "sourcePackage": "oak-core"
+}

@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.flink.streaming.runtime.io.BarrierBuffer"
+  ],
+  "test": [
+    "org.apache.flink.streaming.runtime.io.BarrierBufferTest"
+  ],
+  "sourcePackage": "flink-staging/flink-streaming/flink-streaming-core"
+}

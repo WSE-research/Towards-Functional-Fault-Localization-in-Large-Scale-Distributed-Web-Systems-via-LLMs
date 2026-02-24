@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.maven.plugin.descriptor.PluginDescriptorBuilder"
+  ],
+  "test": [
+    "org.apache.maven.plugin.descriptor.PluginDescriptorBuilderTest"
+  ],
+  "sourcePackage": "maven-plugin-api"
+}

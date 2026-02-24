@@ -1,0 +1,13 @@
+{
+  "patched": [
+    "org.apache.wicket.protocol.http.mock.MockServletContext",
+    "org.apache.wicket.request.resource.ByteArrayResource",
+    "org.apache.wicket.request.resource.PackageResource",
+    "org.apache.wicket.request.resource.ResourceStreamResource"
+  ],
+  "test": [
+    "org.apache.wicket.request.resource.ByteArrayResourceTest",
+    "org.apache.wicket.markup.html.PackageResourceTest"
+  ],
+  "sourcePackage": "wicket-core"
+}

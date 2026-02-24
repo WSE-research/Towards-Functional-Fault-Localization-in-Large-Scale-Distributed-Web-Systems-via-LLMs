@@ -1,0 +1,27 @@
+{
+  "patched": [
+    "org.apache.accumulo.core.iterators.Combiner",
+    "org.apache.accumulo.core.iterators.TypedValueCombiner",
+    "org.apache.accumulo.core.iterators.VersioningIterator",
+    "org.apache.accumulo.core.iterators.user.AgeOffFilter",
+    "org.apache.accumulo.core.iterators.user.ColumnAgeOffFilter",
+    "org.apache.accumulo.core.iterators.user.RegExFilter",
+    "org.apache.accumulo.core.iterators.user.TimestampFilter"
+  ],
+  "test": [
+    "org.apache.accumulo.core.iterators.user.FilterTest",
+    "org.apache.accumulo.core.iterators.user.CombinerTest"
+  ],
+  "suitable_tests": [
+    "FilterTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "FilterTest",
+        "failingTestMethod": "test2"
+      }
+    }
+  ],
+  "sourcePackage": "src/core"
+}

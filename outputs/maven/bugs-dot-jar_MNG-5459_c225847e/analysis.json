@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.maven.repository.internal.DefaultArtifactDescriptorReader"
+  ],
+  "test": [
+    "org.apache.maven.repository.internal.DefaultArtifactDescriptorReaderTest"
+  ],
+  "sourcePackage": "maven-aether-provider"
+}

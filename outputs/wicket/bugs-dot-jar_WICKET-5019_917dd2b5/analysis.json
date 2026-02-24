@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.wicket.request.resource.PackageResourceReference"
+  ],
+  "test": [
+    "org.apache.wicket.request.resource.MinifiedAwareResourceReferenceTest"
+  ],
+  "suitable_tests": [
+    "MinifiedAwareResourceReferenceTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "MinifiedAwareResourceReferenceTest",
+        "failingTestMethod": "noMinifiedResourceAvailable"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

@@ -1,0 +1,22 @@
+{
+  "patched": [
+    "org.apache.camel.builder.AdviceWithRouteBuilder",
+    "org.apache.camel.impl.InterceptSendToEndpoint",
+    "org.apache.camel.impl.InterceptSendToMockEndpointStrategy"
+  ],
+  "test": [
+    "org.apache.camel.processor.interceptor.AdviceWithMockEndpointsHavingParameterTest"
+  ],
+  "suitable_tests": [
+    "AdviceWithMockEndpointsHavingParameterTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "AdviceWithMockEndpointsHavingParameterTest",
+        "failingTestMethod": "testAdvisedMockEndpoints"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

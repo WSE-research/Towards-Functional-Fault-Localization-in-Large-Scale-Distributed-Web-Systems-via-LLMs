@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.wicket.Component",
+    "org.apache.wicket.markup.html.internal.InlineEnclosure"
+  ],
+  "test": [
+    "org.apache.wicket.markup.MarkupVariationTest"
+  ],
+  "suitable_tests": [
+    "MarkupVariationTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "MarkupVariationTest",
+        "failingTestMethod": "changeVariation"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

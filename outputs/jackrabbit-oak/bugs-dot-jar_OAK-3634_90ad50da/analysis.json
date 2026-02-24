@@ -1,0 +1,27 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.document.mongo.MongoDocumentStore",
+    "org.apache.jackrabbit.oak.plugins.document.rdb.RDBDocumentStore"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.document.MultiDocumentStoreTest"
+  ],
+  "suitable_tests": [
+    "MultiDocumentStoreTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "MultiDocumentStoreTest",
+        "failingTestMethod": "testChangeVisibility"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "MultiDocumentStoreTest",
+        "failingTestMethod": "concurrentUpdate"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

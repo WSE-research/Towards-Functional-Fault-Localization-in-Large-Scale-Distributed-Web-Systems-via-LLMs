@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.document.ClusterNodeInfo"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.document.ClusterInfoTest"
+  ],
+  "suitable_tests": [
+    "ClusterInfoTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ClusterInfoTest",
+        "failingTestMethod": "useAbandoned"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

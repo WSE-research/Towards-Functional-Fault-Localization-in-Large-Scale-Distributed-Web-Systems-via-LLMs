@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.document.LastRevRecoveryAgent"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.document.LastRevRecoveryTest"
+  ],
+  "suitable_tests": [
+    "LastRevRecoveryTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "LastRevRecoveryTest",
+        "failingTestMethod": "recoveryWithoutRootUpdate"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

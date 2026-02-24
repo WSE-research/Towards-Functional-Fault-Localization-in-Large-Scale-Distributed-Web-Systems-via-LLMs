@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.maven.model.validation.DefaultModelValidator"
+  ],
+  "test": [
+    "org.apache.maven.model.validation.DefaultModelValidatorTest"
+  ],
+  "sourcePackage": "maven-model-builder"
+}

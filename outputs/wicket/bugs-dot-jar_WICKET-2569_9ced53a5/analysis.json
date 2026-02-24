@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.markup.MergedMarkup"
+  ],
+  "test": [
+    "org.apache.wicket.markup.parser.MergedMarkupTest"
+  ],
+  "sourcePackage": "wicket"
+}

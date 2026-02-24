@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.OakDirectory"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.OakDirectoryTest.readOnlyDirectory"
+  ],
+  "suitable_tests": [
+    "readOnlyDirectory"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "readOnlyDirectory",
+        "failingTestMethod": "readOnlyDirectory"
+      }
+    }
+  ],
+  "sourcePackage": "oak-lucene"
+}

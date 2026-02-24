@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.wicket.markup.AbstractMarkupParser"
+  ],
+  "test": [
+    "org.apache.wicket.markup.MarkupParserTest"
+  ],
+  "suitable_tests": [
+    "MarkupParserTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "MarkupParserTest",
+        "failingTestMethod": "testComments"
+      }
+    }
+  ],
+  "sourcePackage": "wicket"
+}

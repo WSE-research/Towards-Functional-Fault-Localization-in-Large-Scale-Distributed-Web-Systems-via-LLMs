@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.wicket.ajax.form.AjaxFormComponentUpdatingBehavior"
+  ],
+  "test": [
+    "org.apache.wicket.ajax.form.AjaxFormChoiceComponentUpdatingBehaviorTest"
+  ],
+  "suitable_tests": [
+    "AjaxFormChoiceComponentUpdatingBehaviorTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "AjaxFormChoiceComponentUpdatingBehaviorTest",
+        "failingTestMethod": "nestedInvalidFormComponent"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

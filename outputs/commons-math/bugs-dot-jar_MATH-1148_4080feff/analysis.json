@@ -1,0 +1,30 @@
+{
+  "patched": [
+    "org.apache.commons.math3.geometry.euclidean.twod.hull.ConvexHull2D",
+    "org.apache.commons.math3.geometry.euclidean.twod.hull.MonotoneChain"
+  ],
+  "test": [
+    "org.apache.commons.math3.geometry.euclidean.twod.hull.MonotoneChainTest",
+    "org.apache.commons.math3.geometry.euclidean.twod.hull.AklToussaintHeuristicTest",
+    "org.apache.commons.math3.ml.neuralnet.sofm.KohonenUpdateActionTest"
+  ],
+  "suitable_tests": [
+    "AklToussaintHeuristicTest",
+    "KohonenUpdateActionTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "AklToussaintHeuristicTest",
+        "failingTestMethod": "testCollinearPointsInAnyOrder"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "KohonenUpdateActionTest",
+        "failingTestMethod": "testUpdate"
+      }
+    }
+  ],
+  "sourcePackage": ""
+}

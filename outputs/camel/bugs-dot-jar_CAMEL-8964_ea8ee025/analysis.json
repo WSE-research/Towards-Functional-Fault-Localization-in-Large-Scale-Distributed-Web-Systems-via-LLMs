@@ -1,0 +1,29 @@
+{
+  "patched": [
+    "org.apache.camel.impl.DefaultCamelContext",
+    "org.apache.camel.util.ServiceHelper"
+  ],
+  "test": [
+    "org.apache.camel.impl.RouteSedaSuspendResumeTest",
+    "org.apache.camel.management.ManagedThrottlerTest"
+  ],
+  "suitable_tests": [
+    "RouteSedaSuspendResumeTest",
+    "ManagedThrottlerTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "RouteSedaSuspendResumeTest",
+        "failingTestMethod": "testSuspendResume"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ManagedThrottlerTest",
+        "failingTestMethod": "testThrottleAsyncVisableViaJmx"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

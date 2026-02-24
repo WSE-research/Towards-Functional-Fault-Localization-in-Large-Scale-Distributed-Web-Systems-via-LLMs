@@ -1,0 +1,24 @@
+{
+  "patched": [
+    "org.apache.commons.math.random.RandomDataImpl"
+  ],
+  "test": [
+    "org.apache.commons.math.random.AbstractRandomGeneratorTest",
+    "org.apache.commons.math.random.RandomAdaptorTest",
+    "org.apache.commons.math.random.RandomDataTest"
+  ],
+  "suitable_tests": [
+    "AbstractRandomGeneratorTest",
+    "RandomAdaptorTest",
+    "RandomDataTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "RandomDataTest",
+        "failingTestMethod": "testNextPoissionConistency"
+      }
+    }
+  ],
+  "sourcePackage": ""
+}

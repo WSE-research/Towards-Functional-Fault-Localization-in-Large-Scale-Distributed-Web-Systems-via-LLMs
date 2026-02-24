@@ -1,0 +1,11 @@
+{
+  "patched": [
+    "org.apache.wicket.request.resource.caching.FilenameWithVersionResourceCachingStrategy",
+    "org.apache.wicket.request.resource.caching.QueryStringWithVersionResourceCachingStrategy"
+  ],
+  "test": [
+    "org.apache.wicket.request.resource.caching.QueryStringWithVersionResourceCachingStrategyTest",
+    "org.apache.wicket.request.resource.caching.FilenameWithVersionResourceCachingStrategyTest"
+  ],
+  "sourcePackage": "wicket-core"
+}

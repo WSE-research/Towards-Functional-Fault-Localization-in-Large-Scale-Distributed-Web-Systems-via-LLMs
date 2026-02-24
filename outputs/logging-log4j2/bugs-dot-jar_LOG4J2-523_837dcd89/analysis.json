@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.message.LocalizedMessage"
+  ],
+  "test": [
+    "org.apache.logging.log4j.message.LocalizedMessageTest"
+  ],
+  "sourcePackage": "log4j-api"
+}

@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.camel.processor.loadbalancer.CircuitBreakerLoadBalancer"
+  ],
+  "test": [
+    "org.apache.camel.processor.CircuitBreakerLoadBalancerTest",
+    "org.apache.camel.component.vm.VmMultipleConsumersRemoteRouteTest"
+  ],
+  "suitable_tests": [
+    "VmMultipleConsumersRemoteRouteTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "VmMultipleConsumersRemoteRouteTest",
+        "failingTestMethod": "testVmMultipleConsumersRemoteRoute"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

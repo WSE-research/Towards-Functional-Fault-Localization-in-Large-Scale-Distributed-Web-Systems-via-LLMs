@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.query.xpath.XPathToSQL2Converter"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.index.property.PropertyIndexQueryTest"
+  ],
+  "suitable_tests": [
+    "PropertyIndexQueryTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "PropertyIndexQueryTest",
+        "failingTestMethod": "xpath"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

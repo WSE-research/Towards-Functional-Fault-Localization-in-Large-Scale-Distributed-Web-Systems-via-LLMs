@@ -1,0 +1,27 @@
+{
+  "patched": [
+    "org.apache.wicket.ajax.AbstractAjaxResponse",
+    "org.apache.wicket.ajax.AjaxEventBehavior"
+  ],
+  "test": [
+    "org.apache.wicket.ajax.DomReadyOrderTest"
+  ],
+  "suitable_tests": [
+    "DomReadyOrderTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "DomReadyOrderTest",
+        "failingTestMethod": "domReadyOrder"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "DomReadyOrderTest",
+        "failingTestMethod": "domReadyOrder2"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

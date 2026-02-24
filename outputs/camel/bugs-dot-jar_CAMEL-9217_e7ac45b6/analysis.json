@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.camel.impl.DefaultComponent"
+  ],
+  "test": [
+    "org.apache.camel.component.file.FileConsumerPathWithAmpersandTest"
+  ],
+  "suitable_tests": [
+    "FileConsumerPathWithAmpersandTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "FileConsumerPathWithAmpersandTest",
+        "failingTestMethod": "testPathWithAmpersand"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

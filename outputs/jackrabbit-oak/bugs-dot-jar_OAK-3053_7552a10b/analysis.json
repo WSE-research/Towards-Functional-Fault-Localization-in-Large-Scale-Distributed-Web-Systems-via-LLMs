@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.IndexCopier"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexEditorTest.copyOnWriteAndLocks"
+  ],
+  "suitable_tests": [
+    "copyOnWriteAndLocks"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "copyOnWriteAndLocks",
+        "failingTestMethod": "copyOnWriteAndLocks"
+      }
+    }
+  ],
+  "sourcePackage": "oak-lucene"
+}

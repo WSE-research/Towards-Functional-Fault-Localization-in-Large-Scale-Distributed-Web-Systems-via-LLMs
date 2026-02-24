@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.camel.processor.Throttler"
+  ],
+  "test": [
+    "org.apache.camel.issues.OnCompletionIssueTest",
+    "org.apache.camel.processor.ThrottlerNullEvalTest"
+  ],
+  "suitable_tests": [
+    "OnCompletionIssueTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "OnCompletionIssueTest",
+        "failingTestMethod": "testOnCompletionIssue"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

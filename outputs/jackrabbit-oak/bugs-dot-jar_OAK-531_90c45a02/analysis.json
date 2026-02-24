@@ -1,0 +1,26 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.memory.MemoryNodeBuilder"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.kernel.KernelNodeBuilderTest"
+  ],
+  "suitable_tests": [
+    "KernelNodeBuilderTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "KernelNodeBuilderTest",
+        "failingTestMethod": "deletesMemoryNodeStore"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "KernelNodeBuilderTest",
+        "failingTestMethod": "deletesKernelNodeStore"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

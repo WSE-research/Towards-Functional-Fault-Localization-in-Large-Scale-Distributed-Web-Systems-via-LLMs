@@ -1,0 +1,23 @@
+{
+  "patched": [
+    "org.apache.wicket.Component",
+    "org.apache.wicket.mock.MockPageManager",
+    "org.apache.wicket.request.handler.PageProvider"
+  ],
+  "test": [
+    "org.apache.wicket.markup.html.internal.EnclosureTest",
+    "org.apache.wicket.stateless.StatelessComponentTest"
+  ],
+  "suitable_tests": [
+    "EnclosureTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "EnclosureTest",
+        "failingTestMethod": "testRender10"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

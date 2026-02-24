@@ -1,0 +1,38 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.tree.AbstractTree"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.core.MutableTreeTest"
+  ],
+  "suitable_tests": [
+    "MutableTreeTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "MutableTreeTest",
+        "failingTestMethod": "isNew[0]"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "MutableTreeTest",
+        "failingTestMethod": "isNew[1]"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "MutableTreeTest",
+        "failingTestMethod": "isNew[2]"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "MutableTreeTest",
+        "failingTestMethod": "isNew[3]"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

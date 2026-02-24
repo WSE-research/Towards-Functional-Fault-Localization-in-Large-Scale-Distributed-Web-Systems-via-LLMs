@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.protocol.http.request.UserAgent"
+  ],
+  "test": [
+    "org.apache.wicket.protocol.http.request.UserAgentTest#detectionGroups"
+  ],
+  "sourcePackage": "wicket-core"
+}

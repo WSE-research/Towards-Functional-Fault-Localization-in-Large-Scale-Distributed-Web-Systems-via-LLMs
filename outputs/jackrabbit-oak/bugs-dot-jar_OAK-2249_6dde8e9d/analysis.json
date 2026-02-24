@@ -1,0 +1,31 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.query.ast.FullTextSearchImpl",
+    "org.apache.jackrabbit.oak.query.index.FilterImpl",
+    "org.apache.jackrabbit.oak.query.xpath.Statement",
+    "org.apache.jackrabbit.oak.spi.query.Cursors"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.index.property.PropertyIndexQueryTest",
+    "org.apache.jackrabbit.oak.plugins.index.property.OrderedIndexQueryTest"
+  ],
+  "suitable_tests": [
+    "PropertyIndexQueryTest",
+    "OrderedIndexQueryTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "PropertyIndexQueryTest",
+        "failingTestMethod": "xpath"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "OrderedIndexQueryTest",
+        "failingTestMethod": "xpath"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

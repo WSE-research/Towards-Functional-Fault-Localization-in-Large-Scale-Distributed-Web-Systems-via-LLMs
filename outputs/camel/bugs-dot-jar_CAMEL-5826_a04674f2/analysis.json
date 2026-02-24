@@ -1,0 +1,28 @@
+{
+  "patched": [
+    "org.apache.camel.support.TokenXMLPairExpressionIterator"
+  ],
+  "test": [
+    "org.apache.camel.component.file.FileConsumeSingleDirectoryOnlyTest",
+    "org.apache.camel.processor.SplitTokenizerNamespaceTest"
+  ],
+  "suitable_tests": [
+    "FileConsumeSingleDirectoryOnlyTest",
+    "SplitTokenizerNamespaceTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "FileConsumeSingleDirectoryOnlyTest",
+        "failingTestMethod": "testConsumeFileOnly"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "SplitTokenizerNamespaceTest",
+        "failingTestMethod": "testSplitTokenizerWithImplicitNamespaces"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

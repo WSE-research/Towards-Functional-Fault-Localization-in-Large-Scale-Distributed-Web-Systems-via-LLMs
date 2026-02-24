@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.wicket.core.request.mapper.BookmarkableMapper",
+    "org.apache.wicket.core.request.mapper.PackageMapper"
+  ],
+  "test": [
+    "org.apache.wicket.settings.ISecuritySettingsTest"
+  ],
+  "suitable_tests": [
+    "ISecuritySettingsTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ISecuritySettingsTest",
+        "failingTestMethod": "enforceMountsWithCryptoMapper"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

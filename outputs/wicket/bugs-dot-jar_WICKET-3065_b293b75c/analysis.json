@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.request.mapper.HomePageMapper"
+  ],
+  "test": [
+    "org.apache.wicket.request.mapper.HomePageMapperTest"
+  ],
+  "sourcePackage": "wicket"
+}

@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.ajax.AjaxEventBehavior"
+  ],
+  "test": [
+    "org.apache.wicket.ajax.AjaxEventBehaviorTest"
+  ],
+  "sourcePackage": "wicket-core"
+}

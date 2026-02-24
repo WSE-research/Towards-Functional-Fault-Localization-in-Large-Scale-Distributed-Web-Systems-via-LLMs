@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.accumulo.server.constraints.MetadataConstraints"
+  ],
+  "test": [
+    "org.apache.accumulo.server.constraints.MetadataConstraintsTest"
+  ],
+  "sourcePackage": "server"
+}

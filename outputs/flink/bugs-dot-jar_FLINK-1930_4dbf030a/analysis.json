@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.flink.runtime.io.network.buffer.LocalBufferPool"
+  ],
+  "test": [
+    "org.apache.flink.runtime.io.network.buffer.NetworkBufferPoolTest",
+    "org.apache.flink.runtime.io.network.buffer.LocalBufferPoolTest"
+  ],
+  "suitable_tests": [
+    "NetworkBufferPoolTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "NetworkBufferPoolTest",
+        "failingTestMethod": "testDestroyAll"
+      }
+    }
+  ],
+  "sourcePackage": "flink-runtime"
+}

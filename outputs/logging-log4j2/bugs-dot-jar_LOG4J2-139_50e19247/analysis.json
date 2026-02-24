@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.core.appender.SocketAppender"
+  ],
+  "test": [
+    "org.apache.logging.log4j.core.appender.SocketAppenderTest"
+  ],
+  "sourcePackage": "core"
+}

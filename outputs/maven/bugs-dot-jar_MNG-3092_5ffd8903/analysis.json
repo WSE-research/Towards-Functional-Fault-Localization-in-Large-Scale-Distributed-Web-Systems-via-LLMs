@@ -1,0 +1,26 @@
+{
+  "patched": [
+    "org.apache.maven.artifact.versioning.Restriction"
+  ],
+  "test": [
+    "org.apache.maven.artifact.versioning.VersionRangeTest"
+  ],
+  "suitable_tests": [
+    "VersionRangeTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "VersionRangeTest",
+        "failingTestMethod": "testReleaseRangeBoundsCannotContainSnapshots"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "VersionRangeTest",
+        "failingTestMethod": "testSnapshotRangeBoundsCanContainSnapshots"
+      }
+    }
+  ],
+  "sourcePackage": "maven-artifact"
+}

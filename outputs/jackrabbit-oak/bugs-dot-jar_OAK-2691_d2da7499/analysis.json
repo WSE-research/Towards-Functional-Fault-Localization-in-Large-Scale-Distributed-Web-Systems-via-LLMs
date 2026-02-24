@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.identifier.ClusterRepositoryInfo"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.blob.ClusterRepositoryInfoTest"
+  ],
+  "sourcePackage": "oak-core"
+}

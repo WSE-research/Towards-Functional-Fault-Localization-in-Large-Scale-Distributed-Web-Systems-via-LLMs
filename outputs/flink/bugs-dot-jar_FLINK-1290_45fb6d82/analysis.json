@@ -1,0 +1,29 @@
+{
+  "patched": [
+    "org.apache.flink.compiler.operators.AbstractJoinDescriptor",
+    "org.apache.flink.compiler.operators.CoGroupDescriptor"
+  ],
+  "test": [
+    "org.apache.flink.compiler.custompartition.CoGroupCustomPartitioningTest",
+    "org.apache.flink.compiler.custompartition.JoinCustomPartitioningTest"
+  ],
+  "suitable_tests": [
+    "CoGroupCustomPartitioningTest",
+    "JoinCustomPartitioningTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "CoGroupCustomPartitioningTest",
+        "failingTestMethod": "testIncompatibleHashAndCustomPartitioning"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "JoinCustomPartitioningTest",
+        "failingTestMethod": "testIncompatibleHashAndCustomPartitioning"
+      }
+    }
+  ],
+  "sourcePackage": "flink-compiler"
+}

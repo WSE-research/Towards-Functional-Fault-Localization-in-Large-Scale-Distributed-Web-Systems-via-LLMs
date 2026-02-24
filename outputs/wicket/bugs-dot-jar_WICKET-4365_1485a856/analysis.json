@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "org.apache.wicket.markup.html.form.Form",
+    "org.apache.wicket.markup.html.form.StatelessForm"
+  ],
+  "test": [
+    "org.apache.wicket.stateless.StatelessFormUrlTest"
+  ],
+  "sourcePackage": "wicket-core"
+}

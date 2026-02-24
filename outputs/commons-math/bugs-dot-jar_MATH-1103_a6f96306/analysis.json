@@ -1,0 +1,26 @@
+{
+  "patched": [
+    "org.apache.commons.math3.fitting.leastsquares.GaussNewtonOptimizer",
+    "org.apache.commons.math3.fitting.leastsquares.LeastSquaresFactory",
+    "org.apache.commons.math3.fitting.leastsquares.LevenbergMarquardtOptimizer"
+  ],
+  "test": [
+    "org.apache.commons.math3.fitting.leastsquares.GaussNewtonOptimizerWithLUTest",
+    "org.apache.commons.math3.fitting.leastsquares.LevenbergMarquardtOptimizerTest",
+    "org.apache.commons.math3.fitting.leastsquares.GaussNewtonOptimizerWithCholeskyTest",
+    "org.apache.commons.math3.fitting.leastsquares.EvaluationTest",
+    "org.apache.commons.math3.fitting.leastsquares.GaussNewtonOptimizerWithQRTest"
+  ],
+  "suitable_tests": [
+    "EvaluationTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "EvaluationTest",
+        "failingTestMethod": "testEvaluateCopiesPoint"
+      }
+    }
+  ],
+  "sourcePackage": ""
+}

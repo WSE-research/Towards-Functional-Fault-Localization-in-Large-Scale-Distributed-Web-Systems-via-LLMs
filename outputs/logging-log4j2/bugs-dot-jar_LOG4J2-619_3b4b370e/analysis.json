@@ -1,0 +1,36 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.core.config.xml.XmlConfiguration"
+  ],
+  "test": [
+    "org.apache.logging.log4j.core.FileConfigTest",
+    "org.apache.logging.log4j.core.config.TestConfigurator",
+    "org.apache.logging.log4j.core.LoggerTest"
+  ],
+  "suitable_tests": [
+    "FileConfigTest",
+    "TestConfigurator",
+    "LoggerTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "FileConfigTest",
+        "failingTestMethod": "testReconfiguration"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TestConfigurator",
+        "failingTestMethod": "testReconfiguration"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "LoggerTest",
+        "failingTestMethod": "testReconfiguration"
+      }
+    }
+  ],
+  "sourcePackage": "log4j-core"
+}

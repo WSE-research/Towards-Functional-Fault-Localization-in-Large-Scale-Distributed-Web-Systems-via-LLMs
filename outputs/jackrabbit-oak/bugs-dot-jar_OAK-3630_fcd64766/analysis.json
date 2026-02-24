@@ -1,0 +1,22 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.Aggregate",
+    "org.apache.jackrabbit.oak.plugins.index.lucene.util.ConfigUtil"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.AggregateTest",
+    "org.apache.jackrabbit.oak.plugins.index.lucene.LucenePropertyIndexTest"
+  ],
+  "suitable_tests": [
+    "LucenePropertyIndexTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "LucenePropertyIndexTest",
+        "failingTestMethod": "indexingBasedOnMixinAndRelativeProps"
+      }
+    }
+  ],
+  "sourcePackage": "oak-lucene"
+}

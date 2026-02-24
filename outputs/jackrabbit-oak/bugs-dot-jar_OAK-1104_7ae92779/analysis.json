@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.segment.MapEntry",
+    "org.apache.jackrabbit.oak.plugins.segment.MapRecord"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.segment.MapRecordTest"
+  ],
+  "sourcePackage": "oak-core"
+}

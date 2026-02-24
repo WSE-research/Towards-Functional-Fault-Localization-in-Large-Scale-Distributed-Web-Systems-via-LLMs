@@ -1,0 +1,28 @@
+{
+  "patched": [
+    "org.apache.camel.component.bean.MethodInfo"
+  ],
+  "test": [
+    "org.apache.camel.component.bean.BeanOgnlBodyMethodReturnNullValueTest",
+    "org.apache.camel.processor.aggregator.AggregateTimeoutTest"
+  ],
+  "suitable_tests": [
+    "BeanOgnlBodyMethodReturnNullValueTest",
+    "AggregateTimeoutTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "BeanOgnlBodyMethodReturnNullValueTest",
+        "failingTestMethod": "testNullValue"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AggregateTimeoutTest",
+        "failingTestMethod": "testAggregateTimeout"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

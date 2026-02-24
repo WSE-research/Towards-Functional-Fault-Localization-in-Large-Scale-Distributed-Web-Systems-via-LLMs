@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.flink.runtime.checkpoint.stats.SimpleCheckpointStatsTracker"
+  ],
+  "test": [
+    "org.apache.flink.runtime.checkpoint.stats.SimpleCheckpointStatsTrackerTest"
+  ],
+  "sourcePackage": "flink-runtime"
+}

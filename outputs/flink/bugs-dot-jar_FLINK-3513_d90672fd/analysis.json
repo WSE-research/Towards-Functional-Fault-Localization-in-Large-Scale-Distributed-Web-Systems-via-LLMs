@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.flink.streaming.api.graph.StreamingJobGraphGenerator"
+  ],
+  "test": [
+    "org.apache.flink.streaming.graph.StreamingJobGraphGeneratorNodeHashTest"
+  ],
+  "sourcePackage": "flink-streaming-java"
+}

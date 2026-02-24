@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.flink.api.java.typeutils.runtime.kryo.KryoSerializer"
+  ],
+  "test": [
+    "org.apache.flink.api.java.typeutils.runtime.kryo.KryoGenericTypeSerializerTest"
+  ],
+  "suitable_tests": [
+    "KryoGenericTypeSerializerTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "KryoGenericTypeSerializerTest",
+        "failingTestMethod": "validateReferenceMappingDisabled"
+      }
+    }
+  ],
+  "sourcePackage": "flink-java"
+}

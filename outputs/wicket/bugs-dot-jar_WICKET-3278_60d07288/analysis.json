@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.wicket.markup.html.form.AbstractSingleSelectChoice"
+  ],
+  "test": [
+    "org.apache.wicket.ajax.form.OnChangeAjaxBehaviorTest"
+  ],
+  "suitable_tests": [
+    "OnChangeAjaxBehaviorTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "OnChangeAjaxBehaviorTest",
+        "failingTestMethod": "testRendering"
+      }
+    }
+  ],
+  "sourcePackage": "wicket"
+}

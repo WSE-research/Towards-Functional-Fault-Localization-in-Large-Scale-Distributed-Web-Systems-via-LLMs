@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.segment.RecordIdMap"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.segment.RecordIdMapTest"
+  ],
+  "sourcePackage": "oak-core"
+}

@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.commons.math.linear.EigenDecompositionImpl"
+  ],
+  "test": [
+    "org.apache.commons.math.linear.EigenDecompositionImplTest"
+  ],
+  "sourcePackage": ""
+}

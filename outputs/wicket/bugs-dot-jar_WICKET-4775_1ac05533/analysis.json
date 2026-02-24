@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.request.mapper.parameter.PageParameters"
+  ],
+  "test": [
+    "org.apache.wicket.request.mapper.parameter.PageParametersTest"
+  ],
+  "sourcePackage": "wicket-request"
+}

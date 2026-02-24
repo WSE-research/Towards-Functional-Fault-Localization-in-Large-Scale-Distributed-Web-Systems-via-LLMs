@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "org.apache.flink.stormcompatibility.api.FlinkTopologyBuilder",
+    "org.apache.flink.stormcompatibility.api.SplitStreamTypeKeySelector"
+  ],
+  "test": [
+    "org.apache.flink.stormcompatibility.api.FlinkTopologyBuilderTest"
+  ],
+  "sourcePackage": "flink-contrib/flink-storm-compatibility/flink-storm-compatibility-core"
+}

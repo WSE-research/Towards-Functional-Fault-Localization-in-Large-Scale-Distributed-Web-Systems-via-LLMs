@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.core.util.string.JavaScriptStripper"
+  ],
+  "test": [
+    "org.apache.wicket.util.string.JavaScriptStripperTest"
+  ],
+  "sourcePackage": "wicket-core"
+}

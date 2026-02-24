@@ -1,0 +1,33 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.kernel.KernelRootBuilder",
+    "org.apache.jackrabbit.oak.plugins.mongomk.MongoRootBuilder"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.kernel.NodeStoreTest"
+  ],
+  "suitable_tests": [
+    "NodeStoreTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "NodeStoreTest",
+        "failingTestMethod": "rebaseWithFailedMerge[0]"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "NodeStoreTest",
+        "failingTestMethod": "rebaseWithFailedMerge[1]"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "NodeStoreTest",
+        "failingTestMethod": "rebaseWithFailedMerge[2]"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

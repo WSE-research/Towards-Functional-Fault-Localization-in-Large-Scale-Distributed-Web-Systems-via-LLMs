@@ -1,0 +1,42 @@
+{
+  "patched": [
+    "Component",
+    "Page",
+    "RequestCycle",
+    "Session",
+    "FeedbackMessages",
+    "FeedbackMessagesModel",
+    "FormComponentFeedbackBorder",
+    "FormComponentFeedbackIndicator",
+    "AbstractListenerInterfaceRequestTarget"
+  ],
+  "test": [
+    "wicket.util.tester.apps_4.FormTesterTest",
+    "wicket.util.tester.WicketTesterTest"
+  ],
+  "suitable_tests": [
+    "FormTesterTest",
+    "WicketTesterTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "FormTesterTest",
+        "failingTestMethod": "test_1"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "WicketTesterTest",
+        "failingTestMethod": "testCreateBook_validateFail"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "WicketTesterTest",
+        "failingTestMethod": "testCreateBook_validatePass"
+      }
+    }
+  ],
+  "sourcePackage": "jdk-1.4/wicket"
+}

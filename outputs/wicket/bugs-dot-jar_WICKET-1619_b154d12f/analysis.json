@@ -1,0 +1,45 @@
+{
+  "patched": [
+    "org.apache.wicket.markup.html.navigation.paging.PagingNavigation",
+    "org.apache.wicket.markup.html.navigation.paging.PagingNavigator"
+  ],
+  "test": [
+    "org.apache.wicket.markup.html.list.PagedTableTest",
+    "org.apache.wicket.markup.html.list.PagedTableNavigatorWithLabelProviderTest",
+    "org.apache.wicket.markup.html.list.PagedTableNavigatorTest",
+    "org.apache.wicket.markup.html.list.PagedTableNavigatorWithMarginTest"
+  ],
+  "suitable_tests": [
+    "PagedTableTest",
+    "PagedTableNavigatorWithLabelProviderTest",
+    "PagedTableNavigatorTest",
+    "PagedTableNavigatorWithMarginTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "PagedTableTest",
+        "failingTestMethod": "testPagedTable"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "PagedTableNavigatorWithLabelProviderTest",
+        "failingTestMethod": "testPagedTable"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "PagedTableNavigatorTest",
+        "failingTestMethod": "testPagedTable"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "PagedTableNavigatorWithMarginTest",
+        "failingTestMethod": "testPagedTable"
+      }
+    }
+  ],
+  "sourcePackage": "wicket"
+}

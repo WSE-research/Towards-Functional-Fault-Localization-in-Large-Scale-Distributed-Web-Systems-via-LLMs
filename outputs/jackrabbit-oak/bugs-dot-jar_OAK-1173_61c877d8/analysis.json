@@ -1,0 +1,26 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.security.authorization.permission.CompiledPermissionImpl"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.security.authorization.evaluation.VersionStorageTest"
+  ],
+  "suitable_tests": [
+    "VersionStorageTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "VersionStorageTest",
+        "failingTestMethod": "testGetChildrenCountOnVersionStorage"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "VersionStorageTest",
+        "failingTestMethod": "testGetChildrenCountOnVersionStorage2"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

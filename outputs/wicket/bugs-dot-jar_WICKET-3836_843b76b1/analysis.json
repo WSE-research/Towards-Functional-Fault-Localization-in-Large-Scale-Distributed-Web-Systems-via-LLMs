@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.RestartResponseAtInterceptPageException"
+  ],
+  "test": [
+    "org.apache.wicket.RestartResponseAtInterceptPageExceptionTest"
+  ],
+  "sourcePackage": "wicket-core"
+}

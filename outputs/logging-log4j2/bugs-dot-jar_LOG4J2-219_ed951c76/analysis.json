@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.core.config.BaseConfiguration"
+  ],
+  "test": [
+    "org.apache.logging.log4j.core.config.BaseConfigurationTest"
+  ],
+  "sourcePackage": "core"
+}

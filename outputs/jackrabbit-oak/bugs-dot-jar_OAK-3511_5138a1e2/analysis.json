@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.segment.PersistedCompactionMap"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.segment.CompactionMapTest"
+  ],
+  "suitable_tests": [
+    "CompactionMapTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "CompactionMapTest",
+        "failingTestMethod": "removeRecentKey"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

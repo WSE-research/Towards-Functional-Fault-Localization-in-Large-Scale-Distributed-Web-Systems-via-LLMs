@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.wicket.MarkupContainer"
+  ],
+  "test": [
+    "org.apache.wicket.model.DetachableTest"
+  ],
+  "suitable_tests": [
+    "DetachableTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "DetachableTest",
+        "failingTestMethod": "testDetachRemovedChildrenTree"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

@@ -1,0 +1,42 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.query.ast.ComparisonImpl",
+    "org.apache.jackrabbit.oak.query.index.FilterImpl",
+    "org.apache.jackrabbit.oak.spi.query.PropertyValues"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.query.index.TraversingIndexQueryTest",
+    "org.apache.jackrabbit.oak.query.index.FilterTest"
+  ],
+  "suitable_tests": [
+    "TraversingIndexQueryTest",
+    "FilterTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "TraversingIndexQueryTest",
+        "failingTestMethod": "testMultiNotEqual"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TraversingIndexQueryTest",
+        "failingTestMethod": "testMultiAndLike"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TraversingIndexQueryTest",
+        "failingTestMethod": "testSubPropertyMultiAndLike"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "FilterTest",
+        "failingTestMethod": "propertyRestriction"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

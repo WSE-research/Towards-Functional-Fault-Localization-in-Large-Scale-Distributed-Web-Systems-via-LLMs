@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.accumulo.core.security.Authorizations"
+  ],
+  "test": [
+    "org.apache.accumulo.core.util.shell.ShellTest"
+  ],
+  "suitable_tests": [
+    "ShellTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ShellTest",
+        "failingTestMethod": "authsTest"
+      }
+    }
+  ],
+  "sourcePackage": "core"
+}

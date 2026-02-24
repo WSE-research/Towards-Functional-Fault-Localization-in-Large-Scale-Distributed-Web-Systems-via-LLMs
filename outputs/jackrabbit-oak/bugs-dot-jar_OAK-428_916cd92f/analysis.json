@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.kernel.TypeCodes"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.kernel.TypeCodesTest"
+  ],
+  "sourcePackage": "oak-core"
+}

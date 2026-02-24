@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.request.Url"
+  ],
+  "test": [
+    "org.apache.wicket.request.UrlTest"
+  ],
+  "sourcePackage": "wicket-request"
+}

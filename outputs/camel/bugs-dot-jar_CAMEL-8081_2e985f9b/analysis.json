@@ -1,0 +1,30 @@
+{
+  "patched": [
+    "org.apache.camel.processor.MulticastProcessor"
+  ],
+  "test": [
+    "org.apache.camel.management.ManagedThrottlerTest",
+    "org.apache.camel.processor.MulticastParallelAllTimeoutAwareTest",
+    "org.apache.camel.processor.MulticastParallelTwoTimeoutMiddleTest"
+  ],
+  "suitable_tests": [
+    "ManagedThrottlerTest",
+    "MulticastParallelAllTimeoutAwareTest",
+    "MulticastParallelTwoTimeoutMiddleTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ManagedThrottlerTest",
+        "failingTestMethod": "testThrottleAsyncVisableViaJmx"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "MulticastParallelTwoTimeoutMiddleTest",
+        "failingTestMethod": "testMulticastParallelTimeout"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

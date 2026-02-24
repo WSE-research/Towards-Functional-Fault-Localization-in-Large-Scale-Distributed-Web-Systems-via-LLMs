@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.camel.impl.DefaultCamelContext"
+  ],
+  "test": [
+    "org.apache.camel.impl.LifecycleStrategyServiceTest"
+  ],
+  "suitable_tests": [
+    "LifecycleStrategyServiceTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "LifecycleStrategyServiceTest",
+        "failingTestMethod": "testLifecycleStrategyService"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

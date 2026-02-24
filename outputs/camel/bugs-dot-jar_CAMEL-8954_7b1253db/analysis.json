@@ -1,0 +1,57 @@
+{
+  "patched": [
+    "org.apache.camel.component.file.GenericFile",
+    "org.apache.camel.component.file.strategy.FileLockExclusiveReadLockStrategy",
+    "org.apache.camel.component.file.strategy.MarkerFileExclusiveReadLockStrategy"
+  ],
+  "test": [
+    "org.apache.camel.component.file.FileConsumeMultipleDirectoriesTest",
+    "org.apache.camel.component.file.MarkerFileExclusiveReadLockStrategyUnlockTest",
+    "org.apache.camel.component.file.strategy.FileChangedReadLockMinAgeTest",
+    "org.apache.camel.component.vm.VmMultipleConsumersMultipleContextTest",
+    "org.apache.camel.component.vm.VmMultipleContextsStartStopTest",
+    "org.apache.camel.component.vm.VmQueueTest",
+    "org.apache.camel.component.vm.VmShouldNotUseSameThreadTest"
+  ],
+  "suitable_tests": [
+    "FileConsumeMultipleDirectoriesTest",
+    "FileChangedReadLockMinAgeTest",
+    "VmMultipleConsumersMultipleContextTest",
+    "VmMultipleContextsStartStopTest",
+    "VmQueueTest",
+    "VmShouldNotUseSameThreadTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "FileConsumeMultipleDirectoriesTest",
+        "failingTestMethod": "testMultiDir"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "FileChangedReadLockMinAgeTest",
+        "failingTestMethod": "testChangedReadLockMinAge"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "VmMultipleContextsStartStopTest",
+        "failingTestMethod": "testStartStop"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "VmQueueTest",
+        "failingTestMethod": "testQueue"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "VmShouldNotUseSameThreadTest",
+        "failingTestMethod": "testNotUseSameThread"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

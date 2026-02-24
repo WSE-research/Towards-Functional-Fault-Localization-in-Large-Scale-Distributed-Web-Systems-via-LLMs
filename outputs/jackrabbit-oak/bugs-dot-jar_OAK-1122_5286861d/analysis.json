@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.mk.core.MicroKernelImpl"
+  ],
+  "test": [
+    "org.apache.jackrabbit.mk.MicroKernelImplTest.emptyCommit"
+  ],
+  "suitable_tests": [
+    "emptyCommit"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "emptyCommit",
+        "failingTestMethod": "emptyCommit"
+      }
+    }
+  ],
+  "sourcePackage": "oak-mk"
+}

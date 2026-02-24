@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer",
+    "org.apache.commons.math.optimization.UnivariateRealOptimizer"
+  ],
+  "test": [
+    "org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest"
+  ],
+  "sourcePackage": ""
+}

@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.model.LoadableDetachableModel"
+  ],
+  "test": [
+    "org.apache.wicket.model.LoadableDetachableModelTest"
+  ],
+  "sourcePackage": "wicket-core"
+}

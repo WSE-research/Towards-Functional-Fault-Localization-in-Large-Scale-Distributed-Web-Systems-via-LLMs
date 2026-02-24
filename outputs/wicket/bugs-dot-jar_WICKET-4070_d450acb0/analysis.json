@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.markup.html.form.Form"
+  ],
+  "test": [
+    "org.apache.wicket.markup.html.form.FormTest"
+  ],
+  "sourcePackage": "wicket-core"
+}

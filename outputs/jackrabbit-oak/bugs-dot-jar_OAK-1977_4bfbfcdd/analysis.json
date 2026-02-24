@@ -1,0 +1,34 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.index.property.OrderedPropertyIndex",
+    "org.apache.jackrabbit.oak.plugins.index.property.OrderedPropertyIndexLookup",
+    "org.apache.jackrabbit.oak.plugins.index.property.PropertyIndexLookup",
+    "org.apache.jackrabbit.oak.plugins.index.property.PropertyIndexPlan",
+    "org.apache.jackrabbit.oak.plugins.index.property.strategy.ContentMirrorStoreStrategy",
+    "org.apache.jackrabbit.oak.plugins.index.property.strategy.IndexStoreStrategy",
+    "org.apache.jackrabbit.oak.plugins.index.property.strategy.OrderedContentMirrorStoreStrategy",
+    "org.apache.jackrabbit.oak.plugins.index.property.strategy.UniqueEntryStoreStrategy",
+    "org.apache.jackrabbit.oak.spi.query.Cursors"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.index.property.PropertyIndexTest"
+  ],
+  "suitable_tests": [
+    "PropertyIndexTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "PropertyIndexTest",
+        "failingTestMethod": "pathBasedCostEstimation"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "PropertyIndexTest",
+        "failingTestMethod": "testPathAwarePropertyLookup"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

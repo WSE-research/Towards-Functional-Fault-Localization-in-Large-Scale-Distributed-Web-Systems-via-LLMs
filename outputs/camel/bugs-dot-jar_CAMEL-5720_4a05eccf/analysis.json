@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.camel.processor.aggregate.AggregateProcessor"
+  ],
+  "test": [
+    "org.apache.camel.processor.aggregator.AggregateExpressionSizeOverrideFixedTest"
+  ],
+  "suitable_tests": [
+    "AggregateExpressionSizeOverrideFixedTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "AggregateExpressionSizeOverrideFixedTest",
+        "failingTestMethod": "testAggregateExpressionSize"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.core.layout.AbstractStringLayout"
+  ],
+  "test": [
+    "org.apache.logging.log4j.core.layout.SerializableLayoutTest"
+  ],
+  "suitable_tests": [
+    "SerializableLayoutTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "SerializableLayoutTest",
+        "failingTestMethod": "testPluginObjectSerialization"
+      }
+    }
+  ],
+  "sourcePackage": "log4j-core"
+}

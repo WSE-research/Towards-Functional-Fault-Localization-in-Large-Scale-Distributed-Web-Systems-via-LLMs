@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.flink.api.common.io.FileInputFormat"
+  ],
+  "test": [
+    "org.apache.flink.api.common.io.EnumerateNestedFilesTest"
+  ],
+  "suitable_tests": [
+    "EnumerateNestedFilesTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "EnumerateNestedFilesTest",
+        "failingTestMethod": "testGetStatisticsMultipleNestedFiles"
+      }
+    }
+  ],
+  "sourcePackage": "flink-core"
+}

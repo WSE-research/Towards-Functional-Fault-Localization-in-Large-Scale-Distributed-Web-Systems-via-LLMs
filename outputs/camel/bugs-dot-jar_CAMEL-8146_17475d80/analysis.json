@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.camel.impl.DefaultScheduledPollConsumerScheduler",
+    "org.apache.camel.impl.ScheduledPollConsumer"
+  ],
+  "test": [
+    "org.apache.camel.component.file.FileConsumerRestartNotLeakThreadTest"
+  ],
+  "suitable_tests": [
+    "FileConsumerRestartNotLeakThreadTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "FileConsumerRestartNotLeakThreadTest",
+        "failingTestMethod": "testLeak"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

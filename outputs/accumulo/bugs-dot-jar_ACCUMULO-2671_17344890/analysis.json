@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.accumulo.core.security.crypto.BlockedOutputStream"
+  ],
+  "test": [
+    "org.apache.accumulo.core.security.crypto.BlockedIOStreamTest"
+  ],
+  "suitable_tests": [
+    "BlockedIOStreamTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "BlockedIOStreamTest",
+        "failingTestMethod": "testGiantWrite"
+      }
+    }
+  ],
+  "sourcePackage": "core"
+}

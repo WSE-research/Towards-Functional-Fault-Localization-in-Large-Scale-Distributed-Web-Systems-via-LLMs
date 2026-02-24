@@ -1,0 +1,12 @@
+{
+  "patched": [
+    "org.apache.wicket.Component",
+    "org.apache.wicket.Page"
+  ],
+  "test": [
+    "org.apache.wicket.dontstoreunrendered.DontStoreNotRenderedPageRedirectToRenderTest",
+    "org.apache.wicket.dontstoreunrendered.DontStoreNotRenderedPageOnePassRenderTest",
+    "org.apache.wicket.dontstoreunrendered.DontStoreNotRenderedPageRedirectToBufferTest"
+  ],
+  "sourcePackage": "wicket-core"
+}

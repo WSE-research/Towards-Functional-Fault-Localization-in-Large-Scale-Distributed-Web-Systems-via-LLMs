@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.extensions.markup.html.form.select.Select"
+  ],
+  "test": [
+    "org.apache.wicket.extensions.markup.html.form.select.SelectTest.rawInputKeepsSelectionOnError"
+  ],
+  "sourcePackage": "wicket-extensions"
+}

@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.mk.index.Indexer",
+    "org.apache.jackrabbit.mk.simple.SimpleKernelImpl"
+  ],
+  "test": [
+    "org.apache.jackrabbit.mk.index.IndexTest"
+  ],
+  "suitable_tests": [
+    "IndexTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "IndexTest",
+        "failingTestMethod": "copy"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.accumulo.core.iterators.system.VisibilityFilter"
+  ],
+  "test": [
+    "org.apache.accumulo.core.iterators.system.VisibilityFilterTest"
+  ],
+  "sourcePackage": "core"
+}

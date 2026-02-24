@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.index.AsyncIndexUpdate"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.index.AsyncIndexUpdateTest",
+    "org.apache.jackrabbit.oak.plugins.document.ConcurrentConflictTest"
+  ],
+  "suitable_tests": [
+    "ConcurrentConflictTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ConcurrentConflictTest",
+        "failingTestMethod": "concurrentUpdates"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.protocol.https.HttpsMapper"
+  ],
+  "test": [
+    "org.apache.wicket.protocol.https.HttpsMapperTest"
+  ],
+  "sourcePackage": "wicket-core"
+}

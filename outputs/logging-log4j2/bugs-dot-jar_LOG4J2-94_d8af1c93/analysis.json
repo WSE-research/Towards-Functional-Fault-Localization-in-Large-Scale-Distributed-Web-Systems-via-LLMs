@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.core.lookup.Interpolator"
+  ],
+  "test": [
+    "org.apache.logging.log4j.core.lookup.InterpolatorTest"
+  ],
+  "sourcePackage": "core"
+}

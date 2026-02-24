@@ -1,0 +1,23 @@
+{
+  "patched": [
+    "org.apache.commons.math.linear.AbstractRealVector",
+    "org.apache.commons.math.linear.ArrayRealVector",
+    "org.apache.commons.math.linear.OpenMapRealVector"
+  ],
+  "test": [
+    "org.apache.commons.math.linear.ArrayRealVectorTest",
+    "org.apache.commons.math.linear.SparseRealVectorTest"
+  ],
+  "suitable_tests": [
+    "SparseRealVectorTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "SparseRealVectorTest",
+        "failingTestMethod": "testBasicFunctions"
+      }
+    }
+  ],
+  "sourcePackage": ""
+}

@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.index.p2.strategy.ContentMirrorStoreStrategy"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.index.p2.strategy.ContentMirrorStoreStrategyTest"
+  ],
+  "sourcePackage": "oak-core"
+}

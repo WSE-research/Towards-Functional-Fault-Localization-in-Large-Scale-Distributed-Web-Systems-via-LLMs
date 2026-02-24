@@ -1,0 +1,19 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.message.FormattedMessage",
+    "org.apache.logging.log4j.message.LocalizedMessage",
+    "org.apache.logging.log4j.message.MapMessage",
+    "org.apache.logging.log4j.message.MessageFormatMessage",
+    "org.apache.logging.log4j.message.ObjectMessage",
+    "org.apache.logging.log4j.message.StringFormattedMessage",
+    "org.apache.logging.log4j.message.StructuredDataMessage"
+  ],
+  "test": [
+    "org.apache.logging.log4j.message.ObjectMessageTest",
+    "org.apache.logging.log4j.message.StringFormattedMessageTest",
+    "org.apache.logging.log4j.message.MessageFormatMessageTest",
+    "org.apache.logging.log4j.message.FormattedMessageTest",
+    "org.apache.logging.log4j.message.LocalizedMessageTest"
+  ],
+  "sourcePackage": "log4j-api"
+}

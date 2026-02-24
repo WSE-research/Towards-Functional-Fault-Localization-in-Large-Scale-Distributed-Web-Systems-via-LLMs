@@ -1,0 +1,23 @@
+{
+  "patched": [
+    "org.apache.camel.api.management.mbean.ManagedBacklogDebuggerMBean",
+    "org.apache.camel.management.mbean.ManagedBacklogDebugger",
+    "org.apache.camel.processor.interceptor.BacklogDebugger"
+  ],
+  "test": [
+    "org.apache.camel.management.BacklogDebuggerTest",
+    "org.apache.camel.management.ManagedThrottlerTest"
+  ],
+  "suitable_tests": [
+    "ManagedThrottlerTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ManagedThrottlerTest",
+        "failingTestMethod": "testThrottleAsyncVisableViaJmx"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

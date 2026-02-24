@@ -1,0 +1,11 @@
+{
+  "patched": [
+    "org.apache.wicket.MarkupContainer",
+    "org.apache.wicket.markup.Markup",
+    "org.apache.wicket.markup.html.panel.DefaultMarkupSourcingStrategy"
+  ],
+  "test": [
+    "org.apache.wicket.markup.html.TransparentWebMarkupContainerTest"
+  ],
+  "sourcePackage": "wicket-core"
+}

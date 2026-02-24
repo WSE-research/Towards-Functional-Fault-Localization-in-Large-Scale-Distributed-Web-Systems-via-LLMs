@@ -1,0 +1,24 @@
+{
+  "patched": [
+    "org.apache.commons.math.ode.nonstiff.AdamsBashforthIntegrator",
+    "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator",
+    "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator",
+    "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator"
+  ],
+  "test": [
+    "org.apache.commons.math.ode.nonstiff.ClassicalRungeKuttaIntegratorTest",
+    "org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest"
+  ],
+  "suitable_tests": [
+    "DormandPrince853IntegratorTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "DormandPrince853IntegratorTest",
+        "failingTestMethod": "testMissedEndEvent"
+      }
+    }
+  ],
+  "sourcePackage": ""
+}

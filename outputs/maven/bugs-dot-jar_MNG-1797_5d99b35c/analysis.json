@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "org.apache.maven.profiles.DefaultProfileManager",
+    "org.apache.maven.project.artifact.MavenMetadataSource"
+  ],
+  "test": [
+    "org.apache.maven.project.artifact.MavenMetadataSourceTest"
+  ],
+  "sourcePackage": "maven-project"
+}

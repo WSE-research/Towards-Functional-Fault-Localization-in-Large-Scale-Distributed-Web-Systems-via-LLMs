@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.camel.processor.idempotent.IdempotentConsumer"
+  ],
+  "test": [
+    "org.apache.camel.processor.IdempotentConsumerNoMessageIdTest"
+  ],
+  "sourcePackage": "camel-core"
+}

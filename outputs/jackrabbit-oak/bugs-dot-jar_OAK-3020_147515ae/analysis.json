@@ -1,0 +1,28 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexEditor"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.LucenePropertyIndexTest",
+    "org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexTest"
+  ],
+  "suitable_tests": [
+    "LucenePropertyIndexTest",
+    "LuceneIndexTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "LucenePropertyIndexTest",
+        "failingTestMethod": "sortQueriesWithStringIgnoredMulti_OrderedProps"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "LuceneIndexTest",
+        "failingTestMethod": "multiValuesForOrderedIndexShouldNotThrow"
+      }
+    }
+  ],
+  "sourcePackage": "oak-lucene"
+}

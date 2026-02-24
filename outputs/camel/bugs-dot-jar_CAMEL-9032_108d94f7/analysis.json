@@ -1,0 +1,30 @@
+{
+  "patched": [
+    "org.apache.camel.component.bean.BeanInfo"
+  ],
+  "test": [
+    "org.apache.camel.component.bean.BeanInfoTest",
+    "org.apache.camel.component.bean.BeanPrivateClassWithInterfaceMethodTest",
+    "org.apache.camel.language.simple.SimpleOverrideMethodTest",
+    "org.apache.camel.component.bean.issues.BeanInfoSingleMethodServiceTest"
+  ],
+  "suitable_tests": [
+    "BeanPrivateClassWithInterfaceMethodTest",
+    "SimpleOverrideMethodTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "BeanPrivateClassWithInterfaceMethodTest",
+        "failingTestMethod": "testPrivateClassBinding"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "BeanPrivateClassWithInterfaceMethodTest",
+        "failingTestMethod": "testPackagePrivateClassBinding"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

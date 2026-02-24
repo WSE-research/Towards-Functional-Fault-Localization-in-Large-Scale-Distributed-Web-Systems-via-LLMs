@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.commons.math.linear.OpenMapRealMatrix"
+  ],
+  "test": [
+    "org.apache.commons.math.linear.OpenMapRealMatrixTest"
+  ],
+  "sourcePackage": ""
+}

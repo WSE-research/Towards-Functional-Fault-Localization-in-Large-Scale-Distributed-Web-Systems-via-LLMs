@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.util.collections.IntHashMap"
+  ],
+  "test": [
+    "org.apache.wicket.util.collections.IntHashMapTest"
+  ],
+  "sourcePackage": "wicket-util"
+}

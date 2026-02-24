@@ -1,0 +1,44 @@
+{
+  "patched": [
+    "org.apache.wicket.behavior.AttributeAppender"
+  ],
+  "test": [
+    "org.apache.wicket.AttributeModifierTest"
+  ],
+  "suitable_tests": [
+    "AttributeModifierTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "AttributeModifierTest",
+        "failingTestMethod": "testNewValue1Append"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AttributeModifierTest",
+        "failingTestMethod": "testNewValue1Prepend"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AttributeModifierTest",
+        "failingTestMethod": "testNewValue2Append"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AttributeModifierTest",
+        "failingTestMethod": "testNewValue2Prepend"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AttributeModifierTest",
+        "failingTestMethod": "nullModelDoesNotAppendEmptyAttribute"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

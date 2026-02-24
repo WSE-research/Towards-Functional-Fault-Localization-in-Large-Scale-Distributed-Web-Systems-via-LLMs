@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.wicket.util.convert.converter.AbstractNumberConverter"
+  ],
+  "test": [
+    "org.apache.wicket.util.convert.converters.ConvertersTest"
+  ],
+  "suitable_tests": [
+    "ConvertersTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ConvertersTest",
+        "failingTestMethod": "thousandSeperatorWithCurrency"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-util"
+}

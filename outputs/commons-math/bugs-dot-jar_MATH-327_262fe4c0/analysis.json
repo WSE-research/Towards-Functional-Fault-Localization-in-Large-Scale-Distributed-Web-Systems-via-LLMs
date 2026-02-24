@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.commons.math.linear.SingularValueDecompositionImpl"
+  ],
+  "test": [
+    "org.apache.commons.math.linear.SingularValueDecompositionImplTest"
+  ],
+  "sourcePackage": ""
+}

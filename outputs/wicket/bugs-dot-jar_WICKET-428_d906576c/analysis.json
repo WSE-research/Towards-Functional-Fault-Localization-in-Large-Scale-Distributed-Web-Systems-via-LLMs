@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "wicket.util.collections.MicroMap"
+  ],
+  "test": [
+    "wicket.util.collections.MicroMapTest"
+  ],
+  "sourcePackage": "jdk-1.4/wicket"
+}

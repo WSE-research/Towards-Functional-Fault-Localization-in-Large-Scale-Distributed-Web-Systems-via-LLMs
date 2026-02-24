@@ -1,0 +1,26 @@
+{
+  "patched": [
+    "org.apache.wicket.request.mapper.MountedMapper"
+  ],
+  "test": [
+    "org.apache.wicket.markup.html.link.MountedPageLinkTest"
+  ],
+  "suitable_tests": [
+    "MountedPageLinkTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "MountedPageLinkTest",
+        "failingTestMethod": "testPageParametersInLink"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "MountedPageLinkTest",
+        "failingTestMethod": "testLinkOnExpiredPage"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

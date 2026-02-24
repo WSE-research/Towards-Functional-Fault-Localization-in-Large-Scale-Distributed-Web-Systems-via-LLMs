@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.maven.repository.legacy.DefaultWagonManager"
+  ],
+  "test": [
+    "org.apache.maven.repository.legacy.DefaultWagonManagerTest"
+  ],
+  "sourcePackage": "maven-compat"
+}

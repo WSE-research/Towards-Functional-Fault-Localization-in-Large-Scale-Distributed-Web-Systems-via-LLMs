@@ -1,0 +1,12 @@
+{
+  "patched": [
+    "org.apache.camel.component.file.FileOperations",
+    "org.apache.camel.component.file.strategy.GenericFileDeleteProcessStrategy",
+    "org.apache.camel.component.file.strategy.GenericFileRenameProcessStrategy",
+    "org.apache.camel.component.file.strategy.MarkerFileExclusiveReadLockStrategy"
+  ],
+  "test": [
+    "org.apache.camel.component.file.strategy.MarkerFileExclusiveReadLockStrategyTest"
+  ],
+  "sourcePackage": "camel-core"
+}

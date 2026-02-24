@@ -1,0 +1,39 @@
+{
+  "patched": [
+    "org.apache.camel.processor.MulticastProcessor",
+    "org.apache.camel.processor.TryProcessor"
+  ],
+  "test": [
+    "org.apache.camel.processor.MulticastParallelStopOnExceptionTest",
+    "org.apache.camel.processor.RecipientListParallelFineGrainedErrorHandlingTest",
+    "org.apache.camel.processor.SplitterParallelStopOnExceptionTest",
+    "org.apache.camel.processor.onexception.DoCatchDirectRecipientListTest"
+  ],
+  "suitable_tests": [
+    "MulticastParallelStopOnExceptionTest",
+    "RecipientListParallelFineGrainedErrorHandlingTest",
+    "SplitterParallelStopOnExceptionTest",
+    "DoCatchDirectRecipientListTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "MulticastParallelStopOnExceptionTest",
+        "failingTestMethod": "testMulticastParalllelStopOnExceptionStop"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "RecipientListParallelFineGrainedErrorHandlingTest",
+        "failingTestMethod": "testRecipientListAsBeanError"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "DoCatchDirectRecipientListTest",
+        "failingTestMethod": "testDoCatchDirectRoute"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

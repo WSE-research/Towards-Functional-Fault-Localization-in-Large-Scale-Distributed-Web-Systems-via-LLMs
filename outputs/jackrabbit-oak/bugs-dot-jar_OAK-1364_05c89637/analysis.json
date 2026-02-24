@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.cache.CacheLIRS"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.cache.ConcurrentTest"
+  ],
+  "suitable_tests": [
+    "ConcurrentTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ConcurrentTest",
+        "failingTestMethod": "testRandomOperations"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

@@ -1,0 +1,59 @@
+{
+  "patched": [
+    "org.apache.wicket.ComponentEventSender",
+    "org.apache.wicket.event.Broadcast"
+  ],
+  "test": [
+    "org.apache.wicket.ComponentEventsTest",
+    "org.apache.wicket.protocol.http.WebResponseExceptionsTest",
+    "org.apache.wicket.ajax.InternalErrorCallsAjaxOnFailureTest",
+    "org.apache.wicket.redirect.abort.AbortExceptionTest",
+    "org.apache.wicket.request.cycle.RequestCycleListenerTest"
+  ],
+  "suitable_tests": [
+    "ComponentEventsTest",
+    "WebResponseExceptionsTest",
+    "InternalErrorCallsAjaxOnFailureTest",
+    "AbortExceptionTest",
+    "RequestCycleListenerTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "WebResponseExceptionsTest",
+        "failingTestMethod": "testInternalErrorPage"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "WebResponseExceptionsTest",
+        "failingTestMethod": "testBufferedExceptionErrorPage"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "WebResponseExceptionsTest",
+        "failingTestMethod": "testExceptionErrorPage"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "InternalErrorCallsAjaxOnFailureTest",
+        "failingTestMethod": "showsInternalErrorPage"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "RequestCycleListenerTest",
+        "failingTestMethod": "testBasicOperations"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "RequestCycleListenerTest",
+        "failingTestMethod": "testExceptionHandingInOnDetach"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.camel.converter.stream.CachedOutputStream"
+  ],
+  "test": [
+    "org.apache.camel.processor.DataFormatStreamingTest"
+  ],
+  "suitable_tests": [
+    "DataFormatStreamingTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "DataFormatStreamingTest",
+        "failingTestMethod": "testMarshalThenUnmarshalBean"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

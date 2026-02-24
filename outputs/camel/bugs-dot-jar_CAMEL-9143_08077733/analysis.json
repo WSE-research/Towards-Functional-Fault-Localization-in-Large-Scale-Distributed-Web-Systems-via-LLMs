@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.camel.impl.ProducerCache"
+  ],
+  "test": [
+    "org.apache.camel.issues.ServicePoolAwareLeakyTest"
+  ],
+  "suitable_tests": [
+    "ServicePoolAwareLeakyTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ServicePoolAwareLeakyTest",
+        "failingTestMethod": "testForMemoryLeak"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

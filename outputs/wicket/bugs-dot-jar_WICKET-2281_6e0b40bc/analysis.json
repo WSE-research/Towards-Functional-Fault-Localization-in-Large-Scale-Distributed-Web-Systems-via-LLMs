@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.wicket.protocol.http.MockHttpServletRequest"
+  ],
+  "test": [
+    "org.apache.wicket.protocol.http.request.CryptedUrlWebRequestCodingStrategyTest"
+  ],
+  "suitable_tests": [
+    "CryptedUrlWebRequestCodingStrategyTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "CryptedUrlWebRequestCodingStrategyTest",
+        "failingTestMethod": "testClientBidListPage"
+      }
+    }
+  ],
+  "sourcePackage": "wicket"
+}

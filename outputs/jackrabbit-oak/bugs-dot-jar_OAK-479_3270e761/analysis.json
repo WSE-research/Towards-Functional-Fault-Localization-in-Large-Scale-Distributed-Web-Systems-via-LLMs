@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.jcr.ItemImpl"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.jcr.nodetype.NodeTypeTest"
+  ],
+  "suitable_tests": [
+    "NodeTypeTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "NodeTypeTest",
+        "failingTestMethod": "illegalAddNodeWithProps"
+      }
+    }
+  ],
+  "sourcePackage": "oak-jcr"
+}

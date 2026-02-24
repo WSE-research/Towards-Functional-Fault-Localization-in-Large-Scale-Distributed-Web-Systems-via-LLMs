@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.core.layout.RFC5424Layout"
+  ],
+  "test": [
+    "org.apache.logging.log4j.core.layout.RFC5424LayoutTest"
+  ],
+  "sourcePackage": "log4j-core"
+}

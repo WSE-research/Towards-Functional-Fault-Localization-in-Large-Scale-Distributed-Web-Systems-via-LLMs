@@ -1,0 +1,11 @@
+{
+  "patched": [
+    "org.apache.flink.streaming.runtime.operators.windowing.EvictingWindowOperator",
+    "org.apache.flink.streaming.runtime.operators.windowing.MergingWindowSet",
+    "org.apache.flink.streaming.runtime.operators.windowing.WindowOperator"
+  ],
+  "test": [
+    "org.apache.flink.streaming.runtime.operators.windowing.WindowOperatorTest"
+  ],
+  "sourcePackage": "flink-streaming-java"
+}

@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.markup.html.form.EnumChoiceRenderer"
+  ],
+  "test": [
+    "org.apache.wicket.markup.html.form.EnumChoiceRendererTest"
+  ],
+  "sourcePackage": "wicket"
+}

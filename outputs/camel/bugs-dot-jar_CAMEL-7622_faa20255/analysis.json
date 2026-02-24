@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.camel.builder.AdviceWithTasks"
+  ],
+  "test": [
+    "org.apache.camel.issues.AdviceWithOnExceptionTest"
+  ],
+  "suitable_tests": [
+    "AdviceWithOnExceptionTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "AdviceWithOnExceptionTest",
+        "failingTestMethod": "testAdviceWithOnException"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

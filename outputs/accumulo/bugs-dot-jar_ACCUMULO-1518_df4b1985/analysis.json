@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.accumulo.core.file.FileOperations"
+  ],
+  "test": [
+    "org.apache.accumulo.core.file.FileOperationsTest"
+  ],
+  "sourcePackage": "core"
+}

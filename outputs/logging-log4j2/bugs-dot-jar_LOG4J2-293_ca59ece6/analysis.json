@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.core.selector.ClassLoaderContextSelector"
+  ],
+  "test": [
+    "org.apache.logging.log4j.core.LateConfigTest"
+  ],
+  "suitable_tests": [
+    "LateConfigTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "LateConfigTest",
+        "failingTestMethod": "testReconfiguration"
+      }
+    }
+  ],
+  "sourcePackage": "log4j-core"
+}

@@ -1,0 +1,32 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.jcr.query.QueryImpl"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.jcr.query.QueryTest"
+  ],
+  "suitable_tests": [
+    "QueryTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "QueryTest",
+        "failingTestMethod": "testOak1096[2]"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "QueryTest",
+        "failingTestMethod": "testOak1096[0]"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "QueryTest",
+        "failingTestMethod": "testOak1096[1]"
+      }
+    }
+  ],
+  "sourcePackage": "oak-jcr"
+}

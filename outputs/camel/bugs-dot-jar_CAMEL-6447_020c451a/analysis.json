@@ -1,0 +1,67 @@
+{
+  "patched": [
+    "org.apache.camel.model.ProcessorDefinition",
+    "org.apache.camel.processor.ChoiceProcessor"
+  ],
+  "test": [
+    "org.apache.camel.processor.NestedChoiceIssueTest",
+    "org.apache.camel.processor.TripleNestedChoiceIssueTest",
+    "org.apache.camel.processor.async.AsyncNestedTripleChoiceIssueTest"
+  ],
+  "suitable_tests": [
+    "NestedChoiceIssueTest",
+    "TripleNestedChoiceIssueTest",
+    "AsyncNestedTripleChoiceIssueTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "NestedChoiceIssueTest",
+        "failingTestMethod": "testNestedChoiceLow"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "NestedChoiceIssueTest",
+        "failingTestMethod": "testNestedChoiceMed"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TripleNestedChoiceIssueTest",
+        "failingTestMethod": "testNestedChoiceBig"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TripleNestedChoiceIssueTest",
+        "failingTestMethod": "testNestedChoiceLow"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TripleNestedChoiceIssueTest",
+        "failingTestMethod": "testNestedChoiceMed"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AsyncNestedTripleChoiceIssueTest",
+        "failingTestMethod": "testNestedChoiceBig"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AsyncNestedTripleChoiceIssueTest",
+        "failingTestMethod": "testNestedChoiceLow"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AsyncNestedTripleChoiceIssueTest",
+        "failingTestMethod": "testNestedChoiceMed"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.flink.api.java.typeutils.TypeInfoParser"
+  ],
+  "test": [
+    "org.apache.flink.api.java.typeutils.TypeInfoParserTest"
+  ],
+  "sourcePackage": "flink-java"
+}

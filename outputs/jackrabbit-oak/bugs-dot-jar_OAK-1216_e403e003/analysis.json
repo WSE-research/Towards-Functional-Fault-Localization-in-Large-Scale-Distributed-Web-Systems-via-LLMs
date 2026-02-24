@@ -1,0 +1,44 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.jcr.session.SessionContext"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.jcr.RepositoryTest.getNodeSNS[0]",
+    "org.apache.jackrabbit.oak.jcr.RepositoryTest.getNodeSNS[3]",
+    "org.apache.jackrabbit.oak.jcr.RepositoryTest.getNodeSNS[2]",
+    "org.apache.jackrabbit.oak.jcr.RepositoryTest.getNodeSNS[1]"
+  ],
+  "suitable_tests": [
+    "getNodeSNS[0]",
+    "getNodeSNS[3]",
+    "getNodeSNS[2]",
+    "getNodeSNS[1]"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "getNodeSNS[0]",
+        "failingTestMethod": "getNodeSNS"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "getNodeSNS[3]",
+        "failingTestMethod": "getNodeSNS"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "getNodeSNS[2]",
+        "failingTestMethod": "getNodeSNS"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "getNodeSNS[1]",
+        "failingTestMethod": "getNodeSNS"
+      }
+    }
+  ],
+  "sourcePackage": "oak-jcr"
+}

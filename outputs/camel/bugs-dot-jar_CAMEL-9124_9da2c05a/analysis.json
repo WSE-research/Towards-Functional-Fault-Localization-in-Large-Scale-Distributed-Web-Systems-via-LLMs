@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.camel.model.RedeliveryPolicyDefinition"
+  ],
+  "test": [
+    "org.apache.camel.component.properties.PropertiesComponentOnExceptionDelayPatternTest"
+  ],
+  "suitable_tests": [
+    "PropertiesComponentOnExceptionDelayPatternTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "PropertiesComponentOnExceptionDelayPatternTest",
+        "failingTestMethod": "testDelayPattern"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

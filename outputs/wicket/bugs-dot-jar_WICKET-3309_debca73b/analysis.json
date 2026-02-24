@@ -1,0 +1,26 @@
+{
+  "patched": [
+    "org.apache.wicket.markup.html.tree.AbstractTree"
+  ],
+  "test": [
+    "org.apache.wicket.markup.html.tree.TreeTest"
+  ],
+  "suitable_tests": [
+    "TreeTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "TreeTest",
+        "failingTestMethod": "testAddChildOnRootAtAnOnRootLessTree"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TreeTest",
+        "failingTestMethod": "testAddGrandchildOnRootAtAnRootLessTree"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

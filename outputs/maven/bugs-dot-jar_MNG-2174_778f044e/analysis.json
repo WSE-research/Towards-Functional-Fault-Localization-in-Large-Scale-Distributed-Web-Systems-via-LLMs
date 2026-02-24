@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.maven.project.builder.PomClassicDomainModel",
+    "org.apache.maven.project.builder.impl.DefaultProjectBuilder"
+  ],
+  "test": [
+    "org.apache.maven.project.builder.PomConstructionTest"
+  ],
+  "suitable_tests": [
+    "PomConstructionTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "PomConstructionTest",
+        "failingTestMethod": "testPluginManagementDependencies"
+      }
+    }
+  ],
+  "sourcePackage": "maven-project"
+}

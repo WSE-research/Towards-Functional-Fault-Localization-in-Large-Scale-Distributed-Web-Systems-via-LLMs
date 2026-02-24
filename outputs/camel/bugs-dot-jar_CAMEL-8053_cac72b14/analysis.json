@@ -1,0 +1,12 @@
+{
+  "patched": [
+    "org.apache.camel.builder.ErrorHandlerBuilder",
+    "org.apache.camel.builder.ErrorHandlerBuilderRef",
+    "org.apache.camel.builder.ErrorHandlerBuilderSupport",
+    "org.apache.camel.impl.DefaultCamelContext"
+  ],
+  "test": [
+    "org.apache.camel.builder.ErrorHandlerBuilderRefTest"
+  ],
+  "sourcePackage": "camel-core"
+}

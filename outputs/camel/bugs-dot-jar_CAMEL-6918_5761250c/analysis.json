@@ -1,0 +1,36 @@
+{
+  "patched": [
+    "org.apache.camel.processor.SendProcessor"
+  ],
+  "test": [
+    "org.apache.camel.component.seda.SedaErrorTest",
+    "org.apache.camel.component.vm.VmMultipleConsumersRemoteRouteTest",
+    "org.apache.camel.management.ManagedThrottlerTest"
+  ],
+  "suitable_tests": [
+    "SedaErrorTest",
+    "VmMultipleConsumersRemoteRouteTest",
+    "ManagedThrottlerTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "SedaErrorTest",
+        "failingTestMethod": "testErrorHandle"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "VmMultipleConsumersRemoteRouteTest",
+        "failingTestMethod": "testVmMultipleConsumersRemoteRoute"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ManagedThrottlerTest",
+        "failingTestMethod": "testThrottleAsyncVisableViaJmx"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

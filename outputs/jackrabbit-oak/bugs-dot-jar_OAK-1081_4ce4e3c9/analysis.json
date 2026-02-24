@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.jcr.delegate.NodeDelegate"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.jcr.security.authorization.ReadTest"
+  ],
+  "suitable_tests": [
+    "ReadTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ReadTest",
+        "failingTestMethod": "testChildNodesWithAccessCheck"
+      }
+    }
+  ],
+  "sourcePackage": "oak-jcr"
+}

@@ -1,0 +1,36 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.commons.json.JsopBuilder"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.commons.json.JsopTest.testTokenizer",
+    "org.apache.jackrabbit.oak.commons.json.JsopTest.testBuilder",
+    "org.apache.jackrabbit.oak.commons.json.JsopStreamTest.testBuilder"
+  ],
+  "suitable_tests": [
+    "testTokenizer",
+    "testBuilder",
+    "testBuilder"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "testTokenizer",
+        "failingTestMethod": "testTokenizer"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "testBuilder",
+        "failingTestMethod": "testBuilder"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "testBuilder",
+        "failingTestMethod": "testBuilder"
+      }
+    }
+  ],
+  "sourcePackage": "oak-commons"
+}

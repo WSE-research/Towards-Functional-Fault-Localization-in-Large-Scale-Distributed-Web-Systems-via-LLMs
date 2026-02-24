@@ -1,0 +1,18 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.commons.PathUtils"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.commons.PathTest"
+  ],
+  "suitable_tests": [
+    "PathTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTestClass": "PathTest",
+      "failingTestMethod": "test"
+    }
+  ],
+  "sourcePackage": "oak-commons"
+}

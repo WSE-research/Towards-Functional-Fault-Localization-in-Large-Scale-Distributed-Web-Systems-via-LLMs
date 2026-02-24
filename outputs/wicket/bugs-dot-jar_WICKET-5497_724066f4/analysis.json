@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.ajax.json.JsonUtils"
+  ],
+  "test": [
+    "org.apache.wicket.ajax.json.JsonUtilsTest"
+  ],
+  "sourcePackage": "wicket-core"
+}

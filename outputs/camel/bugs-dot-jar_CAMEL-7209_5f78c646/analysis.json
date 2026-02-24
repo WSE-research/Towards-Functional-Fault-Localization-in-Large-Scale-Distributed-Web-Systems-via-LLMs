@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.camel.converter.NIOConverter"
+  ],
+  "test": [
+    "org.apache.camel.converter.jaxp.XmlConverterTest"
+  ],
+  "suitable_tests": [
+    "XmlConverterTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "XmlConverterTest",
+        "failingTestMethod": "testToStreamSourceByByteBuffer"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

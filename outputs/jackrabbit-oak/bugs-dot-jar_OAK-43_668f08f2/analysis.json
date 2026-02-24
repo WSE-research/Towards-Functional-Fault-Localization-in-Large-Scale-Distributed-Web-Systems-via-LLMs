@@ -1,0 +1,25 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.mk.core.MicroKernelImpl",
+    "org.apache.jackrabbit.mk.model.AbstractCommit",
+    "org.apache.jackrabbit.mk.model.Commit",
+    "org.apache.jackrabbit.mk.model.CommitBuilder",
+    "org.apache.jackrabbit.mk.model.MutableCommit",
+    "org.apache.jackrabbit.mk.model.StoredCommit"
+  ],
+  "test": [
+    "org.apache.jackrabbit.mk.ConcurrentWriteTest"
+  ],
+  "suitable_tests": [
+    "ConcurrentWriteTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ConcurrentWriteTest",
+        "failingTestMethod": "testConcurrentWriting"
+      }
+    }
+  ],
+  "sourcePackage": "oak-mk"
+}

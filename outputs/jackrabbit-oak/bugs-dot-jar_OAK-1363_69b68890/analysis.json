@@ -1,0 +1,30 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.security.authentication.token.TokenLoginModule",
+    "org.apache.jackrabbit.oak.security.authentication.user.LoginModuleImpl",
+    "org.apache.jackrabbit.oak.spi.security.authentication.AbstractLoginModule"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.security.authentication.Jackrabbit2ConfigurationTest",
+    "org.apache.jackrabbit.oak.security.authentication.TokenDefaultLoginModuleTest"
+  ],
+  "suitable_tests": [
+    "Jackrabbit2ConfigurationTest",
+    "TokenDefaultLoginModuleTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "Jackrabbit2ConfigurationTest",
+        "failingTestMethod": "testTokenAuthInfo"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TokenDefaultLoginModuleTest",
+        "failingTestMethod": "testTokenAuthInfo"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

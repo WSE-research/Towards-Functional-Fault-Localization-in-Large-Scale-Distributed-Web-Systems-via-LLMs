@@ -1,0 +1,22 @@
+{
+  "patched": [
+    "org.apache.commons.math4.exception.util.LocalizedFormats",
+    "org.apache.commons.math4.ode.MultistepIntegrator"
+  ],
+  "test": [
+    "org.apache.commons.math4.exception.util.LocalizedFormatsTest",
+    "org.apache.commons.math4.ode.nonstiff.AdamsBashforthIntegratorTest"
+  ],
+  "suitable_tests": [
+    "AdamsBashforthIntegratorTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "AdamsBashforthIntegratorTest",
+        "failingTestMethod": "testStartFailure"
+      }
+    }
+  ],
+  "sourcePackage": ""
+}

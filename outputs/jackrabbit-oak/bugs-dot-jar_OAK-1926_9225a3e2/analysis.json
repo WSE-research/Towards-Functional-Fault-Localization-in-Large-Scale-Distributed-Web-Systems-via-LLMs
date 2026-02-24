@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.document.NodeDocument",
+    "org.apache.jackrabbit.oak.plugins.document.UnmergedBranches"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.document.UnmergedBranchTest"
+  ],
+  "suitable_tests": [
+    "UnmergedBranchTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "UnmergedBranchTest",
+        "failingTestMethod": "purgeUnmergedBranch"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

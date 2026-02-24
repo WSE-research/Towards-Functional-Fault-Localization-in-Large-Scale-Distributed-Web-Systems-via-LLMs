@@ -1,0 +1,28 @@
+{
+  "patched": [
+    "org.apache.flink.compiler.dag.BulkIterationNode",
+    "org.apache.flink.compiler.dag.WorksetIterationNode",
+    "org.apache.flink.compiler.plandump.PlanJSONDumpGenerator"
+  ],
+  "test": [
+    "org.apache.flink.compiler.java.IterationCompilerTest"
+  ],
+  "suitable_tests": [
+    "IterationCompilerTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "IterationCompilerTest",
+        "failingTestMethod": "testIterationWithUnionRoot"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "IterationCompilerTest",
+        "failingTestMethod": "testWorksetIterationWithUnionRoot"
+      }
+    }
+  ],
+  "sourcePackage": "flink-compiler"
+}

@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexConstants",
+    "org.apache.jackrabbit.oak.plugins.index.lucene.OakAnalyzer"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexQueryTest"
+  ],
+  "suitable_tests": [
+    "LuceneIndexQueryTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "LuceneIndexQueryTest",
+        "failingTestMethod": "testTokenizeCN"
+      }
+    }
+  ],
+  "sourcePackage": "oak-lucene"
+}

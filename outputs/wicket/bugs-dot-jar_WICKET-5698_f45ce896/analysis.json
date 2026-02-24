@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.request.mapper.CompoundRequestMapper"
+  ],
+  "test": [
+    "org.apache.wicket.request.mapper.CompoundRequestMapperTest"
+  ],
+  "sourcePackage": "wicket-request"
+}

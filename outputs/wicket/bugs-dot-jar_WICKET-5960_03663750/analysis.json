@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.wicket.markup.html.internal.HtmlHeaderContainer"
+  ],
+  "test": [
+    "org.apache.wicket.request.cycle.RerenderPageTest"
+  ],
+  "suitable_tests": [
+    "RerenderPageTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "RerenderPageTest",
+        "failingTestMethod": "wicket5960"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

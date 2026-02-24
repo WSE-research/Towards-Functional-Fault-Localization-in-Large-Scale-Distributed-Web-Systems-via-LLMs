@@ -1,0 +1,38 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.jcr.NodeImpl"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.jcr.OrderableNodesTest"
+  ],
+  "suitable_tests": [
+    "OrderableNodesTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "OrderableNodesTest",
+        "failingTestMethod": "testAddNode"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "OrderableNodesTest",
+        "failingTestMethod": "setPrimaryType"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "OrderableNodesTest",
+        "failingTestMethod": "orderableFolder"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "OrderableNodesTest",
+        "failingTestMethod": "testSimpleOrdering"
+      }
+    }
+  ],
+  "sourcePackage": "oak-jcr"
+}

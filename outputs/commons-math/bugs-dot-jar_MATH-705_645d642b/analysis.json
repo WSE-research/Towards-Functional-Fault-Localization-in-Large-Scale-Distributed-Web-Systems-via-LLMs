@@ -1,0 +1,37 @@
+{
+  "patched": [
+    "org.apache.commons.math.ode.nonstiff.ClassicalRungeKuttaStepInterpolator",
+    "org.apache.commons.math.ode.nonstiff.DormandPrince54StepInterpolator",
+    "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolator",
+    "org.apache.commons.math.ode.nonstiff.EmbeddedRungeKuttaIntegrator",
+    "org.apache.commons.math.ode.nonstiff.EulerStepInterpolator",
+    "org.apache.commons.math.ode.nonstiff.GillStepInterpolator",
+    "org.apache.commons.math.ode.nonstiff.HighamHall54StepInterpolator",
+    "org.apache.commons.math.ode.nonstiff.MidpointStepInterpolator",
+    "org.apache.commons.math.ode.nonstiff.RungeKuttaIntegrator",
+    "org.apache.commons.math.ode.nonstiff.RungeKuttaStepInterpolator",
+    "org.apache.commons.math.ode.nonstiff.ThreeEighthesStepInterpolator"
+  ],
+  "test": [
+    "org.apache.commons.math.ode.events.ReappearingEventTest",
+    "org.apache.commons.math.ode.nonstiff.DormandPrince54StepInterpolatorTest",
+    "org.apache.commons.math.ode.nonstiff.ThreeEighthesStepInterpolatorTest",
+    "org.apache.commons.math.ode.nonstiff.GillStepInterpolatorTest",
+    "org.apache.commons.math.ode.nonstiff.ClassicalRungeKuttaStepInterpolatorTest",
+    "org.apache.commons.math.ode.nonstiff.DormandPrince853StepInterpolatorTest",
+    "org.apache.commons.math.ode.nonstiff.MidpointStepInterpolatorTest",
+    "org.apache.commons.math.ode.nonstiff.HighamHall54StepInterpolatorTest"
+  ],
+  "suitable_tests": [
+    "ReappearingEventTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ReappearingEventTest",
+        "failingTestMethod": "testDormandPrince"
+      }
+    }
+  ],
+  "sourcePackage": ""
+}

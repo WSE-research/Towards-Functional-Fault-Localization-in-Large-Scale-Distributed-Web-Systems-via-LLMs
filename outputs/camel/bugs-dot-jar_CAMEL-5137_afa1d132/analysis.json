@@ -1,0 +1,22 @@
+{
+  "patched": [
+    "org.apache.camel.component.timer.TimerConsumer"
+  ],
+  "test": [
+    "org.apache.camel.component.timer.TimerSuspendCamelContextTest",
+    "org.apache.camel.processor.aggregator.AggregateTimeoutWithExecutorServiceTest"
+  ],
+  "suitable_tests": [
+    "TimerSuspendCamelContextTest",
+    "AggregateTimeoutWithExecutorServiceTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "TimerSuspendCamelContextTest",
+        "failingTestMethod": "testTimerSuspendResume"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.upgrade.PersistenceCopier"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.upgrade.RepositoryUpgradeTest"
+  ],
+  "suitable_tests": [
+    "RepositoryUpgradeTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "RepositoryUpgradeTest",
+        "failingTestMethod": "testUpgrade"
+      }
+    }
+  ],
+  "sourcePackage": "oak-upgrade"
+}

@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.core.config.BaseConfiguration"
+  ],
+  "test": [
+    "org.apache.logging.log4j.core.LoggerDateTest"
+  ],
+  "suitable_tests": [
+    "LoggerDateTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "LoggerDateTest",
+        "failingTestMethod": "testFileName"
+      }
+    }
+  ],
+  "sourcePackage": "log4j-core"
+}

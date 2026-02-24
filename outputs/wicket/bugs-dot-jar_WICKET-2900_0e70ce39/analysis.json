@@ -1,0 +1,11 @@
+{
+  "patched": [
+    "org.apache.wicket.spring.SpringBeanLocator",
+    "org.apache.wicket.spring.injection.annot.AnnotProxyFieldValueFactory"
+  ],
+  "test": [
+    "org.apache.wicket.spring.SpringBeanLocatorTest",
+    "org.apache.wicket.spring.injection.annot.AnnotProxyFieldValueFactoryTest"
+  ],
+  "sourcePackage": "wicket-spring"
+}

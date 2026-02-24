@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.document.NodeDocument"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreTest"
+  ],
+  "suitable_tests": [
+    "DocumentNodeStoreTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "DocumentNodeStoreTest",
+        "failingTestMethod": "ignoreUncommitted"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

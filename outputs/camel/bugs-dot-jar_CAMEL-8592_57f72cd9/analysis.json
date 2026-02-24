@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.camel.processor.aggregate.AbstractListAggregationStrategy"
+  ],
+  "test": [
+    "org.apache.camel.processor.aggregator.CustomListAggregationStrategyEmptySplitTest"
+  ],
+  "suitable_tests": [
+    "CustomListAggregationStrategyEmptySplitTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "CustomListAggregationStrategyEmptySplitTest",
+        "failingTestMethod": "testCustomAggregationStrategy"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

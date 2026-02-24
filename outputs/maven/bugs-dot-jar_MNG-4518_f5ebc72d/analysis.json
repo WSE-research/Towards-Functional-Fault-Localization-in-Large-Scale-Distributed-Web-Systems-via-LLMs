@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.maven.model.profile.activation.JdkVersionProfileActivator"
+  ],
+  "test": [
+    "org.apache.maven.model.profile.activation.JdkVersionProfileActivatorTest"
+  ],
+  "sourcePackage": "maven-model-builder"
+}

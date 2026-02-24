@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.segment.standby.client.StandbyApplyDiff"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.segment.standby.StandbyTest.testSyncLoop"
+  ],
+  "suitable_tests": [
+    "testSyncLoop"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "testSyncLoop",
+        "failingTestMethod": "testSyncLoop"
+      }
+    }
+  ],
+  "sourcePackage": "oak-tarmk-standby"
+}

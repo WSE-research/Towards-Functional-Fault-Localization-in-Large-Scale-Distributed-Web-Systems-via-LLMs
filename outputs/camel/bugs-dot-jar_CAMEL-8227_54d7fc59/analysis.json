@@ -1,0 +1,22 @@
+{
+  "patched": [
+    "org.apache.camel.processor.RecipientListProcessor",
+    "org.apache.camel.processor.SendProcessor",
+    "org.apache.camel.util.EndpointHelper"
+  ],
+  "test": [
+    "org.apache.camel.processor.SendExchangePatternOptionTest"
+  ],
+  "suitable_tests": [
+    "SendExchangePatternOptionTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "SendExchangePatternOptionTest",
+        "failingTestMethod": "testExchangePatternOptionInOut"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

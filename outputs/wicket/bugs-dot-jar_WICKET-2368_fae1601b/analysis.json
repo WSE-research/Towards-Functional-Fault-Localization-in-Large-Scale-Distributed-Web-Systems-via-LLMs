@@ -1,0 +1,123 @@
+{
+  "patched": [
+    "org.apache.wicket.Page"
+  ],
+  "test": [
+    "org.apache.wicket.markup.html.border.BoxBorderTest",
+    "org.apache.wicket.markup.html.form.RadioGroupTest",
+    "org.apache.wicket.markup.html.panel.PanelTest",
+    "org.apache.wicket.markup.parser.filter.HeaderSectionTest",
+    "org.apache.wicket.markup.resolver.WicketMessageResolverTest",
+    "org.apache.wicket.markup.html.form.CheckGroupTest",
+    "org.apache.wicket.util.tester.WicketTesterTest",
+    "org.apache.wicket.markup.html.basic.SimplePageTest",
+    "org.apache.wicket.resource.loader.ComponentStringResourceLoaderTest",
+    "org.apache.wicket.response.StringResponseTest",
+    "org.apache.wicket.stateless.StatelessComponentTest"
+  ],
+  "suitable_tests": [
+    "BoxBorderTest",
+    "RadioGroupTest",
+    "PanelTest",
+    "HeaderSectionTest",
+    "WicketMessageResolverTest",
+    "CheckGroupTest",
+    "WicketTesterTest",
+    "ComponentStringResourceLoaderTest",
+    "StringResponseTest",
+    "StatelessComponentTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "BoxBorderTest",
+        "failingTestMethod": "test11"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "RadioGroupTest",
+        "failingTestMethod": "testRendering"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "PanelTest",
+        "failingTestMethod": "testRenderHomePage_1"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "PanelTest",
+        "failingTestMethod": "testRenderHomePage_2"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "HeaderSectionTest",
+        "failingTestMethod": "testRenderHomePage_13"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "WicketMessageResolverTest",
+        "failingTestMethod": "test_4"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "CheckGroupTest",
+        "failingTestMethod": "testRendering"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "WicketTesterTest",
+        "failingTestMethod": "testClickResourceLink"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ComponentStringResourceLoaderTest",
+        "failingTestMethod": "testRenderHomePage_1"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "StringResponseTest",
+        "failingTestMethod": "testBrokenPage"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "StatelessComponentTest",
+        "failingTestMethod": "testStatelessComponentPage"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "StatelessComponentTest",
+        "failingTestMethod": "testStatelessComponentPageWithMount"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "StatelessComponentTest",
+        "failingTestMethod": "testStatelessComponentPageWithParams"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "StatelessComponentTest",
+        "failingTestMethod": "testStatelessComponentPageWithParamsWithMount"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "StatelessComponentTest",
+        "failingTestMethod": "testStatelessComponentPageWithParamsWithIndexMount"
+      }
+    }
+  ],
+  "sourcePackage": "wicket"
+}

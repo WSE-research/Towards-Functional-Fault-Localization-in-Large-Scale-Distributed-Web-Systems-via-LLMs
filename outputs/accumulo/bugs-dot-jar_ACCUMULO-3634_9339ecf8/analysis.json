@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.accumulo.server.security.delegation.ZooAuthenticationKeyWatcher"
+  ],
+  "test": [
+    "org.apache.accumulo.server.security.delegation.ZooAuthenticationKeyWatcherTest"
+  ],
+  "sourcePackage": "server/base"
+}

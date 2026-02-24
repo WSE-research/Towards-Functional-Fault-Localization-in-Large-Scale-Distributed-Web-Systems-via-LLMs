@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.document.VersionGarbageCollector"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.document.VersionGCDeletionTest"
+  ],
+  "suitable_tests": [
+    "VersionGCDeletionTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "VersionGCDeletionTest",
+        "failingTestMethod": "deleteParentLast"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

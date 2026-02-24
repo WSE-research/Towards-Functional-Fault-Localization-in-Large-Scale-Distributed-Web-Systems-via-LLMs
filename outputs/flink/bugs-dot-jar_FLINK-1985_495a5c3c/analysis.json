@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.flink.streaming.api.graph.StreamingJobGraphGenerator"
+  ],
+  "test": [
+    "org.apache.flink.streaming.api.graph.StreamingJobGraphGeneratorTest"
+  ],
+  "sourcePackage": "flink-staging/flink-streaming/flink-streaming-core"
+}

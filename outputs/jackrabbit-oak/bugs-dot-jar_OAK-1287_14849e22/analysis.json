@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.segment.ListRecord",
+    "org.apache.jackrabbit.oak.plugins.segment.SegmentWriter"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.segment.RecordTest"
+  ],
+  "suitable_tests": [
+    "RecordTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "RecordTest",
+        "failingTestMethod": "testListRecord"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

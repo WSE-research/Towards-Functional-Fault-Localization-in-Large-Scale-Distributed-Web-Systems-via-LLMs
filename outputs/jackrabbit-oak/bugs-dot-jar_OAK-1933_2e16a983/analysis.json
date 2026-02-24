@@ -1,0 +1,29 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.query.ast.AndImpl",
+    "org.apache.jackrabbit.oak.spi.query.QueryIndex"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.query.index.TraversingIndexQueryTest",
+    "org.apache.jackrabbit.oak.plugins.index.property.PropertyIndexQueryTest"
+  ],
+  "suitable_tests": [
+    "TraversingIndexQueryTest",
+    "PropertyIndexQueryTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "TraversingIndexQueryTest",
+        "failingTestMethod": "sql2"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "PropertyIndexQueryTest",
+        "failingTestMethod": "sql2"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

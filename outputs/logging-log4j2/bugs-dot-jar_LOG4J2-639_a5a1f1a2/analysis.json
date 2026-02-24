@@ -1,0 +1,11 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.core.async.AsyncLogger",
+    "org.apache.logging.log4j.core.async.AsyncLoggerConfigHelper"
+  ],
+  "test": [
+    "org.apache.logging.log4j.core.async.AsyncLoggerUseAfterShutdownTest",
+    "org.apache.logging.log4j.core.async.AsyncLoggerConfigUseAfterShutdownTest"
+  ],
+  "sourcePackage": "log4j-core"
+}

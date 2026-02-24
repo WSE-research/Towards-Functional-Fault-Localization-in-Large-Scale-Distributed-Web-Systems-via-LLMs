@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.MarkerManager"
+  ],
+  "test": [
+    "org.apache.logging.log4j.MarkerTest"
+  ],
+  "suitable_tests": [
+    "MarkerTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "MarkerTest",
+        "failingTestMethod": "testHasParents"
+      }
+    }
+  ],
+  "sourcePackage": "log4j-api"
+}

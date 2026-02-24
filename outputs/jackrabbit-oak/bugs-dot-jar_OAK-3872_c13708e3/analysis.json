@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.document.rdb.RDBBlobStore"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.document.blob.RDBBlobStoreTest"
+  ],
+  "sourcePackage": "oak-core"
+}

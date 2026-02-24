@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "org.apache.commons.math3.exception.util.LocalizedFormats",
+    "org.apache.commons.math3.optimization.fitting.HarmonicFitter"
+  ],
+  "test": [
+    "org.apache.commons.math3.optimization.fitting.HarmonicFitterTest"
+  ],
+  "sourcePackage": ""
+}

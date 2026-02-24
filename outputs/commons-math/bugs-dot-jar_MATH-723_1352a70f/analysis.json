@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.commons.math.random.ISAACRandom"
+  ],
+  "test": [
+    "org.apache.commons.math.random.ISAACTest"
+  ],
+  "suitable_tests": [
+    "ISAACTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ISAACTest",
+        "failingTestMethod": "testSeeding"
+      }
+    }
+  ],
+  "sourcePackage": ""
+}

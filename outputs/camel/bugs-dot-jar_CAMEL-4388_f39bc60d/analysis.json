@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.camel.processor.LogProcessor"
+  ],
+  "test": [
+    "org.apache.camel.processor.LogEipPropagateExceptionTest"
+  ],
+  "suitable_tests": [
+    "LogEipPropagateExceptionTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "LogEipPropagateExceptionTest",
+        "failingTestMethod": "testFailure"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

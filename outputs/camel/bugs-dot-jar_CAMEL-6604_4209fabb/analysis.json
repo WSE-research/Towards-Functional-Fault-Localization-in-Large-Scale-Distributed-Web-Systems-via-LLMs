@@ -1,0 +1,22 @@
+{
+  "patched": [
+    "org.apache.camel.processor.RecipientListProcessor"
+  ],
+  "test": [
+    "org.apache.camel.component.file.FileProducerFileExistAppendTest",
+    "org.apache.camel.processor.StreamCachingRecipientListTest"
+  ],
+  "suitable_tests": [
+    "FileProducerFileExistAppendTest",
+    "StreamCachingRecipientListTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "FileProducerFileExistAppendTest",
+        "failingTestMethod": "testAppend"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.core.net.SMTPManager"
+  ],
+  "test": [
+    "org.apache.logging.log4j.core.appender.SMTPAppenderTest"
+  ],
+  "suitable_tests": [
+    "SMTPAppenderTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "SMTPAppenderTest",
+        "failingTestMethod": "testDelivery"
+      }
+    }
+  ],
+  "sourcePackage": "log4j-core"
+}

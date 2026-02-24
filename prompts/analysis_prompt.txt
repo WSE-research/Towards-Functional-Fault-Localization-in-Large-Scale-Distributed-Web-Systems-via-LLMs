@@ -1,0 +1,26 @@
+On the basis of the following data, analyse the patched classes and the test classes of the failed tests. 
+
+-----------
+Data:
+
+<PATCH>
+
+{patch}
+
+</PATCH>
+
+<TEST LOG>
+
+{test_log}
+
+</TEST LOG>
+
+Return the results as follows:
+
+{
+	"patched": [...,...],
+	"test": [...,...]
+}
+
+The "patched"-key should only contain the classes that were patched and be added in the form of the fully qualified name, i.e. package and class.
+The "test"-key should only contain the classes whose tests failed and be added in the form of the fully qualified name, i.e. package and class.

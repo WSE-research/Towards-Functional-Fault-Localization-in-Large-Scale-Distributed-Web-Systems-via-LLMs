@@ -1,0 +1,29 @@
+{
+  "patched": [
+    "org.apache.commons.math.ConvergingAlgorithmImpl",
+    "org.apache.commons.math.optimization.univariate.AbstractUnivariateRealOptimizer",
+    "org.apache.commons.math.optimization.univariate.BrentOptimizer"
+  ],
+  "test": [
+    "org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest",
+    "org.apache.commons.math.optimization.univariate.BrentOptimizerTest"
+  ],
+  "suitable_tests": [
+    "MultiStartUnivariateRealOptimizerTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "MultiStartUnivariateRealOptimizerTest",
+        "failingTestMethod": "testSinMin"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "MultiStartUnivariateRealOptimizerTest",
+        "failingTestMethod": "testQuinticMin"
+      }
+    }
+  ],
+  "sourcePackage": ""
+}

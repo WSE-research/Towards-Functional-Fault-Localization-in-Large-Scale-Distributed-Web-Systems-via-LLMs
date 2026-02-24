@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.protocol.http.servlet.ServletWebResponse"
+  ],
+  "test": [
+    "org.apache.wicket.protocol.http.servlet.ServletWebResponseTest"
+  ],
+  "sourcePackage": "wicket-core"
+}

@@ -1,0 +1,18 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.query.XPathToSQL2Converter"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.query.QueryTest"
+  ],
+  "suitable_tests": [
+    "QueryTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTestClass": "QueryTest",
+      "failingTestMethod": "xpath"
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

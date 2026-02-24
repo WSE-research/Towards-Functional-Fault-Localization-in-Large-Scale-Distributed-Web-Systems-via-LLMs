@@ -1,0 +1,35 @@
+{
+  "patched": [
+    "org.apache.flink.optimizer.dag.BulkIterationNode",
+    "org.apache.flink.optimizer.dag.UnaryOperatorNode",
+    "org.apache.flink.optimizer.dag.WorksetIterationNode",
+    "org.apache.flink.optimizer.util.NoOpUnaryUdfOp"
+  ],
+  "test": [
+    "org.apache.flink.optimizer.IterationsCompilerTest"
+  ],
+  "suitable_tests": [
+    "IterationsCompilerTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "IterationsCompilerTest",
+        "failingTestMethod": "testBulkIterationWithPartialSolutionProperties"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "IterationsCompilerTest",
+        "failingTestMethod": "testIterationPushingWorkOut"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "IterationsCompilerTest",
+        "failingTestMethod": "testTwoIterationsDirectlyChained"
+      }
+    }
+  ],
+  "sourcePackage": "flink-optimizer"
+}

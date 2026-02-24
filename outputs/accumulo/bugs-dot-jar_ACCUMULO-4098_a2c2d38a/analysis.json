@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.accumulo.core.util.UnsynchronizedBuffer"
+  ],
+  "test": [
+    "org.apache.accumulo.core.util.UnsynchronizedBufferTest"
+  ],
+  "sourcePackage": "core"
+}

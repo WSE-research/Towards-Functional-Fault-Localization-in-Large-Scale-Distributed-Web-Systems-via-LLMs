@@ -1,0 +1,28 @@
+{
+  "patched": [
+    "org.apache.camel.impl.ScheduledBatchPollingConsumer"
+  ],
+  "test": [
+    "org.apache.camel.processor.aggregator.AggregateCompletedByBatchConsumerSendEmptyMessageWhenIdleTest",
+    "org.apache.camel.processor.enricher.PollEnricherTest"
+  ],
+  "suitable_tests": [
+    "AggregateCompletedByBatchConsumerSendEmptyMessageWhenIdleTest",
+    "PollEnricherTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "AggregateCompletedByBatchConsumerSendEmptyMessageWhenIdleTest",
+        "failingTestMethod": "testBatchConsumerSendEmptyMessageWhenIdle"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "PollEnricherTest",
+        "failingTestMethod": "testPollEnrichMultipleDefaultNoWait"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

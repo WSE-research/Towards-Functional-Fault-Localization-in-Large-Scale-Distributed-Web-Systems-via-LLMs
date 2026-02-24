@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.camel.component.file.GenericFileConsumer"
+  ],
+  "test": [
+    "org.apache.camel.component.file.FileConsumerIdempotentTest"
+  ],
+  "suitable_tests": [
+    "FileConsumerIdempotentTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "FileConsumerIdempotentTest",
+        "failingTestMethod": "testIdempotent"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.protocol.http.WicketFilter"
+  ],
+  "test": [
+    "org.apache.wicket.protocol.http.WicketFilterTest"
+  ],
+  "sourcePackage": "wicket-core"
+}

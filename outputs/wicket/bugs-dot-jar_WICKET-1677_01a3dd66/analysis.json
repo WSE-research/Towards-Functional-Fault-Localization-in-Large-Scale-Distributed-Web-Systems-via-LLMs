@@ -1,0 +1,14 @@
+{
+  "patched": [
+    "org.apache.wicket.ajax.form.AjaxFormChoiceComponentUpdatingBehavior",
+    "org.apache.wicket.markup.html.form.Check",
+    "org.apache.wicket.markup.html.form.CheckBoxMultipleChoice",
+    "org.apache.wicket.markup.html.form.Radio",
+    "org.apache.wicket.markup.html.form.RadioChoice"
+  ],
+  "test": [
+    "org.apache.wicket.markup.html.form.RadioGroupTest",
+    "org.apache.wicket.markup.html.form.CheckGroupTest"
+  ],
+  "sourcePackage": "wicket"
+}

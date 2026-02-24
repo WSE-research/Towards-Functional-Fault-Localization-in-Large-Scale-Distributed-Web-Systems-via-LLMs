@@ -1,0 +1,71 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.upgrade.RepositorySidegrade",
+    "org.apache.jackrabbit.oak.upgrade.cli.node.SegmentFactory",
+    "org.apache.jackrabbit.oak.upgrade.cli.node.SegmentTarFactory",
+    "org.apache.jackrabbit.oak.upgrade.cli.node.TarNodeStore"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.upgrade.cli.blob.FbsToFbsTest",
+    "org.apache.jackrabbit.oak.upgrade.cli.blob.CopyReferencesTest",
+    "org.apache.jackrabbit.oak.upgrade.cli.blob.FdsToFbsTest",
+    "org.apache.jackrabbit.oak.upgrade.cli.blob.FbsToFdsTest",
+    "org.apache.jackrabbit.oak.upgrade.cli.SegmentToSegmentTarTest",
+    "org.apache.jackrabbit.oak.upgrade.cli.SegmentTarToSegmentTest",
+    "org.apache.jackrabbit.oak.upgrade.cli.SegmentToSegmentTest"
+  ],
+  "suitable_tests": [
+    "FbsToFbsTest",
+    "CopyReferencesTest",
+    "FdsToFbsTest",
+    "FbsToFdsTest",
+    "SegmentToSegmentTarTest",
+    "SegmentTarToSegmentTest",
+    "SegmentToSegmentTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "FbsToFbsTest",
+        "failingTestMethod": "validateMigration"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "CopyReferencesTest",
+        "failingTestMethod": "validateMigration"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "FdsToFbsTest",
+        "failingTestMethod": "validateMigration"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "FbsToFdsTest",
+        "failingTestMethod": "validateMigration"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "SegmentToSegmentTarTest",
+        "failingTestMethod": "validateMigration"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "SegmentTarToSegmentTest",
+        "failingTestMethod": "validateMigration"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "SegmentToSegmentTest",
+        "failingTestMethod": "validateMigration"
+      }
+    }
+  ],
+  "sourcePackage": "oak-upgrade"
+}

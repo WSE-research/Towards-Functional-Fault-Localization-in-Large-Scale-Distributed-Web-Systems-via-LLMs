@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexEditorContext"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexTest"
+  ],
+  "suitable_tests": [
+    "LuceneIndexTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "LuceneIndexTest",
+        "failingTestMethod": "luceneWithFSDirectory"
+      }
+    }
+  ],
+  "sourcePackage": "oak-lucene"
+}

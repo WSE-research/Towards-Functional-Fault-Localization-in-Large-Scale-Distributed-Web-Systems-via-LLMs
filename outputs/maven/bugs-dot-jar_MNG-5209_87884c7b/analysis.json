@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.maven.project.MavenProject"
+  ],
+  "test": [
+    "org.apache.maven.project.MavenProjectTest"
+  ],
+  "sourcePackage": "maven-core"
+}

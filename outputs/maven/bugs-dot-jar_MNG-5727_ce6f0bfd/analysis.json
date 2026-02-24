@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.maven.bridge.MavenRepositorySystem",
+    "org.apache.maven.project.DefaultProjectBuilder"
+  ],
+  "test": [
+    "org.apache.maven.project.ProjectBuilderTest"
+  ],
+  "suitable_tests": [
+    "ProjectBuilderTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ProjectBuilderTest",
+        "failingTestMethod": "testVersionlessManagedDependency"
+      }
+    }
+  ],
+  "sourcePackage": "maven-core"
+}

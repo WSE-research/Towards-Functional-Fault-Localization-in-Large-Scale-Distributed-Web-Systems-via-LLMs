@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "wicket-core/src/main/java/org/apache/wicket/mock/MockSessionStore.java"
+  ],
+  "test": [
+    "org.apache.wicket.util.tester.WicketTesterSessionInvalidateTest#sessionInvalidate"
+  ],
+  "suitable_tests": [
+    "WicketTesterSessionInvalidateTest#sessionInvalidate"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "WicketTesterSessionInvalidateTest#sessionInvalidate",
+        "failingTestMethod": "sessionInvalidate"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

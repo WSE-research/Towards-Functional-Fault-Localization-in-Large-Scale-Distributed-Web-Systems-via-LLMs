@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.logging.slf4j.Log4jLogger",
+    "org.apache.logging.slf4j.Log4jMarkerFactory"
+  ],
+  "test": [
+    "org.apache.logging.slf4j.LoggerTest"
+  ],
+  "suitable_tests": [
+    "LoggerTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "LoggerTest",
+        "failingTestMethod": "supportsCustomSLF4JMarkers"
+      }
+    }
+  ],
+  "sourcePackage": "log4j-slf4j-impl"
+}

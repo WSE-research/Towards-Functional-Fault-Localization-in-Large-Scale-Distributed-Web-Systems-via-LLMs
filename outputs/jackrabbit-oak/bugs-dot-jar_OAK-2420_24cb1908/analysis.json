@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.document.DocumentNodeStore"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.document.VersionGCDeletionTest"
+  ],
+  "suitable_tests": [
+    "VersionGCDeletionTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "VersionGCDeletionTest",
+        "failingTestMethod": "queryWhileDocsAreRemoved"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

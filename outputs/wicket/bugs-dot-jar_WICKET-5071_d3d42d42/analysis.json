@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "org.apache.wicket.core.request.mapper.BookmarkableMapper",
+    "org.apache.wicket.core.request.mapper.PageInstanceMapper"
+  ],
+  "test": [
+    "org.apache.wicket.core.request.mapper.BookmarkableMapperTest"
+  ],
+  "sourcePackage": "wicket-core"
+}

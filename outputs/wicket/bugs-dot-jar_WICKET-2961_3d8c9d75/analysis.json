@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.Component"
+  ],
+  "test": [
+    "org.apache.wicket.ComponentInitializationTest"
+  ],
+  "sourcePackage": "wicket"
+}

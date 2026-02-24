@@ -1,0 +1,32 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.name.Namespaces"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.name.NameValidatorTest"
+  ],
+  "suitable_tests": [
+    "NameValidatorTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "NameValidatorTest",
+        "failingTestMethod": "testTrailingWhitespace"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "NameValidatorTest",
+        "failingTestMethod": "testLeadingWhitespace"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "NameValidatorTest",
+        "failingTestMethod": "testOnlyWhitespace"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

@@ -1,0 +1,12 @@
+{
+  "patched": [
+    "org.apache.flink.api.common.io.GenericCsvInputFormat",
+    "org.apache.flink.types.parser.StringParser",
+    "org.apache.flink.types.parser.StringValueParser"
+  ],
+  "test": [
+    "org.apache.flink.types.parser.QuotedStringParserTest",
+    "org.apache.flink.api.common.io.GenericCsvInputFormatTest"
+  ],
+  "sourcePackage": "flink-core"
+}

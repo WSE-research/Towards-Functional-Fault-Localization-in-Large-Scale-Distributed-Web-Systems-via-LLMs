@@ -1,0 +1,19 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.jcr.NodeDelegate",
+    "org.apache.jackrabbit.oak.jcr.NodeImpl"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.jcr.CRUDTest"
+  ],
+  "suitable_tests": [
+    "CRUDTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTestClass": "CRUDTest",
+      "failingTestMethod": "testRemoveMissingProperty"
+    }
+  ],
+  "sourcePackage": "oak-jcr"
+}

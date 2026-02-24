@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.camel.builder.ExpressionBuilder"
+  ],
+  "test": [
+    "org.apache.camel.builder.PredicateBuilderTest"
+  ],
+  "suitable_tests": [
+    "PredicateBuilderTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "PredicateBuilderTest",
+        "failingTestMethod": "testEmptyHeaderValueIn"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

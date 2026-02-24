@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.request.mapper.BookmarkableMapper"
+  ],
+  "test": [
+    "org.apache.wicket.request.mapper.BookmarkableMapperTest"
+  ],
+  "sourcePackage": "wicket"
+}

@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.jul.ApiLogger"
+  ],
+  "test": [
+    "org.apache.logging.log4j.jul.BracketInNotInterpolatedMessageTest"
+  ],
+  "suitable_tests": [
+    "BracketInNotInterpolatedMessageTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "BracketInNotInterpolatedMessageTest",
+        "failingTestMethod": "noInterpolation"
+      }
+    }
+  ],
+  "sourcePackage": "log4j-jul"
+}

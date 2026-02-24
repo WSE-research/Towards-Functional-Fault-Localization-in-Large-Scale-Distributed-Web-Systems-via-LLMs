@@ -1,0 +1,38 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.jcr.xml.ImporterImpl"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.jcr.RepositoryTest"
+  ],
+  "suitable_tests": [
+    "RepositoryTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "RepositoryTest",
+        "failingTestMethod": "importUUIDCreateNew[3]"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "RepositoryTest",
+        "failingTestMethod": "importUUIDCreateNew[0]"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "RepositoryTest",
+        "failingTestMethod": "importUUIDCreateNew[2]"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "RepositoryTest",
+        "failingTestMethod": "importUUIDCreateNew[1]"
+      }
+    }
+  ],
+  "sourcePackage": "oak-jcr"
+}

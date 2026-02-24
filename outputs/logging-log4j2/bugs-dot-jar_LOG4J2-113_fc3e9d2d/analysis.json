@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.core.filter.StructuredDataFilter"
+  ],
+  "test": [
+    "org.apache.logging.log4j.core.filter.StructuredDataFilterTest"
+  ],
+  "sourcePackage": "core"
+}

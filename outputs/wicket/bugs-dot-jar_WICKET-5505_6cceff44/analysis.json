@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.bean.validation.DefaultPropertyResolver"
+  ],
+  "test": [
+    "org.apache.wicket.bean.validation.DefaultPropertyResolverTest"
+  ],
+  "sourcePackage": "wicket-bean-validation"
+}

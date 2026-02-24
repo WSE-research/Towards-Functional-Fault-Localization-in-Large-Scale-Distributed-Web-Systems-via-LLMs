@@ -1,0 +1,22 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.segment.Segment",
+    "org.apache.jackrabbit.oak.segment.file.FileStore",
+    "org.apache.jackrabbit.oak.segment.file.TarReader"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.segment.RecordTest"
+  ],
+  "suitable_tests": [
+    "RecordTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "RecordTest",
+        "failingTestMethod": "testStreamRecord"
+      }
+    }
+  ],
+  "sourcePackage": "oak-segment-tar"
+}

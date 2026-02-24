@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.core.request.handler.PageProvider"
+  ],
+  "test": [
+    "org.apache.wicket.request.handler.PageProviderTest"
+  ],
+  "sourcePackage": "wicket-core"
+}

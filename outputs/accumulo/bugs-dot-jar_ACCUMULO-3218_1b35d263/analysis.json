@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.accumulo.core.client.ClientConfiguration"
+  ],
+  "test": [
+    "org.apache.accumulo.core.client.ZooKeeperInstanceTest"
+  ],
+  "suitable_tests": [
+    "ZooKeeperInstanceTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ZooKeeperInstanceTest",
+        "failingTestMethod": "testAllZooKeepersAreUsed"
+      }
+    }
+  ],
+  "sourcePackage": "core"
+}

@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.flink.api.common.state.StateDescriptor"
+  ],
+  "test": [
+    "org.apache.flink.api.common.state.ValueStateDescriptorTest"
+  ],
+  "sourcePackage": "flink-core"
+}

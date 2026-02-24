@@ -1,0 +1,11 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.document.ValueMap",
+    "org.apache.jackrabbit.oak.plugins.document.util.MergeSortedIterators"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.document.ValueMapTest",
+    "org.apache.jackrabbit.oak.plugins.document.util.MergeSortedIteratorsTest"
+  ],
+  "sourcePackage": "oak-core"
+}

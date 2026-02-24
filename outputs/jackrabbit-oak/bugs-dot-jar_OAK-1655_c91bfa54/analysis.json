@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.blob.datastore.DataStoreBlobStore"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.document.blob.ds.MongoDataStoreBlobStoreTest"
+  ],
+  "sourcePackage": "oak-core"
+}

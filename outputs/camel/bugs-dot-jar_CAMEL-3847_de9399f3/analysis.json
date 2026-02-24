@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.camel.impl.converter.BaseTypeConverterRegistry"
+  ],
+  "test": [
+    "org.apache.camel.impl.TypeConverterRegistryMissesThenAddTest"
+  ],
+  "suitable_tests": [
+    "TypeConverterRegistryMissesThenAddTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "TypeConverterRegistryMissesThenAddTest",
+        "failingTestMethod": "testMissThenAddTypeConverter"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

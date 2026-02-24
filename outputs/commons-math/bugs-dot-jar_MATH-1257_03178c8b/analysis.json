@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.commons.math4.distribution.NormalDistribution"
+  ],
+  "test": [
+    "org.apache.commons.math4.distribution.NormalDistributionTest"
+  ],
+  "sourcePackage": ""
+}

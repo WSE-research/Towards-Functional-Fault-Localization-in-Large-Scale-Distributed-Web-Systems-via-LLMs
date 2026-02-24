@@ -1,0 +1,22 @@
+{
+  "patched": [
+    "org.apache.camel.util.URISupport"
+  ],
+  "test": [
+    "org.apache.camel.issues.EndpointWithRawUriParameterTest",
+    "org.apache.camel.management.ManagedThrottlerTest"
+  ],
+  "suitable_tests": [
+    "EndpointWithRawUriParameterTest",
+    "ManagedThrottlerTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ManagedThrottlerTest",
+        "failingTestMethod": "testThrottleAsyncVisableViaJmx"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.camel.processor.idempotent.FileIdempotentRepository"
+  ],
+  "test": [
+    "org.apache.camel.processor.FileIdempotentConsumerCreateRepoTest"
+  ],
+  "suitable_tests": [
+    "FileIdempotentConsumerCreateRepoTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "FileIdempotentConsumerCreateRepoTest",
+        "failingTestMethod": "shouldUseCurrentDirIfHasNoParentFile"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

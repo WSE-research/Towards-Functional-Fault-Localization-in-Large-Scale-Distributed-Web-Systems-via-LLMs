@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.message.ReusableParameterizedMessage"
+  ],
+  "test": [
+    "org.apache.logging.log4j.message.ReusableParameterizedMessageTest"
+  ],
+  "sourcePackage": "log4j-api"
+}

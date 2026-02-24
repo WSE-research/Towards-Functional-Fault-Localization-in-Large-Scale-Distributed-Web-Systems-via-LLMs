@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.wicket.markup.parser.filter.HtmlHeaderSectionHandler"
+  ],
+  "test": [
+    "org.apache.wicket.queueing.ComponentQueueingTest"
+  ],
+  "suitable_tests": [
+    "ComponentQueueingTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ComponentQueueingTest",
+        "failingTestMethod": "queueInsideHeader"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

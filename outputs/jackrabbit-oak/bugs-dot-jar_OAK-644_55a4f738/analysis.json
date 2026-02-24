@@ -1,0 +1,27 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.security.authorization.AccessControlConfigurationImpl",
+    "org.apache.jackrabbit.oak.security.privilege.PrivilegeDefinitionStore"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.security.authorization.AccessControlManagerImplTest"
+  ],
+  "suitable_tests": [
+    "AccessControlManagerImplTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "AccessControlManagerImplTest",
+        "failingTestMethod": "testSetPolicy"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AccessControlManagerImplTest",
+        "failingTestMethod": "testSetPolicyWritesAcContent"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

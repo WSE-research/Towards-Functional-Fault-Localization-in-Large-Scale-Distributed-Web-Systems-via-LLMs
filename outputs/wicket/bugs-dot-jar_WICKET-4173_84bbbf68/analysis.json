@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "org.apache.wicket.request.cycle.RequestCycle",
+    "org.apache.wicket.request.handler.render.WebPageRenderer"
+  ],
+  "test": [
+    "org.apache.wicket.request.handler.render.WebPageRendererTest"
+  ],
+  "sourcePackage": "wicket-core"
+}

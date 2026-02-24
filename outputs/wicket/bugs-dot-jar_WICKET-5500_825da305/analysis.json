@@ -1,0 +1,22 @@
+{
+  "patched": [
+    "org.apache.wicket.core.request.mapper.AbstractComponentMapper",
+    "org.apache.wicket.core.request.mapper.PackageMapper"
+  ],
+  "test": [
+    "org.apache.wicket.core.request.mapper.BookmarkableMapperTest",
+    "org.apache.wicket.core.request.mapper.PackageMapperTest"
+  ],
+  "suitable_tests": [
+    "BookmarkableMapperTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "BookmarkableMapperTest",
+        "failingTestMethod": "decodePageClassWithPathParameters"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

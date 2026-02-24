@@ -1,0 +1,34 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.api.QueryEngine",
+    "org.apache.jackrabbit.oak.query.QueryEngineImpl",
+    "org.apache.jackrabbit.oak.security.user.query.XPathQueryBuilder"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.security.principal.PrincipalProviderImplTest"
+  ],
+  "suitable_tests": [
+    "PrincipalProviderImplTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "PrincipalProviderImplTest",
+        "failingTestMethod": "testFindUserPrincipal"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "PrincipalProviderImplTest",
+        "failingTestMethod": "testFindGroupPrincipal"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "PrincipalProviderImplTest",
+        "failingTestMethod": "testFindWithoutHint"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

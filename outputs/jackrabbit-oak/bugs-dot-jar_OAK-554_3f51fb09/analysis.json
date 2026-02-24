@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.memory.PropertyStates",
+    "org.apache.jackrabbit.oak.plugins.value.ValueImpl"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.memory.PropertyStatesTest"
+  ],
+  "sourcePackage": "oak-core"
+}

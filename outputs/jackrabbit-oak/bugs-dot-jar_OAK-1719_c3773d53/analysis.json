@@ -1,0 +1,53 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.upgrade.RepositoryUpgrade"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.upgrade.RepositoryGroupMemberSplitUpgradeTest",
+    "org.apache.jackrabbit.oak.upgrade.RepositoryUpgradeTest",
+    "org.apache.jackrabbit.oak.upgrade.RepositoryGroupMemberUpgradeTest"
+  ],
+  "suitable_tests": [
+    "RepositoryGroupMemberSplitUpgradeTest",
+    "RepositoryGroupMemberUpgradeTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "RepositoryGroupMemberSplitUpgradeTest",
+        "failingTestMethod": "verifyGroupNodeTypes"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "RepositoryGroupMemberSplitUpgradeTest",
+        "failingTestMethod": "verifyMembers"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "RepositoryGroupMemberSplitUpgradeTest",
+        "failingTestMethod": "verifyMemberOf"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "RepositoryGroupMemberUpgradeTest",
+        "failingTestMethod": "verifyGroupNodeTypes"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "RepositoryGroupMemberUpgradeTest",
+        "failingTestMethod": "verifyMembers"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "RepositoryGroupMemberUpgradeTest",
+        "failingTestMethod": "verifyMemberOf"
+      }
+    }
+  ],
+  "sourcePackage": "oak-upgrade"
+}

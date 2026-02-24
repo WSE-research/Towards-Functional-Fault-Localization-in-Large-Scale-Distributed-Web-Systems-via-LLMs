@@ -1,0 +1,34 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.query.ast.SelectorImpl"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.query.index.TraversingIndexQueryTest",
+    "org.apache.jackrabbit.oak.plugins.index.property.PropertyIndexQueryTest"
+  ],
+  "suitable_tests": [
+    "TraversingIndexQueryTest",
+    "PropertyIndexQueryTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "TraversingIndexQueryTest",
+        "failingTestMethod": "testRelativeProperties"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TraversingIndexQueryTest",
+        "failingTestMethod": "testMultipleRelativeProperties"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "PropertyIndexQueryTest",
+        "failingTestMethod": "sql2Measure"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

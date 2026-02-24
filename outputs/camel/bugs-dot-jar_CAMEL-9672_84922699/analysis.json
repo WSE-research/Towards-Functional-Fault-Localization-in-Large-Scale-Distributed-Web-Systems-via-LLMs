@@ -1,0 +1,33 @@
+{
+  "patched": [
+    "org.apache.camel.management.DefaultManagementObjectStrategy",
+    "org.apache.camel.management.mbean.ManagedFilter"
+  ],
+  "test": [
+    "org.apache.camel.management.ManagedInterceptFromTest"
+  ],
+  "suitable_tests": [
+    "ManagedInterceptFromTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ManagedInterceptFromTest",
+        "failingTestMethod": "testManageWithInterceptFrom"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ManagedInterceptFromTest",
+        "failingTestMethod": "testManageWithInterceptFrom"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ManagedInterceptFromTest",
+        "failingTestMethod": "testManageWithInterceptFrom"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

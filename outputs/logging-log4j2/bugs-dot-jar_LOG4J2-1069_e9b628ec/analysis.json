@@ -1,0 +1,28 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.core.net.server.JsonInputStreamLogEventBridge"
+  ],
+  "test": [
+    "org.apache.logging.log4j.core.net.server.UdpJsonSocketServerTest",
+    "org.apache.logging.log4j.core.net.server.TcpJsonSocketServerTest"
+  ],
+  "suitable_tests": [
+    "UdpJsonSocketServerTest",
+    "TcpJsonSocketServerTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "UdpJsonSocketServerTest",
+        "failingTestMethod": "testMessagesWithSpecialChars"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TcpJsonSocketServerTest",
+        "failingTestMethod": "testMessagesWithSpecialChars"
+      }
+    }
+  ],
+  "sourcePackage": "log4j-core"
+}

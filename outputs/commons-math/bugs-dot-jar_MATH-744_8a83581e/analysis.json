@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.commons.math.fraction.BigFraction"
+  ],
+  "test": [
+    "org.apache.commons.math.fraction.BigFractionTest"
+  ],
+  "sourcePackage": ""
+}

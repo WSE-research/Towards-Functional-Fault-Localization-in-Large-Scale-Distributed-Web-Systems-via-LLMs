@@ -1,0 +1,28 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.OakDirectory"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.OakDirectoryTest.testCloseOnOriginalIndexInput",
+    "org.apache.jackrabbit.oak.plugins.index.lucene.OakDirectoryTest.testCloseOnClonedIndexInputs"
+  ],
+  "suitable_tests": [
+    "testCloseOnOriginalIndexInput",
+    "testCloseOnClonedIndexInputs"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "testCloseOnOriginalIndexInput",
+        "failingTestMethod": "testCloseOnOriginalIndexInput"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "testCloseOnClonedIndexInputs",
+        "failingTestMethod": "testCloseOnClonedIndexInputs"
+      }
+    }
+  ],
+  "sourcePackage": "oak-lucene"
+}

@@ -1,0 +1,14 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.segment.CompactionMap",
+    "org.apache.jackrabbit.oak.plugins.segment.Compactor",
+    "org.apache.jackrabbit.oak.plugins.segment.Record",
+    "org.apache.jackrabbit.oak.plugins.segment.SegmentNodeBuilder",
+    "org.apache.jackrabbit.oak.plugins.segment.SegmentWriter",
+    "org.apache.jackrabbit.oak.plugins.segment.file.FileStore"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.segment.file.FileStoreTest"
+  ],
+  "sourcePackage": "oak-core"
+}

@@ -1,0 +1,22 @@
+{
+  "patched": [
+    "org.apache.wicket.request.resource.AbstractResource",
+    "org.apache.wicket.util.resource.UrlResourceStream"
+  ],
+  "test": [
+    "org.apache.wicket.request.resource.WriteCallbackTest",
+    "org.apache.wicket.util.resource.UrlResourceStreamTest"
+  ],
+  "suitable_tests": [
+    "WriteCallbackTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "WriteCallbackTest",
+        "failingTestMethod": "testWriteStream"
+      }
+    }
+  ],
+  "sourcePackage": "wicket"
+}

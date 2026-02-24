@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.accumulo.core.security.ColumnVisibility"
+  ],
+  "test": [
+    "org.apache.accumulo.core.security.ColumnVisibilityTest"
+  ],
+  "sourcePackage": "core"
+}

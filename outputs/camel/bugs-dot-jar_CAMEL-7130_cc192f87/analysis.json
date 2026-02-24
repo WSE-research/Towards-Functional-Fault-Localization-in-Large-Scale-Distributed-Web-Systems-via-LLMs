@@ -1,0 +1,22 @@
+{
+  "patched": [
+    "org.apache.camel.builder.xml.XsltBuilder"
+  ],
+  "test": [
+    "org.apache.camel.management.ManagedThrottlerTest",
+    "org.apache.camel.component.xslt.XsltDTDTest"
+  ],
+  "suitable_tests": [
+    "ManagedThrottlerTest",
+    "XsltDTDTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "XsltDTDTest",
+        "failingTestMethod": "testSendingInputStreamMessage"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

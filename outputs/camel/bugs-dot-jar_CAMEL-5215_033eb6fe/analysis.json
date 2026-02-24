@@ -1,0 +1,25 @@
+{
+  "patched": [
+    "org.apache.camel.component.file.FileBinding",
+    "org.apache.camel.component.file.FileOperations",
+    "org.apache.camel.component.file.GenericFileConverter",
+    "org.apache.camel.component.file.GenericFileProducer",
+    "org.apache.camel.converter.IOConverter",
+    "org.apache.camel.util.IOHelper"
+  ],
+  "test": [
+    "org.apache.camel.component.file.FileProducerCharsetUTFtoISOTest"
+  ],
+  "suitable_tests": [
+    "FileProducerCharsetUTFtoISOTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "FileProducerCharsetUTFtoISOTest",
+        "failingTestMethod": "testFileProducerCharsetUTFtoISO"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

@@ -1,0 +1,28 @@
+{
+  "patched": [
+    "org.apache.camel.processor.WrapProcessor"
+  ],
+  "test": [
+    "org.apache.camel.processor.DefaultErrorHandlerOnExceptionTraceTest",
+    "org.apache.camel.processor.OnCompletionGlobalTraceTest"
+  ],
+  "suitable_tests": [
+    "DefaultErrorHandlerOnExceptionTraceTest",
+    "OnCompletionGlobalTraceTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "DefaultErrorHandlerOnExceptionTraceTest",
+        "failingTestMethod": "testOk"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "DefaultErrorHandlerOnExceptionTraceTest",
+        "failingTestMethod": "testWithError"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

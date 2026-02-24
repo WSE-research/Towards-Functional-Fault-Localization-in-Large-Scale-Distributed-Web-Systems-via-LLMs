@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.MarkupContainer"
+  ],
+  "test": [
+    "org.apache.wicket.queueing.transparentresolvers.DequeueingTransparentWebMarkupContainerTest"
+  ],
+  "sourcePackage": "wicket-core"
+}

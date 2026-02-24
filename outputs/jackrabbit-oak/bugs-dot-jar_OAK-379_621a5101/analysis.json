@@ -1,0 +1,29 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.security.SecurityProviderImpl"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.query.index.TraversingIndexQueryTest",
+    "org.apache.jackrabbit.oak.plugins.index.property.PropertyIndexQueryTest",
+    "org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexQueryTest",
+    "org.apache.jackrabbit.oak.plugins.index.old.QueryTest"
+  ],
+  "suitable_tests": [
+    "TraversingIndexQueryTest",
+    "PropertyIndexQueryTest",
+    "LuceneIndexQueryTest",
+    "QueryTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+      "failingTestClass": "TraversingIndexQueryTest",
+      "failingTestMethod": "sql1"
+    }},
+    { "failingTest": {
+      "failingTestClass": "QueryTest",
+      "failingTestMethod": "sql2Explain"
+    }}
+  ],
+  "sourcePackage": "oak-core"
+}

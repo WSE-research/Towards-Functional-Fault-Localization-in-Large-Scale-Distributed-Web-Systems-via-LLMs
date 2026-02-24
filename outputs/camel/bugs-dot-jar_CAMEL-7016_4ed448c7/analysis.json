@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.camel.management.mbean.ManagedRoute"
+  ],
+  "test": [
+    "org.apache.camel.management.ManagedRouteUpdateRouteFromXmlTest"
+  ],
+  "sourcePackage": "camel-core"
+}

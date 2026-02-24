@@ -1,0 +1,26 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.core.config.ConfigurationFactory"
+  ],
+  "test": [
+    "org.apache.logging.log4j.core.config.TestConfigurator"
+  ],
+  "suitable_tests": [
+    "TestConfigurator"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "TestConfigurator",
+        "failingTestMethod": "testFromClassPathWithClassLoaderPrefix"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TestConfigurator",
+        "failingTestMethod": "testFromClassPathWithClassPathPrefix"
+      }
+    }
+  ],
+  "sourcePackage": "log4j-core"
+}

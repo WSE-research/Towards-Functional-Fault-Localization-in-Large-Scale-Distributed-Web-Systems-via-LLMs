@@ -1,0 +1,23 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.index.property.PropertyIndex",
+    "org.apache.jackrabbit.oak.plugins.index.property.PropertyIndexPlan",
+    "org.apache.jackrabbit.oak.query.index.FilterImpl",
+    "org.apache.jackrabbit.oak.spi.query.Filter"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.index.property.MultiPropertyOrTest"
+  ],
+  "suitable_tests": [
+    "MultiPropertyOrTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "MultiPropertyOrTest",
+        "failingTestMethod": "query"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

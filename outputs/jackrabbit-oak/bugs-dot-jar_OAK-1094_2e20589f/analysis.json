@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.cache.CacheLIRS"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.cache.CacheTest"
+  ],
+  "suitable_tests": [
+    "CacheTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "CacheTest",
+        "failingTestMethod": "testRefresh"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

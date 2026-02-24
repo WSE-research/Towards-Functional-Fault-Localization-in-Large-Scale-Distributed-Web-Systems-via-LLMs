@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.core.RootImpl",
+    "org.apache.jackrabbit.oak.kernel.KernelNodeStoreBranch"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.core.RootImplTest"
+  ],
+  "sourcePackage": "oak-core"
+}

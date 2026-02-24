@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.accumulo.core.iterators.user.RegExFilter"
+  ],
+  "test": [
+    "org.apache.accumulo.core.iterators.user.RegExFilterTest"
+  ],
+  "sourcePackage": "src/core"
+}

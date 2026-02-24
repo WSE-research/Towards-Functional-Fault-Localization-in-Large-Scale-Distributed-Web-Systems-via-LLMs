@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.camel.processor.loadbalancer.CircuitBreakerLoadBalancer"
+  ],
+  "test": [
+    "org.apache.camel.processor.CircuitBreakerLoadBalancerTest"
+  ],
+  "sourcePackage": "camel-core"
+}

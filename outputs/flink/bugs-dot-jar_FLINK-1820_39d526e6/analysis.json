@@ -1,0 +1,32 @@
+{
+  "patched": [
+    "org.apache.flink.types.parser.ByteParser",
+    "org.apache.flink.types.parser.ByteValueParser",
+    "org.apache.flink.types.parser.DoubleParser",
+    "org.apache.flink.types.parser.DoubleValueParser",
+    "org.apache.flink.types.parser.FieldParser",
+    "org.apache.flink.types.parser.FloatParser",
+    "org.apache.flink.types.parser.FloatValueParser",
+    "org.apache.flink.types.parser.IntParser",
+    "org.apache.flink.types.parser.IntValueParser",
+    "org.apache.flink.types.parser.LongParser",
+    "org.apache.flink.types.parser.LongValueParser",
+    "org.apache.flink.types.parser.ShortParser",
+    "org.apache.flink.types.parser.ShortValueParser"
+  ],
+  "test": [
+    "org.apache.flink.types.parser.DoubleParserTest",
+    "org.apache.flink.types.parser.IntParserTest",
+    "org.apache.flink.types.parser.DoubleValueParserTest",
+    "org.apache.flink.types.parser.ByteParserTest",
+    "org.apache.flink.types.parser.IntValueParserTest",
+    "org.apache.flink.types.parser.ShortParserTest",
+    "org.apache.flink.types.parser.ByteValueParserTest",
+    "org.apache.flink.types.parser.FloatParserTest",
+    "org.apache.flink.types.parser.LongValueParserTest",
+    "org.apache.flink.types.parser.FloatValueParserTest",
+    "org.apache.flink.types.parser.LongParserTest",
+    "org.apache.flink.types.parser.ShortValueParserTest"
+  ],
+  "sourcePackage": "flink-core"
+}

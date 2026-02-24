@@ -1,0 +1,34 @@
+{
+  "patched": [
+    "org.apache.wicket.markup.html.panel.AbstractMarkupSourcingStrategy",
+    "org.apache.wicket.markup.html.panel.AssociatedMarkupSourcingStrategy",
+    "org.apache.wicket.markup.html.panel.DefaultMarkupSourcingStrategy"
+  ],
+  "test": [
+    "org.apache.wicket.markup.html.TransparentWebMarkupContainerTest"
+  ],
+  "suitable_tests": [
+    "TransparentWebMarkupContainerTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "TransparentWebMarkupContainerTest",
+        "failingTestMethod": "ajaxRequestForComponentInTransparentWebMarkupContainerShouldntCauseStackOverflow3"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TransparentWebMarkupContainerTest",
+        "failingTestMethod": "ajaxRequestForComponentInTransparentWebMarkupContainerShouldntCauseStackOverflow4"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TransparentWebMarkupContainerTest",
+        "failingTestMethod": "ajaxRequestForComponentInTransparentWebMarkupContainerShouldntCauseStackOverflow5"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

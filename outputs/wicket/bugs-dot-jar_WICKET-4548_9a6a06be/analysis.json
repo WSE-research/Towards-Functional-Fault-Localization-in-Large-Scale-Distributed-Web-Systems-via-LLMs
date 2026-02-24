@@ -1,0 +1,88 @@
+{
+  "patched": [
+    "org.apache.wicket.markup.html.form.ValidationErrorFeedback"
+  ],
+  "test": [
+    "org.apache.wicket.util.tester.apps_4.FormTesterTest",
+    "org.apache.wicket.markup.html.form.ValidatorPropertiesTest",
+    "org.apache.wicket.markup.html.form.LocalizedErrorMessageTest",
+    "org.apache.wicket.markup.html.form.validation.innerfeedback.InnerFeedbackTest",
+    "org.apache.wicket.validation.ValidatorBehaviorTest",
+    "org.apache.wicket.util.tester.FormTesterTest",
+    "org.apache.wicket.util.tester.WicketTesterTest",
+    "org.apache.wicket.resource.loader.ValidatorStringResourceLoaderTest"
+  ],
+  "suitable_tests": [
+    "FormTesterTest",
+    "ValidatorPropertiesTest",
+    "LocalizedErrorMessageTest",
+    "InnerFeedbackTest",
+    "ValidatorBehaviorTest",
+    "FormTesterTest",
+    "WicketTesterTest",
+    "ValidatorStringResourceLoaderTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "FormTesterTest",
+        "failingTestMethod": "submitWithoutUploadFile"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ValidatorPropertiesTest",
+        "failingTestMethod": "test1"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "LocalizedErrorMessageTest",
+        "failingTestMethod": "wicket891"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "LocalizedErrorMessageTest",
+        "failingTestMethod": "wicket_1927"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "InnerFeedbackTest",
+        "failingTestMethod": "innerFeedback"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ValidatorBehaviorTest",
+        "failingTestMethod": "testActAsValidator"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "FormTesterTest",
+        "failingTestMethod": "submitWithoutUploadFile"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "WicketTesterTest",
+        "failingTestMethod": "createBook_validateFail"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ValidatorStringResourceLoaderTest",
+        "failingTestMethod": "interfaceValidator"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ValidatorStringResourceLoaderTest",
+        "failingTestMethod": "classValidator"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

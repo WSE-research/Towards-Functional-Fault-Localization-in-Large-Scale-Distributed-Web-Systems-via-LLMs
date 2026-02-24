@@ -1,0 +1,28 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.segment.SegmentNodeState"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.segment.RecordTest.testStringPrimaryType",
+    "org.apache.jackrabbit.oak.plugins.segment.RecordTest.testStringMixinTypes"
+  ],
+  "suitable_tests": [
+    "testStringPrimaryType",
+    "testStringMixinTypes"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "testStringPrimaryType",
+        "failingTestMethod": "testStringPrimaryType"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "testStringMixinTypes",
+        "failingTestMethod": "testStringMixinTypes"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

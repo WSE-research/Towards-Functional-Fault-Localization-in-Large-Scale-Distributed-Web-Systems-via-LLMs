@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.memory.MemoryNodeBuilder"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.spi.state.MoveDetectorTest"
+  ],
+  "suitable_tests": [
+    "MoveDetectorTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "MoveDetectorTest",
+        "failingTestMethod": "simpleMove"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

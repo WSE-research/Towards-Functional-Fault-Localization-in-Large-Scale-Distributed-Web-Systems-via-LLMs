@@ -1,0 +1,45 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.upgrade.RepositoryUpgrade",
+    "org.apache.jackrabbit.oak.upgrade.version.VersionablePropertiesEditor"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.upgrade.CopyVersionHistoryTest"
+  ],
+  "suitable_tests": [
+    "CopyVersionHistoryTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "CopyVersionHistoryTest",
+        "failingTestMethod": "referencedOlderThanOrphaned"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "CopyVersionHistoryTest",
+        "failingTestMethod": "copyAllVersions"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "CopyVersionHistoryTest",
+        "failingTestMethod": "onlyReferencedAfterDate"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "CopyVersionHistoryTest",
+        "failingTestMethod": "onlyReferenced"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "CopyVersionHistoryTest",
+        "failingTestMethod": "referencedSinceDate"
+      }
+    }
+  ],
+  "sourcePackage": "oak-upgrade"
+}

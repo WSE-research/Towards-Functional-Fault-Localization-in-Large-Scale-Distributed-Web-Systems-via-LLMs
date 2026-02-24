@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.mk.model.tree.DiffBuilder"
+  ],
+  "test": [
+    "org.apache.jackrabbit.mk.MicroKernelImplTest"
+  ],
+  "suitable_tests": [
+    "MicroKernelImplTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "MicroKernelImplTest",
+        "failingTestMethod": "diffWithDepth"
+      }
+    }
+  ],
+  "sourcePackage": "oak-mk"
+}

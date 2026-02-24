@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.logging.slf4j.Log4jMarker"
+  ],
+  "test": [
+    "org.apache.logging.slf4j.MarkerTest"
+  ],
+  "suitable_tests": [
+    "MarkerTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "MarkerTest",
+        "failingTestMethod": "testRemoveNullMarker"
+      }
+    }
+  ],
+  "sourcePackage": "log4j-slf4j-impl"
+}

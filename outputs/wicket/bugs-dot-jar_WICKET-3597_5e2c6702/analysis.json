@@ -1,0 +1,180 @@
+{
+  "patched": [
+    "org.apache.wicket.util.string.JavaScriptUtils"
+  ],
+  "test": [
+    "org.apache.wicket.markup.html.border.ComponentBorderTest",
+    "org.apache.wicket.ajax.AjaxHeaderContributionTest",
+    "org.apache.wicket.markup.html.header.HeaderScopingTest",
+    "org.apache.wicket.ajax.form.AjaxFormSubmitTest",
+    "org.apache.wicket.markup.html.panel.PanelTest",
+    "org.apache.wicket.markup.MarkupParserTest",
+    "org.apache.wicket.ajax.markup.html.componentMap.SimpleTestPanelTest",
+    "org.apache.wicket.ajax.markup.html.ajaxLink.AjaxLinkTest",
+    "org.apache.wicket.markup.html.header.testing.HeaderTest",
+    "org.apache.wicket.markup.html.basic.SimplePageTest",
+    "org.apache.wicket.ajax.form.OnChangeAjaxBehaviorTest",
+    "org.apache.wicket.ajax.AjaxRequestTargetTest",
+    "org.apache.wicket.markup.html.header.inheritance.InheritanceHeadTest",
+    "org.apache.wicket.ajax.DomReadyOrderTest",
+    "org.apache.wicket.ComponentTest"
+  ],
+  "suitable_tests": [
+    "ComponentBorderTest",
+    "AjaxHeaderContributionTest",
+    "HeaderScopingTest",
+    "AjaxFormSubmitTest",
+    "PanelTest",
+    "MarkupParserTest",
+    "SimpleTestPanelTest",
+    "AjaxLinkTest",
+    "HeaderTest",
+    "SimplePageTest",
+    "OnChangeAjaxBehaviorTest",
+    "AjaxRequestTargetTest",
+    "InheritanceHeadTest",
+    "DomReadyOrderTest",
+    "ComponentTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ComponentBorderTest",
+        "failingTestMethod": "testHideableBorder"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AjaxHeaderContributionTest",
+        "failingTestMethod": "testAjaxHeaderContribution"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AjaxHeaderContributionTest",
+        "failingTestMethod": "testDoubleAjaxHeaderContribution"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "HeaderScopingTest",
+        "failingTestMethod": "test_1"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AjaxFormSubmitTest",
+        "failingTestMethod": "testEventJavaScriptEscaped"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "PanelTest",
+        "failingTestMethod": "testInlinePanel_7"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "PanelTest",
+        "failingTestMethod": "testInlinePanel_8"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "MarkupParserTest",
+        "failingTestMethod": "testScript"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "MarkupParserTest",
+        "failingTestMethod": "testScript1"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "SimpleTestPanelTest",
+        "failingTestMethod": "testRenderHomePage_2"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AjaxLinkTest",
+        "failingTestMethod": "testRenderHomePage_1"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AjaxLinkTest",
+        "failingTestMethod": "testRenderHomePage_2"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AjaxLinkTest",
+        "failingTestMethod": "testPage_2"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "HeaderTest",
+        "failingTestMethod": "test_1"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "SimplePageTest",
+        "failingTestMethod": "testRenderHomePage_12"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "SimplePageTest",
+        "failingTestMethod": "testRenderHomePage_13"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "OnChangeAjaxBehaviorTest",
+        "failingTestMethod": "testRendering"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AjaxRequestTargetTest",
+        "failingTestMethod": "testHeaderContribution1"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "InheritanceHeadTest",
+        "failingTestMethod": "test_2"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "DomReadyOrderTest",
+        "failingTestMethod": "testDomReadyOrder"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "DomReadyOrderTest",
+        "failingTestMethod": "testDomReadyOrder2"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ComponentTest",
+        "failingTestMethod": "testDetachPage"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ComponentTest",
+        "failingTestMethod": "testDetachPageAjaxRequest"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

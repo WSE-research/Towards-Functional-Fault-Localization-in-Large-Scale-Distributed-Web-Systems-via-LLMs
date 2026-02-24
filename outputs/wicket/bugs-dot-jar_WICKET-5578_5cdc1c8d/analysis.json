@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.wicket.Component"
+  ],
+  "test": [
+    "org.apache.wicket.util.tester.WicketTesterLazyIsPageStatelessRedirectToBufferTest"
+  ],
+  "suitable_tests": [
+    "WicketTesterLazyIsPageStatelessRedirectToBufferTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "WicketTesterLazyIsPageStatelessRedirectToBufferTest",
+        "failingTestMethod": "statelessListenerInterfaceInvoked"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

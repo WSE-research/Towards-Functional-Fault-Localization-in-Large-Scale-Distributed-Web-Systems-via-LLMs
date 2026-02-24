@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.camel.processor.RoutingSlip"
+  ],
+  "test": [
+    "org.apache.camel.processor.StreamCachingRoutingSlipTest"
+  ],
+  "sourcePackage": "camel-core"
+}

@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.Aggregate"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.AggregateTest.testRelativeNodeInclude"
+  ],
+  "suitable_tests": [
+    "testRelativeNodeInclude"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "testRelativeNodeInclude",
+        "failingTestMethod": "testRelativeNodeInclude"
+      }
+    }
+  ],
+  "sourcePackage": "oak-lucene"
+}

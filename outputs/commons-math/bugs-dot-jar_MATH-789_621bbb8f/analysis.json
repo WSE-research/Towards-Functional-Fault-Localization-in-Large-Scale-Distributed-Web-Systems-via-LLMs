@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.commons.math3.linear.RectangularCholeskyDecomposition"
+  ],
+  "test": [
+    "org.apache.commons.math3.random.CorrelatedRandomVectorGeneratorTest",
+    "org.apache.commons.math3.linear.RectangularCholeskyDecompositionTest"
+  ],
+  "suitable_tests": [
+    "CorrelatedRandomVectorGeneratorTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "CorrelatedRandomVectorGeneratorTest",
+        "failingTestMethod": "testSampleWithZeroCovariance"
+      }
+    }
+  ],
+  "sourcePackage": ""
+}

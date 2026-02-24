@@ -1,0 +1,13 @@
+{
+  "patched": [
+    "org.apache.accumulo.server.fs.VolumeManagerImpl",
+    "org.apache.accumulo.server.master.recovery.RecoveryPath",
+    "org.apache.accumulo.gc.GarbageCollectWriteAheadLogs",
+    "org.apache.accumulo.tserver.Tablet",
+    "org.apache.accumulo.tserver.log.DfsLogger"
+  ],
+  "test": [
+    "org.apache.accumulo.gc.GarbageCollectWriteAheadLogsTest"
+  ],
+  "sourcePackage": "server/gc"
+}

@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.camel.management.DefaultManagementAgent"
+  ],
+  "test": [
+    "org.apache.camel.management.DefaultManagementAgentMockTest"
+  ],
+  "sourcePackage": "camel-core"
+}

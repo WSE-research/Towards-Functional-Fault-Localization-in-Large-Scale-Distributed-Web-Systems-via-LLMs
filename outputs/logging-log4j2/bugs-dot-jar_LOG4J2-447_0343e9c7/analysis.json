@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.core.layout.XMLLayout"
+  ],
+  "test": [
+    "org.apache.logging.log4j.core.layout.XMLLayoutTest"
+  ],
+  "sourcePackage": "log4j-core"
+}

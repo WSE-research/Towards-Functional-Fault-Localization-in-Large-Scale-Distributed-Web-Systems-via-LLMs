@@ -1,0 +1,28 @@
+{
+  "patched": [
+    "org.apache.commons.math3.util.ContinuedFraction"
+  ],
+  "test": [
+    "org.apache.commons.math3.distribution.FDistributionTest",
+    "org.apache.commons.math3.distribution.BinomialDistributionTest"
+  ],
+  "suitable_tests": [
+    "FDistributionTest",
+    "BinomialDistributionTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "FDistributionTest",
+        "failingTestMethod": "testMath785"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "BinomialDistributionTest",
+        "failingTestMethod": "testMath718"
+      }
+    }
+  ],
+  "sourcePackage": ""
+}

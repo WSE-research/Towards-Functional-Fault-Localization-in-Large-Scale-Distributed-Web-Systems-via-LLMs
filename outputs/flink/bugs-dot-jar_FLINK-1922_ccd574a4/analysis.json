@@ -1,0 +1,22 @@
+{
+  "patched": [
+    "org.apache.flink.runtime.executiongraph.Execution",
+    "org.apache.flink.runtime.taskmanager.TaskInputSplitProvider"
+  ],
+  "test": [
+    "org.apache.flink.runtime.taskmanager.TaskInputSplitProviderTest",
+    "org.apache.flink.runtime.taskmanager.TaskManagerRegistrationTest"
+  ],
+  "suitable_tests": [
+    "TaskManagerRegistrationTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "TaskManagerRegistrationTest",
+        "failingTestMethod": "testTaskManagerResumesConnectAfterJobManagerFailure"
+      }
+    }
+  ],
+  "sourcePackage": "flink-runtime"
+}

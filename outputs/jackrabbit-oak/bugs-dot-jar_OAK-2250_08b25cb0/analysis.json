@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.IndexDefinition"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.IndexDefinitionTest.propertyDefinitionWithExcludes"
+  ],
+  "suitable_tests": [
+    "propertyDefinitionWithExcludes"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "propertyDefinitionWithExcludes",
+        "failingTestMethod": "propertyDefinitionWithExcludes"
+      }
+    }
+  ],
+  "sourcePackage": "oak-lucene"
+}

@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.core.appender.rolling.PatternProcessor"
+  ],
+  "test": [
+    "org.apache.logging.log4j.core.appender.rolling.PatternProcessorTest"
+  ],
+  "sourcePackage": "log4j-core"
+}

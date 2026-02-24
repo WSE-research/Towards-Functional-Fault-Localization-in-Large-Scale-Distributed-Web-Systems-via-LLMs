@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.jcr.NodeImpl"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.jcr.RepositoryTest"
+  ],
+  "suitable_tests": [
+    "RepositoryTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "RepositoryTest",
+        "failingTestMethod": "testAddNodeWithExpandedName"
+      }
+    }
+  ],
+  "sourcePackage": "oak-jcr"
+}

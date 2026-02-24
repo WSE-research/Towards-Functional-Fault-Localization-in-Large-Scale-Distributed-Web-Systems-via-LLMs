@@ -1,0 +1,30 @@
+{
+  "patched": [
+    "org.apache.camel.model.OnExceptionDefinition"
+  ],
+  "test": [
+    "org.apache.camel.component.file.AntPathMatcherGenericFileFilterTest",
+    "org.apache.camel.issues.RedeliveryPolicyOnExceptionWhileRedeliveringIssueTest",
+    "org.apache.camel.processor.aggregator.AggregateTimeoutTest"
+  ],
+  "suitable_tests": [
+    "AntPathMatcherGenericFileFilterTest",
+    "RedeliveryPolicyOnExceptionWhileRedeliveringIssueTest",
+    "AggregateTimeoutTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "AntPathMatcherGenericFileFilterTest",
+        "failingTestMethod": "testInclude"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AggregateTimeoutTest",
+        "failingTestMethod": "testAggregateTimeout"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

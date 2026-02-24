@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.commit.ChildOrderConflictHandler"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.api.TreeTest"
+  ],
+  "suitable_tests": [
+    "TreeTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "TreeTest",
+        "failingTestMethod": "concurrentAddChildMakeOrderable"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

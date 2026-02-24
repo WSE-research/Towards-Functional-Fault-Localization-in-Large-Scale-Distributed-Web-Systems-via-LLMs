@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.camel.model.ExpressionNode",
+    "org.apache.camel.model.language.ExpressionDefinition"
+  ],
+  "test": [
+    "org.apache.camel.util.DumpModelAsXmlChoiceFilterRouteTest"
+  ],
+  "suitable_tests": [
+    "DumpModelAsXmlChoiceFilterRouteTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "DumpModelAsXmlChoiceFilterRouteTest",
+        "failingTestMethod": "testDumpModelAsXmAl"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

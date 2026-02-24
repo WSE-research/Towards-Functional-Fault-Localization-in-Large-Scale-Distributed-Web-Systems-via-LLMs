@@ -1,0 +1,40 @@
+{
+  "patched": [
+    "org.apache.camel.component.bean.BeanInfo"
+  ],
+  "test": [
+    "org.apache.camel.processor.aggregator.AggregateTimeoutTest",
+    "org.apache.camel.language.simple.SimpleTest"
+  ],
+  "suitable_tests": [
+    "AggregateTimeoutTest",
+    "SimpleTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "AggregateTimeoutTest",
+        "failingTestMethod": "testAggregateTimeout"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "SimpleTest",
+        "failingTestMethod": "testBodyOgnlReplace"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "SimpleTest",
+        "failingTestMethod": "testBodyOgnlReplaceEscapedChar"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "SimpleTest",
+        "failingTestMethod": "testBodyOgnlReplaceEscapedBackslashChar"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

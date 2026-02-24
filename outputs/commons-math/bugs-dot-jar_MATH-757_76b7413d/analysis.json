@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.commons.math4.util.ResizableDoubleArray"
+  ],
+  "test": [
+    "org.apache.commons.math4.util.ResizableDoubleArrayTest",
+    "org.apache.commons.math4.random.CorrelatedRandomVectorGeneratorTest"
+  ],
+  "suitable_tests": [
+    "CorrelatedRandomVectorGeneratorTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "CorrelatedRandomVectorGeneratorTest",
+        "failingTestMethod": "testSampleWithZeroCovariance"
+      }
+    }
+  ],
+  "sourcePackage": ""
+}

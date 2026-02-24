@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.camel.converter.ObjectConverter"
+  ],
+  "test": [
+    "org.apache.camel.builder.xml.ExtractXPathWithNamespaceTest",
+    "org.apache.camel.converter.ObjectConverterTest"
+  ],
+  "suitable_tests": [
+    "ExtractXPathWithNamespaceTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ExtractXPathWithNamespaceTest",
+        "failingTestMethod": "testXPathWithNamespaceDifferentNamespace"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

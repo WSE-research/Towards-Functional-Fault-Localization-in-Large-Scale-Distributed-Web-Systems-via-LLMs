@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.commons.math4.random.EmpiricalDistribution"
+  ],
+  "test": [
+    "org.apache.commons.math4.random.EmpiricalDistributionTest",
+    "org.apache.commons.math4.ml.neuralnet.sofm.KohonenTrainingTaskTest"
+  ],
+  "suitable_tests": [
+    "KohonenTrainingTaskTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "KohonenTrainingTaskTest",
+        "failingTestMethod": "testTravellerSalesmanSquareTourParallelSolver"
+      }
+    }
+  ],
+  "sourcePackage": ""
+}

@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.camel.model.language.MethodCallExpression"
+  ],
+  "test": [
+    "org.apache.camel.component.vm.VMSplitterTest"
+  ],
+  "suitable_tests": [
+    "VMSplitterTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "VMSplitterTest",
+        "failingTestMethod": "testSplitUsingMethodCall"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

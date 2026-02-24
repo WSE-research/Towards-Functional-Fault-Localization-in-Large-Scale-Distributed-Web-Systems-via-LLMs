@@ -1,0 +1,22 @@
+{
+  "patched": [
+    "org.apache.wicket.pageStore.DefaultPageStore"
+  ],
+  "test": [
+    "org.apache.wicket.pageStore.PageAccessSynchronizerTest",
+    "org.apache.wicket.page.PersistentPageManagerTest"
+  ],
+  "suitable_tests": [
+    "PageAccessSynchronizerTest",
+    "PersistentPageManagerTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "PersistentPageManagerTest",
+        "failingTestMethod": "testSerializationOutsideWicketLifecyle"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

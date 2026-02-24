@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.camel.model.InterceptSendToEndpointDefinition"
+  ],
+  "test": [
+    "org.apache.camel.processor.intercept.InterceptSendToEndpointNormalizePatternTest"
+  ],
+  "suitable_tests": [
+    "InterceptSendToEndpointNormalizePatternTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "InterceptSendToEndpointNormalizePatternTest",
+        "failingTestMethod": "testIntercept"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

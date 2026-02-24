@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.wicket.request.handler.render.WebPageRenderer"
+  ],
+  "test": [
+    "org.apache.wicket.session.BindSessionOnRedirectTest"
+  ],
+  "suitable_tests": [
+    "BindSessionOnRedirectTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "BindSessionOnRedirectTest",
+        "failingTestMethod": "bindSessionWhenThereAreFeedbackMessages"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

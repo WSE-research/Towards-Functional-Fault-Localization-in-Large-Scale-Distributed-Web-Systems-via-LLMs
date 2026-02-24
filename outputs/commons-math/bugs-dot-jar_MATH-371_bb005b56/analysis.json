@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.commons.math.stat.correlation.PearsonsCorrelation"
+  ],
+  "test": [
+    "org.apache.commons.math.stat.correlation.PearsonsCorrelationTest",
+    "org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest"
+  ],
+  "suitable_tests": [
+    "SpearmansRankCorrelationTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "SpearmansRankCorrelationTest",
+        "failingTestMethod": "testPValueNearZero"
+      }
+    }
+  ],
+  "sourcePackage": ""
+}

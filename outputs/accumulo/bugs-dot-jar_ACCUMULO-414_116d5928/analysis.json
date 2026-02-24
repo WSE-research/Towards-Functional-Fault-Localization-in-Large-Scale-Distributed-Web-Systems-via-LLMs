@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.accumulo.core.iterators.user.GrepIterator"
+  ],
+  "test": [
+    "org.apache.accumulo.core.iterators.user.GrepIteratorTest"
+  ],
+  "sourcePackage": "src/core"
+}

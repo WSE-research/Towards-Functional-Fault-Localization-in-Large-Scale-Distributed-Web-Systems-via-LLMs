@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.camel.component.validator.DefaultLSResourceResolver"
+  ],
+  "test": [
+    "org.apache.camel.component.validator.ValidatorIncludeEncodingRouteTest"
+  ],
+  "suitable_tests": [
+    "ValidatorIncludeEncodingRouteTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ValidatorIncludeEncodingRouteTest",
+        "failingTestMethod": "testValidMessage"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

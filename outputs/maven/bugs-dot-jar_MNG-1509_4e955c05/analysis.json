@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.maven.profiles.activation.OperatingSystemProfileActivator"
+  ],
+  "test": [
+    "org.apache.maven.profiles.DefaultProfileManagerTest"
+  ],
+  "suitable_tests": [
+    "DefaultProfileManagerTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "DefaultProfileManagerTest",
+        "failingTestMethod": "testOsActivationProfile"
+      }
+    }
+  ],
+  "sourcePackage": "maven-project"
+}

@@ -1,0 +1,12 @@
+{
+  "patched": [
+    "PageParameters",
+    "Resource",
+    "ValueMap"
+  ],
+  "test": [
+    "ValueMapTest",
+    "PageParametersTest"
+  ],
+  "sourcePackage": "wicket"
+}

@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.core.helpers.FileUtils"
+  ],
+  "test": [
+    "org.apache.logging.log4j.core.helpers.FileUtilsTest"
+  ],
+  "sourcePackage": "log4j-core"
+}

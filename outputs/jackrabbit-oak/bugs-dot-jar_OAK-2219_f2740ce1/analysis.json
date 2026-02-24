@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.index.property.OrderedPropertyIndex"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.index.property.OrderedPropertyIndexQueryTest",
+    "org.apache.jackrabbit.oak.plugins.index.property.OrderedPropertyIndexDescendingQueryTest"
+  ],
+  "sourcePackage": "oak-core"
+}

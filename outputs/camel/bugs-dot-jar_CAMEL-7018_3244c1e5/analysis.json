@@ -1,0 +1,22 @@
+{
+  "patched": [
+    "org.apache.camel.component.seda.SedaEndpoint",
+    "org.apache.camel.management.DefaultManagementMBeanAssembler",
+    "org.apache.camel.management.MBeanInfoAssembler"
+  ],
+  "test": [
+    "org.apache.camel.management.ManagedResourceTest"
+  ],
+  "suitable_tests": [
+    "ManagedResourceTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ManagedResourceTest",
+        "failingTestMethod": "testManagedResource"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

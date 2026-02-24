@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.commons.math.random.AbstractRandomGenerator"
+  ],
+  "test": [
+    "org.apache.commons.math.random.AbstractRandomGeneratorTest"
+  ],
+  "sourcePackage": ""
+}

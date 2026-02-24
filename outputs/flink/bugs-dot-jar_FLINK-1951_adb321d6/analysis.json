@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.flink.optimizer.plantranslate.JobGraphGenerator"
+  ],
+  "test": [
+    "org.apache.flink.optimizer.plantranslate.TempInIterationsTest"
+  ],
+  "suitable_tests": [
+    "TempInIterationsTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "TempInIterationsTest",
+        "failingTestMethod": "testTempInIterationTest"
+      }
+    }
+  ],
+  "sourcePackage": "flink-optimizer"
+}

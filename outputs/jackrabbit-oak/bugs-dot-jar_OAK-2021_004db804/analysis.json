@@ -1,0 +1,37 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.query.xpath.Expression",
+    "org.apache.jackrabbit.oak.query.xpath.Statement"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.query.SQL2ParserTest",
+    "org.apache.jackrabbit.oak.plugins.index.property.PropertyIndexQueryTest",
+    "org.apache.jackrabbit.oak.plugins.index.property.OrderedIndexQueryTest"
+  ],
+  "suitable_tests": [
+    "SQL2ParserTest",
+    "PropertyIndexQueryTest",
+    "OrderedIndexQueryTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "SQL2ParserTest",
+        "failingTestMethod": "testUnwrappedOr"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "PropertyIndexQueryTest",
+        "failingTestMethod": "xpath"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "OrderedIndexQueryTest",
+        "failingTestMethod": "xpath"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

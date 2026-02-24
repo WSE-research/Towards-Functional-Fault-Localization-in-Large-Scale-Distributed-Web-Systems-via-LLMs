@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.message.StringFormattedMessage"
+  ],
+  "test": [
+    "org.apache.logging.log4j.message.StringFormattedMessageTest"
+  ],
+  "sourcePackage": "log4j-api"
+}

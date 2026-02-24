@@ -1,0 +1,22 @@
+{
+  "patched": [
+    "org.apache.wicket.Behaviors",
+    "org.apache.wicket.behavior.Behavior"
+  ],
+  "test": [
+    "org.apache.wicket.markup.html.basic.SimplePageTest",
+    "org.apache.wicket.behavior.ImmutableBehaviorIdsTest"
+  ],
+  "suitable_tests": [
+    "SimplePageTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "SimplePageTest",
+        "failingTestMethod": "testRenderHomePage_13"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

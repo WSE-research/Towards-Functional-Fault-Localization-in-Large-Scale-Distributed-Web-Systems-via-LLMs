@@ -1,0 +1,14 @@
+{
+  "patched": [
+    "org.apache.wicket.RequestListenerInterface"
+  ],
+  "test": [
+    {
+      "class": "org.apache.wicket.BehaviorRequestTest",
+      "failed_tests": [
+        "testDisabledBehaviorRequest"
+      ]
+    }
+  ],
+  "sourcePackage": "wicket"
+}

@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.maven.artifact.versioning.ComparableVersion"
+  ],
+  "test": [
+    "org.apache.maven.artifact.versioning.ComparableVersionTest"
+  ],
+  "sourcePackage": "maven-artifact"
+}

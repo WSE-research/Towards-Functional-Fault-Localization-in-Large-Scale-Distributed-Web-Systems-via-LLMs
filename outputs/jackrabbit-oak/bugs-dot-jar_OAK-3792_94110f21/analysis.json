@@ -1,0 +1,26 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.security.user.UserAuthentication"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.security.user.PasswordExpiryHistoryTest"
+  ],
+  "suitable_tests": [
+    "PasswordExpiryHistoryTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "PasswordExpiryHistoryTest",
+        "failingTestMethod": "testAuthenticatePasswordExpiredAndInHistory"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "PasswordExpiryHistoryTest",
+        "failingTestMethod": "testAuthenticatePasswordExpiredAndSame"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

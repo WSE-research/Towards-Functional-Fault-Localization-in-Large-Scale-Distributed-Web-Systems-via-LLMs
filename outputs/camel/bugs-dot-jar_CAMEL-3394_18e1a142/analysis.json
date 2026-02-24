@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.camel.processor.MulticastProcessor"
+  ],
+  "test": [
+    "org.apache.camel.issues.SplitterThrowExceptionInExpressionTest"
+  ],
+  "suitable_tests": [
+    "SplitterThrowExceptionInExpressionTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "SplitterThrowExceptionInExpressionTest",
+        "failingTestMethod": "testSplitterAndVerifyMock"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

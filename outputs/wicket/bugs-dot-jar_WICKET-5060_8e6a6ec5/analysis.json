@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.wicket.markup.html.panel.FragmentMarkupSourcingStrategy"
+  ],
+  "test": [
+    "org.apache.wicket.markup.html.panel.FragmentTest"
+  ],
+  "suitable_tests": [
+    "FragmentTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "FragmentTest",
+        "failingTestMethod": "testComponentAndFragmentWithSameId"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

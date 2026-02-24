@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.MarkupContainer"
+  ],
+  "test": [
+    "org.apache.wicket.MarkupContainerTest"
+  ],
+  "sourcePackage": "wicket-core"
+}

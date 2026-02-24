@@ -1,0 +1,22 @@
+{
+  "patched": [
+    "org.apache.commons.math3.stat.descriptive.rank.Percentile"
+  ],
+  "test": [
+    "org.apache.commons.math3.stat.descriptive.DescriptiveStatisticsTest",
+    "org.apache.commons.math3.stat.descriptive.SynchronizedDescriptiveStatisticsTest"
+  ],
+  "suitable_tests": [
+    "DescriptiveStatisticsTest",
+    "SynchronizedDescriptiveStatisticsTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "DescriptiveStatisticsTest",
+        "failingTestMethod": "testMath1129"
+      }
+    }
+  ],
+  "sourcePackage": ""
+}

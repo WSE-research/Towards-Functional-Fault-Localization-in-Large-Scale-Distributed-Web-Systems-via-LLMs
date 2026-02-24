@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.jcr.query.RowImpl"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.jcr.query.QueryTest"
+  ],
+  "suitable_tests": [
+    "QueryTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "QueryTest",
+        "failingTestMethod": "getValuesOnMvp"
+      }
+    }
+  ],
+  "sourcePackage": "oak-jcr"
+}

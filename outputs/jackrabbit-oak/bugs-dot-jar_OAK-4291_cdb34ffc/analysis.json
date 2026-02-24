@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.segment.SegmentBufferWriterPool",
+    "org.apache.jackrabbit.oak.segment.WriteOperationHandler"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.segment.SegmentBufferWriterPoolTest"
+  ],
+  "sourcePackage": "oak-segment-tar"
+}

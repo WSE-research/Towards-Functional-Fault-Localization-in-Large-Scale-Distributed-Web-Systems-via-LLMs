@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.flink.streaming.runtime.tasks.OutputHandler",
+    "org.apache.flink.streaming.runtime.tasks.StreamTask"
+  ],
+  "test": [
+    "org.apache.flink.streaming.api.ChainedRuntimeContextTest"
+  ],
+  "suitable_tests": [
+    "ChainedRuntimeContextTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ChainedRuntimeContextTest",
+        "failingTestMethod": "test"
+      }
+    }
+  ],
+  "sourcePackage": "flink-staging/flink-streaming/flink-streaming-core"
+}

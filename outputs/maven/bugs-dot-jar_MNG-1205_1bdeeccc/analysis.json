@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "org.apache.maven.artifact.resolver.DefaultArtifactCollector",
+    "org.apache.maven.artifact.resolver.ResolutionNode"
+  ],
+  "test": [
+    "org.apache.maven.artifact.resolver.DefaultArtifactCollectorTest"
+  ],
+  "sourcePackage": "maven-artifact"
+}

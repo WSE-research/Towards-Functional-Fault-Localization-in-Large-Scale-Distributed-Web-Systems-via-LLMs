@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.flink.runtime.operators.sort.FixedLengthRecordSorter"
+  ],
+  "test": [
+    "org.apache.flink.runtime.operators.sort.FixedLengthRecordSorterTest"
+  ],
+  "sourcePackage": "flink-runtime"
+}

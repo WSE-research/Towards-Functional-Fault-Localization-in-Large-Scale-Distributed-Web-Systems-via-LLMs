@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.wicket.extensions.ajax.markup.html.AjaxEditableLabel"
+  ],
+  "test": [
+    "org.apache.wicket.extensions.ajax.markup.html.AjaxEditableTest"
+  ],
+  "suitable_tests": [
+    "AjaxEditableTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "AjaxEditableTest",
+        "failingTestMethod": "testModelObjectClassInference"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-extensions"
+}

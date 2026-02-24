@@ -1,0 +1,42 @@
+{
+  "patched": [
+    "org.apache.wicket.markup.renderStrategy.ChildFirstHeaderRenderStrategy"
+  ],
+  "test": [
+    "org.apache.wicket.resource.aggregator.ResourceAggregatorRenderTest",
+    "org.apache.wicket.markup.html.header.HeaderScopingTest",
+    "org.apache.wicket.markup.html.header.response.HeaderResponseTest"
+  ],
+  "suitable_tests": [
+    "ResourceAggregatorRenderTest",
+    "HeaderScopingTest",
+    "HeaderResponseTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ResourceAggregatorRenderTest",
+        "failingTestMethod": "testPage1"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ResourceAggregatorRenderTest",
+        "failingTestMethod": "testPage2"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "HeaderScopingTest",
+        "failingTestMethod": "headerScoping2"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "HeaderResponseTest",
+        "failingTestMethod": "testAllMarkup"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

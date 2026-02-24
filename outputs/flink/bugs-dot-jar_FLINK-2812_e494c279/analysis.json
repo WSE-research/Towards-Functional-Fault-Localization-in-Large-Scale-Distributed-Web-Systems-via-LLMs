@@ -1,0 +1,38 @@
+{
+  "patched": [
+    "org.apache.flink.streaming.util.keys.KeySelectorUtil"
+  ],
+  "test": [
+    "org.apache.flink.streaming.api.AggregationFunctionTest"
+  ],
+  "suitable_tests": [
+    "AggregationFunctionTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "AggregationFunctionTest",
+        "failingTestMethod": "minMaxByTest"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AggregationFunctionTest",
+        "failingTestMethod": "groupSumIntegerTest"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AggregationFunctionTest",
+        "failingTestMethod": "pojoMinMaxByTest"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AggregationFunctionTest",
+        "failingTestMethod": "pojoGroupSumIntegerTest"
+      }
+    }
+  ],
+  "sourcePackage": "flink-staging/flink-streaming/flink-streaming-core"
+}

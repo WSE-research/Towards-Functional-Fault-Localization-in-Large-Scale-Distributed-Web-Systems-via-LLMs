@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.name.Namespaces"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.name.NameValidatorTest"
+  ],
+  "suitable_tests": [
+    "NameValidatorTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "NameValidatorTest",
+        "failingTestMethod": "testNameWithLineBreaks"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

@@ -1,0 +1,22 @@
+{
+  "patched": [
+    "org.apache.camel.impl.DefaultExchange",
+    "org.apache.camel.processor.Splitter",
+    "org.apache.camel.util.ExchangeHelper"
+  ],
+  "test": [
+    "org.apache.camel.processor.MessageHistoryCopyExchangeTest"
+  ],
+  "suitable_tests": [
+    "MessageHistoryCopyExchangeTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "MessageHistoryCopyExchangeTest",
+        "failingTestMethod": "testDefensiveCopyOfMessageHistory"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

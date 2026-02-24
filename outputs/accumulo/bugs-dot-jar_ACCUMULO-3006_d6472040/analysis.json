@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.accumulo.server.fs.VolumeManagerImpl"
+  ],
+  "test": [
+    "org.apache.accumulo.server.fs.VolumeManagerImplTest"
+  ],
+  "sourcePackage": "server/base"
+}

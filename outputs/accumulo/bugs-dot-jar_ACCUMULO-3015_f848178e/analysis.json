@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.accumulo.core.client.mapreduce.RangeInputSplit"
+  ],
+  "test": [
+    "org.apache.accumulo.core.client.mapreduce.RangeInputSplitTest"
+  ],
+  "sourcePackage": "core"
+}

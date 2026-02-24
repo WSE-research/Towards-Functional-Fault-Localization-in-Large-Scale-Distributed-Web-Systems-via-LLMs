@@ -1,0 +1,33 @@
+{
+  "patched": [
+    "org.apache.accumulo.core.client.admin.TableOperations",
+    "org.apache.accumulo.core.util.shell.commands.DeleteRowsCommand",
+    "org.apache.accumulo.core.util.shell.commands.MergeCommand",
+    "org.apache.accumulo.core.util.shell.commands.OptUtil",
+    "org.apache.accumulo.core.util.shell.commands.ScanCommand"
+  ],
+  "test": [
+    "org.apache.accumulo.core.util.shell.commands.MergeCommandTest",
+    "org.apache.accumulo.core.util.shell.commands.FlushCommandTest",
+    "org.apache.accumulo.core.util.shell.commands.CompactCommandTest"
+  ],
+  "suitable_tests": [
+    "FlushCommandTest",
+    "CompactCommandTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "FlushCommandTest",
+        "failingTestMethod": "testBeginRowHelp"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "CompactCommandTest",
+        "failingTestMethod": "testBeginRowHelp"
+      }
+    }
+  ],
+  "sourcePackage": "core"
+}

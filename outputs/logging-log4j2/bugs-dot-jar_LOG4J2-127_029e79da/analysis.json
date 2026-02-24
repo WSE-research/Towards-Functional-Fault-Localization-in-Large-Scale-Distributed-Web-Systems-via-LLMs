@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.spi.AbstractLogger"
+  ],
+  "test": [
+    "org.apache.logging.log4j.AbstractLoggerTest"
+  ],
+  "sourcePackage": "api"
+}

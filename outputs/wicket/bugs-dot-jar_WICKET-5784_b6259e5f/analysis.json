@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.protocol.http.AbstractRequestLogger"
+  ],
+  "test": [
+    "org.apache.wicket.protocol.http.AbstractRequestLoggerTest"
+  ],
+  "sourcePackage": "wicket-core"
+}

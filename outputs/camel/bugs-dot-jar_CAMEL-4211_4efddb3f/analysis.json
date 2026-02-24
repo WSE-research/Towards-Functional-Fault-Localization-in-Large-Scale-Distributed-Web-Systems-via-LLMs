@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.camel.util.URISupport"
+  ],
+  "test": [
+    "org.apache.camel.util.URISupportTest"
+  ],
+  "sourcePackage": "camel-core"
+}

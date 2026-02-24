@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "org.apache.camel.processor.Splitter",
+    "org.apache.camel.util.ExchangeHelper"
+  ],
+  "test": [
+    "org.apache.camel.issues.SplitterCorrelationIdIssueTest"
+  ],
+  "sourcePackage": "camel-core"
+}

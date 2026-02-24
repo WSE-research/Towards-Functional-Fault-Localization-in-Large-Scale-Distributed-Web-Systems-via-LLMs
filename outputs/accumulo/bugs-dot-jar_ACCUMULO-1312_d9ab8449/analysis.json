@@ -1,0 +1,13 @@
+{
+  "patched": [
+    "org.apache.accumulo.core.client.impl.ConnectorImpl",
+    "org.apache.accumulo.core.client.mock.MockConnector",
+    "org.apache.accumulo.core.client.mock.MockInstance",
+    "org.apache.accumulo.core.client.security.tokens.PasswordToken",
+    "org.apache.accumulo.core.security.Credentials"
+  ],
+  "test": [
+    "org.apache.accumulo.core.security.CredentialsTest"
+  ],
+  "sourcePackage": "core"
+}

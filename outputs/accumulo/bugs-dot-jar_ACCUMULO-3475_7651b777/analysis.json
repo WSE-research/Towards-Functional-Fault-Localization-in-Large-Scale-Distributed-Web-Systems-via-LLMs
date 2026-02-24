@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.accumulo.core.client.mock.MockShell",
+    "org.apache.accumulo.core.util.shell.Shell"
+  ],
+  "test": [
+    "org.apache.accumulo.core.util.shell.command.FormatterCommandTest"
+  ],
+  "suitable_tests": [
+    "FormatterCommandTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "FormatterCommandTest",
+        "failingTestMethod": "test"
+      }
+    }
+  ],
+  "sourcePackage": "core"
+}

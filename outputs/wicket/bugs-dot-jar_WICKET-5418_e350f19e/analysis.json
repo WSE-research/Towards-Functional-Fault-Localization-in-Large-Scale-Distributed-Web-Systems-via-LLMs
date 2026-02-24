@@ -1,0 +1,11 @@
+{
+  "patched": [
+    "org.apache.wicket.bean.validation.PropertyValidator",
+    "org.apache.wicket.bean.validation.SessionLocaleInterpolator",
+    "org.apache.wicket.bean.validation.SizeTagModifier"
+  ],
+  "test": [
+    "org.apache.wicket.bean.validation.PropertyValidatorRequiredTest"
+  ],
+  "sourcePackage": "wicket-experimental/wicket-bean-validation"
+}

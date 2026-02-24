@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.ajax.form.OnChangeAjaxBehavior"
+  ],
+  "test": [
+    "org.apache.wicket.ajax.form.OnChangeAjaxBehaviorTest"
+  ],
+  "sourcePackage": "wicket-core"
+}

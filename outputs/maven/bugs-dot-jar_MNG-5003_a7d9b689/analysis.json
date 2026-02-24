@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.maven.plugin.internal.DefaultMavenPluginManager"
+  ],
+  "test": [
+    "org.apache.maven.plugin.PluginManagerTest"
+  ],
+  "suitable_tests": [
+    "PluginManagerTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "PluginManagerTest",
+        "failingTestMethod": "testPluginRealmCache"
+      }
+    }
+  ],
+  "sourcePackage": "maven-core"
+}

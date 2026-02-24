@@ -1,0 +1,11 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.document.Commit",
+    "org.apache.jackrabbit.oak.plugins.document.DocumentNodeStore",
+    "org.apache.jackrabbit.oak.plugins.document.NodeDocument"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreTest"
+  ],
+  "sourcePackage": "oak-core"
+}

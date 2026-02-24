@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.commons.math3.optimization.univariate.BrentOptimizer"
+  ],
+  "test": [
+    "org.apache.commons.math3.optimization.univariate.BrentOptimizerTest"
+  ],
+  "sourcePackage": ""
+}

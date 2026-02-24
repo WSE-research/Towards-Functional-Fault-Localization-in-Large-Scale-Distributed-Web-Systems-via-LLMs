@@ -1,0 +1,48 @@
+{
+  "patched": [
+    "org.apache.wicket.markup.html.internal.InlineEnclosure",
+    "org.apache.wicket.markup.parser.filter.InlineEnclosureHandler"
+  ],
+  "test": [
+    "org.apache.wicket.markup.html.internal.TogglePageTest",
+    "org.apache.wicket.markup.html.internal.InlineEnclosureTest",
+    "org.apache.wicket.markup.html.internal.AjaxEnclosureTest"
+  ],
+  "suitable_tests": [
+    "TogglePageTest",
+    "AjaxEnclosureTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "TogglePageTest",
+        "failingTestMethod": "testInlineEnclosureAjaxPage"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AjaxEnclosureTest",
+        "failingTestMethod": "ajaxTogglingControllingChildShouldToggleInlineEnclosure"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AjaxEnclosureTest",
+        "failingTestMethod": "ajaxTogglingNonControllingChildShouldNotToggleEnclosure"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AjaxEnclosureTest",
+        "failingTestMethod": "nestedInlineEnclosuresShouldToggleNormally"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AjaxEnclosureTest",
+        "failingTestMethod": "controllingChildShouldDefaultToTheSingleComponentInsideEnclosure"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

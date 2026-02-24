@@ -1,0 +1,46 @@
+{
+  "patched": [
+    "org.apache.accumulo.start.classloader.vfs.AccumuloVFSClassLoader"
+  ],
+  "test": [
+    "org.apache.accumulo.start.classloader.vfs.ContextManagerTest",
+    "org.apache.accumulo.start.classloader.vfs.AccumuloReloadingVFSClassLoaderTest"
+  ],
+  "suitable_tests": [
+    "ContextManagerTest",
+    "AccumuloReloadingVFSClassLoaderTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ContextManagerTest",
+        "failingTestMethod": "testPostDelegation"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ContextManagerTest",
+        "failingTestMethod": "differentContexts"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AccumuloReloadingVFSClassLoaderTest",
+        "failingTestMethod": "testModifiedClass"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AccumuloReloadingVFSClassLoaderTest",
+        "failingTestMethod": "testReloading"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "AccumuloReloadingVFSClassLoaderTest",
+        "failingTestMethod": "testConstructor"
+      }
+    }
+  ],
+  "sourcePackage": "start"
+}

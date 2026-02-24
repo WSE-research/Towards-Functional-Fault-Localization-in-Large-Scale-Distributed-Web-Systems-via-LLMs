@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.NodeStateAnalyzerFactory"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.index.lucene.NodeStateAnalyzerFactoryTest.nodeStateAsMap"
+  ],
+  "suitable_tests": [
+    "nodeStateAsMap"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "nodeStateAsMap",
+        "failingTestMethod": "nodeStateAsMap"
+      }
+    }
+  ],
+  "sourcePackage": "oak-lucene"
+}

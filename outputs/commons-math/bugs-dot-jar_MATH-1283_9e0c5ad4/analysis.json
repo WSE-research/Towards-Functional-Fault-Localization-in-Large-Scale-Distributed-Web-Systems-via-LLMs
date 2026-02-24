@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.commons.math4.special.Gamma"
+  ],
+  "test": [
+    "org.apache.commons.math4.special.GammaTest"
+  ],
+  "sourcePackage": ""
+}

@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.index.AsyncIndexUpdate"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.index.AsyncIndexUpdateTest.branchBaseOnCheckpoint"
+  ],
+  "suitable_tests": [
+    "branchBaseOnCheckpoint"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "branchBaseOnCheckpoint",
+        "failingTestMethod": "branchBaseOnCheckpoint"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

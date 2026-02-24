@@ -1,0 +1,28 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.document.NodeDocument"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreTest:conflictDetectionWithClockDifference",
+    "org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreTest:parentWithUnseenChildrenMustNotBeDeleted"
+  ],
+  "suitable_tests": [
+    "DocumentNodeStoreTest:conflictDetectionWithClockDifference",
+    "DocumentNodeStoreTest:parentWithUnseenChildrenMustNotBeDeleted"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "DocumentNodeStoreTest:conflictDetectionWithClockDifference",
+        "failingTestMethod": "conflictDetectionWithClockDifference"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "DocumentNodeStoreTest:parentWithUnseenChildrenMustNotBeDeleted",
+        "failingTestMethod": "parentWithUnseenChildrenMustNotBeDeleted"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

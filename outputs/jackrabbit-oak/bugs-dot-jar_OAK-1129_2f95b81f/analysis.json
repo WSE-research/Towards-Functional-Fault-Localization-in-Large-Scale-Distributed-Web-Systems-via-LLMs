@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.plugins.mongomk.MongoNodeStore"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.plugins.mongomk.MongoMKRebaseTest"
+  ],
+  "suitable_tests": [
+    "MongoMKRebaseTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "MongoMKRebaseTest",
+        "failingTestMethod": "rebaseMultiple"
+      }
+    }
+  ],
+  "sourcePackage": "oak-core"
+}

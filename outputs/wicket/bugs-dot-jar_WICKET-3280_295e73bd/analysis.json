@@ -1,0 +1,28 @@
+{
+  "patched": [
+    "org.apache.wicket.ajax.AjaxRequestTarget",
+    "org.apache.wicket.protocol.http.BufferedWebResponse",
+    "org.apache.wicket.response.filter.IResponseFilter"
+  ],
+  "test": [
+    "org.apache.wicket.response.filter.ResponseFilterTest"
+  ],
+  "suitable_tests": [
+    "ResponseFilterTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ResponseFilterTest",
+        "failingTestMethod": "normalRequest"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ResponseFilterTest",
+        "failingTestMethod": "ajaxRequest"
+      }
+    }
+  ],
+  "sourcePackage": "wicket"
+}

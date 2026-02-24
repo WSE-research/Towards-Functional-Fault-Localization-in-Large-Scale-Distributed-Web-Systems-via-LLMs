@@ -1,0 +1,43 @@
+{
+  "patched": [
+    "org.apache.wicket.util.convert.converter.AbstractDecimalConverter",
+    "org.apache.wicket.util.convert.converter.AbstractIntegerConverter",
+    "org.apache.wicket.util.convert.converter.AbstractNumberConverter",
+    "org.apache.wicket.util.convert.converter.BigDecimalConverter",
+    "org.apache.wicket.util.convert.converter.BigIntegerConverter",
+    "org.apache.wicket.util.convert.converter.ByteConverter",
+    "org.apache.wicket.util.convert.converter.DoubleConverter",
+    "org.apache.wicket.util.convert.converter.FloatConverter",
+    "org.apache.wicket.util.convert.converter.IntegerConverter",
+    "org.apache.wicket.util.convert.converter.LongConverter",
+    "org.apache.wicket.util.convert.converter.ShortConverter",
+    "org.apache.wicket.util.convert.converter.ZeroPaddingIntegerConverter"
+  ],
+  "test": [
+    "org.apache.wicket.util.convert.converters.ConvertersTest"
+  ],
+  "suitable_tests": [
+    "ConvertersTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ConvertersTest",
+        "failingTestMethod": "longConversions"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ConvertersTest",
+        "failingTestMethod": "customFormat"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "ConvertersTest",
+        "failingTestMethod": "bigDecimalConverter"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-util"
+}

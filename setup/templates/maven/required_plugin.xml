@@ -1,0 +1,13 @@
+<plugin>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-surefire-plugin</artifactId>
+  <version>2.19.1</version>
+  <configuration>
+    <argLine>
+      -javaagent:${settings.localRepository}/org/aspectj/aspectjweaver/1.6.10/aspectjweaver-1.6.10.jar
+      -Daj.weaving.load=true
+      -Dorg.aspectj.weaver.showWeaveInfo=true
+    </argLine>
+  </configuration>
+</plugin>
+

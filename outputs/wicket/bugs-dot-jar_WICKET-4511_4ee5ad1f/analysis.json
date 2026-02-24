@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.wicket.markup.parser.filter.HtmlHeaderSectionHandler"
+  ],
+  "test": [
+    "org.apache.wicket.markup.parser.filter.HtmlHeaderSectionHandlerTest"
+  ],
+  "sourcePackage": "wicket-core"
+}

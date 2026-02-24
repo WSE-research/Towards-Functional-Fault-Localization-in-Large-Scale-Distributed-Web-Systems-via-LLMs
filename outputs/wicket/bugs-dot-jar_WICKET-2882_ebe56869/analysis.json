@@ -1,0 +1,12 @@
+{
+  "patched": [
+    "org.apache.wicket.MarkupContainer",
+    "org.apache.wicket.markup.html.internal.Enclosure",
+    "org.apache.wicket.markup.resolver.ComponentResolvers",
+    "org.apache.wicket.protocol.http.BufferedWebResponse"
+  ],
+  "test": [
+    "org.apache.wicket.markup.html.internal.EnclosureTest"
+  ],
+  "sourcePackage": "wicket"
+}

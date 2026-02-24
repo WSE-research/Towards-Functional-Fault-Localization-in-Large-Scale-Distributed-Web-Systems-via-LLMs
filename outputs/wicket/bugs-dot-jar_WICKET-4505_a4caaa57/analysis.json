@@ -1,0 +1,21 @@
+{
+  "patched": [
+    "org.apache.wicket.markup.parser.TagAttributes",
+    "org.apache.wicket.markup.parser.XmlPullParser"
+  ],
+  "test": [
+    "org.apache.wicket.markup.ComponentTagAttributeEscapingTest"
+  ],
+  "suitable_tests": [
+    "ComponentTagAttributeEscapingTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "ComponentTagAttributeEscapingTest",
+        "failingTestMethod": "componentAttributesNotDoubleEscaped"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

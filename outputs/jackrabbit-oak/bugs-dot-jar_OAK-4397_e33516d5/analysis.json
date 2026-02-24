@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.jackrabbit.oak.spi.security.authentication.external.basic.DefaultSyncContext"
+  ],
+  "test": [
+    "org.apache.jackrabbit.oak.spi.security.authentication.external.basic.DefaultSyncContextTest.testMembershipForExistingForeignGroup"
+  ],
+  "suitable_tests": [
+    "testMembershipForExistingForeignGroup"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "testMembershipForExistingForeignGroup",
+        "failingTestMethod": "testMembershipForExistingForeignGroup"
+      }
+    }
+  ],
+  "sourcePackage": "oak-auth-external"
+}

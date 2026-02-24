@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "org.apache.flink.runtime.io.network.partition.SpillableSubpartition",
+    "org.apache.flink.runtime.io.network.partition.SpillableSubpartitionView"
+  ],
+  "test": [
+    "org.apache.flink.runtime.io.network.partition.SpillableSubpartitionTest"
+  ],
+  "sourcePackage": "flink-runtime"
+}

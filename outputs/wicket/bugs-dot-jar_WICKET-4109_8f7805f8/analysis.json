@@ -1,0 +1,54 @@
+{
+  "patched": [
+    "org.apache.wicket.request.handler.PageProvider"
+  ],
+  "test": [
+    "org.apache.wicket.request.mapper.PackageMapperTest",
+    "org.apache.wicket.request.mapper.BookmarkableMapperTest",
+    "org.apache.wicket.request.mapper.MountedMapperTest"
+  ],
+  "suitable_tests": [
+    "PackageMapperTest",
+    "BookmarkableMapperTest",
+    "MountedMapperTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "PackageMapperTest",
+        "failingTestMethod": "testDecode4"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "PackageMapperTest",
+        "failingTestMethod": "testDecode6"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "BookmarkableMapperTest",
+        "failingTestMethod": "testDecode4"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "BookmarkableMapperTest",
+        "failingTestMethod": "testDecode6"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "MountedMapperTest",
+        "failingTestMethod": "testDecode4"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "MountedMapperTest",
+        "failingTestMethod": "testDecode6"
+      }
+    }
+  ],
+  "sourcePackage": "wicket-core"
+}

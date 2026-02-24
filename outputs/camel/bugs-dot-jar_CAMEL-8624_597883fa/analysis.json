@@ -1,0 +1,20 @@
+{
+  "patched": [
+    "org.apache.camel.component.bean.BeanInfo"
+  ],
+  "test": [
+    "org.apache.camel.component.bean.issues.TransformerIssueTest"
+  ],
+  "suitable_tests": [
+    "TransformerIssueTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "TransformerIssueTest",
+        "failingTestMethod": "testTransformer"
+      }
+    }
+  ],
+  "sourcePackage": "camel-core"
+}

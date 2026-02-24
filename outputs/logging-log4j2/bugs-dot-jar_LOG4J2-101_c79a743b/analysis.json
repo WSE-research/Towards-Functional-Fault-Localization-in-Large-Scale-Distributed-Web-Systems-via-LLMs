@@ -1,0 +1,9 @@
+{
+  "patched": [
+    "org.apache.logging.log4j.core.appender.SyslogAppender"
+  ],
+  "test": [
+    "org.apache.logging.log4j.core.appender.SyslogAppenderTest"
+  ],
+  "sourcePackage": "core"
+}

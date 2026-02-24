@@ -1,0 +1,14 @@
+{
+  "patched": [
+    "org.apache.accumulo.core.conf.Property",
+    "org.apache.accumulo.examples.wikisearch.ingest.WikipediaPartitionedMapper",
+    "org.apache.accumulo.examples.wikisearch.ingest.WikipediaPartitioner",
+    "org.apache.accumulo.examples.wikisearch.output.SortingRFileOutputFormat",
+    "org.apache.accumulo.server.client.BulkImporter",
+    "org.apache.accumulo.server.master.tableOps.BulkImport"
+  ],
+  "test": [
+    "org.apache.accumulo.server.client.BulkImporterTest"
+  ],
+  "sourcePackage": "src/server"
+}

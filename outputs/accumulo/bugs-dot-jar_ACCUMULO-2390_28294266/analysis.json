@@ -1,0 +1,26 @@
+{
+  "patched": [
+    "org.apache.accumulo.cloudtrace.instrument.TraceProxy"
+  ],
+  "test": [
+    "org.apache.accumulo.cloudtrace.instrument.TracerTest"
+  ],
+  "suitable_tests": [
+    "TracerTest"
+  ],
+  "suitable_test_methods": [
+    {
+      "failingTest": {
+        "failingTestClass": "TracerTest",
+        "failingTestMethod": "testTracedException"
+      }
+    },
+    {
+      "failingTest": {
+        "failingTestClass": "TracerTest",
+        "failingTestMethod": "testUntracedException"
+      }
+    }
+  ],
+  "sourcePackage": "src/trace"
+}

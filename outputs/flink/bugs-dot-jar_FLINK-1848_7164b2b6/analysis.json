@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "org.apache.flink.core.fs.Path",
+    "org.apache.flink.core.fs.local.LocalFileSystem"
+  ],
+  "test": [
+    "org.apache.flink.core.fs.PathTest"
+  ],
+  "sourcePackage": "flink-core"
+}

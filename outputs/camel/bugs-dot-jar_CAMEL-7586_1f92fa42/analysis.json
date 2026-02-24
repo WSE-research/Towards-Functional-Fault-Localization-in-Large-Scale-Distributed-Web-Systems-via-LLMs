@@ -1,0 +1,10 @@
+{
+  "patched": [
+    "org.apache.camel.api.management.mbean.ManagedCamelContextMBean",
+    "org.apache.camel.management.mbean.ManagedCamelContext"
+  ],
+  "test": [
+    "org.apache.camel.management.ManagedCamelContextNewProxyTest"
+  ],
+  "sourcePackage": "camel-core"
+}
