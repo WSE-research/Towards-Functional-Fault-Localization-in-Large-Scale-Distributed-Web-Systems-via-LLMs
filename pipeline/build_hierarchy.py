@@ -16,7 +16,7 @@ parser.add_argument('--format', choices=['xml', 'ttl', 'json'], default='xml',
                     help='Output format: xml, ttl, or json (default: xml)')
 parser.add_argument('--output', '-o', 
                     help='Output filename (default: methods_hierarchy.xml or methods_hierarchy.ttl)')
-args = parser.parse_args()
+args, _ = parser.parse_known_args()
 GRAPH_URI = args.graph
 
 sparql = SPARQLWrapper(SPARQL_ENDPOINT)

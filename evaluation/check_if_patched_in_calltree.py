@@ -8,7 +8,7 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 from dijkstra_kg import shortest_path
 
 SPARQL_ENDPOINT = os.getenv("SPARQL_ENDPOINT", "http://localhost:8890/sparql")
-EXPERIMENTS_FILE = os.getenv("EXPERIMENTS_FILE", "data/experiments.xlsx")
+EXPERIMENTS_FILE = os.getenv("EXPERIMENTS_FILE", "https://docs.google.com/spreadsheets/d/1WYs9NuY2V4mdaYyD1a7c9ffCQEq67qFwK_9aUvGfUnk/export?format=xlsx")
 
 LIMIT_CALLS = 5000
 
@@ -124,11 +124,27 @@ def main():
         tested_class = row["Tested Class"]
         tested_method = row["Tested Method"]
         patch_exist_in_calltree = row["Included (patch exists within calltree)"]
-        method_exist_val = row["Method Exist"]
+        method_exist_val = row["Method Exist GE"]
         llm_method_exist_in_calltree = (method_exist_val == 1.0) or pd.isna(method_exist_val)
 
-        llm_result_str = row["LLM result"]
-        llm_result = None if pd.isna(llm_result_str) else json.loads(llm_result_str)
+        llm_result_str = row["Result for google/gemini-3-flash-preview"]
+        
+        raw_llm_response = llm_result_str
+        
+        if pd.isna(raw_llm_response):
+            llm_result = None
+        else:
+            if isinstance(raw_llm_response, str):
+                raw_llm_response = raw_llm_response.strip()
+                if raw_llm_response.startswith("```json"):
+                    raw_llm_response = raw_llm_response[len("```json"):].strip()
+                if raw_llm_response.endswith("```"):
+                    raw_llm_response = raw_llm_response[:-3].strip()
+            try:
+                llm_result = json.loads(raw_llm_response)
+            except Exception as e:
+                print(f"Skipping Nr {nr}: error parsing LLM response - {e}")
+                llm_result = None
 
         if run_all or args.method_hops:
             calculate_method_hops(nr, graph, patched_classes, patched_methods, llm_result,

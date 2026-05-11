@@ -30,8 +30,7 @@ The evaluation covers **53 real-world bug instances** from the [bugs-dot-jar](ht
 ├── data/                      # Input datasets and experiment reference data
 ├── outputs/                   # Per-bug analysis artifacts (analysis.json, patches, test logs)
 ├── evaluation/                # Evaluation scripts and notebooks (distances, consistency checks)
-└── results/                   # Experiment results data, visualizations, and notebooks
-└── scripts/                   # Subset of checked-out bug branch source trees from the bugs-dot-jar dataset
+└── experimental_repos/        # Subset of checked-out bug branch source trees from the bugs-dot-jar dataset
 ```
 
 ---
