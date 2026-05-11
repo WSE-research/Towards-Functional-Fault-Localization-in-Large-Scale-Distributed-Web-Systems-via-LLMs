@@ -13,8 +13,8 @@ import os
 
 jdks = {
     "jdk6": "maven3.2.5-jdk6",
-#    "jdk7": "maven:3.6.1-jdk-7",
-#    "jdk8": "maven:3.6.1-jdk-8",
+    "jdk7": "maven:3.6.1-jdk-7",
+    "jdk8": "maven:3.6.1-jdk-8",
 }
 
 def JDK_6_DOCKERFILE(base_image:str, repository:str):

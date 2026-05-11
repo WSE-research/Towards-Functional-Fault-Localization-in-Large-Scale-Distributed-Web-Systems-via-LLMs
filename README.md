@@ -1,8 +1,14 @@
 # Online Appendix: Towards Functional Fault Localization in Large-Scale Distributed Web Systems through LLMs
 
+<<<<<<< HEAD
 **Paper:** "Towards Functional Fault Localization in Large-Scale Distributed Web Systems through LLMs." ICSOC 2026.
 
 **Authors:** 
+=======
+**Paper:** Dennis Schiese and Andreas Both. "Towards Functional Fault Localization in Large-Scale Distributed Web Systems through LLMs." ICWE 2026.
+
+**Authors:** Web & Software Engineering (WSE) Research Group, Leipzig University of Applied Sciences (HTWK Leipzig)
+>>>>>>> further-analysis
 
 ---
 
@@ -30,8 +36,12 @@ The evaluation covers **53 real-world bug instances** from the [bugs-dot-jar](ht
 ├── data/                      # Input datasets and experiment reference data
 ├── outputs/                   # Per-bug analysis artifacts (analysis.json, patches, test logs)
 ├── evaluation/                # Evaluation scripts and notebooks (distances, consistency checks)
+<<<<<<< HEAD
 └── results/                   # Experiment results data, visualizations, and notebooks
 └── scripts/                   # Subset of checked-out bug branch source trees from the bugs-dot-jar dataset
+=======
+└── experimental_repos/        # Subset of checked-out bug branch source trees from the bugs-dot-jar dataset
+>>>>>>> further-analysis
 ```
 
 ---

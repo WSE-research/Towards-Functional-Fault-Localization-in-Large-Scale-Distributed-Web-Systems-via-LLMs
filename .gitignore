@@ -1,0 +1,6 @@
+# Helper scripts used during analysis; exclude from commits/paper artifacts.
+helper_scripts/
+
+# Python bytecode caches
+__pycache__/
+**/__pycache__/
