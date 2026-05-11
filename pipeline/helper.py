@@ -4,7 +4,6 @@ from typing import List
 import requests
 from logging import Logger
 from jsonschema import validate, ValidationError, Draft202012Validator
-import json
 
 # Configure module-level logger
 LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO").upper()
