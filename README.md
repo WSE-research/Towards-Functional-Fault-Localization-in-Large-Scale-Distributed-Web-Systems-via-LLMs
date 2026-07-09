@@ -1,6 +1,6 @@
 # Online Appendix: Towards Functional Fault Localization in Large-Scale Distributed Web Systems through LLMs
 
-**Paper:** Dennis Schiese and Andreas Both. "Towards Functional Fault Localization in Large-Scale Distributed Web Systems through LLMs." ICWE 2026.
+**Paper:** Dennis Schiese and Andreas Both. "Towards Functional Fault Localization in Large-Scale Distributed Web Systems through LLMs." ICSOC 2026.
 
 **Authors:** Web & Software Engineering (WSE) Research Group, Leipzig University of Applied Sciences (HTWK Leipzig)
 
