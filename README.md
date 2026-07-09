@@ -50,6 +50,60 @@ The analysis and preparation of the bugs-dot-jar dataset follows six steps descr
 
 ---
 
+## Call Trace Serialization / Knowledge Graph Structure
+
+Each recorded call trace is stored as an RDF knowledge graph in a [Virtuoso](https://hub.docker.com/r/openlink/virtuoso-opensource-7/) triple store (under the `ex:` namespace prefix) and serialized to RDF/XML for use in the LLM prompt (see [`prompts/`](prompts/)). Each test execution is represented as one graph, with one node per invoked method; nodes connected via the `ex:called` predicate encode the caller-callee relationship.
+
+### RDF/XML serialization snippet
+
+The following excerpt shows one method node as serialized to RDF/XML (placeholder values; whitespace simplified for readability):
+
+```xml
+<method 
+  id="<CALL_ID>" 
+  name="<FQN_CLASS>.<METHOD>">
+  <args>
+    <arg type="<TYPE>">
+      <VALUE>
+    </arg>
+    ...
+  </args>
+  <result type="<TYPE>">
+    <VALUE>
+  </result>
+  <called>
+    <method ...>...</method>
+    ...
+  </called>
+</method>
+```
+
+### Schematic knowledge graph view
+
+This is the underlying knowledge-graph structure the RDF/XML above is serialized from — the basis every experiment's graph is built on:
+
+```turtle
+<node_id> ex:method "<FQN_CLASS>.<METHOD>" ;
+          ex:args (
+            [ 
+              rdf:type "<ARG_TYPE_1>" ; 
+              rdf:value "<ARG_VALUE_1>" 
+            ]
+            [ 
+              rdf:type "<ARG_TYPE_2>" ; 
+              rdf:value "<ARG_VALUE_2>" 
+            ]
+            ...
+          ) ;
+          ex:result [
+            rdf:type "<RESULT_TYPE>" ;
+            rdf:value "<RESULT_VALUE>"
+          ] ;
+          ex:callee <CALLEE_NODE_ID> .
+```
+
+---
+
 ## LLM Usage per Experiment
 
 As referenced in Figure 4 of the paper, the data file [`data/experiments.xlsx`](data/experiments.xlsx) contains per-experiment details including:
