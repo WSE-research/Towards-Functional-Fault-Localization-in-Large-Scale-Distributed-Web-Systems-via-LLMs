@@ -25,3 +25,8 @@ See [`results/README.md`](../results/README.md) for the full column description.
 A sample XML-serialized call tree, illustrating the format passed to the LLM during evaluation (Step 4). The format uses nested `<method>` elements where `<called>` represents the callee sub-tree, and each node contains the method name, parameter values, and return value.
 
 This format is produced by [`pipeline/build_hierarchy.py`](../pipeline/build_hierarchy.py) from a Virtuoso SPARQL query.
+
+### Virtuoso Database Snapshot
+
+**`virtuoso-db/`**
+Compressed, split snapshot of the Virtuoso database file (`virtuoso.db`, ~5 GB uncompressed) containing all recorded call graphs as named graphs, plus a SHA-256 checksum for integrity verification. See the [Virtuoso Database Snapshot](../README.md#virtuoso-database-snapshot) section in the main README for reconstruction and Docker instructions.

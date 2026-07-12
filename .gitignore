@@ -5,3 +5,13 @@ helper_scripts/
 __pycache__/
 **/__pycache__/
 pipeline/credentials.json
+
+# Vendored IntelliFL (PRFL) build + per-bug scratch checkouts used by
+# evaluation/run_prfl_baseline.py; results/prfl_baseline.csv is the tracked output.
+evaluation/.intellifl-src/
+evaluation/.intellifl-core.jar
+evaluation/.prfl-workdir/
+
+# Reconstructed Virtuoso database (see README "Virtuoso Database Snapshot");
+# only the compressed .zst parts are tracked.
+data/virtuoso-db/database/

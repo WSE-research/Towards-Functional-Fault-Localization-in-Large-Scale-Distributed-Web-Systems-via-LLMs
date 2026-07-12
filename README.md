@@ -30,6 +30,7 @@ The evaluation covers **53 real-world bug instances** from the [bugs-dot-jar](ht
 ├── pipeline/                  # Steps 1–2, 4–6: Data collection and analysis pipeline
 ├── prompts/                   # LLM prompt templates used in the pipeline and SPARQL query templates
 ├── data/                      # Input datasets and experiment reference data
+│   └── virtuoso-db/           # Compressed snapshot of the Virtuoso database (all recorded call graphs)
 ├── outputs/                   # Per-bug analysis artifacts (analysis.json, patches, test logs)
 ├── evaluation/                # Evaluation scripts and notebooks (distances, consistency checks)
 └── experimental_repos/        # Subset of checked-out bug branch source trees from the bugs-dot-jar dataset
@@ -106,6 +107,43 @@ This is the underlying knowledge-graph structure the RDF/XML above is serialized
 
 ---
 
+## Virtuoso Database Snapshot
+
+The complete Virtuoso database used in the experiments — containing every recorded call graph as a named graph — is included in this repository as a compressed, split archive under [`data/virtuoso-db/`](data/virtuoso-db/). The uncompressed database file (`virtuoso.db`) is ~5 GB; the archive is split into parts below GitHub's 100 MB file limit.
+
+### Reconstructing the database file
+
+Requires [`zstd`](https://github.com/facebook/zstd) (available in all common package repositories):
+
+```bash
+cd data/virtuoso-db
+mkdir -p database
+cat virtuoso.db.zst.part-* | zstd -d -o database/virtuoso.db
+sha256sum -c virtuoso.db.sha256   # optional integrity check (run inside database/)
+```
+
+### Running Virtuoso with the reconstructed database
+
+Mount the directory containing the reconstructed `virtuoso.db` as the container's `/database` volume (a default `virtuoso.ini` is generated automatically on first start):
+
+```bash
+docker run -d --name virtuoso_jdk_experiments \
+  -p 8890:8890 -p 1111:1111 \
+  -v "$(pwd)/database:/database" \
+  openlink/virtuoso-opensource-7:latest
+```
+
+- SPARQL endpoint: `http://localhost:8890/sparql` (the default used by the scripts in [`pipeline/`](pipeline/) and [`evaluation/`](evaluation/))
+- Conductor web UI: `http://localhost:8890/conductor` (credentials: `dba` / `dba`)
+
+To verify the data is available, list the named call-graph graphs:
+
+```sql
+SELECT DISTINCT ?g (COUNT(*) AS ?triples) WHERE { GRAPH ?g { ?s ?p ?o } } GROUP BY ?g ORDER BY DESC(?triples)
+```
+
+---
+
 ## LLM Usage per Experiment
 
 As referenced in Figure 4 of the paper, the data file [`data/experiments.xlsx`](data/experiments.xlsx) contains per-experiment details including:
@@ -119,7 +157,7 @@ As referenced in Figure 4 of the paper, the data file [`data/experiments.xlsx`](
 ## Requirements
 
 - **Python 3.x** with: `requests`, `jsonschema`, `SPARQLWrapper`, `pandas`, `scipy`, `tiktoken`
-- **Virtuoso** RDF triple store (for call graph storage): `docker run openlink/virtuoso-opensource-7`
+- **Virtuoso** RDF triple store (for call graph storage): `docker run openlink/virtuoso-opensource-7` — a ready-to-use snapshot with all recorded call graphs is included, see [Virtuoso Database Snapshot](#virtuoso-database-snapshot)
 - **JDK 6** (TLS 1.2 compatible build) + **Maven 2.5.3** (for Step 3 – see [`setup/`](setup/))
 - **OpenRouter API key** (for LLM calls in Steps 1 and 4)
 
