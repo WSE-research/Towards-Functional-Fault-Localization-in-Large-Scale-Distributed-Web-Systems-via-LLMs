@@ -1,4 +1,4 @@
-# Online Appendix: Towards Functional Fault Localization in Large-Scale Distributed Web Systems through LLMs
+# Online Appendix: Towards Automated LLM-Driven Functional Fault Localization in Large-Scale Distributed Service-Oriented Systems
 
 **Paper:** Dennis Schiese and Andreas Both. "Towards Automated LLM-Driven Functional Fault Localization in Large-Scale Distributed Service-Oriented Systems." ICSOC 2026.
 
