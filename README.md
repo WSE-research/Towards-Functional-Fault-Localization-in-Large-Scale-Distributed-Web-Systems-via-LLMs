@@ -1,6 +1,6 @@
 # Online Appendix: Towards Functional Fault Localization in Large-Scale Distributed Web Systems through LLMs
 
-**Paper:** Dennis Schiese and Andreas Both. "Towards Functional Fault Localization in Large-Scale Distributed Web Systems through LLMs." ICSOC 2026.
+**Paper:** Dennis Schiese and Andreas Both. "Towards Automated LLM-Driven Functional Fault Localization in Large-Scale Distributed Service-Oriented Systems." ICSOC 2026.
 
 **Authors:** Web & Software Engineering (WSE) Research Group, Leipzig University of Applied Sciences (HTWK Leipzig)
 
@@ -8,7 +8,9 @@
 
 ## Overview
 
-This repository serves as the online appendix for the paper. It contains all scripts, prompts, data, and results required to reproduce and understand the experiments. The approach uses LLM-driven fault localization in distributed systems by analyzing call trees of failing test processes, without access to source code.
+This repository serves as the online appendix for the paper. 
+It contains all scripts, prompts, data, and results required to reproduce and understand the experiments. 
+The approach uses LLM-driven fault localization in distributed systems by analyzing call trees of failing test processes, without access to source code.
 
 The evaluation covers **53 real-world bug instances** from the [bugs-dot-jar](https://github.com/bugs-dot-jar/bugs-dot-jar) dataset across 6 Java projects, with call traces ranging from 4 to 10,000 calls.
 
